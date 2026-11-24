@@ -1,8 +1,7 @@
 # Test run 2: Aura Decor (24 Nov 2026)
 
 Purpose: test how easy or hard it is to extract the Brand Fit Screen inputs for a
-quick-commerce-first brand, and compare with run 1 (Milton, 23 Nov). As with
-Milton, this tests **the model and the process, not the brand**.
+quick-commerce-first brand. This tests **the model and the process, not the brand**.
 
 Category: candles and home fragrance (Amazon: Home & Kitchen > Home & Décor > Candles etc.;
 quick commerce: inside Home Decor and Festive Gifting).
@@ -11,25 +10,26 @@ quick commerce: inside Home Decor and Festive Gifting).
 
 | # | Export | Tool | Rows | Covers |
 |---|---|---|---|---|
-| 1 | GobbleCube Category RCA, Blinkit / Instamart / Zepto, Sep-Oct (+ Jul-Aug from run 1) | GobbleCube | 77k (all brands) | Qcomm #22-29 |
+| 1 | GobbleCube Category RCA, Blinkit / Instamart / Zepto, Jul-Oct | GobbleCube | 77k (all brands) | Qcomm #22-29 |
 | 2 | Brand search: AuraDecor | Keepa Product Finder | 650 ASINs | Listing data, ratings, price/list price, Buy Box, OOS, age, weight, sub-categories |
 | 3 | Sub-category search: candles + home fragrance, no brand | Keepa Product Finder | 4,843 ASINs, 370 brands | Peer set |
 | 4 | Brand AuraDecor, ASIN sales >= 10 (200-row cap) | Helium 10 Black Box | 200 ASINs | Sales estimates, YoY, 90-day trend |
 | 5 | Sub-category pulls: Taper, Candle Sets, Pillar, Jar (+ one mixed pull) | Helium 10 Black Box | 129-200 each | Peer benchmarks per sub-category |
 
-Not pulled (decided enough for this test): Tea Lights, Cerebro (search / sponsored rank),
-star split and reviews, Flipkart, D2C site, Instagram / Meta Ad Library.
+| 6 | 10-ASIN run + single-ASIN runs (6 Aura, 4 peers) | Helium 10 Cerebro | 7,367 keywords | Search rank, paid placement, branded and category search volume |
 
-## Effort compared with Milton
+Not pulled (decided enough for this test): Tea Lights, star split and reviews, Flipkart,
+D2C site, Instagram / Meta Ad Library.
 
-| | Milton (run 1) | Aura Decor (run 2) |
-|---|---|---|
-| Quick commerce | 6 GobbleCube downloads + 144 category-size reads | **0 new pulls**: category files already held cover every brand |
-| Amazon brand data | Black Box + Keepa Finder + Keepa Viewer | Keepa Finder + Black Box (Viewer not needed) |
-| Search rank | Keyword Tracker upload, 1-day wait, 30 per-ASIN downloads | Skipped (Cerebro is same-day if needed) |
-| Deal days, rank history | 65 + 15 Keepa chart reads | Skipped (Keepa columns + Black Box YoY instead) |
-| Peer benchmarks | Not done | **6 exports, about 1-2 minutes of processing each** |
-| Hands-on time (estimate) | ~6.5 h | ~1-1.5 h of exports |
+## Effort
+
+| Block | What it took |
+|---|---|
+| Quick commerce | **0 new pulls**: category files already held cover every brand |
+| Amazon brand data | Keepa Product Finder (brand) + Helium 10 Black Box (brand) |
+| Search rank and paid placement | Cerebro: one 10-ASIN run + single-ASIN runs, same day |
+| Peer benchmarks | Keepa sub-category pull + one Black Box export per sub-category; processing about 1-2 minutes each |
+| Hands-on time (estimate) | ~1.5-2 h of exports |
 
 ## What we learned about the process
 
@@ -42,7 +42,7 @@ star split and reviews, Flipkart, D2C site, Instagram / Meta Ad Library.
 4. **The 'bought in past month' badge undercounts badly** (12,000 vs 22,100 Helium 10 units on the
    same ASINs; badge on only 57 of 255 families). Use Helium 10 for order estimates.
 5. **Orders per rating differs hugely by category**: about 75-100 orders per new rating for
-   low-ticket candles, vs 15 assumed in the sandbox and 1.0 in run 1. Calibrate per category.
+   low-ticket candles, vs 15 assumed in the sandbox. Calibrate per category.
 6. **Seasonality distorts snapshots.** 82 of Aura's top 200 ASINs list Oct 2026 (Diwali) as their
    best month. Use year-on-year growth, not 90-day growth, for seasonal categories.
 7. **Quick-commerce categories don't match Amazon's.** Candles sit inside Home Decor / Festive
