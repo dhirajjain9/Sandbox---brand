@@ -1,0 +1,124 @@
+Platform,Date,Category,Brand,skus,share_sp_pct,osa_avg,discount_avg,sov_overall,sov_organic,sov_ad
+Blinkit,2026-07-01,Appliances,Desidiya,2,0.22,54.21,45.98,0.01,0.01,0.0
+Blinkit,2026-07-01,Decorative Lights,Desidiya,4,1.15,40.59,55.55,0.35,0.45,0.0
+Blinkit,2026-07-01,Festive & Occasion Needs,Party Propz,5,14.47,43.54,74.13,13.06,14.99,0.0
+Blinkit,2026-07-01,Festive Gifting,Auradecor,9,26.43,39.32,56.58,32.1,23.03,50.54
+Blinkit,2026-07-01,Home Decor,Auradecor,56,31.79,45.13,60.8,47.07,52.41,28.89
+Blinkit,2026-07-01,Home Decor,Ekam,6,2.09,50.99,40.52,3.61,1.53,10.7
+Blinkit,2026-07-01,Home Decor,Iris,13,0.58,12.22,15.46,0.85,1.1,0.0
+Blinkit,2026-07-01,Home Decor,Soulflower,6,2.2,62.78,43.59,1.35,0.69,3.6
+Blinkit,2026-07-01,Party Essentials,Party Propz,1,0.04,9.47,84.14,0.0,0.0,0.0
+Blinkit,2026-07-01,Pooja Needs,Auradecor,2,0.0,10.8,51.09,0.0,0.0,0.0
+Blinkit,2026-08-01,Appliances,Desidiya,2,0.06,25.67,46.09,0.0,0.0,0.0
+Blinkit,2026-08-01,Decorative Lights,Desidiya,4,1.18,42.77,51.31,0.38,0.52,0.0
+Blinkit,2026-08-01,Festive & Occasion Needs,Party Propz,5,14.91,36.74,74.97,8.9,10.07,0.0
+Blinkit,2026-08-01,Festive Gifting,Auradecor,8,44.07,56.16,57.92,36.13,35.9,37.36
+Blinkit,2026-08-01,Home Decor,Auradecor,54,34.39,43.73,60.64,44.44,55.7,8.01
+Blinkit,2026-08-01,Home Decor,Ekam,6,1.98,54.34,45.12,2.78,1.78,6.04
+Blinkit,2026-08-01,Home Decor,Iris,7,0.71,22.24,15.35,1.04,0.94,1.34
+Blinkit,2026-08-01,Home Decor,Soulflower,6,1.45,57.56,38.36,1.85,0.61,5.85
+Blinkit,2026-08-01,Party Essentials,Party Propz,1,0.03,4.32,84.14,0.0,0.0,0.0
+Blinkit,2026-08-01,Pooja Needs,Auradecor,2,0.0,0.29,56.14,0.0,0.0,0.0
+Blinkit,2026-09-01,Appliances,Desidiya,1,0.03,42.61,50.6,0.0,0.0,0.0
+Blinkit,2026-09-01,Decorative Lights,Desidiya,3,0.27,14.48,53.25,0.02,0.02,0.0
+Blinkit,2026-09-01,Festive & Occasion Needs,Artisyn,1,0.05,39.38,39.46,0.02,0.01,0.06
+Blinkit,2026-09-01,Festive & Occasion Needs,Party Propz,5,16.74,38.48,74.89,8.56,9.9,0.0
+Blinkit,2026-09-01,Festive Gifting,Auradecor,8,46.8,49.41,56.96,35.83,45.01,1.16
+Blinkit,2026-09-01,Home Decor,Auradecor,53,42.78,45.54,60.02,52.17,59.57,27.98
+Blinkit,2026-09-01,Home Decor,Ekam,5,2.6,63.79,45.27,2.69,1.69,5.95
+Blinkit,2026-09-01,Home Decor,Iris,6,0.76,23.8,13.7,1.05,0.79,1.91
+Blinkit,2026-09-01,Home Decor,Soulflower,6,1.49,56.91,43.64,1.62,0.59,4.99
+Blinkit,2026-09-01,Party Essentials,Party Propz,1,0.02,2.14,84.14,0.0,0.0,0.0
+Blinkit,2026-09-01,Pooja Needs,Auradecor,2,0.0,1.35,60.97,0.0,0.0,0.0
+Blinkit,2026-10-01,Appliances,Desidiya,1,0.01,13.02,50.99,0.0,0.0,0.0
+Blinkit,2026-10-01,Decorative Lights,Desidiya,3,0.03,8.34,54.17,0.0,0.0,0.0
+Blinkit,2026-10-01,Festive & Occasion Needs,Artisyn,1,0.06,51.85,71.17,0.01,0.01,0.0
+Blinkit,2026-10-01,Festive & Occasion Needs,Party Propz,5,15.61,41.12,74.97,19.26,20.64,0.0
+Blinkit,2026-10-01,Festive Gifting,Auradecor,8,43.32,55.38,57.4,50.3,50.9,0.0
+Blinkit,2026-10-01,Home Decor,Auradecor,53,45.03,55.86,60.35,57.88,59.94,36.17
+Blinkit,2026-10-01,Home Decor,Ekam,5,2.96,68.46,48.82,1.12,0.73,5.21
+Blinkit,2026-10-01,Home Decor,Iris,4,0.79,45.45,14.49,2.54,1.07,17.98
+Blinkit,2026-10-01,Home Decor,Soulflower,6,1.37,57.54,43.67,1.99,0.83,14.17
+Blinkit,2026-10-01,Party Essentials,Party Propz,1,0.02,4.29,84.07,0.0,0.0,0.0
+Blinkit,2026-10-01,Pooja Needs,Auradecor,2,0.0,3.99,59.31,0.0,0.0,0.0
+Instamart,2026-07-01,Bathware & Laundry,Home Centre,2,0.03,10.85,35.83,0.0,0.0,0.0
+Instamart,2026-07-01,Home Decor,Desidiya,13,2.72,37.87,59.97,1.31,1.56,0.33
+Instamart,2026-07-01,Home Decor,Ekam,65,3.81,15.63,26.02,4.49,1.12,17.98
+Instamart,2026-07-01,Home Decor,Home Centre,38,0.31,9.47,17.06,0.1,0.12,0.0
+Instamart,2026-07-01,Home Decor,Iris,86,17.93,27.74,21.33,17.37,11.23,41.95
+Instamart,2026-07-01,Home Decor,Party Propz,1,0.0,26.78,74.88,0.01,0.01,0.0
+Instamart,2026-07-01,Home Decor,Soulflower,2,0.0,0.92,6.75,0.0,0.0,0.0
+Instamart,2026-07-01,Pooja Needs,Aromahpure,1,0.01,28.2,50.09,0.0,0.0,0.0
+Instamart,2026-07-01,Utility & Tools,Homestrap,1,0.0,5.68,53.08,0.0,0.0,0.0
+Instamart,2026-07-01,Utility & Tools,Iris,2,0.02,21.91,3.82,0.0,0.0,0.0
+Instamart,2026-08-01,Bathware & Laundry,Home Centre,2,0.0,11.35,3.15,0.0,0.0,0.0
+Instamart,2026-08-01,Home Decor,Desidiya,13,2.67,40.67,59.92,1.31,1.7,0.0
+Instamart,2026-08-01,Home Decor,Ekam,64,3.54,15.64,24.12,4.16,1.63,12.53
+Instamart,2026-08-01,Home Decor,Home Centre,38,0.41,11.03,6.54,0.11,0.15,0.0
+Instamart,2026-08-01,Home Decor,Iris,86,17.34,25.3,14.8,17.42,11.72,36.29
+Instamart,2026-08-01,Home Decor,Party Propz,1,0.01,25.4,74.22,0.0,0.0,0.0
+Instamart,2026-08-01,Home Decor,Soulflower,2,0.0,0.7,0.0,0.0,0.0,0.0
+Instamart,2026-08-01,Pooja Needs,Aromahpure,1,0.0,21.59,50.1,0.0,0.0,0.0
+Instamart,2026-08-01,Utility & Tools,Homestrap,1,0.0,1.23,53.08,0.0,0.0,0.0
+Instamart,2026-08-01,Utility & Tools,Iris,2,0.01,14.42,1.81,0.0,0.0,0.0
+Instamart,2026-09-01,Bathware & Laundry,Home Centre,2,0.0,12.04,1.7,0.0,0.0,0.0
+Instamart,2026-09-01,Home Decor,Artisyn,21,0.1,8.84,67.93,0.11,0.14,0.03
+Instamart,2026-09-01,Home Decor,Desidiya,13,3.73,31.73,65.65,1.04,1.38,0.0
+Instamart,2026-09-01,Home Decor,Ekam,61,2.79,16.97,25.33,4.94,1.75,14.73
+Instamart,2026-09-01,Home Decor,Home Centre,37,0.21,7.92,4.92,0.06,0.08,0.0
+Instamart,2026-09-01,Home Decor,Iris,86,14.89,26.15,11.87,17.83,12.73,33.42
+Instamart,2026-09-01,Home Decor,Party Propz,1,0.01,5.78,73.64,0.0,0.0,0.0
+Instamart,2026-09-01,Home Decor,Soulflower,1,0.0,0.0,,0.0,0.0,0.0
+Instamart,2026-09-01,Pooja Needs,Aromahpure,1,0.0,24.3,50.98,0.0,0.0,0.0
+Instamart,2026-09-01,Utility & Tools,Ekam,5,0.01,12.75,18.78,0.0,0.0,0.0
+Instamart,2026-09-01,Utility & Tools,Homestrap,1,0.0,4.35,49.57,0.0,0.0,0.0
+Instamart,2026-09-01,Utility & Tools,Iris,2,0.0,10.11,10.46,0.0,0.0,0.0
+Instamart,2026-10-01,Bathware & Laundry,Home Centre,2,0.02,10.8,1.7,0.0,0.0,0.01
+Instamart,2026-10-01,Home Decor,Artisyn,21,0.06,7.06,76.74,0.11,0.13,0.06
+Instamart,2026-10-01,Home Decor,Desidiya,12,4.17,40.36,59.49,1.47,2.03,0.19
+Instamart,2026-10-01,Home Decor,Ekam,62,2.65,19.43,30.99,4.29,1.83,9.9
+Instamart,2026-10-01,Home Decor,Home Centre,36,0.84,9.48,13.85,0.32,0.18,0.65
+Instamart,2026-10-01,Home Decor,Iris,87,11.77,27.33,17.76,16.32,12.17,25.75
+Instamart,2026-10-01,Home Decor,Party Propz,1,0.0,3.61,74.07,0.0,0.0,0.0
+Instamart,2026-10-01,Pooja Needs,Aromahpure,1,0.0,15.21,50.12,0.0,0.0,0.0
+Instamart,2026-10-01,Utility & Tools,Ekam,5,0.01,8.4,25.34,0.0,0.0,0.0
+Instamart,2026-10-01,Utility & Tools,Homestrap,1,0.0,0.89,74.72,0.0,0.0,0.0
+Instamart,2026-10-01,Utility & Tools,Iris,2,0.0,7.92,14.23,0.0,0.0,0.0
+Zepto,2026-07-01,Bulbs & Lights,Desidiya,4,1.06,49.93,64.16,0.1,0.15,0.0
+Zepto,2026-07-01,Home Appliances,Desidiya,4,0.99,58.04,48.24,2.82,3.39,0.0
+Zepto,2026-07-01,Home Decor,Aromahpure,31,5.13,65.88,53.06,3.29,3.39,3.03
+Zepto,2026-07-01,Home Decor,Asian Aura,17,9.85,64.79,70.15,10.4,11.21,8.17
+Zepto,2026-07-01,Home Decor,Desidiya,1,0.38,81.45,61.87,0.03,0.05,0.0
+Zepto,2026-07-01,Home Decor,Iris,50,17.43,40.21,17.71,6.16,6.09,6.36
+Zepto,2026-07-01,Home Decor,Pan Aromas,22,0.85,19.44,14.22,0.38,0.51,0.0
+Zepto,2026-07-01,Home Decor,Soulflower,12,1.3,35.6,34.0,0.39,0.44,0.28
+Zepto,2026-07-01,Pooja & Worship Needs,Auradecor,1,0.02,22.68,67.61,0.0,0.0,0.0
+Zepto,2026-08-01,Bulbs & Lights,Desidiya,4,0.72,51.17,62.21,0.07,0.11,0.0
+Zepto,2026-08-01,Home Appliances,Desidiya,4,1.0,53.58,47.24,3.73,5.17,0.0
+Zepto,2026-08-01,Home Decor,Aromahpure,31,4.78,63.53,53.13,4.32,3.84,5.28
+Zepto,2026-08-01,Home Decor,Asian Aura,17,8.27,58.8,69.41,10.89,10.84,10.97
+Zepto,2026-08-01,Home Decor,Desidiya,1,0.22,81.77,54.31,0.08,0.12,0.0
+Zepto,2026-08-01,Home Decor,Iris,50,18.59,40.69,19.66,8.62,12.83,0.31
+Zepto,2026-08-01,Home Decor,Pan Aromas,23,1.75,20.36,15.13,0.74,1.12,0.0
+Zepto,2026-08-01,Home Decor,Soulflower,12,1.62,32.7,33.32,0.41,0.61,0.0
+Zepto,2026-08-01,Pooja & Worship Needs,Auradecor,1,0.02,16.29,66.34,0.0,0.0,0.0
+Zepto,2026-09-01,Bulbs & Lights,Desidiya,4,0.93,35.66,62.9,0.04,0.06,0.0
+Zepto,2026-09-01,Home Appliances,Desidiya,4,0.89,39.18,50.25,2.27,3.65,0.2
+Zepto,2026-09-01,Home Decor,Aromahpure,30,4.91,68.36,53.81,4.62,3.97,5.38
+Zepto,2026-09-01,Home Decor,Artisyn,29,2.73,51.72,72.35,3.86,3.55,4.22
+Zepto,2026-09-01,Home Decor,Asian Aura,17,10.62,67.7,68.32,11.82,11.42,12.29
+Zepto,2026-09-01,Home Decor,Desidiya,1,0.43,69.98,58.39,0.14,0.07,0.23
+Zepto,2026-09-01,Home Decor,Iris,43,17.71,39.39,18.03,7.15,9.77,4.08
+Zepto,2026-09-01,Home Decor,Pan Aromas,20,1.08,21.66,12.13,0.86,1.6,0.0
+Zepto,2026-09-01,Home Decor,Soulflower,12,1.2,28.64,32.55,0.34,0.58,0.05
+Zepto,2026-09-01,Pooja & Worship Needs,Auradecor,1,0.02,15.37,62.23,0.0,0.0,0.0
+Zepto,2026-10-01,Bulbs & Lights,Desidiya,4,1.15,53.49,62.96,0.08,0.14,0.0
+Zepto,2026-10-01,Home Appliances,Desidiya,3,0.7,37.42,49.03,0.82,1.08,0.4
+Zepto,2026-10-01,Home Decor,Aromahpure,30,5.78,73.12,55.24,3.84,4.78,2.74
+Zepto,2026-10-01,Home Decor,Artisyn,30,2.79,48.16,70.96,3.27,2.4,4.31
+Zepto,2026-10-01,Home Decor,Asian Aura,17,12.22,73.23,65.27,17.55,17.85,17.19
+Zepto,2026-10-01,Home Decor,Desidiya,1,0.69,69.76,58.26,0.3,0.03,0.63
+Zepto,2026-10-01,Home Decor,Iris,41,8.94,34.35,11.58,4.41,4.23,4.63
+Zepto,2026-10-01,Home Decor,Pan Aromas,19,1.22,19.9,5.01,1.65,3.04,0.0
+Zepto,2026-10-01,Home Decor,Soulflower,11,0.59,24.71,31.9,1.38,0.38,2.56
+Zepto,2026-10-01,Pooja & Worship Needs,Auradecor,1,0.02,13.83,48.67,0.0,0.0,0.0
