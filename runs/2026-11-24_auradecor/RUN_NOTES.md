@@ -82,6 +82,30 @@ Revised reads: SKU Spikiness Medium-Low (the standout new SKU is ad-driven); Dem
 strengthened (earned organic rank on the category's biggest keywords, low ad reliance);
 Concentration Risk adds a flag (one ASIN carries most organic visibility).
 
+## GobbleCube deep dive (Claude in Chrome, Blinkit)
+
+- Access: the GobbleCube login is another brand's workspace, so own-brand views (Trends, keyword
+  SOV, Offtake / Units) are empty for Aura. **Competition views** (brand and SKU share, OSA,
+  discount, SOV) and category size work for any brand, with history back to 2025-07-27.
+- No sub-categories in GobbleCube: product type = category, so the keyword rule is needed.
+- Share and size here are **MRP-based**; Aura's SP-based share is lower (Oct 2026: 45% SP vs
+  55.8% MRP), so its MRPs are inflated relative to peers. ₹ sales on MRP are ~2.5-3x SP.
+- **Share grew sharply year on year:** Home Decor 32% (Aug-Sep 2025) to 50% (Aug-Sep 2026);
+  60.8% in Nov 2026 to date.
+- **Festive season (Diwali 2025-10-20, 2026-11-08):** Oct+Nov MRP sales ~Rs 28.6 Cr (2025) vs
+  ~Rs 29.2 Cr (2026, Nov to the 22nd). Flat to slightly up while Blinkit Home Decor shrank
+  (Rs 52.2 Cr to 42.8 Cr), so the growth is share, not category.
+- **Availability is the weak spot:** Wt. OSA dips to 46-56% at peaks and in summer (Jun 2026 49.5%,
+  Nov 2026 56% Home Decor / 46% Festive Gifting).
+- **Festive Gifting competition rising:** Dream Living 3.5% to 22.4%, Artisyn ~20%; Aura's
+  gifting share is 32.7% in Nov 2026 vs 35.7% in Nov 2025.
+- **Blinkit keywords:** Aura ranks #2 organic and #1 ad on "candle" and "scented candle";
+  no presence on "diya" (~11.8 lac searches).
+- Pooja Needs: Auradecor not in the brand list for Oct or Nov 2026.
+
+Files: `gobblecube_deep_dive_blinkit_share_osa.csv`, `gobblecube_deep_dive_blinkit_category_size.csv`
+(transcribed from the Chrome session summary; the full CSVs from that session are not yet uploaded).
+
 ## Files in this folder
 
 - `qcomm_aroma_candles_*.csv`: quick-commerce SKU and brand-month extract, Aura + peers
