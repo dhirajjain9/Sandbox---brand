@@ -1,0 +1,73 @@
+# Test run 2: Aura Decor (24 Nov 2026)
+
+Purpose: test how easy or hard it is to extract the Brand Fit Screen inputs for a
+quick-commerce-first brand, and compare with run 1 (Milton, 23 Nov). As with
+Milton, this tests **the model and the process, not the brand**.
+
+Category: candles and home fragrance (Amazon: Home & Kitchen > Home & Décor > Candles etc.;
+quick commerce: inside Home Decor and Festive Gifting).
+
+## What was pulled
+
+| # | Export | Tool | Rows | Covers |
+|---|---|---|---|---|
+| 1 | GobbleCube Category RCA, Blinkit / Instamart / Zepto, Sep-Oct (+ Jul-Aug from run 1) | GobbleCube | 77k (all brands) | Qcomm #22-29 |
+| 2 | Brand search: AuraDecor | Keepa Product Finder | 650 ASINs | Listing data, ratings, price/list price, Buy Box, OOS, age, weight, sub-categories |
+| 3 | Sub-category search: candles + home fragrance, no brand | Keepa Product Finder | 4,843 ASINs, 370 brands | Peer set |
+| 4 | Brand AuraDecor, ASIN sales >= 10 (200-row cap) | Helium 10 Black Box | 200 ASINs | Sales estimates, YoY, 90-day trend |
+| 5 | Sub-category pulls: Taper, Candle Sets, Pillar, Jar (+ one mixed pull) | Helium 10 Black Box | 129-200 each | Peer benchmarks per sub-category |
+
+Not pulled (decided enough for this test): Tea Lights, Cerebro (search / sponsored rank),
+star split and reviews, Flipkart, D2C site, Instagram / Meta Ad Library.
+
+## Effort compared with Milton
+
+| | Milton (run 1) | Aura Decor (run 2) |
+|---|---|---|
+| Quick commerce | 6 GobbleCube downloads + 144 category-size reads | **0 new pulls**: category files already held cover every brand |
+| Amazon brand data | Black Box + Keepa Finder + Keepa Viewer | Keepa Finder + Black Box (Viewer not needed) |
+| Search rank | Keyword Tracker upload, 1-day wait, 30 per-ASIN downloads | Skipped (Cerebro is same-day if needed) |
+| Deal days, rank history | 65 + 15 Keepa chart reads | Skipped (Keepa columns + Black Box YoY instead) |
+| Peer benchmarks | Not done | **6 exports, about 1-2 minutes of processing each** |
+| Hands-on time (estimate) | ~6.5 h | ~1-1.5 h of exports |
+
+## What we learned about the process
+
+1. **Category-level pulls are the scale lever.** One GobbleCube file per platform per month covers
+   every brand; one Black Box / Keepa export per sub-category gives the full peer set.
+2. **Helium 10 Black Box caps at 200 rows.** Workaround: set a minimum ASIN sales filter so the
+   200 rows are the real sellers. Pull **one sub-category per export**; a multi-sub-category pull
+   (pull 1) came back uneven and missed whole sub-categories.
+3. **Keepa Product Finder does search by brand** (Brand field). Seller Lookup is the seller-wise view.
+4. **The 'bought in past month' badge undercounts badly** (12,000 vs 22,100 Helium 10 units on the
+   same ASINs; badge on only 57 of 255 families). Use Helium 10 for order estimates.
+5. **Orders per rating differs hugely by category**: about 75-100 orders per new rating for
+   low-ticket candles, vs 15 assumed in the sandbox and 1.0 in run 1. Calibrate per category.
+6. **Seasonality distorts snapshots.** 82 of Aura's top 200 ASINs list Oct 2026 (Diwali) as their
+   best month. Use year-on-year growth, not 90-day growth, for seasonal categories.
+7. **Quick-commerce categories don't match Amazon's.** Candles sit inside Home Decor / Festive
+   Gifting on Blinkit; a product-name keyword rule was needed to isolate them.
+8. **Review counts are pooled across variation families** in both Keepa and Helium 10; count at
+   family level.
+
+## Provisional fit read (directional, not scored)
+
+| Check | Read | Evidence | Confidence |
+|---|---|---|---|
+| 01 SKU Spikiness | Likely Clear | New pooja hamper at 1,425 units/month within 2 months; +29% 90-day (festive) | Medium |
+| 02 Demand Durability | Likely Clear | +20% YoY on Amazon; Blinkit share up from 32% to 45% Jul-Oct; listings 3-4 years old still top-ranked | Medium |
+| 03 Qcomm Traction | Clear on Blinkit, absent elsewhere | ~45% of Blinkit Home Decor; not on Instamart, 1 SKU on Zepto | High |
+| 04 Customer Quality (must-clear) | Borderline | Weighted rating 3.96-4.09, in line with peers; star split and reviews not read | Low |
+| 05 Pricing Power (must-clear) | **Likely Miss** | 68% median discount off list price; below category average price in 3 of 4 sub-categories; premium end held by others (except Candle Sets) | Medium-High |
+| 06 Concentration Risk | Mixed | Product mix well spread (top ASIN 21-32% of units); channel heavily concentrated on Blinkit; high copy exposure (new brands reach top 5 in 2-3 months) | Medium |
+
+Amazon position: #1 in Taper Candles (37%), #3 in Pillar (7.5%, but down 20% YoY while the
+sub-category grew 52%), #5 in Candle Sets (#2 by revenue) and Jar Candles.
+
+## Files in this folder
+
+- `qcomm_aroma_candles_*.csv`: quick-commerce SKU and brand-month extract, Aura + peers
+- `amazon_families_keepa.csv`, `amazon_subcategories_keepa.csv`: Aura catalogue from Keepa
+- `amazon_peer_brands_candles_fragrance.csv`: Keepa peer table
+- `amazon_h10_top200_enriched.csv`, `amazon_h10_families.csv`: Aura sales from Black Box
+- `amazon_h10_peer_brands_*.csv`: Black Box peer tables per sub-category
