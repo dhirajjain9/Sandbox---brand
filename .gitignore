@@ -1,0 +1,5 @@
+# Raw exports and SKU-level tables live in Google Drive (see README), not git
+data/
+__pycache__/
+*.pyc
+.DS_Store
