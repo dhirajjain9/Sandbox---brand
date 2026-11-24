@@ -64,6 +64,24 @@ star split and reviews, Flipkart, D2C site, Instagram / Meta Ad Library.
 Amazon position: #1 in Taper Candles (37%), #3 in Pillar (7.5%, but down 20% YoY while the
 sub-category grew 52%), #5 in Candle Sets (#2 by revenue) and Jar Candles.
 
+## Cerebro (added after first notes)
+
+One 10-ASIN Cerebro run (6 Aura + 4 peers) plus single-ASIN runs for each.
+A multi-ASIN export gives organic rank for every ASIN but sponsored rank only for the
+first ASIN; single-ASIN runs are needed for paid vs organic per product.
+
+- **Category search demand (#37):** ~1.02M searches/month on core candle and fragrance keywords.
+- **Branded search (#36):** Aura Decor ~4,600/month vs Iris ~15,800, Ekam ~5,100, Floryn and Vervenix ~300.
+- **Search rank (#18):** Aura's taper candle ASIN ranks #2-3 on "candle" (73.8k) and "candles" (48.4k);
+  it carries most of Aura's top-10 visibility. Other Aura ASINs are page 1 but rarely top 10.
+- **Paid dependence (#19):** Aura's established ASINs show almost no sponsored placements (0-2% of
+  visible search volume). The new pooja hamper is the exception: 61% of its visible search volume is
+  sponsored, 52% sponsored-only. Peers: Floryn 22%, Ekam 26%, Vervenix 2%, Prosperro 0%.
+
+Revised reads: SKU Spikiness Medium-Low (the standout new SKU is ad-driven); Demand Durability
+strengthened (earned organic rank on the category's biggest keywords, low ad reliance);
+Concentration Risk adds a flag (one ASIN carries most organic visibility).
+
 ## Files in this folder
 
 - `qcomm_aroma_candles_*.csv`: quick-commerce SKU and brand-month extract, Aura + peers
