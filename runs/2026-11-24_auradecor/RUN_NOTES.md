@@ -92,9 +92,15 @@ Concentration Risk adds a flag (one ASIN carries most organic visibility).
   55.8% MRP), so its MRPs are inflated relative to peers. ₹ sales on MRP are ~2.5-3x SP.
 - **Share grew sharply year on year:** Home Decor 32% (Aug-Sep 2025) to 50% (Aug-Sep 2026);
   60.8% in Nov 2026 to date.
-- **Festive season (Diwali 2025-10-20, 2026-11-08):** Oct+Nov MRP sales ~Rs 28.6 Cr (2025) vs
-  ~Rs 29.2 Cr (2026, Nov to the 22nd). Flat to slightly up while Blinkit Home Decor shrank
-  (Rs 52.2 Cr to 42.8 Cr), so the growth is share, not category.
+- **Festive season (Diwali 2025-10-20, 2026-11-08):** Aug-Nov MRP sales ~Rs 42.8 Cr (2025) vs
+  ~Rs 49.6 Cr (2026, Nov to the 22nd): **+16% and rising**, while Blinkit Home Decor shrank 15%
+  (Rs 86.7 Cr to 74.0 Cr). The growth is share, not category.
+- **Last 12 months (Dec 2025-Nov 2026): ~Rs 107 Cr MRP** on Blinkit Home Decor + Festive Gifting;
+  at ~65% weighted discount that is roughly Rs 35-40 Cr at selling price. Off-season run rate
+  (Jan-Jul 2026) ~Rs 6.9 Cr MRP a month.
+- **Earned visibility rising:** Home Decor organic SOV 35% (Aug 2025) to 60% (Sep-Oct 2026). Ad SOV
+  is bursty (0-12% most months, 28-42% in Jun, Jul, Sep, Oct 2026).
+- **Discount creeping up:** weighted discount ~56-57% (Aug-Sep 2025) to ~65% (2026).
 - **Availability is the weak spot:** Wt. OSA dips to 46-56% at peaks and in summer (Jun 2026 49.5%,
   Nov 2026 56% Home Decor / 46% Festive Gifting).
 - **Festive Gifting competition rising:** Dream Living 3.5% to 22.4%, Artisyn ~20%; Aura's
@@ -103,8 +109,8 @@ Concentration Risk adds a flag (one ASIN carries most organic visibility).
   no presence on "diya" (~11.8 lac searches).
 - Pooja Needs: Auradecor not in the brand list for Oct or Nov 2026.
 
-Files: `gobblecube_deep_dive_blinkit_share_osa.csv`, `gobblecube_deep_dive_blinkit_category_size.csv`
-(transcribed from the Chrome session summary; the full CSVs from that session are not yet uploaded).
+File: `gobblecube_deep_dive_blinkit_monthly.csv` (brand x category x month: share, OSA, listing,
+discount, organic / ad SOV, PPU, category size, Aura MRP sales).
 
 ## Files in this folder
 
