@@ -112,6 +112,19 @@ Concentration Risk adds a flag (one ASIN carries most organic visibility).
 File: `gobblecube_deep_dive_blinkit_monthly.csv` (brand x category x month: share, OSA, listing,
 discount, organic / ad SOV, PPU, category size, Aura MRP sales).
 
+## SKU price history, Blinkit (top 10 Aura SKUs, Aug 2025 - Nov 2026)
+
+- **MRP never changed** on any of the 10 SKUs in 16 months, so discount moves are real price moves.
+- **Real price cuts, done in steps:** same-SKU selling price is down ~11% share-weighted (median
+  -15%) from Aug-Sep 2025 to Aug-Oct 2026. Biggest: votive pillar Rs 179 to Rs 99 (-45%), stick candle
+  -29%, 50-pc tea lights -27%, heart tea lights -22%. One raise: Urli gift set +32% (Mar 2026).
+- **Volatile period, then stable:** 28 of 29 month-on-month moves >15% happened Oct 2025 - Apr 2026
+  (Diwali, Dec 2025, Mar 2026 resets); Apr - Nov 2026 prices are flat at the new lower level.
+- The Home Decor discount step (~57% to ~65%) is therefore **real price cuts, not mix**.
+- Peers: Homestrap discount fell (45% to 36-44%), Mangalam stable ~25%, Satyam Kraft ~76%.
+- Read: Aura bought its share gain partly with lower prices. Pricing Power = value brand that has
+  cut price to grow; not a premium brand, but prices now holding through the festive peak.
+
 ## Files in this folder
 
 - `qcomm_aroma_candles_*.csv`: quick-commerce SKU and brand-month extract, Aura + peers

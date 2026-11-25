@@ -1,0 +1,81 @@
+month,category,brand,est_cat_share_mrp_pct,wt_discount_pct,wt_ppu
+2025-08,Home Decor,Auradecor,31.5,56.7,111
+2025-08,Home Decor,Homestrap,10.4,44.7,156
+2025-08,Home Decor,Ekhasa,5.9,55.8,734
+2025-08,Home Decor,The Artment,5.5,36.1,847
+2025-08,Home Decor,Zulaxy,4.3,58.9,280
+2025-09,Home Decor,Auradecor,32.7,57.5,108
+2025-09,Home Decor,Homestrap,14.2,45.2,162
+2025-09,Home Decor,The Artment,5.4,34.9,907
+2025-09,Home Decor,Zulaxy,4.3,58.8,280
+2025-09,Home Decor,Mangalam,4.1,24.8,300
+2025-10,Home Decor,Auradecor,55.6,65.7,73
+2025-10,Home Decor,Homestrap,7.0,51.2,141
+2025-10,Home Decor,Shubh Kart,2.8,32.5,222
+2025-10,Home Decor,Mangalam,2.7,26.9,292
+2025-10,Home Decor,The Artment,2.3,36.1,962
+2025-11,Home Decor,Auradecor,34.8,55.3,111
+2025-11,Home Decor,Homestrap,12.1,29.5,205
+2025-11,Home Decor,Mangalam,5.6,25.1,299
+2025-11,Home Decor,Zulaxy,4.9,58.5,284
+2025-11,Home Decor,The Artment,3.9,34.1,1008
+2025-12,Home Decor,Auradecor,40.1,67.5,90
+2025-12,Home Decor,Homestrap,11.0,30.4,204
+2025-12,Home Decor,The Artment,4.8,34.4,936
+2025-12,Home Decor,Mangalam,4.5,25.1,299
+2025-12,Home Decor,Zulaxy,3.5,58.5,283
+2026-01,Home Decor,Auradecor,38.3,58.9,100
+2026-01,Home Decor,Homestrap,13.3,36.0,188
+2026-01,Home Decor,Mangalam,5.2,25.1,299
+2026-01,Home Decor,Zulaxy,3.7,58.6,283
+2026-01,Home Decor,The Artment,3.4,32.4,799
+2026-02,Home Decor,Auradecor,39.1,57.2,105
+2026-02,Home Decor,Homestrap,11.3,36.2,193
+2026-02,Home Decor,Tied Ribbons,4.8,68.5,290
+2026-02,Home Decor,Mangalam,4.3,25.1,299
+2026-02,Home Decor,The Artment,3.3,31.4,1006
+2026-03,Home Decor,Auradecor,41.6,69.4,75
+2026-03,Home Decor,Homestrap,10.8,38.2,179
+2026-03,Home Decor,Mangalam,4.8,28.7,284
+2026-03,Home Decor,Tied Ribbons,3.8,69.6,279
+2026-03,Home Decor,Shubh Kart,3.0,29.4,285
+2026-04,Home Decor,Auradecor,42.7,64.1,81
+2026-04,Home Decor,Homestrap,12.5,38.7,167
+2026-04,Home Decor,Mangalam,4.9,32.6,269
+2026-04,Home Decor,Tied Ribbons,3.9,69.4,236
+2026-04,Home Decor,Shubh Kart,3.4,29.9,271
+2026-05,Home Decor,Auradecor,39.9,64.8,92
+2026-05,Home Decor,Homestrap,11.3,35.3,198
+2026-05,Home Decor,Mangalam,4.0,24.9,300
+2026-05,Home Decor,Satyam Kraft,3.3,76.1,112
+2026-05,Home Decor,Lazer,3.2,60.7,154
+2026-06,Home Decor,Auradecor,37.7,64.3,100
+2026-06,Home Decor,Homestrap,9.5,35.9,193
+2026-06,Home Decor,Lazer,4.9,60.7,141
+2026-06,Home Decor,Satyam Kraft,4.4,76.3,121
+2026-06,Home Decor,Mangalam,4.3,28.8,284
+2026-07,Home Decor,Auradecor,41.8,65.2,90
+2026-07,Home Decor,Homestrap,10.6,38.9,184
+2026-07,Home Decor,Mangalam,4.9,24.8,300
+2026-07,Home Decor,Lazer,4.3,61.3,148
+2026-07,Home Decor,Satyam Kraft,4.1,76.6,113
+2026-08,Home Decor,Auradecor,45.9,65.1,97
+2026-08,Home Decor,Homestrap,10.1,35.8,176
+2026-08,Home Decor,Mangalam,6.2,25.1,299
+2026-08,Home Decor,Lazer,3.5,61.6,145
+2026-08,Home Decor,Zulaxy,3.0,58.8,283
+2026-09,Home Decor,Auradecor,54.4,65.1,98
+2026-09,Home Decor,Homestrap,10.7,35.7,164
+2026-09,Home Decor,Lazer,3.0,61.6,132
+2026-09,Home Decor,Shubh Kart,2.8,31.1,163
+2026-09,Home Decor,Satyam Kraft,2.6,76.8,118
+2026-10,Home Decor,Auradecor,55.8,66.2,93
+2026-10,Home Decor,Homestrap,14.0,43.8,146
+2026-10,Home Decor,Shubh Kart,3.2,31.1,158
+2026-10,Home Decor,Tied Ribbons,3.0,70.5,201
+2026-10,Home Decor,Satyam Kraft,2.3,77.1,115
+2026-11,Home Decor,Auradecor,60.8,64.7,87
+2026-11,Home Decor,Homestrap,7.7,42.5,147
+2026-11,Home Decor,Shubh Kart,4.5,31.5,73
+2026-11,Home Decor,Tied Ribbons,3.2,70.8,207
+2026-11,Home Decor,Ekam,3.1,43.3,362
