@@ -29,6 +29,10 @@ def load(path: str) -> pd.DataFrame:
         if c in df:
             df[c] = pd.to_numeric(df[c].astype(str).str.replace(",", ""), errors="coerce")
     df["Brand"] = df["Brand"].fillna("(blank)").str.strip()
+    # Merge case variants ("Milton" / "MILTON") under the most common spelling.
+    key = df["Brand"].str.casefold()
+    canon = df.groupby(key)["Brand"].agg(lambda s: s.value_counts().index[0])
+    df["Brand"] = key.map(canon)
     return df
 
 
