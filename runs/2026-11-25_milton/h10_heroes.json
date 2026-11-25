@@ -1,0 +1,60 @@
+{
+ "B0F54GKQ38": {
+  "core": [
+   "kettle"
+  ],
+  "desc": [
+   "1.8",
+   "stainless"
+  ]
+ },
+ "B08TTRVWKY": {
+  "core": [
+   "egg boiler",
+   "egg cooker"
+  ],
+  "desc": [
+   "automatic",
+   "auto"
+  ]
+ },
+ "B0DF6D49G7": {
+  "core": [
+   "sandwich",
+   "griller",
+   "grill"
+  ],
+  "desc": [
+   "800",
+   "toast"
+  ]
+ },
+ "B0D3XVTRRY": {
+  "core": [
+   "multi cook",
+   "multi-cook",
+   "cooker kettle",
+   "electric cooker"
+  ],
+  "desc": [
+   "1.5",
+   "steam"
+  ]
+ },
+ "B0CGVBWMK1": {
+  "core": [
+   "sandwich",
+   "griller",
+   "grill"
+  ],
+  "desc": [
+   "800",
+   "toast"
+  ]
+ },
+ "B0GGH2GM8D": {},
+ "B0FKB9WFLJ": {},
+ "B0D988Y9VJ": {},
+ "B0FTG5C4KC": {},
+ "B0H6SXS6XR": {}
+}
