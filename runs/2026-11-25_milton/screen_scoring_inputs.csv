@@ -1,0 +1,50 @@
+id,mid,input,dir,floor,ceiling,weight,value,score
+2a,M2,Hero families by volume (>=500 ratings),H,0.0,10.0,0.5,12.0,100.0
+2b,M2,"Hero ASINs by growth (YoY>=50%, >=300 units/mo)",H,0.0,6.0,0.5,17.0,100.0
+3a,M3,"Order growth of heroes (YoY, Amazon, Diwali window)",H,0.0,0.3,0.4,1.86,100.0
+3b,M3,Bestseller rank improvement of heroes,H,-0.1,0.3,0.25,,
+3c,M3,"Search rank, top-25 category keywords (Amazon, best HV ASIN)",L,1.0,30.0,0.2,4.0,89.65517241379311
+3d,M3,Share of heroes launched in last 12 months,H,0.0,0.5,0.15,0.28,56.00000000000001
+4a,M4,Months heroes held top rank,H,0.0,12.0,0.5,,
+4b,M4,Avg age of hero families (months),H,6.0,48.0,0.2,26.0,47.61904761904761
+4c,M4,"Growth vs category (Amazon YoY, revenue-weighted)",H,-0.1,0.3,0.3,1.51,100.0
+5a,M5,"Amazon paid share of visibility (Cerebro, units-weighted)",L,0.1,0.6,0.3,0.264,67.19999999999999
+5b,M5,Qcomm sponsored share of placements,L,0.05,0.5,0.15,,
+5c,M5,"Qcomm ad share of voice (Blinkit, 12-mo avg)",L,0.05,0.4,0.15,,
+5d,M5,Active Meta + Google ads,L,20.0,300.0,0.2,,
+5e,M5,Paid share of web traffic,L,0.1,0.5,0.2,,
+6a,M6,Branded search trend (12m),H,-0.1,0.4,0.25,,
+6b,M6,Monthly web visits,H,50000.0,1500000.0,0.2,,
+6c,M6,Web visits growth,H,-0.1,0.3,0.1,,
+6d,M6,Instagram followers,H,50000.0,1000000.0,0.1,,
+6e,M6,Engagement rate,H,0.005,0.04,0.15,,
+6f,M6,Influencer collaborations (90d),H,0.0,60.0,0.2,,
+7a,M7,Platforms listed on (of 3),H,0.0,3.0,0.2,1.0,33.33333333333333
+7b,M7,"Dark-store listing % (Blinkit, Sep-Nov)",H,0.1,0.8,0.3,,
+7c,M7,"Weighted OSA where listed (Zepto gas stoves, Oct 2026)",H,0.5,0.95,0.25,0.577,17.111111111111104
+7d,M7,SKUs listed per platform (avg of 3),H,0.0,10.0,0.15,1.67,16.7
+7e,M7,Share of units <= 3 kg (Amazon),H,0.2,0.8,0.1,0.909,100.0
+8a,M8,Restocks per listed slot per week,H,0.0,0.3,0.4,,
+8b,M8,Qcomm search rank on category keywords (Blinkit),L,1.0,20.0,0.25,,
+8c,M8,"Qcomm category share (Zepto gas stoves, SP)",H,0.0,0.2,0.35,0.124,62.0
+9a,M9,Share of 1-2 star ratings (rating-weighted),L,0.05,0.25,0.3,0.145,52.5
+9b,M9,"Review issue share (damage/defect/wrong, latest 30 x 15 families)",L,0.02,0.15,0.3,0.151,0.0
+9c,M9,"Average rating (rating-weighted, Keepa)",H,3.6,4.5,0.2,4.14,59.999999999999964
+9d,M9,Seller negative feedback (90 days),L,0.01,0.1,0.15,0.18,0.0
+9e,M9,COD fee (D2C),H,0.0,50.0,0.05,,
+10a,M10,Amazon discount vs list price (revenue-weighted),L,0.15,0.6,0.3,0.419,40.22222222222223
+10b,M10,Deal days per month (Keepa chart reads),L,2.0,20.0,0.15,0.85,100.0
+10c,M10,D2C sitewide sales (90d),L,0.0,8.0,0.1,,
+10d,M10,D2C avg sale discount,L,0.1,0.5,0.1,,
+10e,M10,Qcomm discount vs MRP (Zepto),L,0.1,0.5,0.1,0.45,12.499999999999996
+10f,M10,Sale-event volume lift,L,1.2,3.5,0.25,,
+11a,M11,Price index vs sub-category median (revenue-weighted),H,0.7,1.3,0.4,0.76,10.000000000000007
+11b,M11,Own Buy Box share (Amazon),H,0.5,1.0,0.3,1.0,100.0
+11c,M11,Sellers per listing (Amazon),L,1.0,8.0,0.15,1.0,100.0
+11d,M11,Qcomm vs marketplace price gap,L,0.0,0.15,0.15,,
+12a,M12,Top SKU share of sales (Amazon),L,0.1,0.6,0.35,0.32,55.99999999999999
+12b,M12,Top 3 SKUs share of sales,L,0.3,0.9,0.2,0.463,72.83333333333333
+12c,M12,Largest channel share (Amazon),L,0.5,0.95,0.2,0.985,0.0
+12d,M12,D2C catalogue size,H,20.0,300.0,0.15,,
+12e,M12,New families launched in 90 days,H,0.0,15.0,0.1,3.0,20.0
+13a,M13,Copycat listings per hero,L,0.0,30.0,1.0,,

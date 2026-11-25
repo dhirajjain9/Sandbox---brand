@@ -1,0 +1,708 @@
+brand,subcategory,asins,bbm_units,disc_%,price_index,median_price,avg_sellers,price_vs_90d_%,rating,unit_share_%
+Milton (Hydro Valves),Electric Kettles,8.0,43100.0,52.889,0.473,1499.0,1.0,9.688,4.0,25.368
+Pigeon,Electric Kettles,22.0,26850.0,57.546,0.366,1084.31,4.071,1.074,3.957,15.803
+Milton (original),Electric Kettles,19.0,17600.0,48.458,0.468,1399.0,3.4,-0.698,3.995,10.359
+Prestige,Electric Kettles,6.0,12600.0,52.894,0.465,1097.5,1.167,-2.117,3.887,7.416
+COOKWELL,Electric Kettles,2.0,8000.0,52.539,0.752,1199.0,1.0,1.157,4.0,4.709
+Havells,Electric Kettles,8.0,5850.0,43.493,1.09,1624.0,7.143,-2.205,4.326,3.443
+Lifelong,Electric Kettles,10.0,5100.0,47.729,0.564,999.0,1.286,13.236,3.969,3.002
+Xech,Electric Kettles,7.0,5000.0,24.342,0.774,1499.0,1.0,1.521,4.2,2.943
+Borosil,Electric Kettles,15.0,4850.0,19.247,1.165,1769.0,4.714,-0.226,4.097,2.855
+AGARO,Electric Kettles,9.0,4200.0,35.045,0.729,1049.5,5.0,1.321,4.005,2.472
+amazon basics,Electric Kettles,14.0,4100.0,49.046,0.617,942.5,1.0,-1.221,3.786,2.413
+KENT,Electric Kettles,5.0,2800.0,31.147,1.064,1599.0,1.5,1.244,3.939,1.648
+LONGWAY,Electric Kettles,10.0,2700.0,61.297,0.34,499.0,1.0,3.067,3.993,1.589
+SOLARA,Electric Kettles,9.0,2200.0,55.772,0.832,1449.0,1.0,8.868,4.2,1.295
+IBELL,Electric Kettles,12.0,2000.0,45.705,0.538,979.0,1.0,2.214,3.97,1.177
+CADLEC,Electric Kettles,5.0,1700.0,61.779,0.407,774.0,1.0,5.086,4.0,1.001
+Bajaj,Electric Kettles,3.0,1500.0,59.818,0.527,849.0,8.0,7.352,3.8,0.883
+nutripro,Electric Kettles,3.0,1500.0,30.486,0.643,999.0,1.0,3.505,3.94,0.883
+Wonderchef,Electric Kettles,13.0,1450.0,59.343,0.421,1199.0,2.0,6.9,3.872,0.853
+GOODSCITY,Electric Kettles,4.0,1450.0,32.994,1.129,2399.0,2.0,9.567,4.3,0.853
+InstaCuppa,Electric Kettles,16.0,1150.0,10.6,1.28,2499.0,1.533,3.662,3.905,0.677
+Inalsa,Electric Kettles,5.0,1050.0,58.661,0.763,1148.5,1.5,-2.492,3.999,0.618
+Butterfly,Electric Kettles,4.0,1050.0,53.985,0.488,799.0,1.667,4.806,4.1,0.618
+wipro,Electric Kettles,4.0,800.0,43.724,1.013,1659.0,1.25,-7.553,4.406,0.471
+MOOKA,Electric Kettles,2.0,700.0,40.323,0.642,1096.5,1.0,4.071,4.058,0.412
+REMAXX,Electric Kettles,2.0,700.0,65.022,0.658,1049.0,1.0,3.088,3.9,0.412
+NUUK,Electric Kettles,4.0,600.0,25.365,1.66,2549.0,1.5,-0.0,4.8,0.353
+Glen,Electric Kettles,10.0,500.0,41.473,0.882,1626.5,1.7,-0.063,4.02,0.294
+Orient Electric,Electric Kettles,1.0,500.0,56.546,0.626,999.0,6.0,-7.533,3.5,0.294
+enem,Electric Kettles,3.0,500.0,25.008,1.41,2249.0,1.0,0.962,4.2,0.294
+HOMEBASIC,Electric Kettles,1.0,500.0,60.03,0.501,799.0,1.0,-2.832,3.7,0.294
+Crompton,Electric Kettles,3.0,450.0,34.404,0.729,1199.0,4.667,19.592,4.19,0.265
+The Better Home,Electric Kettles,13.0,450.0,53.945,0.787,1349.0,1.667,5.417,4.001,0.265
+CORNIYAST,Electric Kettles,1.0,400.0,40.04,0.376,599.0,1.0,23.327,3.4,0.235
+DOCAT,Electric Kettles,1.0,400.0,66.689,0.626,999.0,2.0,-23.016,4.2,0.235
+Tesora - Inspired by you,Electric Kettles,15.0,400.0,47.177,0.662,999.0,1.0,-8.958,4.201,0.235
+SHOPARIO,Electric Kettles,1.0,400.0,,,,1.0,,4.3,0.235
+Hawkins,Electric Kettles,3.0,300.0,11.241,1.239,1769.0,12.333,0.035,4.2,0.177
+Sulfar,Electric Kettles,1.0,300.0,,,,,,4.0,0.177
+HASTHIP,Electric Kettles,3.0,200.0,25.703,1.647,2626.5,1.0,3.418,4.05,0.118
+CELLO,Electric Kettles,4.0,200.0,65.692,0.408,799.0,1.333,4.351,4.0,0.118
+EDT,Electric Kettles,2.0,200.0,44.449,3.134,4999.0,2.0,-6.312,4.6,0.118
+ELECRANGE,Electric Kettles,3.0,200.0,61.908,0.621,990.0,1.0,1.142,3.614,0.118
+CELLECOR,Electric Kettles,1.0,200.0,50.017,0.94,1499.0,2.0,2.361,4.2,0.118
+Voltas Beko,Electric Kettles,1.0,200.0,60.04,0.376,599.0,1.0,-2.651,3.4,0.118
+Sujata,Electric Kettles,2.0,200.0,46.465,0.997,1590.0,1.0,2.394,3.901,0.118
+PHILIPS,Electric Kettles,5.0,200.0,23.118,0.871,1389.0,2.5,0.858,4.301,0.118
+CÜRAA,Electric Kettles,2.0,150.0,38.34,2.319,3699.0,1.0,-1.243,4.1,0.088
+resgitiati,Electric Kettles,2.0,150.0,61.777,0.291,472.0,2.5,-1.514,4.2,0.088
+Hafele,Electric Kettles,2.0,150.0,49.316,2.507,3999.0,1.0,4.785,3.9,0.088
+SINGER,Electric Kettles,6.0,150.0,65.644,0.625,999.0,1.0,3.811,4.1,0.088
+V-Guard,Electric Kettles,4.0,150.0,33.94,0.74,1074.0,1.0,4.025,3.966,0.088
+ELECMAA,Electric Kettles,6.0,100.0,41.62,1.755,2799.0,1.0,2.683,3.734,0.059
+dokro,Electric Kettles,1.0,100.0,44.018,0.877,1399.0,1.0,9.209,3.8,0.059
+SIGNAMIO,Electric Kettles,3.0,100.0,50.05,0.313,499.0,2.0,0.891,4.05,0.059
+Sipologie,Electric Kettles,1.0,100.0,12.502,4.388,6999.0,1.0,0.888,4.3,0.059
+SKYTONE,Electric Kettles,3.0,100.0,56.546,0.626,999.0,2.0,-11.271,3.713,0.059
+RUMPES,Electric Kettles,1.0,100.0,75.537,0.307,489.02,1.0,4.738,4.1,0.059
+DOCOSS,Electric Kettles,1.0,100.0,35.218,0.812,1295.0,1.0,-3.769,3.8,0.059
+Generic,Electric Kettles,3.0,100.0,61.519,0.294,799.0,1.0,16.748,4.345,0.059
+Renesmee,Electric Kettles,1.0,100.0,,0.378,603.0,1.0,6.233,4.0,0.059
+RFV1,Electric Kettles,2.0,100.0,61.562,0.626,999.0,1.0,0.0,5.0,0.059
+USHA,Electric Kettles,3.0,100.0,42.379,0.508,1399.0,1.5,-3.898,4.2,0.059
+SKADIOO,Electric Kettles,2.0,100.0,49.985,0.313,532.0,1.0,0.139,3.9,0.059
+DRAYA DEAL'S,Electric Kettles,1.0,50.0,41.041,0.369,589.0,1.0,20.236,5.0,0.029
+CPENSUS,Electric Kettles,1.0,50.0,41.201,0.626,999.0,1.0,4.686,4.1,0.029
+Supvox,Electric Kettles,3.0,50.0,21.913,2.319,3699.0,1.0,0.0,4.008,0.029
+Westinghouse,Electric Kettles,1.0,50.0,22.188,1.605,2560.0,2.0,2.578,3.4,0.029
+Zanibo,Electric Kettles,3.0,50.0,49.712,0.438,699.0,1.0,0.0,3.802,0.029
+WARMEX HOME APPLIANCES,Electric Kettles,6.0,50.0,35.851,0.631,1908.0,1.667,-7.455,4.655,0.029
+KERIVYUX,Electric Kettles,1.0,50.0,50.025,0.626,999.0,1.0,0.784,3.6,0.029
+Libra,Electric Kettles,2.0,50.0,40.02,0.752,1199.0,1.0,2.645,4.408,0.029
+NEEPRA ENTERPRISE,Electric Kettles,7.0,50.0,33.053,0.641,999.0,1.5,-4.893,4.172,0.029
+SHEFFIELD CLASSIC,Electric Kettles,1.0,50.0,56.028,0.551,879.0,1.0,6.8,3.7,0.029
+Pious,Electric Kettles,1.0,50.0,28.582,1.253,1999.0,1.0,0.085,4.4,0.029
+Russell Hobbs,Electric Kettles,1.0,50.0,49.921,0.595,949.0,1.0,3.58,4.0,0.029
+SPLENDIDSALE,Electric Kettles,6.0,50.0,18.656,0.573,999.0,1.667,1.576,3.944,0.029
+DOMORA,Electric Kettles,2.0,0.0,48.492,0.288,459.0,1.5,0.0,2.3,0.0
+BALTRA,Electric Kettles,11.0,0.0,41.097,1.071,1949.0,1.333,1.726,4.018,0.0
+Ariete,Electric Kettles,1.0,0.0,33.389,2.502,3990.0,2.0,-19.054,4.4,0.0
+GEMRKK,Electric Kettles,1.0,0.0,75.038,0.313,499.0,1.0,0.0,,0.0
+Jaypee Plus,Electric Kettles,1.0,0.0,,,,,,4.0,0.0
+KenBerry,Electric Kettles,6.0,0.0,39.5,0.855,1343.5,1.333,3.494,3.95,0.0
+Livspace,Electric Kettles,4.0,0.0,43.508,1.943,3099.0,1.0,-2.035,4.825,0.0
+Oshotto,Electric Kettles,85.0,0.0,40.02,1.88,2999.0,1.012,0.0,4.4,0.0
+Hilton,Electric Kettles,9.0,0.0,33.484,0.687,1199.0,1.222,4.018,3.9,0.0
+SK RAYAN,Electric Kettles,1.0,0.0,50.028,0.564,899.0,1.0,0.0,4.0,0.0
+SaleChain,Electric Kettles,1.0,0.0,31.563,0.557,889.0,1.0,3.423,4.2,0.0
+UNICRON,Electric Kettles,1.0,0.0,65.033,0.438,699.0,1.0,0.0,5.0,0.0
+ULTRON,Electric Kettles,1.0,0.0,57.646,0.332,529.0,1.0,-1.086,3.7,0.0
+VarEesha,Electric Kettles,2.0,0.0,,,,,,5.0,0.0
+ZYNTO,Electric Kettles,2.0,0.0,54.344,1.363,2174.0,1.0,0.813,3.2,0.0
+Milton (Hydro Valves),Sandwich Makers,10.0,13750.0,25.645,1.255,1199.0,1.0,3.363,4.11,40.029
+Prestige,Sandwich Makers,19.0,4650.0,32.18,1.296,1532.5,1.438,5.433,4.165,13.537
+Tosaa,Sandwich Makers,10.0,3250.0,10.104,0.627,550.0,1.0,23.993,4.061,9.461
+IBELL,Sandwich Makers,16.0,3000.0,53.508,2.246,2350.0,1.0,1.228,4.246,8.734
+PHILIPS,Sandwich Makers,4.0,1500.0,30.247,1.613,1597.0,1.0,-7.349,4.067,4.367
+Lifelong,Sandwich Makers,2.0,1200.0,32.214,1.0,949.0,2.0,-2.619,3.983,3.493
+Borosil,Sandwich Makers,16.0,1100.0,22.138,2.157,2019.0,2.6,-2.665,3.973,3.202
+KENT,Sandwich Makers,1.0,600.0,15.261,2.054,1949.0,1.0,1.683,4.0,1.747
+Havells,Sandwich Makers,12.0,600.0,45.308,1.328,1674.0,3.333,-2.408,4.13,1.747
+truTRTL,Sandwich Makers,4.0,600.0,50.032,2.105,1499.0,1.0,-4.635,4.199,1.747
+wipro,Sandwich Makers,11.0,500.0,33.465,3.024,2455.0,2.0,7.41,3.88,1.456
+Bajaj,Sandwich Makers,6.0,500.0,44.397,1.345,1629.0,3.8,-1.296,4.06,1.456
+Inalsa,Sandwich Makers,3.0,400.0,38.011,4.04,3999.0,1.333,5.061,3.55,1.164
+amazon basics,Sandwich Makers,3.0,300.0,72.666,1.021,969.0,1.0,0.252,3.405,0.873
+Glen,Sandwich Makers,6.0,300.0,26.557,2.318,2219.0,2.2,4.331,4.098,0.873
+PANCA,Sandwich Makers,6.0,250.0,48.422,0.484,499.0,1.0,-6.582,4.079,0.728
+Kenstar,Sandwich Makers,2.0,200.0,33.177,1.053,999.0,1.5,11.111,3.999,0.582
+ITALIA,Sandwich Makers,12.0,150.0,43.347,4.253,2849.0,1.0,4.815,4.196,0.437
+BERGNER,Sandwich Makers,5.0,150.0,37.266,0.603,578.5,2.5,0.924,3.712,0.437
+Libra,Sandwich Makers,3.0,150.0,54.499,3.055,2699.0,1.0,4.925,4.0,0.437
+LONGWAY,Sandwich Makers,4.0,150.0,51.236,1.438,1299.0,1.0,7.773,4.001,0.437
+Morphy Richards,Sandwich Makers,8.0,150.0,51.257,3.367,2999.0,2.667,-1.77,3.735,0.437
+CÜRAA,Sandwich Makers,1.0,100.0,56.686,1.369,1299.0,1.0,-13.131,4.0,0.291
+Tower,Sandwich Makers,3.0,100.0,69.285,0.874,829.0,1.0,-31.289,3.902,0.291
+BLLUEX,Sandwich Makers,24.0,100.0,32.893,0.589,699.0,1.048,-2.655,3.786,0.291
+SHEFFIELD CLASSIC,Sandwich Makers,3.0,100.0,46.888,1.108,889.0,1.333,-2.734,3.401,0.291
+Orange,Sandwich Makers,4.0,50.0,37.112,0.707,483.0,1.75,0.852,4.176,0.146
+CELLO,Sandwich Makers,3.0,50.0,44.76,1.105,1049.0,1.0,1.49,4.1,0.146
+Russell Hobbs,Sandwich Makers,10.0,50.0,23.711,5.772,3589.0,1.2,2.781,3.987,0.146
+Sujata,Sandwich Makers,2.0,50.0,14.623,1.992,1890.0,1.0,-0.391,4.173,0.146
+SIGNAMIO,Sandwich Makers,2.0,50.0,63.987,0.379,379.0,2.0,2.42,3.39,0.146
+RXCINOZ,Sandwich Makers,3.0,50.0,36.007,3.371,3199.0,1.0,-0.488,4.904,0.146
+SHOPVEXA,Sandwich Makers,2.0,50.0,46.046,0.568,539.0,2.0,5.859,1.0,0.146
+Pigeon,Sandwich Makers,7.0,50.0,19.799,1.263,1199.0,3.0,6.109,3.993,0.146
+Hamilton Beach,Sandwich Makers,2.0,50.0,13.046,4.214,3999.0,1.0,7.108,4.585,0.146
+Generic,Sandwich Makers,37.0,50.0,35.088,0.883,349.0,1.0,-0.196,3.531,0.146
+CHICHAUS,Sandwich Makers,1.0,0.0,82.082,0.189,179.0,2.0,-2.463,3.9,0.0
+BATRA KI DUKAAN,Sandwich Makers,1.0,0.0,57.797,0.311,295.0,1.0,0.0,,0.0
+AADHIK,Sandwich Makers,4.0,0.0,65.71,0.387,369.0,1.25,-18.795,3.95,0.0
+CADLEC,Sandwich Makers,1.0,0.0,,,,,,3.6,0.0
+Butterfly,Sandwich Makers,4.0,0.0,59.151,1.076,1020.825,3.0,-18.698,4.025,0.0
+Boldfit,Sandwich Makers,1.0,0.0,,0.515,489.0,1.0,1.389,4.0,0.0
+BaokiTook,Sandwich Makers,1.0,0.0,42.084,0.305,289.0,2.0,3.373,4.0,0.0
+BartanJi,Sandwich Makers,2.0,0.0,,,,,,3.95,0.0
+BRIGHTZONE,Sandwich Makers,3.0,0.0,50.083,0.315,299.0,1.0,0.0,3.833,0.0
+BVORA,Sandwich Makers,1.0,0.0,,,,,,4.5,0.0
+BLACK+DECKER,Sandwich Makers,2.0,0.0,32.947,2.423,2299.0,1.5,-1.101,3.7,0.0
+BLEND ART,Sandwich Makers,1.0,0.0,33.336,10.536,9999.0,2.0,1.356,3.8,0.0
+BOSS,Sandwich Makers,5.0,0.0,18.233,1.874,1777.97,1.5,1.862,4.1,0.0
+AGARO,Sandwich Makers,5.0,0.0,24.541,1.227,1164.5,4.0,-6.119,3.68,0.0
+ANJALI,Sandwich Makers,10.0,0.0,24.586,0.515,451.5,1.6,-1.847,3.856,0.0
+ARROZIC,Sandwich Makers,1.0,0.0,46.983,1.0,949.0,1.0,7.264,4.1,0.0
+ATTRO,Sandwich Makers,2.0,0.0,48.224,0.32,304.0,1.0,-1.434,3.85,0.0
+EMIMO,Sandwich Makers,1.0,0.0,,,,,,,0.0
+Intelligible,Sandwich Makers,1.0,0.0,6.7,2.949,2799.0,1.0,4.919,3.8,0.0
+Inaara,Sandwich Makers,1.0,0.0,55.586,0.842,799.0,1.0,0.0,4.3,0.0
+ISHU & CO.,Sandwich Makers,1.0,0.0,44.059,0.442,419.0,1.0,0.0,,0.0
+GlamourShop,Sandwich Makers,1.0,0.0,50.028,0.947,899.0,1.0,0.0,,0.0
+HAZEL,Sandwich Makers,2.0,0.0,16.978,0.515,489.0,1.0,5.954,2.25,0.0
+HG ENTERPRISES INDIA,Sandwich Makers,2.0,0.0,41.265,11.115,10548.5,1.0,3.59,3.3,0.0
+HOME-PRO,Sandwich Makers,1.0,0.0,,,,,,4.0,0.0
+JENSONS,Sandwich Makers,1.0,0.0,61.179,0.368,349.0,1.0,12.996,,0.0
+KCL,Sandwich Makers,1.0,0.0,30.688,0.552,524.0,1.0,0.0,,0.0
+KATTICH,Sandwich Makers,1.0,0.0,,,,,,3.9,0.0
+KIVNEX,Sandwich Makers,1.0,0.0,50.0,0.262,249.0,1.0,0.0,,0.0
+KHUSHAL ENTERPRISE,Sandwich Makers,1.0,0.0,,,,,,,0.0
+Jeenma,Sandwich Makers,1.0,0.0,,,,,,2.7,0.0
+Judge,Sandwich Makers,1.0,0.0,24.928,1.38,1310.0,1.0,0.0,4.3,0.0
+JUPIVERSE,Sandwich Makers,1.0,0.0,57.057,0.452,429.0,1.0,2.989,4.8,0.0
+JMK PRODUCTS,Sandwich Makers,4.0,0.0,26.711,0.463,449.0,1.0,-0.43,2.975,0.0
+GZLT,Sandwich Makers,1.0,0.0,,1.316,1249.0,7.0,-26.537,4.5,0.0
+GOPI,Sandwich Makers,2.0,0.0,,,,,,3.75,0.0
+Fastmart,Sandwich Makers,1.0,0.0,,,,,,3.4,0.0
+Faber,Sandwich Makers,1.0,0.0,30.015,1.474,1399.0,1.0,16.564,3.5,0.0
+FROTH & FLAVOR,Sandwich Makers,1.0,0.0,44.103,11.486,10900.0,2.0,2.933,3.8,0.0
+FLORENZA,Sandwich Makers,2.0,0.0,,,,,,,0.0
+Encasify,Sandwich Makers,1.0,0.0,55.069,0.378,359.0,1.0,4.897,3.6,0.0
+Garden Of Arts,Sandwich Makers,2.0,0.0,52.68,0.268,254.5,1.0,0.151,3.85,0.0
+Hafele,Sandwich Makers,1.0,0.0,0.0,7.375,6999.0,1.0,8.654,4.6,0.0
+Cheet enterprise,Sandwich Makers,1.0,0.0,49.622,0.631,599.0,1.0,0.0,,0.0
+Crompton,Sandwich Makers,4.0,0.0,36.26,1.732,1644.0,2.5,0.126,3.95,0.0
+DIALUST,Sandwich Makers,6.0,0.0,50.467,0.666,799.0,1.0,0.0,3.6,0.0
+Desi BAE,Sandwich Makers,3.0,0.0,64.516,0.336,319.0,1.0,0.0,4.1,0.0
+Dhiranjan,Sandwich Makers,1.0,0.0,,,,,,,0.0
+Drumstone,Sandwich Makers,3.0,0.0,49.716,2.264,2859.0,2.667,11.476,5.0,0.0
+ELVARE,Sandwich Makers,1.0,0.0,66.741,0.315,299.0,1.0,2.562,,0.0
+NEHA,Sandwich Makers,2.0,0.0,25.016,1.263,1199.0,1.0,0.0,2.5,0.0
+MotiBa,Sandwich Makers,3.0,0.0,48.798,1.025,669.0,1.0,1.669,4.1,0.0
+Milton (original),Sandwich Makers,7.0,0.0,27.687,2.248,1590.0,1.6,1.047,3.45,0.0
+Maharaja Whiteline,Sandwich Makers,1.0,0.0,23.944,1.443,1369.0,1.0,1.985,3.8,0.0
+MUGATH,Sandwich Makers,1.0,0.0,41.173,3.16,2999.0,1.0,0.0,,0.0
+Magnus,Sandwich Makers,5.0,0.0,30.461,0.842,799.0,1.0,0.0,3.68,0.0
+MILLI,Sandwich Makers,1.0,0.0,30.05,0.442,419.0,1.0,-2.753,,0.0
+MISREK,Sandwich Makers,1.0,0.0,71.531,0.21,199.0,1.0,0.0,3.0,0.0
+LUXURIA,Sandwich Makers,1.0,0.0,14.286,3.161,3000.0,2.0,0.823,3.7,0.0
+La' Forte,Sandwich Makers,2.0,0.0,,,,,,2.4,0.0
+MICROACTIVE,Sandwich Makers,1.0,0.0,,,,,,,0.0
+MARWALL,Sandwich Makers,2.0,0.0,43.852,0.399,379.0,1.0,0.862,3.35,0.0
+KenBerry,Sandwich Makers,1.0,0.0,53.309,1.375,1305.0,1.0,1.568,3.6,0.0
+Kiran Enterprise,Sandwich Makers,5.0,0.0,34.318,11.465,8750.0,2.0,6.807,3.525,0.0
+Konquer TimeS,Sandwich Makers,1.0,0.0,,,,,,4.1,0.0
+KriMART,Sandwich Makers,2.0,0.0,45.276,0.34,323.0,1.0,0.0,4.7,0.0
+RK PRODUCTS,Sandwich Makers,2.0,0.0,41.55,0.457,434.0,1.0,0.0,2.75,0.0
+Prostuff.in,Sandwich Makers,1.0,0.0,65.842,0.684,649.0,1.0,0.157,2.8,0.0
+PANATARA,Sandwich Makers,1.0,0.0,57.842,0.399,379.0,1.0,0.0,,0.0
+PanCraft,Sandwich Makers,1.0,0.0,33.333,1.066,1012.0,1.0,6.705,,0.0
+NIRON,Sandwich Makers,2.0,0.0,,,,,,2.25,0.0
+Ranjeet Creation,Sandwich Makers,1.0,0.0,43.11,0.779,739.0,1.0,4.401,,0.0
+SEHAPURE,Sandwich Makers,2.0,0.0,54.489,0.31,294.0,1.0,-1.058,3.0,0.0
+RMSISS,Sandwich Makers,8.0,0.0,46.421,0.564,479.0,1.125,0.0,1.95,0.0
+SHIFA CRAFT,Sandwich Makers,1.0,0.0,64.064,0.378,359.0,1.0,0.0,4.5,0.0
+SKYTONE,Sandwich Makers,1.0,0.0,,,,,,3.5,0.0
+Nirlep,Sandwich Makers,1.0,0.0,,,,,,3.9,0.0
+Nova,Sandwich Makers,3.0,0.0,59.992,2.107,2000.0,3.0,2.017,4.267,0.0
+Nsvl,Sandwich Makers,1.0,0.0,,,,,,3.7,0.0
+NETIZEN,Sandwich Makers,1.0,0.0,65.263,0.348,330.0,1.0,-0.782,3.0,0.0
+NIRLON,Sandwich Makers,1.0,0.0,,,,,,3.1,0.0
+NIHUIFDPY,Sandwich Makers,2.0,0.0,38.476,1.685,1599.0,1.0,-11.388,3.8,0.0
+Steelbird,Sandwich Makers,1.0,0.0,55.029,0.9,854.0,1.0,0.0,3.9,0.0
+ShopiHome,Sandwich Makers,2.0,0.0,,,,,,2.75,0.0
+Shivaaro,Sandwich Makers,1.0,0.0,,,,,,3.9,0.0
+Sambhuya,Sandwich Makers,4.0,0.0,51.599,0.485,449.0,1.0,0.0,2.875,0.0
+SWAURSAHA,Sandwich Makers,6.0,0.0,42.442,0.57,537.0,1.167,0.0,4.4,0.0
+SOLARA,Sandwich Makers,3.0,0.0,35.028,1.559,1538.0,1.0,-2.647,3.867,0.0
+Syntro,Sandwich Makers,1.0,0.0,59.118,0.947,899.0,2.0,-4.893,4.9,0.0
+Styronis,Sandwich Makers,1.0,0.0,76.718,0.368,349.0,1.0,1.133,3.0,0.0
+Tannu Craft,Sandwich Makers,1.0,0.0,61.586,0.526,499.0,1.0,0.704,3.5,0.0
+TURIZAM,Sandwich Makers,1.0,0.0,51.002,0.283,269.0,1.0,0.0,,0.0
+Thirdwind,Sandwich Makers,1.0,0.0,50.028,0.947,899.0,1.0,0.0,,0.0
+The Better Home,Sandwich Makers,6.0,0.0,66.689,1.053,999.0,1.0,1.232,3.483,0.0
+USHA,Sandwich Makers,5.0,0.0,39.518,1.82,1783.66,1.667,2.271,3.76,0.0
+THW,Sandwich Makers,2.0,0.0,28.612,0.526,499.0,1.0,1.46,4.0,0.0
+Sumeet,Sandwich Makers,2.0,0.0,27.417,0.631,599.0,1.0,5.534,3.65,0.0
+Svarniva,Sandwich Makers,1.0,0.0,,,,,,5.0,0.0
+VISMAY'S,Sandwich Makers,1.0,0.0,38.269,1.3,1234.0,1.0,-0.863,3.4,0.0
+VALAJOGI,Sandwich Makers,1.0,0.0,50.228,2.412,2289.0,1.0,0.0,4.0,0.0
+V-Guard,Sandwich Makers,9.0,0.0,32.211,1.421,1349.0,1.0,-0.236,4.044,0.0
+VOMI,Sandwich Makers,1.0,0.0,73.516,0.418,397.0,1.0,2.417,3.1,0.0
+Vinod,Sandwich Makers,1.0,0.0,,0.769,730.0,2.0,-13.095,3.5,0.0
+VedaChef,Sandwich Makers,2.0,0.0,69.284,0.42,399.0,1.0,0.008,3.85,0.0
+Velora,Sandwich Makers,3.0,0.0,54.257,0.289,277.0,1.0,0.523,2.55,0.0
+Veloxi EXIM,Sandwich Makers,1.0,0.0,,,,,,4.1,0.0
+Westinghouse,Sandwich Makers,2.0,0.0,,,,,,4.55,0.0
+WHALECRAFT,Sandwich Makers,1.0,0.0,51.314,0.41,389.0,1.0,0.0,,0.0
+WARMEX HOME APPLIANCES,Sandwich Makers,1.0,0.0,36.618,3.002,2849.0,1.0,9.744,3.8,0.0
+Willteen,Sandwich Makers,1.0,0.0,,,,,,3.7,0.0
+caRe boaT,Sandwich Makers,1.0,0.0,45.831,1.253,1189.0,1.0,0.0,5.0,0.0
+Wonderchef,Sandwich Makers,5.0,0.0,22.773,1.79,1699.0,2.0,3.871,3.96,0.0
+tepa,Sandwich Makers,2.0,0.0,57.225,0.315,299.0,1.0,0.0,4.8,0.0
+evochef,Sandwich Makers,1.0,0.0,25.002,12.644,11999.0,1.0,-5.204,4.1,0.0
+Lifelong,Gas Stoves,9.0,10300.0,63.888,0.326,2199.0,1.0,14.03,3.778,19.434
+Prestige,Gas Stoves,19.0,8300.0,35.042,0.837,5990.0,1.6,13.74,3.958,15.66
+Butterfly,Gas Stoves,8.0,4650.0,40.595,0.593,3764.0,1.75,9.67,3.887,8.774
+Milton (Hydro Valves),Gas Stoves,17.0,3550.0,37.783,0.62,4499.0,1.0,4.019,4.023,6.698
+Pigeon,Gas Stoves,11.0,3500.0,45.355,0.381,2679.0,1.889,2.28,3.472,6.604
+Elica,Gas Stoves,18.0,2800.0,43.339,0.84,7169.5,3.0,-3.485,4.07,5.283
+LONGWAY,Gas Stoves,10.0,2800.0,73.729,0.273,1724.0,1.0,3.418,3.764,5.283
+Glen,Gas Stoves,37.0,2750.0,44.289,0.991,7147.0,2.219,1.64,3.939,5.189
+SURYA FLAME,Gas Stoves,31.0,2500.0,36.397,0.518,3944.97,1.389,19.38,3.951,4.717
+Everflame,Gas Stoves,55.0,1750.0,44.519,1.243,7498.0,1.189,6.41,4.292,3.302
+GREENCHEF,Gas Stoves,6.0,1300.0,47.125,0.363,2199.0,3.167,2.817,3.669,2.453
+Sujata,Gas Stoves,20.0,1100.0,31.003,2.32,11367.0,1.0,6.144,3.992,2.075
+SUNFLAME,Gas Stoves,33.0,900.0,31.581,0.695,4537.0,2.069,2.136,4.02,1.698
+BEYOND BY MUKUNDA FOODS,Gas Stoves,10.0,700.0,39.738,2.78,14430.0,2.9,2.239,3.881,1.321
+Faber,Gas Stoves,24.0,700.0,20.269,3.289,19628.5,1.667,3.216,4.291,1.321
+Aliacca Flames,Gas Stoves,12.0,500.0,68.512,0.732,6499.0,1.0,-2.612,4.31,0.943
+Preethi,Gas Stoves,2.0,500.0,49.37,0.634,3582.0,1.0,1.981,4.1,0.943
+Crompton,Gas Stoves,4.0,450.0,59.29,0.519,3299.0,1.5,-24.91,4.1,0.849
+Hawkins,Gas Stoves,1.0,400.0,13.741,0.545,3170.0,19.0,-3.553,3.6,0.755
+Khaitan,Gas Stoves,9.0,400.0,62.193,0.251,1390.5,1.0,-0.357,4.012,0.755
+SpiderJuice,Gas Stoves,1.0,400.0,40.852,0.041,236.0,2.0,9.676,4.0,0.755
+Haute Kitchen,Gas Stoves,17.0,350.0,36.058,1.605,9049.0,1.333,0.911,4.214,0.66
+BLOWHOT,Gas Stoves,23.0,300.0,37.817,2.017,8990.0,1.091,2.054,4.094,0.566
+KENT,Gas Stoves,6.0,300.0,46.357,1.644,9649.0,1.0,1.683,4.203,0.566
+Vidiem,Gas Stoves,13.0,250.0,36.751,1.208,11990.0,1.538,3.805,4.184,0.472
+PEPL,Gas Stoves,1.0,200.0,17.881,0.593,3449.0,2.0,0.0,3.8,0.377
+BEYOND BY BYONDNXT,Gas Stoves,2.0,200.0,58.548,1.635,9504.5,2.5,-0.595,4.2,0.377
+Omen Changing Lives,Gas Stoves,3.0,200.0,44.422,0.258,1652.0,1.0,-0.015,3.798,0.377
+Whirlpool,Gas Stoves,2.0,150.0,48.44,1.977,11740.0,1.0,-4.512,4.0,0.283
+Wonderchef,Gas Stoves,7.0,100.0,43.383,0.49,3799.0,1.8,6.718,4.197,0.189
+Jyoti,Gas Stoves,10.0,100.0,46.101,0.901,8990.0,1.0,0.992,4.001,0.189
+Hindflame,Gas Stoves,2.0,100.0,48.75,0.151,1135.5,1.0,1.585,3.6,0.189
+GOLDEN SURYA,Gas Stoves,3.0,100.0,59.211,0.214,2328.0,1.333,0.441,3.408,0.189
+Green Haven,Gas Stoves,1.0,100.0,57.151,0.516,2999.0,1.0,0.0,4.1,0.189
+SUNSHINE,Gas Stoves,5.0,100.0,41.128,0.968,7999.0,1.0,2.48,3.9,0.189
+AST,Gas Stoves,1.0,50.0,25.713,0.255,1485.0,1.0,5.573,4.9,0.094
+URBAN CHEF,Gas Stoves,11.0,50.0,71.612,0.829,4799.0,1.0,-0.559,3.574,0.094
+zarp,Gas Stoves,1.0,50.0,,,,,,4.4,0.094
+KINZILLA,Gas Stoves,1.0,50.0,,,,,,4.0,0.094
+HORNBILLS,Gas Stoves,6.0,0.0,,,,,,2.683,0.0
+GURUBHAI EQUIPMENTS,Gas Stoves,5.0,0.0,68.954,0.463,2474.0,2.0,2.375,3.28,0.0
+BLAPOXE,Gas Stoves,1.0,0.0,61.94,0.15,875.0,1.0,0.0,3.0,0.0
+Cello,Gas Stoves,5.0,0.0,,,,,,3.9,0.0
+Livspace,Gas Stoves,2.0,0.0,46.866,2.15,12499.0,1.5,-4.377,4.1,0.0
+Milton (original),Gas Stoves,4.0,0.0,,,,,,4.133,0.0
+Impex,Gas Stoves,5.0,0.0,36.871,0.478,2870.5,1.0,1.371,3.7,0.0
+SUN GLOBE,Gas Stoves,12.0,0.0,48.197,1.063,6399.0,1.545,0.388,3.6,0.0
+SHoRI,Gas Stoves,4.0,0.0,16.25,0.26,650.0,1.0,3.854,4.0,0.0
+VISMAY'S,Gas Stoves,1.0,0.0,66.689,0.172,999.0,1.0,-32.452,3.9,0.0
+TRAMONTINA,Gas Stoves,1.0,0.0,,,,,,,0.0
+V-Guard,Gas Stoves,8.0,0.0,45.846,0.611,3190.0,1.0,-2.923,4.012,0.0
+AGARO,Egg Boilers,3.0,20000.0,54.98,1.416,1574.0,7.0,-2.922,4.4,28.694
+amazon basics,Egg Boilers,5.0,11300.0,34.616,0.638,679.0,1.0,3.24,4.186,16.212
+Milton (Hydro Valves),Egg Boilers,2.0,9000.0,41.345,1.358,924.0,1.0,8.905,4.133,12.912
+SOFLIN,Egg Boilers,1.0,7000.0,70.07,0.428,299.0,1.0,0.43,4.0,10.043
+KENT,Egg Boilers,4.0,4800.0,40.652,1.513,999.0,1.25,1.567,4.2,6.887
+Lifelong,Egg Boilers,4.0,3600.0,68.609,0.976,599.0,1.0,0.11,4.128,5.165
+THEMISTO,Egg Boilers,2.0,2400.0,39.574,0.676,459.0,1.0,3.689,4.1,3.443
+LONGWAY,Egg Boilers,14.0,2300.0,51.754,0.581,407.5,1.0,1.329,4.267,3.3
+Milton (original),Egg Boilers,3.0,1200.0,60.02,1.715,1199.0,1.0,1.852,3.049,1.722
+truTRTL,Egg Boilers,9.0,1200.0,47.275,0.69,479.0,1.0,8.174,4.275,1.722
+wipro,Egg Boilers,3.0,1200.0,34.847,2.299,1424.0,2.5,-1.787,4.0,1.722
+Prestige,Egg Boilers,2.0,1100.0,22.155,1.711,1667.5,1.5,1.746,3.982,1.578
+Glen,Egg Boilers,9.0,1000.0,30.989,2.334,1594.5,1.833,1.72,3.989,1.435
+PHILIPS,Egg Boilers,1.0,1000.0,,,,,,4.3,1.435
+Borosil,Egg Boilers,2.0,600.0,35.026,2.216,1449.0,4.0,-0.709,3.9,0.861
+ZOVEST,Egg Boilers,9.0,350.0,68.249,0.499,349.0,1.0,13.667,3.948,0.502
+Krewulz,Egg Boilers,7.0,200.0,,,,,,3.577,0.287
+Generic,Egg Boilers,42.0,200.0,42.4,3.516,499.0,1.111,5.23,3.712,0.287
+Commence,Egg Boilers,2.0,150.0,27.322,0.571,399.0,1.0,1.157,4.2,0.215
+GILTON,Egg Boilers,1.0,100.0,70.17,0.426,298.0,2.0,0.489,3.9,0.143
+HOMEBASIC,Egg Boilers,2.0,100.0,22.044,0.557,389.0,1.0,3.024,3.102,0.143
+Gyanadh,Egg Boilers,1.0,100.0,60.06,0.571,399.0,1.0,-1.037,3.6,0.143
+RINSHIK,Egg Boilers,2.0,100.0,78.976,0.571,412.0,1.5,30.314,4.7,0.143
+ATHRZ,Egg Boilers,1.0,100.0,,,,,,3.8,0.143
+Essentials by SOLARA,Egg Boilers,1.0,100.0,36.691,1.358,949.0,1.0,-3.676,5.0,0.143
+dokro,Egg Boilers,7.0,100.0,20.481,0.697,499.0,1.0,5.242,4.297,0.143
+Puno,Egg Boilers,2.0,50.0,60.926,0.279,194.5,1.0,19.379,3.798,0.072
+Shivnex,Egg Boilers,1.0,50.0,80.053,0.428,299.0,1.0,1.051,3.0,0.072
+TM&W,Egg Boilers,27.0,50.0,53.629,2.688,1599.0,1.167,-6.135,2.958,0.072
+PRINGLE,Egg Boilers,2.0,50.0,37.368,1.873,1309.0,1.0,4.283,3.863,0.072
+Hatchpro,Egg Boilers,19.0,50.0,39.728,3.14,3075.0,1.0,-0.087,3.942,0.072
+FEDUS,Egg Boilers,2.0,50.0,28.613,2.142,1449.0,1.5,4.274,3.9,0.072
+Russell Hobbs,Egg Boilers,1.0,50.0,13.955,3.564,2491.0,3.0,6.445,4.4,0.072
+DealZone,Egg Boilers,1.0,50.0,30.03,1.0,699.0,2.0,7.684,3.0,0.072
+AUORK,Egg Boilers,1.0,0.0,,,,,,,0.0
+ABHAS,Egg Boilers,1.0,0.0,,,,,,,0.0
+ATAA ENTERPRISE,Egg Boilers,1.0,0.0,,,,,,,0.0
+ARDAKI,Egg Boilers,2.0,0.0,,,,,,4.05,0.0
+AOXITO,Egg Boilers,1.0,0.0,,,,,,4.0,0.0
+Exxelo,Egg Boilers,1.0,0.0,,,,,,5.0,0.0
+Elite Gourmet,Egg Boilers,7.0,0.0,38.539,5.122,3623.0,2.857,-10.797,4.586,0.0
+ELITEWAVE,Egg Boilers,1.0,0.0,56.446,0.498,348.0,1.0,-8.621,3.0,0.0
+Elina,Egg Boilers,2.0,0.0,61.116,1.386,969.0,1.0,0.446,3.6,0.0
+DreamKraft,Egg Boilers,1.0,0.0,,,,,,4.2,0.0
+Dkriva,Egg Boilers,1.0,0.0,,,,,,3.5,0.0
+Dash,Egg Boilers,6.0,0.0,50.078,8.433,4530.0,2.0,-0.205,4.6,0.0
+Diamond Craft,Egg Boilers,1.0,0.0,50.951,0.701,490.0,1.0,0.977,5.0,0.0
+Clearline,Egg Boilers,1.0,0.0,48.01,1.93,1349.14,1.0,8.116,3.8,0.0
+DHRUV-PRO,Egg Boilers,1.0,0.0,47.905,7.08,4949.0,1.0,0.0,3.7,0.0
+DIGISMART,Egg Boilers,2.0,0.0,38.418,0.785,549.0,1.0,-0.993,4.0,0.0
+DHRUVPRO,Egg Boilers,1.0,0.0,18.973,2.144,1499.0,1.0,0.0,3.6,0.0
+CARTIFY,Egg Boilers,1.0,0.0,30.03,1.0,699.0,2.0,0.0,3.3,0.0
+Cello,Egg Boilers,1.0,0.0,,,,,,4.5,0.0
+Cemorze,Egg Boilers,2.0,0.0,,,,,,4.2,0.0
+Chuppinz,Egg Boilers,1.0,0.0,50.0,0.642,449.0,1.0,0.0,,0.0
+Arckord,Egg Boilers,4.0,0.0,74.716,0.542,379.0,1.0,0.334,3.45,0.0
+BLACK+DECKER,Egg Boilers,1.0,0.0,25.212,2.402,1679.0,1.0,0.0,4.1,0.0
+BL ELECTRONICS,Egg Boilers,5.0,0.0,35.035,0.928,649.0,1.0,0.0,3.26,0.0
+BALTRA,Egg Boilers,5.0,0.0,40.767,1.19,999.0,1.0,0.602,4.2,0.0
+CALANDIS,Egg Boilers,2.0,0.0,38.022,3.066,2143.0,1.5,-0.449,2.5,0.0
+BlueLux,Egg Boilers,2.0,0.0,80.053,0.428,299.0,1.0,1.119,2.6,0.0
+Baystore,Egg Boilers,1.0,0.0,36.874,0.451,315.0,1.0,0.0,,0.0
+BOTIST,Egg Boilers,1.0,0.0,,,,,,5.0,0.0
+AVMPHD,Egg Boilers,1.0,0.0,,,,,,3.6,0.0
+Aparna,Egg Boilers,1.0,0.0,,,,,,4.3,0.0
+AUREVO,Egg Boilers,7.0,0.0,,,,,,3.529,0.0
+"HUMBE&CO - Save Trees, Save Earth",Egg Boilers,19.0,0.0,69.025,0.718,499.0,1.1,1.869,2.912,0.0
+HOme HELPer,Egg Boilers,1.0,0.0,,,,,,1.0,0.0
+HOMEYKARTZ,Egg Boilers,1.0,0.0,,,,,,3.4,0.0
+GS E-Com,Egg Boilers,1.0,0.0,,,,,,,0.0
+Faber,Egg Boilers,1.0,0.0,47.831,1.858,1299.0,1.0,11.148,3.9,0.0
+KITCHEN SUNRAY,Egg Boilers,2.0,0.0,53.109,0.592,413.5,1.5,0.69,4.7,0.0
+KHUSHI UDYOG,Egg Boilers,1.0,0.0,,,,,,1.0,0.0
+KHUSHI LIQUID,Egg Boilers,1.0,0.0,33.389,0.571,399.0,1.0,0.979,3.6,0.0
+KENNGO,Egg Boilers,1.0,0.0,10.923,0.828,579.0,1.0,10.621,3.8,0.0
+JELLEX,Egg Boilers,1.0,0.0,,,,,,3.9,0.0
+Jyoaa,Egg Boilers,1.0,0.0,,,,,,,0.0
+Inllex,Egg Boilers,2.0,0.0,50.017,4.29,2999.0,1.0,0.0,3.2,0.0
+KITCHENSTYLENT WITH DEVICE OF K,Egg Boilers,1.0,0.0,,,,,,4.0,0.0
+LUNA HEALTH CARE,Egg Boilers,1.0,0.0,,,,,,3.6,0.0
+Leeonz,Egg Boilers,3.0,0.0,33.5,0.571,399.0,1.0,0.0,3.333,0.0
+Lifera,Egg Boilers,1.0,0.0,60.06,0.571,399.0,1.0,0.0,2.7,0.0
+Lumevo,Egg Boilers,1.0,0.0,,,,,,,0.0
+Keviv,Egg Boilers,3.0,0.0,,,,,,4.7,0.0
+KROCOS,Egg Boilers,3.0,0.0,,,,,,4.0,0.0
+Kinoki,Egg Boilers,1.0,0.0,,,,,,4.0,0.0
+KP MART,Egg Boilers,1.0,0.0,,,,,,,0.0
+MISUHROBIR,Egg Boilers,1.0,0.0,42.918,0.571,399.0,1.0,0.0,3.6,0.0
+METRO IMPEX,Egg Boilers,14.0,0.0,,,,,,3.007,0.0
+MARJI&ANUVRUTTI,Egg Boilers,1.0,0.0,,,,,,3.1,0.0
+HSR,Egg Boilers,1.0,0.0,,,,,,4.0,0.0
+Hilton,Egg Boilers,1.0,0.0,33.75,0.758,530.0,1.0,4.782,5.0,0.0
+Hindflame,Egg Boilers,2.0,0.0,60.51,0.621,434.0,1.0,-8.839,4.05,0.0
+HomeAra,Egg Boilers,1.0,0.0,50.25,0.569,398.0,1.0,0.719,4.1,0.0
+HevenX,Egg Boilers,1.0,0.0,75.006,4.29,2999.0,1.0,34.424,,0.0
+Inalsa,Egg Boilers,1.0,0.0,29.917,3.003,2099.0,1.0,3.008,4.0,0.0
+GRENOWORLD,Egg Boilers,2.0,0.0,56.292,0.928,649.0,1.0,0.0,4.25,0.0
+GODFLY,Egg Boilers,1.0,0.0,,,,,,,0.0
+GNOLY,Egg Boilers,1.0,0.0,50.025,1.429,999.0,1.0,0.0,,0.0
+HELLYZ,Egg Boilers,1.0,0.0,,,,,,4.1,0.0
+HETSHIV,Egg Boilers,1.0,0.0,55.617,0.571,399.0,1.0,0.0,,0.0
+GHE,Egg Boilers,1.0,0.0,,,,,,4.4,0.0
+GI9IUS SALES,Egg Boilers,1.0,0.0,76.982,0.428,299.0,1.0,-13.496,,0.0
+PRO365,Egg Boilers,1.0,0.0,,,,,,4.1,0.0
+PRAISH,Egg Boilers,1.0,0.0,54.936,0.451,315.0,1.0,0.0,3.0,0.0
+PRAHAJ,Egg Boilers,10.0,0.0,,,,,,3.733,0.0
+PHYSIONAKSH,Egg Boilers,1.0,0.0,55.617,0.571,399.0,3.0,0.0,5.0,0.0
+OLYRA,Egg Boilers,1.0,0.0,,,,,,,0.0
+Ornalight,Egg Boilers,1.0,0.0,,,,,,4.7,0.0
+Ndeal,Egg Boilers,6.0,0.0,32.803,10.752,8099.0,1.167,6.312,2.65,0.0
+Nityasiddh,Egg Boilers,1.0,0.0,,,,,,3.6,0.0
+MR BRAND CREATION,Egg Boilers,3.0,0.0,,,,,,3.733,0.0
+Maricha enterprises,Egg Boilers,1.0,0.0,,,,,,,0.0
+NUTRICOOK,Egg Boilers,1.0,0.0,,,,,,4.2,0.0
+NRBH,Egg Boilers,1.0,0.0,70.07,0.428,299.0,1.0,0.0,4.0,0.0
+M Sung,Egg Boilers,1.0,0.0,30.03,1.0,699.0,1.0,7.383,3.0,0.0
+RK INCUBATORS,Egg Boilers,1.0,0.0,8.586,9.155,6399.0,2.0,-0.023,3.3,0.0
+PRONEST,Egg Boilers,1.0,0.0,27.322,0.571,399.0,1.0,0.302,4.0,0.0
+RED APPEL,Egg Boilers,9.0,0.0,54.993,1.024,501.0,1.0,0.0,3.071,0.0
+SINGER,Egg Boilers,1.0,0.0,47.831,1.858,1299.0,1.0,0.0,5.0,0.0
+SHOPASTIQ,Egg Boilers,1.0,0.0,,,,,,3.4,0.0
+SRESTHA HOME APPLIANCES,Egg Boilers,4.0,0.0,63.063,0.528,369.0,1.0,7.162,2.667,0.0
+SNAPPSY,Egg Boilers,1.0,0.0,44.781,4.897,3423.0,1.0,-2.479,,0.0
+STYLEHEAVEN,Egg Boilers,2.0,0.0,44.051,4.528,3165.0,2.5,-0.371,,0.0
+SUNFLAME,Egg Boilers,1.0,0.0,48.979,1.715,1199.0,1.0,1.521,3.3,0.0
+Seenoz,Egg Boilers,1.0,0.0,75.023,1.143,799.0,1.0,1.097,5.0,0.0
+STAR ANMOL,Egg Boilers,1.0,0.0,42.404,0.494,345.0,1.0,0.0,,0.0
+Shimol,Egg Boilers,2.0,0.0,61.011,0.557,389.5,1.0,0.0,4.5,0.0
+ROUMYKS,Egg Boilers,1.0,0.0,,,,,,3.5,0.0
+Robocraze,Egg Boilers,1.0,0.0,78.739,4.848,3389.0,1.0,7.979,1.0,0.0
+Rhobos,Egg Boilers,1.0,0.0,53.351,2.001,1399.0,1.0,3.074,5.0,0.0
+RunBaisen,Egg Boilers,1.0,0.0,53.888,0.857,599.0,1.0,0.0,,0.0
+SHINORIC,Egg Boilers,1.0,0.0,,,,,,,0.0
+RENARSH,Egg Boilers,1.0,0.0,70.154,0.498,348.0,1.0,0.0,3.4,0.0
+Pigeon,Egg Boilers,1.0,0.0,41.081,1.092,763.0,3.0,1.464,2.7,0.0
+Suzec,Egg Boilers,2.0,0.0,,,,,,3.9,0.0
+Snevad,Egg Boilers,1.0,0.0,,,,,,3.4,0.0
+Skyline,Egg Boilers,1.0,0.0,,,,,,3.4,0.0
+Simxen,Egg Boilers,1.0,0.0,,,,,,4.0,0.0
+Simois,Egg Boilers,1.0,0.0,76.493,1.143,799.0,1.0,0.0,5.0,0.0
+Shree,Egg Boilers,1.0,0.0,70.07,0.428,299.0,1.0,0.0,3.8,0.0
+Shopper52,Egg Boilers,1.0,0.0,50.025,1.429,999.0,1.0,-4.339,3.8,0.0
+TEBLITE,Egg Boilers,1.0,0.0,64.064,0.514,359.0,1.0,0.0,4.1,0.0
+The Better Home,Egg Boilers,2.0,0.0,61.024,1.393,974.0,1.5,1.466,4.0,0.0
+Thrivanta,Egg Boilers,1.0,0.0,,,,,,2.5,0.0
+VAKTAVYA,Egg Boilers,1.0,0.0,,,,,,3.5,0.0
+THEODORE,Egg Boilers,2.0,0.0,,,,,,4.0,0.0
+TONSYL,Egg Boilers,1.0,0.0,,,,,,4.5,0.0
+TOTAL,Egg Boilers,1.0,0.0,,,,,,4.2,0.0
+TREAT ZONE,Egg Boilers,24.0,0.0,,,,,,3.617,0.0
+Tarjni,Egg Boilers,2.0,0.0,48.582,3.346,2339.0,1.0,0.0,5.0,0.0
+Whitecloud TRANSFORMING HOMES,Egg Boilers,1.0,0.0,67.4,0.466,326.0,1.0,0.0,4.5,0.0
+WENTTO,Egg Boilers,1.0,0.0,,,,,,5.0,0.0
+WENGTY,Egg Boilers,1.0,0.0,46.908,0.712,498.0,1.0,0.0,4.0,0.0
+WBD,Egg Boilers,1.0,0.0,,,,,,,0.0
+VT ENTERPRISE,Egg Boilers,1.0,0.0,,,,,,4.6,0.0
+YOGITECH,Egg Boilers,2.0,0.0,,,,,,4.3,0.0
+Wonderchef,Egg Boilers,4.0,0.0,25.05,2.144,1499.0,1.0,2.84,3.575,0.0
+Wouayu,Egg Boilers,35.0,0.0,,,,,,4.033,0.0
+Zirak,Egg Boilers,1.0,0.0,49.399,0.542,379.0,2.0,-0.3,4.0,0.0
+ZIRIXO,Egg Boilers,1.0,0.0,,,,,,5.0,0.0
+Wuze,Egg Boilers,2.0,0.0,30.965,0.542,379.0,1.5,-8.886,4.7,0.0
+banvertova,Egg Boilers,3.0,0.0,,,,,,3.65,0.0
+siddhmurti,Egg Boilers,1.0,0.0,,,,,,3.1,0.0
+evoloop,Egg Boilers,1.0,0.0,44.046,8.793,6146.0,4.0,-2.939,4.5,0.0
+wowobjects,Egg Boilers,1.0,0.0,45.729,3.99,2789.0,6.0,-0.614,2.9,0.0
+xcluma,Egg Boilers,2.0,0.0,68.0,0.732,512.0,1.0,0.0,3.75,0.0
+Milton (Hydro Valves),Rice & Pasta Cookers,1.0,6000.0,39.147,0.61,1399.0,1.0,2.755,4.0,29.412
+Prestige,Rice & Pasta Cookers,23.0,4700.0,30.179,1.314,3060.0,1.389,-0.873,3.86,23.039
+Pigeon,Rice & Pasta Cookers,23.0,2650.0,39.62,0.724,2327.5,4.3,0.897,3.899,12.99
+AGARO,Rice & Pasta Cookers,8.0,1600.0,27.9,1.653,3313.0,2.571,2.04,3.925,7.843
+Panasonic,Rice & Pasta Cookers,30.0,1400.0,26.432,1.638,4287.0,2.048,0.353,4.162,6.863
+V-Guard,Rice & Pasta Cookers,18.0,1050.0,32.813,1.553,3659.0,1.625,2.777,3.924,5.147
+KENT,Rice & Pasta Cookers,1.0,1000.0,44.862,0.697,1599.0,2.0,1.184,4.2,4.902
+IBELL,Rice & Pasta Cookers,3.0,400.0,47.558,1.023,2299.0,1.0,1.235,4.275,1.961
+USHA,Rice & Pasta Cookers,12.0,350.0,33.325,1.221,2899.0,2.6,4.457,3.644,1.716
+CUCKOO,Rice & Pasta Cookers,10.0,350.0,30.839,2.241,7549.0,1.5,4.568,3.973,1.716
+DIVYA,Rice & Pasta Cookers,26.0,200.0,33.737,1.69,2599.0,1.0,14.822,3.955,0.98
+nolta,Rice & Pasta Cookers,3.0,200.0,19.837,1.345,2975.0,1.0,2.599,4.2,0.98
+Hawkins,Rice & Pasta Cookers,1.0,50.0,12.613,2.856,6554.0,18.0,0.658,3.3,0.245
+CELLO,Rice & Pasta Cookers,3.0,50.0,33.273,1.132,2599.0,1.0,-5.436,4.179,0.245
+SHEFFIELD CLASSIC,Rice & Pasta Cookers,1.0,50.0,,,,,,4.0,0.245
+Faber,Rice & Pasta Cookers,5.0,50.0,47.522,1.679,1599.0,1.5,3.556,3.995,0.245
+Bluwings,Rice & Pasta Cookers,30.0,50.0,65.484,0.329,749.0,1.308,12.017,2.613,0.245
+KenBerry,Rice & Pasta Cookers,2.0,50.0,41.181,0.639,1481.0,1.0,-0.165,3.9,0.245
+ANNA ALUMINIUM,Rice & Pasta Cookers,2.0,50.0,,1.033,2411.5,1.0,-0.136,4.196,0.245
+opriQ,Rice & Pasta Cookers,1.0,50.0,36.187,1.39,3190.0,1.0,3.471,3.5,0.245
+Nova,Rice & Pasta Cookers,2.0,50.0,52.21,1.041,2389.0,3.0,1.47,3.804,0.245
+VARNA STAINLESS STEEL,Rice & Pasta Cookers,1.0,50.0,40.04,0.261,599.0,1.0,0.0,4.0,0.245
+Butterfly,Rice & Pasta Cookers,3.0,0.0,,,,,,3.8,0.0
+Borosil,Rice & Pasta Cookers,6.0,0.0,23.844,1.521,3374.0,1.5,-0.198,3.367,0.0
+Blueberry's,Rice & Pasta Cookers,12.0,0.0,24.513,0.89,1999.0,1.0,2.89,4.117,0.0
+CAPITAL CLEAN,Rice & Pasta Cookers,1.0,0.0,55.427,0.252,579.0,1.0,0.0,,0.0
+Chrisssmart,Rice & Pasta Cookers,1.0,0.0,,,,,,4.5,0.0
+ANNA KITEX,Rice & Pasta Cookers,1.0,0.0,,1.274,2923.0,1.0,-0.166,4.1,0.0
+BLACK+DECKER,Rice & Pasta Cookers,2.0,0.0,,,,,,3.7,0.0
+BALTRA,Rice & Pasta Cookers,1.0,0.0,,,,,,3.9,0.0
+EASY,Rice & Pasta Cookers,10.0,0.0,52.331,1.106,2367.5,1.0,-4.097,3.53,0.0
+Delta Mart,Rice & Pasta Cookers,2.0,0.0,,,,,,3.7,0.0
+Dash,Rice & Pasta Cookers,1.0,0.0,71.05,2.348,5388.3,3.0,-3.066,4.0,0.0
+Daiso,Rice & Pasta Cookers,1.0,0.0,32.563,0.699,1605.0,8.0,35.532,4.7,0.0
+DRAYA DEAL'S,Rice & Pasta Cookers,1.0,0.0,,,,,,,0.0
+FAXOFAB,Rice & Pasta Cookers,3.0,0.0,,,,,,3.1,0.0
+Expresso,Rice & Pasta Cookers,6.0,0.0,17.445,1.024,2379.0,1.0,2.151,3.8,0.0
+Ekdant,Rice & Pasta Cookers,1.0,0.0,,,,,,3.5,0.0
+GREENCHEF,Rice & Pasta Cookers,2.0,0.0,,,,1.0,,3.15,0.0
+Geek,Rice & Pasta Cookers,3.0,0.0,,,,,,3.933,0.0
+Granny Kitchen,Rice & Pasta Cookers,5.0,0.0,37.453,1.175,2748.5,2.0,-2.213,4.7,0.0
+Generic,Rice & Pasta Cookers,20.0,0.0,40.495,0.174,242.0,1.0,-1.976,4.037,0.0
+HARIO,Rice & Pasta Cookers,2.0,0.0,14.007,1.137,2609.0,2.0,5.6,4.05,0.0
+GEER ENTERPRISE,Rice & Pasta Cookers,3.0,0.0,,,,,,3.9,0.0
+GEVIENOL,Rice & Pasta Cookers,1.0,0.0,,,,,,4.8,0.0
+Eleenova,Rice & Pasta Cookers,2.0,0.0,,,,,,3.85,0.0
+Hilton,Rice & Pasta Cookers,1.0,0.0,28.58,1.089,2499.0,1.0,0.0,2.9,0.0
+Havells,Rice & Pasta Cookers,5.0,0.0,39.186,2.039,5190.0,4.0,-0.546,3.76,0.0
+HILEXI,Rice & Pasta Cookers,4.0,0.0,50.151,0.893,1999.0,1.0,-0.958,3.025,0.0
+InkOcean,Rice & Pasta Cookers,1.0,0.0,,,,,,3.9,0.0
+Inomata,Rice & Pasta Cookers,1.0,0.0,0.0,0.388,890.0,3.0,80.542,3.4,0.0
+Coghlan's,Rice & Pasta Cookers,1.0,0.0,60.526,2.252,5169.0,5.0,31.826,4.5,0.0
+Cookup,Rice & Pasta Cookers,1.0,0.0,,,,,,3.9,0.0
+Béaba,Rice & Pasta Cookers,1.0,0.0,,1.568,3599.0,1.0,0.0,4.3,0.0
+Crega,Rice & Pasta Cookers,1.0,0.0,72.014,0.61,1399.0,2.0,0.0,2.4,0.0
+Crompton,Rice & Pasta Cookers,2.0,0.0,38.898,1.329,3049.5,3.0,-4.349,3.55,0.0
+DAILY VRK,Rice & Pasta Cookers,1.0,0.0,60.321,0.086,198.0,1.0,0.0,4.0,0.0
+BLACK LIGER,Rice & Pasta Cookers,4.0,0.0,18.017,0.207,450.0,1.0,1.778,3.925,0.0
+Bajaj,Rice & Pasta Cookers,4.0,0.0,37.862,1.216,2790.0,2.333,-1.407,3.375,0.0
+ACQUASO,Rice & Pasta Cookers,1.0,0.0,,,,,,4.5,0.0
+ANNA,Rice & Pasta Cookers,1.0,0.0,,1.406,3226.0,,-1.338,4.0,0.0
+AMAZOR,Rice & Pasta Cookers,4.0,0.0,58.893,0.125,197.01,1.0,0.0,2.833,0.0
+Macook,Rice & Pasta Cookers,12.0,0.0,,,,,,4.0,0.0
+Luxshiny,Rice & Pasta Cookers,1.0,0.0,49.077,0.949,2179.0,6.0,-0.851,3.8,0.0
+Le Creuset,Rice & Pasta Cookers,1.0,0.0,,,,,,,0.0
+LAMGEIER,Rice & Pasta Cookers,1.0,0.0,,,,,,,0.0
+Kruvad,Rice & Pasta Cookers,1.0,0.0,65.487,0.391,897.0,2.0,-0.023,2.7,0.0
+Kenstar,Rice & Pasta Cookers,3.0,0.0,,,,,,4.3,0.0
+KUTCHINA,Rice & Pasta Cookers,9.0,0.0,,,,,,3.95,0.0
+KCL,Rice & Pasta Cookers,1.0,0.0,,,,,,4.6,0.0
+ISPACEX SN,Rice & Pasta Cookers,2.0,0.0,,,,,,4.1,0.0
+Joseph Joseph,Rice & Pasta Cookers,5.0,0.0,25.004,2.189,5024.0,1.0,8.919,4.24,0.0
+Instant Pot,Rice & Pasta Cookers,1.0,0.0,32.067,2.368,5434.0,3.0,1.141,4.8,0.0
+Neoflam,Rice & Pasta Cookers,2.0,0.0,,,,,,4.4,0.0
+NYRA,Rice & Pasta Cookers,8.0,0.0,16.125,1.056,2299.0,1.25,8.779,4.0,0.0
+Nayasa,Rice & Pasta Cookers,2.0,0.0,,,,,,4.0,0.0
+Milton (original),Rice & Pasta Cookers,2.0,0.0,35.335,0.366,840.0,4.0,-9.202,3.45,0.0
+Meyer,Rice & Pasta Cookers,1.0,0.0,18.865,0.654,1501.0,1.0,-3.078,3.8,0.0
+PREMIER,Rice & Pasta Cookers,7.0,0.0,,,,,,5.0,0.0
+POTSCAPE,Rice & Pasta Cookers,1.0,0.0,,,,,,4.2,0.0
+PHILLIN,Rice & Pasta Cookers,1.0,0.0,70.17,0.13,298.0,2.0,0.0,4.4,0.0
+PADMAVATHI ENTERPRISES,Rice & Pasta Cookers,5.0,0.0,35.793,0.089,209.0,1.0,-0.263,4.18,0.0
+Prabha,Rice & Pasta Cookers,2.0,0.0,34.986,0.987,2266.0,3.0,0.235,3.7,0.0
+Preethi,Rice & Pasta Cookers,7.0,0.0,,,,,,3.943,0.0
+Primeway,Rice & Pasta Cookers,1.0,0.0,,,,,,4.0,0.0
+Panasonic Smart Home,Rice & Pasta Cookers,1.0,0.0,,,,,,4.1,0.0
+RATEHALF,Rice & Pasta Cookers,1.0,0.0,,0.435,999.0,1.0,0.0,3.8,0.0
+Restokki,Rice & Pasta Cookers,1.0,0.0,,,,,,4.4,0.0
+SHAPAT,Rice & Pasta Cookers,1.0,0.0,,,,,,4.0,0.0
+OCTOPUSPRIME,Rice & Pasta Cookers,1.0,0.0,,,,,,1.0,0.0
+Mr.Cheff,Rice & Pasta Cookers,1.0,0.0,15.2,1.155,2650.0,1.0,0.0,3.7,0.0
+NABAAT,Rice & Pasta Cookers,1.0,0.0,56.32,0.152,349.0,1.0,2.481,4.3,0.0
+NAVARASA,Rice & Pasta Cookers,3.0,0.0,48.737,0.893,2050.0,1.0,0.0,3.9,0.0
+Mr. Cheff,Rice & Pasta Cookers,1.0,0.0,17.476,0.926,2125.0,1.0,0.0,4.3,0.0
+SK Metals,Rice & Pasta Cookers,1.0,0.0,,,,1.0,,4.6,0.0
+SHREESAMP,Rice & Pasta Cookers,2.0,0.0,59.617,0.391,897.0,2.0,-0.014,2.7,0.0
+SHIKSHA PATRI,Rice & Pasta Cookers,1.0,0.0,36.087,1.392,3195.0,1.0,6.436,,0.0
+SHARP,Rice & Pasta Cookers,1.0,0.0,,,,,,3.9,0.0
+Rightfest,Rice & Pasta Cookers,2.0,0.0,62.531,0.326,749.0,1.0,0.005,3.1,0.0
+SOWBAGHYA,Rice & Pasta Cookers,1.0,0.0,52.739,0.432,992.0,1.0,-5.013,3.7,0.0
+Shoppers Hub PNQ,Rice & Pasta Cookers,2.0,0.0,53.882,5.176,11880.0,1.0,0.0,,0.0
+SOLARA,Rice & Pasta Cookers,13.0,0.0,,,,,,3.808,0.0
+Sumeet,Rice & Pasta Cookers,1.0,0.0,5.901,0.66,1515.0,1.0,17.569,4.5,0.0
+Skyline,Rice & Pasta Cookers,1.0,0.0,,,,,,1.9,0.0
+Shri & Sam,Rice & Pasta Cookers,1.0,0.0,,,,,,4.2,0.0
+Supvox,Rice & Pasta Cookers,1.0,0.0,72.012,0.666,1529.0,1.0,-1.825,5.0,0.0
+ULTRON,Rice & Pasta Cookers,16.0,0.0,27.048,1.15,2799.0,1.0,-0.197,3.781,0.0
+The Better Home,Rice & Pasta Cookers,1.0,0.0,44.006,1.83,4199.0,1.0,0.0,,0.0
+SREERAM,Rice & Pasta Cookers,1.0,0.0,,,,,,4.3,0.0
+Sakura,Rice & Pasta Cookers,1.0,0.0,47.393,0.435,999.0,3.0,-3.603,4.5,0.0
+USA Pan,Rice & Pasta Cookers,1.0,0.0,,,,,,4.5,0.0
+Terra Charms,Rice & Pasta Cookers,1.0,0.0,62.811,0.81,1859.07,1.0,0.0,3.5,0.0
+VATTU,Rice & Pasta Cookers,1.0,0.0,60.25,0.346,795.0,1.0,-4.3,3.3,0.0
+VB DACE CHEF INSPIRED,Rice & Pasta Cookers,1.0,0.0,14.645,2.603,5974.0,1.0,1.739,4.1,0.0
+Wonderchef,Rice & Pasta Cookers,1.0,0.0,52.02,1.045,2399.0,1.0,0.0,3.5,0.0
+Yopple,Rice & Pasta Cookers,1.0,0.0,82.216,0.387,889.0,1.0,0.0,2.8,0.0
+WRAPOK,Rice & Pasta Cookers,4.0,0.0,28.579,0.831,1657.0,3.667,-5.989,4.4,0.0
+WWW.THROWPILLOW.IN,Rice & Pasta Cookers,12.0,0.0,41.586,0.504,1119.0,1.0,3.99,4.333,0.0
+advancedestore,Rice & Pasta Cookers,2.0,0.0,38.3,0.091,209.0,1.0,0.0,5.0,0.0
+ZOJIRUSHI,Rice & Pasta Cookers,1.0,0.0,37.5,17.171,39407.0,1.0,0.0,4.6,0.0
+amazon basics,Rice & Pasta Cookers,1.0,0.0,45.551,1.139,2613.0,1.0,10.363,3.1,0.0
+pentastara,Rice & Pasta Cookers,1.0,0.0,30.06,0.152,349.0,1.0,0.0,,0.0
+pmw,Rice & Pasta Cookers,8.0,0.0,28.857,0.11,248.0,1.125,1.586,3.838,0.0
+treon,Rice & Pasta Cookers,1.0,0.0,,,,,,,0.0
+uxcell,Rice & Pasta Cookers,1.0,0.0,67.936,0.07,160.0,1.0,3.266,4.1,0.0
+woshow,Rice & Pasta Cookers,1.0,0.0,50.0,1.301,2986.0,12.0,3.331,,0.0
+PHILIPS,Air Fryers,32.0,27400.0,24.984,1.255,7649.0,3.917,-0.672,4.235,32.197
+Pigeon,Air Fryers,12.0,6400.0,50.082,0.538,4437.5,3.2,2.24,3.708,7.521
+SOLARA,Air Fryers,8.0,6000.0,37.048,1.443,8999.0,1.2,9.147,4.203,7.051
+Inalsa,Air Fryers,28.0,5550.0,56.226,1.417,5399.0,1.619,3.381,4.075,6.522
+COOKWELL,Air Fryers,2.0,5000.0,62.233,0.602,3399.0,1.0,2.164,4.3,5.875
+KENT,Air Fryers,22.0,4950.0,56.182,0.849,6074.0,1.182,2.293,4.0,5.817
+Havells,Air Fryers,12.0,4600.0,49.659,0.837,5699.0,7.364,-0.632,4.221,5.405
+Ninja,Air Fryers,16.0,4100.0,22.046,2.942,16999.0,2.0,6.53,4.352,4.818
+NUTRICOOK,Air Fryers,9.0,2400.0,36.85,1.448,10499.0,1.0,4.126,4.371,2.82
+Lifelong,Air Fryers,15.0,2050.0,58.53,1.115,7999.0,1.0,18.765,3.244,2.409
+Milton (Hydro Valves),Air Fryers,5.0,2000.0,41.535,0.727,6023.5,1.0,8.784,4.1,2.35
+Faber,Air Fryers,19.0,1900.0,58.995,1.232,6790.0,1.533,2.257,4.202,2.233
+AGARO,Air Fryers,7.0,1350.0,51.889,0.941,9999.0,4.4,-2.385,4.255,1.586
+Prestige,Air Fryers,4.0,1250.0,28.899,0.823,5587.0,2.0,1.634,3.992,1.469
+IBELL,Air Fryers,18.0,1100.0,56.296,0.587,2950.0,1.0,1.159,4.224,1.293
+AMERICAN MICRONIC,Air Fryers,3.0,1100.0,31.302,1.204,6887.0,1.667,0.229,4.5,1.293
+HARKOIZ,Air Fryers,2.0,1000.0,77.156,0.042,239.0,1.0,11.417,3.55,1.175
+amazon basics,Air Fryers,3.0,900.0,61.038,0.598,3409.0,1.0,8.071,4.178,1.058
+NUUK,Air Fryers,5.0,650.0,25.002,1.594,8999.0,1.0,8.502,4.6,0.764
+Wonderchef,Air Fryers,17.0,600.0,50.336,0.86,4999.0,2.333,3.036,4.085,0.705
+EDT,Air Fryers,3.0,500.0,21.608,2.018,11998.0,1.667,2.26,4.0,0.588
+Instant Pot,Air Fryers,5.0,400.0,42.785,2.144,33494.275,1.0,5.403,4.798,0.47
+Glen,Air Fryers,16.0,350.0,43.693,1.003,6940.0,2.533,-1.315,4.196,0.411
+Bosch,Air Fryers,4.0,350.0,47.167,1.663,8596.5,6.75,-6.285,4.313,0.411
+GREENCHEF,Air Fryers,1.0,300.0,50.008,0.531,2999.0,7.0,6.251,4.0,0.353
+NESTER,Air Fryers,4.0,300.0,12.323,3.216,16498.5,1.25,12.199,4.25,0.353
+Libra,Air Fryers,3.0,300.0,46.149,1.181,6499.0,1.0,3.493,4.0,0.353
+Hamilton Beach,Air Fryers,5.0,250.0,43.814,2.555,28159.815,1.75,3.154,4.32,0.294
+KILIG,Air Fryers,4.0,200.0,54.784,2.008,12490.0,1.667,3.455,4.049,0.235
+Judge,Air Fryers,1.0,200.0,33.954,0.584,3299.0,1.0,4.328,4.2,0.235
+Cosori,Air Fryers,2.0,200.0,30.507,1.783,17045.37,2.0,6.655,4.6,0.235
+VANTRO,Air Fryers,1.0,200.0,62.003,1.346,7599.0,2.0,6.003,4.3,0.235
+ALPHANITE,Air Fryers,2.0,150.0,85.076,0.043,247.0,1.0,7.179,4.234,0.176
+The Better Home,Air Fryers,2.0,150.0,54.124,0.69,3899.0,1.0,0.538,4.3,0.176
+USHA,Air Fryers,3.0,100.0,41.342,0.88,4543.5,1.5,2.588,4.006,0.118
+Crompton,Air Fryers,4.0,100.0,49.243,0.973,5174.5,4.75,-4.92,4.979,0.118
+SINGER,Air Fryers,1.0,100.0,60.276,0.703,3972.0,2.0,10.372,4.6,0.118
+Toree,Air Fryers,4.0,100.0,46.053,0.59,4999.0,1.0,1.347,4.203,0.118
+Hoyehola,Air Fryers,1.0,100.0,81.054,0.05,284.0,1.0,0.499,3.8,0.118
+acerpure,Air Fryers,2.0,50.0,69.961,1.063,6149.0,1.0,-14.639,4.3,0.059
+ULTRON,Air Fryers,4.0,50.0,54.078,0.528,2699.0,1.0,-1.538,4.943,0.059
+wipro,Air Fryers,2.0,50.0,47.554,0.758,6739.85,2.0,-21.558,4.2,0.059
+Impex,Air Fryers,6.0,50.0,47.812,1.177,5626.0,1.0,2.719,3.625,0.059
+Bajaj,Air Fryers,1.0,50.0,17.625,0.903,5099.0,3.0,3.884,3.5,0.059
+DEIME,Air Fryers,1.0,50.0,60.006,0.708,3999.0,2.0,-35.351,4.4,0.059
+Morphy Richards,Air Fryers,6.0,50.0,65.804,0.804,6919.0,3.4,1.892,3.83,0.059
+RYKEN,Air Fryers,1.0,50.0,37.531,1.326,7490.0,1.0,11.998,4.7,0.059
+Palksky,Air Fryers,1.0,50.0,58.601,0.039,219.0,2.0,2.846,3.9,0.059
+Butterfly,Air Fryers,1.0,0.0,31.672,0.726,4099.0,3.0,6.817,3.8,0.0
+DOMESTICA,Air Fryers,6.0,0.0,38.831,1.939,10119.0,1.167,1.536,4.3,0.0
+COOLCOLD,Air Fryers,3.0,0.0,60.194,0.07,349.0,1.0,3.958,4.05,0.0
+CUISINART,Air Fryers,1.0,0.0,25.717,4.604,25999.0,1.0,-9.409,4.4,0.0
+Colorbot,Air Fryers,2.0,0.0,43.615,1.217,6874.0,1.0,-2.05,,0.0
+Bakken- Swiss,Air Fryers,1.0,0.0,55.028,0.159,899.0,2.0,0.0,4.4,0.0
+BYKITCHEN,Air Fryers,1.0,0.0,20.067,0.042,239.0,1.0,0.0,4.1,0.0
+BERGNER,Air Fryers,1.0,0.0,34.678,2.302,12999.0,1.0,0.0,3.3,0.0
+Apluskis,Air Fryers,1.0,0.0,66.778,0.035,199.0,1.0,0.0,4.2,0.0
+ITUSHA,Air Fryers,1.0,0.0,59.56,0.072,404.0,2.0,3.304,4.2,0.0
+ITALIA,Air Fryers,2.0,0.0,33.893,0.974,5499.0,1.0,6.658,5.0,0.0
+HomeStore-YEP,Air Fryers,2.0,0.0,63.83,0.051,289.0,1.0,0.0,4.0,0.0
+Hilton,Air Fryers,5.0,0.0,61.73,0.556,3296.0,1.25,-0.052,4.0,0.0
+Gyanadh,Air Fryers,1.0,0.0,55.586,0.141,799.0,1.0,0.0,5.0,0.0
+Generic,Air Fryers,2.0,0.0,29.973,1.611,9100.0,1.0,0.0,,0.0
+Haier,Air Fryers,2.0,0.0,45.527,1.103,6229.5,2.5,0.662,4.25,0.0
+ELLE Home,Air Fryers,2.0,0.0,42.952,1.061,5990.0,1.0,-5.601,5.0,0.0
+Everest,Air Fryers,1.0,0.0,52.865,0.584,3299.0,1.0,-5.967,5.0,0.0
+Ember Cookware,Air Fryers,2.0,0.0,,,,,,4.7,0.0
+FlairFinds,Air Fryers,1.0,0.0,75.551,0.022,122.0,1.0,10.088,3.9,0.0
+FEXME,Air Fryers,1.0,0.0,,,,,,3.3,0.0
+GCQ,Air Fryers,5.0,0.0,73.522,0.059,220.0,1.2,0.208,4.0,0.0
+GIDGIDL,Air Fryers,1.0,0.0,50.083,0.053,299.0,2.0,0.0,3.9,0.0
+GINOYA,Air Fryers,1.0,0.0,8.032,0.041,229.0,1.0,5.681,4.5,0.0
+Geek,Air Fryers,3.0,0.0,31.685,2.39,13499.0,1.0,2.117,3.7,0.0
+Diglett,Air Fryers,1.0,0.0,45.075,0.058,329.0,1.0,17.534,,0.0
+Dorca,Air Fryers,2.0,0.0,44.088,0.049,279.0,1.0,0.0,4.85,0.0
+EZILO,Air Fryers,1.0,0.0,,,,,,3.9,0.0
+ENSIEN,Air Fryers,1.0,0.0,54.559,0.584,3299.0,1.0,10.057,,0.0
+AMENDAS,Air Fryers,1.0,0.0,72.573,0.049,274.0,1.0,-3.262,4.0,0.0
+Barebeauty,Air Fryers,1.0,0.0,64.128,0.032,179.0,1.0,-1.225,5.0,0.0
+Blueberry's,Air Fryers,4.0,0.0,43.463,1.118,6943.0,1.0,0.025,4.25,0.0
+Borosil,Air Fryers,7.0,0.0,36.232,0.97,5310.425,1.833,-5.048,4.05,0.0
+CELLO,Air Fryers,1.0,0.0,,,,,,4.3,0.0
+CELLECOR,Air Fryers,3.0,0.0,71.143,0.562,3174.0,1.0,2.14,3.767,0.0
+CADLEC,Air Fryers,2.0,0.0,,,,,,4.2,0.0
+Maharaja Whiteline,Air Fryers,1.0,0.0,46.673,0.708,3999.0,4.0,2.103,4.1,0.0
+LEDVANCE,Air Fryers,6.0,0.0,39.622,1.312,7490.0,1.0,1.062,4.95,0.0
+Livspace,Air Fryers,2.0,0.0,42.86,1.417,7999.0,1.0,-3.96,5.0,0.0
+LIJIE,Air Fryers,2.0,0.0,77.578,0.04,224.0,1.0,0.0,4.1,0.0
+LUMI,Air Fryers,1.0,0.0,69.99,1.062,5999.0,1.0,0.0,5.0,0.0
+RAZACH,Air Fryers,2.0,0.0,55.617,0.071,399.0,2.0,-6.705,3.9,0.0
+PRYAMOKSH WORLD,Air Fryers,1.0,0.0,63.439,0.039,219.0,1.0,-9.795,,0.0
+PHILLIN,Air Fryers,18.0,0.0,70.204,0.053,299.0,1.133,1.04,4.1,0.0
+OUTXE,Air Fryers,5.0,0.0,71.556,0.03,169.0,1.0,0.0,4.3,0.0
+NISHIV,Air Fryers,1.0,0.0,50.1,0.044,249.0,1.0,0.0,4.4,0.0
+Jaswanth,Air Fryers,1.0,0.0,76.752,0.037,209.0,1.0,0.0,3.5,0.0
+Jyoti,Air Fryers,2.0,0.0,30.431,2.743,15490.0,1.0,-4.697,4.5,0.0
+JECOB,Air Fryers,1.0,0.0,87.988,0.021,120.0,1.0,0.0,3.6,0.0
+Kenstar,Air Fryers,1.0,0.0,,,,,,3.3,0.0
+KAFF,Air Fryers,3.0,0.0,58.507,1.332,6663.99,4.333,-2.654,4.467,0.0
+Kenwood,Air Fryers,1.0,0.0,,,,,,4.3,0.0
+Snevad,Air Fryers,1.0,0.0,55.698,0.141,797.0,2.0,-0.051,3.9,0.0
+SHREESAMP,Air Fryers,1.0,0.0,50.156,0.141,797.0,1.0,0.0,3.9,0.0
+SToK,Air Fryers,5.0,0.0,42.382,1.084,6122.5,1.0,-2.418,4.24,0.0
+SHEFFIELD CLASSIC,Air Fryers,3.0,0.0,54.329,0.529,2999.0,1.0,1.811,4.0,0.0
+Reberyle,Air Fryers,1.0,0.0,55.617,0.071,399.0,2.0,-16.548,3.5,0.0
+Tower,Air Fryers,4.0,0.0,70.007,0.531,2999.0,2.0,-6.514,4.525,0.0
+Timyca,Air Fryers,1.0,0.0,,,,,,4.4,0.0
+The Dust Cover Lab,Air Fryers,9.0,0.0,68.035,0.057,324.0,1.0,-0.281,4.686,0.0
+THE HOMENCE,Air Fryers,4.0,0.0,57.225,0.053,299.0,1.0,6.53,3.825,0.0
+Stëgl,Air Fryers,1.0,0.0,,,,,,5.0,0.0
+Sujata,Air Fryers,2.0,0.0,28.997,1.403,7920.0,1.0,2.253,3.9,0.0
+Seropy,Air Fryers,1.0,0.0,,0.373,2108.87,2.0,6.68,4.0,0.0
+Ultrean,Air Fryers,1.0,0.0,,3.772,21297.76,1.0,0.0,4.6,0.0
+ZAKUDI,Air Fryers,1.0,0.0,55.055,0.08,449.0,1.0,0.91,4.0,0.0
+V-Guard,Air Fryers,1.0,0.0,47.277,1.027,5799.0,1.0,-0.535,5.0,0.0
+Trifecta,Air Fryers,1.0,0.0,35.765,0.08,449.0,1.0,2.908,4.0,0.0
+ZUSTPACK,Air Fryers,6.0,0.0,64.881,0.05,249.0,1.0,1.339,3.9,0.0
+Zulay Kitchen,Air Fryers,1.0,0.0,,,,,,4.0,0.0
+ZXZMZT,Air Fryers,1.0,0.0,,,,,,3.7,0.0
+axenta,Air Fryers,2.0,0.0,54.402,0.068,384.0,1.0,0.0,4.65,0.0
+truTRTL,Air Fryers,3.0,0.0,51.073,0.838,3199.0,1.0,8.916,4.533,0.0
