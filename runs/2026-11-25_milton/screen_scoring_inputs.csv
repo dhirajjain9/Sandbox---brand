@@ -11,14 +11,14 @@ id,mid,input,dir,floor,ceiling,weight,value,score
 5a,M5,"Amazon paid share of visibility (Cerebro, units-weighted)",L,0.1,0.6,0.3,0.264,67.19999999999999
 5b,M5,Qcomm sponsored share of placements,L,0.05,0.5,0.15,,
 5c,M5,"Qcomm ad share of voice (Blinkit, 12-mo avg)",L,0.05,0.4,0.15,,
-5d,M5,Active Meta + Google ads,L,20.0,300.0,0.2,,
+5d,M5,Active Meta + Google ads,L,20.0,300.0,0.2,0.0,100.0
 5e,M5,Paid share of web traffic,L,0.1,0.5,0.2,,
 6a,M6,Branded search trend (12m),H,-0.1,0.4,0.25,0.3,80.0
 6b,M6,Monthly web visits,H,50000.0,1500000.0,0.2,,
 6c,M6,Web visits growth,H,-0.1,0.3,0.1,,
-6d,M6,Instagram followers,H,50000.0,1000000.0,0.1,,
-6e,M6,Engagement rate,H,0.005,0.04,0.15,,
-6f,M6,Influencer collaborations (90d),H,0.0,60.0,0.2,,
+6d,M6,Instagram followers,H,50000.0,1000000.0,0.1,3360.0,0.0
+6e,M6,Engagement rate,H,0.005,0.04,0.15,0.0054,1.1428571428571432
+6f,M6,Influencer collaborations (90d),H,0.0,60.0,0.2,8.0,13.333333333333334
 7a,M7,Platforms listed on (of 3),H,0.0,3.0,0.2,1.0,33.33333333333333
 7b,M7,"Dark-store listing % (Blinkit, Sep-Nov)",H,0.1,0.8,0.3,,
 7c,M7,"Weighted OSA where listed (Zepto gas stoves, Oct 2026)",H,0.5,0.95,0.25,0.577,17.111111111111104
@@ -34,8 +34,8 @@ id,mid,input,dir,floor,ceiling,weight,value,score
 9e,M9,COD fee (D2C),H,0.0,50.0,0.05,,
 10a,M10,Amazon discount vs list price (revenue-weighted),L,0.15,0.6,0.3,0.419,40.22222222222223
 10b,M10,Deal days per month (Keepa chart reads),L,2.0,20.0,0.15,0.85,100.0
-10c,M10,D2C sitewide sales (90d),L,0.0,8.0,0.1,,
-10d,M10,D2C avg sale discount,L,0.1,0.5,0.1,,
+10c,M10,D2C sitewide sales (90d),L,0.0,8.0,0.1,1.0,87.5
+10d,M10,D2C avg sale discount,L,0.1,0.5,0.1,0.4,24.999999999999993
 10e,M10,Qcomm discount vs MRP (Zepto),L,0.1,0.5,0.1,0.45,12.499999999999996
 10f,M10,Sale-event volume lift,L,1.2,3.5,0.25,,
 11a,M11,Price index vs sub-category median (revenue-weighted),H,0.7,1.3,0.4,0.76,10.000000000000007
@@ -45,6 +45,6 @@ id,mid,input,dir,floor,ceiling,weight,value,score
 12a,M12,Top SKU share of sales (Amazon),L,0.1,0.6,0.35,0.32,55.99999999999999
 12b,M12,Top 3 SKUs share of sales,L,0.3,0.9,0.2,0.463,72.83333333333333
 12c,M12,Largest channel share (Amazon),L,0.5,0.95,0.2,0.985,0.0
-12d,M12,D2C catalogue size,H,20.0,300.0,0.15,,
+12d,M12,D2C catalogue size,H,20.0,300.0,0.15,36.0,5.714285714285714
 12e,M12,New families launched in 90 days,H,0.0,15.0,0.1,3.0,20.0
 13a,M13,Copycat listings per hero,L,0.0,30.0,1.0,18.2,39.333333333333336
