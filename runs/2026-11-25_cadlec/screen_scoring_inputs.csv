@@ -1,7 +1,7 @@
 id,mid,input,dir,floor,ceiling,weight,value,score
 2a,M2,"Hero families by volume (>=500 ratings, >=300 units/mo)",H,0.0,10.0,0.5,12.0,100.0
-2b,M2,"Hero ASINs by growth (YoY>=50%, >=300 units/mo) - not available, Helium 10 has no year-ago data",H,0.0,6.0,0.5,,
-3a,M3,"Order growth of established listings (YoY) - not available, Helium 10 has no year-ago data",H,0.0,0.3,0.4,,
+2b,M2,"Hero families growing >=50% faster than their category over 90 days, >=300 units/mo (90-day proxy, festive-normalised)",H,0.0,6.0,0.5,6.0,100.0
+3a,M3,"Order growth of hero families: median 90-day growth vs category (90-day proxy, festive-normalised)",H,0.0,0.3,0.4,0.73,100.0
 3b,M3,"Bestseller rank change of heroes (YoY, 4 families with a fair year-ago window, median)",H,-0.1,0.3,0.25,-0.43,0.0
 3c,M3,"Search rank, top-25 category keywords (5 hero ASINs, median of medians)",L,1.0,30.0,0.2,44.0,0.0
 3d,M3,Share of top-10 hero families launched in last 12 months,H,0.0,0.5,0.15,0.1,20.0
