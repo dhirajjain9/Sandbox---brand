@@ -1,13 +1,13 @@
 id,mid,input,dir,floor,ceiling,weight,value,score
 2a,M2,Hero families by volume (>=500 ratings),H,0.0,10.0,0.5,55.0,100.0
-2b,M2,"Hero ASINs by growth (YoY>=50%, >=300 units/mo)",H,0.0,6.0,0.5,3.0,50.0
-3a,M3,"Order growth of established listings (YoY, >=13 months old)",H,0.0,0.3,0.4,-0.02,0.0
+2b,M2,Hero families growing >=50% faster than sofa-cover category over 90 days (>=300 units/mo; new-brand rule),H,0.0,6.0,0.5,2.0,33.33333333333333
+3a,M3,Order growth of sofa-cover hero families: median 90-day growth vs category (new-brand rule),H,0.0,0.3,0.4,-0.05,0.0
 3b,M3,Bestseller rank improvement of heroes,H,-0.1,0.3,0.25,-0.744,0.0
 3c,M3,"Search rank, top-25 category keywords (best HOKIPO ASIN, median)",L,1.0,30.0,0.2,76.0,0.0
 3d,M3,Share of hero families launched in last 12 months,H,0.0,0.5,0.15,0.11,22.0
 4a,M4,Months heroes held top rank,H,0.0,12.0,0.5,2.5,20.833333333333336
 4b,M4,Median age of hero families (months),H,6.0,48.0,0.2,58.0,100.0
-4c,M4,"Growth vs category (sofa covers, established listings: +25% vs +76%)",H,-0.1,0.3,0.3,-0.51,0.0
+4c,M4,Sofa-cover 90-day growth vs category (+39% vs +95%; new-brand rule),H,-0.1,0.3,0.3,-0.29,0.0
 5a,M5,"Amazon paid share of visibility (top 3 ASINs, units-weighted)",L,0.1,0.6,0.3,0.422,35.6
 5b,M5,Qcomm sponsored share of placements,L,0.05,0.5,0.15,,
 5c,M5,"Qcomm ad share of voice (Blinkit, 12-mo avg)",L,0.05,0.4,0.15,,

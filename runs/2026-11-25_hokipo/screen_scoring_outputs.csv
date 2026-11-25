@@ -1,7 +1,7 @@
 output,must_clear,score,result,input_coverage_pct
-SKU Spikiness,No,32.0,Miss,100
+SKU Spikiness,No,28.6,Miss,100
 Demand Durability,No,41.3,Miss,76
 Qcomm Traction,No,6.7,Miss,55
 Customer Quality Signal,Yes,48.5,Miss,95
 Pricing Power,Yes,89.1,Clear,88
-Concentration Risk,No,73.0,Clear,100
+Concentration Risk,No,71.3,Clear,100
