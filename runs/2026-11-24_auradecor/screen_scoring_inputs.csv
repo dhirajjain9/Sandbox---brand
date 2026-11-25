@@ -11,14 +11,14 @@ id,mid,input,dir,floor,ceiling,weight,value,score
 5a,M5,"Marketplace paid share of visibility (Amazon, Cerebro)",L,0.1,0.6,0.3,0.155,88.99999999999999
 5b,M5,Qcomm sponsored share of placements,L,0.05,0.5,0.15,,
 5c,M5,"Qcomm ad share of voice (Blinkit, 12-mo avg)",L,0.05,0.4,0.15,0.164,67.42857142857143
-5d,M5,Active Meta + Google ads,L,20.0,300.0,0.2,,
+5d,M5,Active Meta + Google ads,L,20.0,300.0,0.2,0.0,100.0
 5e,M5,Paid share of web traffic,L,0.1,0.5,0.2,,
 6a,M6,Branded search trend (12m),H,-0.1,0.4,0.25,0.56,100.0
 6b,M6,Monthly web visits,H,50000.0,1500000.0,0.2,,
 6c,M6,Web visits growth,H,-0.1,0.3,0.1,,
-6d,M6,Instagram followers,H,50000.0,1000000.0,0.1,,
-6e,M6,Engagement rate,H,0.005,0.04,0.15,,
-6f,M6,Influencer collaborations (90d),H,0.0,60.0,0.2,,
+6d,M6,Instagram followers,H,50000.0,1000000.0,0.1,4675.0,0.0
+6e,M6,Engagement rate,H,0.005,0.04,0.15,0.013,22.857142857142858
+6f,M6,Influencer collaborations (90d),H,0.0,60.0,0.2,3.0,5.0
 7a,M7,Platforms listed on (of 3),H,0.0,3.0,0.2,1.0,33.33333333333333
 7b,M7,"Dark-store listing % (Blinkit, Sep-Nov)",H,0.1,0.8,0.3,0.724,89.14285714285714
 7c,M7,"Weighted OSA where listed (Blinkit, Sep-Nov)",H,0.5,0.95,0.25,0.665,36.66666666666668
@@ -27,15 +27,15 @@ id,mid,input,dir,floor,ceiling,weight,value,score
 8a,M8,Restocks per listed slot per week,H,0.0,0.3,0.4,,
 8b,M8,Qcomm search rank on category keywords (Blinkit),L,1.0,20.0,0.25,2.0,94.73684210526315
 8c,M8,Qcomm category share (Blinkit Home Decor),H,0.0,0.2,0.35,0.558,100.0
-9a,M9,Share of 1-2 star ratings,L,0.05,0.25,0.3,,
-9b,M9,Review issue share,L,0.02,0.15,0.3,,
+9a,M9,Share of 1-2 star ratings,L,0.05,0.25,0.3,0.143,53.5
+9b,M9,Review issue share,L,0.02,0.15,0.3,0.435,0.0
 9c,M9,"Average rating (Amazon, rating-weighted)",H,3.6,4.5,0.2,3.96,39.99999999999999
-9d,M9,Seller negative feedback,L,0.01,0.1,0.15,,
+9d,M9,Seller negative feedback,L,0.01,0.1,0.15,0.69,0.0
 9e,M9,COD fee (D2C),H,0.0,50.0,0.05,,
 10a,M10,Marketplace discount vs MRP (Amazon),L,0.15,0.6,0.3,0.635,0.0
 10b,M10,Coupon / deal days per month,L,2.0,20.0,0.15,5.54,80.33333333333333
-10c,M10,D2C sitewide sales (90d),L,0.0,8.0,0.1,,
-10d,M10,D2C avg sale discount,L,0.1,0.5,0.1,,
+10c,M10,D2C sitewide sales (90d),L,0.0,8.0,0.1,1.0,87.5
+10d,M10,D2C avg sale discount,L,0.1,0.5,0.1,0.5,0.0
 10e,M10,Qcomm discount vs MRP (Blinkit),L,0.1,0.5,0.1,0.62,0.0
 10f,M10,Sale-event volume lift,L,1.2,3.5,0.25,2.73,33.47826086956522
 11a,M11,"Price index vs same product type (SP per piece, blended)",H,0.7,1.3,0.4,0.76,10.000000000000007
@@ -45,6 +45,6 @@ id,mid,input,dir,floor,ceiling,weight,value,score
 12a,M12,Top SKU share of sales,L,0.1,0.6,0.35,0.084,100.0
 12b,M12,Top 3 SKUs share of sales,L,0.3,0.9,0.2,0.233,100.0
 12c,M12,Largest channel share of sales (Blinkit),L,0.5,0.95,0.2,0.875,16.666666666666657
-12d,M12,D2C catalogue size,H,20.0,300.0,0.15,,
+12d,M12,D2C catalogue size,H,20.0,300.0,0.15,478.0,100.0
 12e,M12,"New launches (90d, Amazon families)",H,0.0,15.0,0.1,4.0,26.666666666666668
 13a,M13,Copycat listings per hero,L,0.0,30.0,1.0,8.8,70.66666666666667

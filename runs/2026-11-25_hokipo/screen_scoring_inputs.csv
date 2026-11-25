@@ -17,7 +17,7 @@ id,mid,input,dir,floor,ceiling,weight,value,score
 6b,M6,Monthly web visits,H,50000.0,1500000.0,0.2,,
 6c,M6,Web visits growth,H,-0.1,0.3,0.1,,
 6d,M6,Instagram followers,H,50000.0,1000000.0,0.1,25500.0,0.0
-6e,M6,Engagement rate,H,0.005,0.04,0.15,0.0116,18.857142857142854
+6e,M6,Engagement rate,H,0.005,0.04,0.15,0.0005,0.0
 6f,M6,Influencer collaborations (90d),H,0.0,60.0,0.2,21.0,35.0
 7a,M7,Platforms listed on (of 3),H,0.0,3.0,0.2,0.0,0.0
 7b,M7,Dark-store listing %,H,0.1,0.8,0.3,0.0,0.0
@@ -28,7 +28,7 @@ id,mid,input,dir,floor,ceiling,weight,value,score
 8b,M8,Qcomm search rank on category keywords (Blinkit),L,1.0,20.0,0.25,,
 8c,M8,Qcomm category share,H,0.0,0.2,0.35,0.0,0.0
 9a,M9,Share of 1-2 star ratings,L,0.05,0.25,0.3,0.088,81.0
-9b,M9,Review issue share,L,0.02,0.15,0.3,0.32,0.0
+9b,M9,Review issue share,L,0.02,0.15,0.3,0.34,0.0
 9c,M9,Average rating (rating-weighted),H,3.6,4.5,0.2,4.13,58.88888888888887
 9d,M9,Seller negative feedback (90 days),L,0.01,0.1,0.15,0.04,66.66666666666666
 9e,M9,COD fee (D2C),H,0.0,50.0,0.05,,
