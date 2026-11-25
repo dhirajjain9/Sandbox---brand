@@ -32,7 +32,7 @@ id,mid,input,dir,floor,ceiling,weight,value,score
 9c,M9,"Average rating (rating-weighted, Helium 10)",H,3.6,4.5,0.2,3.84,26.666666666666643
 9d,M9,"Seller negative feedback, 90 days (RetailEZ, a multi-brand seller)",L,0.01,0.1,0.15,0.03,77.77777777777779
 9e,M9,COD fee (D2C),H,0.0,50.0,0.05,,
-10a,M10,Amazon discount vs list price (badge-weighted),L,0.15,0.6,0.3,,
+10a,M10,"Amazon discount vs list price (revenue-weighted, Keepa; peers 38-49%)",L,0.15,0.6,0.3,0.567,7.33333333333334
 10b,M10,Deal days per month (real promotions only),L,2.0,20.0,0.15,5.0,83.33333333333334
 10c,M10,D2C sitewide sales (90d),L,0.0,8.0,0.1,,
 10d,M10,D2C avg sale discount,L,0.1,0.5,0.1,,
