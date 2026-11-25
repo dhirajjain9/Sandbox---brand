@@ -23,6 +23,19 @@ NUMERIC = [
 ]
 
 
+def split_brand(df: pd.DataFrame, brand: str, seller: str, label_seller: str, label_other: str) -> pd.DataFrame:
+    """Split one brand name into two brands by seller.
+
+    Example: "Milton" sold by HYDRO VALVES. is Milton Home Appliances; every other
+    "Milton" listing is the original Milton (Hamilton Housewares) line.
+    """
+    is_brand = df["Brand"].str.casefold() == brand.casefold()
+    by_seller = df["Seller"].fillna("").str.strip().str.casefold() == seller.strip().casefold()
+    df.loc[is_brand & by_seller, "Brand"] = label_seller
+    df.loc[is_brand & ~by_seller, "Brand"] = label_other
+    return df
+
+
 def load(path: str) -> pd.DataFrame:
     df = pd.read_csv(path)
     for c in NUMERIC:
@@ -94,8 +107,13 @@ def main() -> None:
     ap.add_argument("--brand")
     ap.add_argument("--out")
     ap.add_argument("--top", type=int, default=12)
+    ap.add_argument("--split", nargs=4, metavar=("BRAND", "SELLER", "LABEL_SELLER", "LABEL_OTHER"),
+                    help="split BRAND into two brands by seller, e.g. Milton 'HYDRO VALVES.' "
+                         "'Milton (Hydro Valves)' 'Milton (original)'")
     a = ap.parse_args()
     df = load(a.path)
+    if a.split:
+        df = split_brand(df, *a.split)
     b = brand_table(df)
     print(summary(df, b, a.brand))
     with pd.option_context("display.width", 250):
