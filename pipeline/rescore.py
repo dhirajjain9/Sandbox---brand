@@ -7,11 +7,16 @@ Same method as the original scoring: an input scores 0-100 between its floor and
 (reversed when lower is better); missing inputs are left out and weights rescaled; coverage =
 scored weight / total weight. A check clears at >= 60. Tier: a must-clear Miss is a Pass;
 otherwise 5+ Clears is Strong fit, 4 is Worth a look, fewer is Pass.
+A check with under 25% input coverage is "Insufficient data" and does not count as a Clear.
 """
 import sys
 
 import numpy as np
 import pandas as pd
+
+# A check scored on less than this share of its input weight is reported as "Insufficient data":
+# it is neither a Clear nor a Miss (a must-clear with insufficient data is not counted as passed).
+MIN_COVERAGE = 0.25
 
 CHECKS = [
     ("SKU Spikiness", {"M2": .4, "M3": .6}, "No"),
@@ -48,7 +53,8 @@ def main():
         av = {k: v for k, v in w.items() if not np.isnan(mids[k][0])}
         s = sum(mids[k][0] * v for k, v in av.items()) / sum(av.values())
         cov = sum(mids[k][1] * v for k, v in w.items()) / sum(w.values())
-        res.append((name, mc, round(s, 1), "Clear" if s >= 60 else "Miss", round(cov * 100)))
+        result = "Insufficient data" if cov < MIN_COVERAGE else ("Clear" if s >= 60 else "Miss")
+        res.append((name, mc, round(s, 1), result, round(cov * 100)))
     out = pd.DataFrame(res, columns=["output", "must_clear", "score", "result", "input_coverage_pct"])
     df.to_csv(f"{run}/screen_scoring_inputs.csv", index=False)
     pd.DataFrame([(m, *v) for m, v in mids.items()],
