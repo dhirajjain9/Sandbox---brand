@@ -142,6 +142,18 @@ select.sort { appearance: none; -webkit-appearance: none; border: 1px solid var(
 .bhero .pill { font-size: 15px; padding: 5px 14px; margin-top: 18px; }
 .bhero .sub { max-width: 760px; margin-left: auto; margin-right: auto; }
 .bhero .links { margin-top: 22px; display: flex; gap: 26px; justify-content: center; font-size: 17px; }
+.facts { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin-top: 22px; }
+.facts .f { background: var(--tile); border-radius: 16px; padding: 16px 18px; }
+.facts .f span { display: block; font-size: 12px; color: var(--ink-2); font-weight: 600; margin-bottom: 4px; }
+.facts .f b { font-size: 15px; font-weight: 600; line-height: 1.35; }
+.about2 { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-top: 32px; }
+.about2 h3 { font-size: 19px; margin: 0 0 10px; }
+.kv { margin: 0; padding: 0; list-style: none; }
+.kv li { padding: 10px 0; border-top: 1px solid var(--hair); font-size: 15px; line-height: 1.45; }
+.kv li b { display: block; font-weight: 600; }
+.kv li span { color: var(--ink-2); }
+@media (max-width: 900px) { .facts { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 760px) { .about2 { grid-template-columns: 1fr; } }
 .cq { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 22px; }
 .cq .c { background: var(--tile); border-radius: 18px; padding: 22px; }
 .cq .c .k { font-size: 13px; font-weight: 600; color: var(--ink-2); text-transform: uppercase; letter-spacing: .04em; margin: 0 0 8px; }
@@ -419,8 +431,32 @@ function screeningPage(b) {
     <div class="checks">${b.stageList.map((s, i) => `<div class="check" style="grid-template-columns:1fr auto">
       <div class="t">${i + 1}. ${esc(s.label)}</div><div>${s.done ? '<span class="pill good">✓ Done</span>' : '<span class="pill neutral">To do</span>'}</div></div>`).join("")}</div>
   </div></section>
+  ${aboutSection(b)}
   ${subTable(b)}`;
 }
+function aboutSection(b) {
+  const a = b.about; if (!a) return "";
+  return `<section class="section wrap">
+    <p class="eyebrow">About the business</p>
+    <h2 class="h2">What ${esc(b.name)} is.</h2>
+    <p class="muted" style="max-width:820px;font-size:17px;line-height:1.5">${esc(a.summary)}</p>
+    <div class="facts">${a.facts.map(f => `<div class="f"><span>${esc(f[0])}</span><b>${esc(f[1])}</b></div>`).join("")}</div>
+    <div class="about2">
+      <div><h3>Where it sells</h3><ul class="kv">${a.channels.map(c => `<li><b>${esc(c[0])}</b><span>${esc(c[1])}</span></li>`).join("")}</ul></div>
+      <div><h3>Worth knowing</h3><ul class="kv">${a.points.map(c => `<li><b>${esc(c[0])}</b><span>${esc(c[1])}</span></li>`).join("")}</ul></div>
+    </div>
+    <div class="about2">
+      <div><h3>What it sells</h3><div class="tbl-wrap" style="margin-top:0"><table>
+        <thead><tr><th>Segment</th><th class="num">${esc(a.mixTitle)}</th><th>Detail</th></tr></thead>
+        <tbody>${a.mix.map(m => `<tr><td>${esc(m[0])}</td><td class="num">${esc(m[1])}</td><td class="small muted">${esc(m[2])}</td></tr>`).join("")}</tbody></table></div></div>
+      <div><h3>Hero products</h3><div class="tbl-wrap" style="margin-top:0"><table>
+        <thead><tr><th>Product</th><th>Sales</th></tr></thead>
+        <tbody>${a.heroes.map(h => `<tr><td>${esc(h[0])}<span class="fine note">${esc(h[2])}</span></td><td class="small">${esc(h[1])}</td></tr>`).join("")}</tbody></table></div></div>
+    </div>
+    <p class="small muted" style="margin-top:18px">${esc(a.note)} Figures are Helium 10 and platform estimates for a 30-day window that includes Diwali; the <a href="${esc(b.report)}" target="_blank" rel="noopener">full report ›</a> has sources and caveats.</p>
+  </section>`;
+}
+
 function cqSection(b) {
   const q = b.cq; if (!q) return "";
   const c = b.checks.find(x => x.name === "Customer Quality Signal");
@@ -468,6 +504,7 @@ function brand(key) {
     </div>
     <p class="small muted" style="margin:18px 2px 0"><b style="color:var(--ink)">Channels.</b> ${esc(b.channels)}</p>
   </div>
+  ${aboutSection(b)}
   <section class="section alt">
     <div class="wrap">
       <p class="eyebrow">The six checks</p>

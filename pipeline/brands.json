@@ -18,6 +18,123 @@
       "keepa": true,
       "chrome": true,
       "scored": true
+    },
+    "about": {
+      "summary": "A quick-commerce-first candles and home-fragrance brand, roughly 7 times larger on Blinkit than on Amazon. It sells through its own seller account on Amazon and holds 94% of its own Buy Boxes.",
+      "facts": [
+        [
+          "Blinkit, last 12 months",
+          "Rs 107 Cr at MRP (~Rs 35-40 Cr at selling price)"
+        ],
+        [
+          "Amazon, per month",
+          "~Rs 66 lakh, ~22,100 units"
+        ],
+        [
+          "Amazon catalogue",
+          "650 listings in 255 families"
+        ],
+        [
+          "Median price",
+          "Rs 269"
+        ],
+        [
+          "Oldest listing",
+          "June 2017 (median age 43 months)"
+        ]
+      ],
+      "channels": [
+        [
+          "Blinkit",
+          "63 SKUs in Home Decor, Festive Gifting, Pooja Needs; Rs 4.6 Cr at selling price in Oct 2026"
+        ],
+        [
+          "Amazon.in",
+          "650 listings, 46 sub-categories; ~Rs 66 lakh a month"
+        ],
+        [
+          "Zepto",
+          "1 SKU, near-zero share"
+        ],
+        [
+          "Instamart",
+          "Not listed"
+        ],
+        [
+          "Flipkart, D2C, social",
+          "Not checked in this run"
+        ]
+      ],
+      "points": [
+        [
+          "Growth",
+          "Blinkit festive sales (Aug-Nov) up about 16% year on year at MRP; Amazon units up about 20%."
+        ],
+        [
+          "Seasonality",
+          "Diwali dominates: 82 of the top 200 Amazon listings had their best month in Oct 2026. Off-season Blinkit run rate about Rs 6.9 Cr MRP a month."
+        ],
+        [
+          "Operations",
+          "Amazon out-of-stock 4% over 90 days, among the best in its peer set; Blinkit availability falls to 46-56% in peak months."
+        ]
+      ],
+      "mixTitle": "Share of Amazon units",
+      "mix": [
+        [
+          "Candles",
+          "~69%",
+          "Taper, tea lights, pillar, jar, votive, floating, gift sets; Rs 165-499 a pack"
+        ],
+        [
+          "Home fragrance",
+          "~17%",
+          "Heat diffusers, potpourri, reed diffusers, aroma oils; Rs 179-379"
+        ],
+        [
+          "Pooja",
+          "~8%",
+          "Pooja gift hamper (launched ~Sep 2026), diyas"
+        ],
+        [
+          "Candle-making",
+          "~4%",
+          "Wax, wicks, moulds, kits"
+        ],
+        [
+          "Holders and decor",
+          "~1%",
+          "Tealight holders, ornaments"
+        ]
+      ],
+      "heroes": [
+        [
+          "Fragrance heat diffuser gift set",
+          "Amazon · 2,364 units a month",
+          "Top Amazon family; 0% paid visibility"
+        ],
+        [
+          "Taper candles, pack of 20 (two lines)",
+          "Amazon · ~2,030 units a month each",
+          "#2-3 organically for \"candle\""
+        ],
+        [
+          "Floating candles, pack of 20",
+          "Amazon · 1,548 units a month",
+          "#2 brand in Floating Candles"
+        ],
+        [
+          "Pooja gift hamper",
+          "Amazon · 1,425 units a month",
+          "~2 months old; 61% of visibility sponsored"
+        ],
+        [
+          "Ceramic diffuser gift sets",
+          "Blinkit · 13-15% of Festive Gifting each",
+          "Rs 197, MRP Rs 399"
+        ]
+      ],
+      "note": "No single product dominates: the top 10 Amazon listings are 37% of units, and the top Blinkit SKU is 8.7% of Aura's Blinkit sales."
     }
   },
   {
@@ -39,6 +156,129 @@
       "keepa": true,
       "chrome": true,
       "scored": true
+    },
+    "about": {
+      "summary": "An Amazon-first small-kitchen-appliance brand selling about Rs 13 Cr in the 30-day festive window, almost entirely through its own seller account (HYDRO VALVES.). It shares the \"Milton\" name with the original Milton housewares company, which also sells kettles; the terms of that arrangement are not visible from outside.",
+      "facts": [
+        [
+          "Amazon, 30 days",
+          "Rs 12.97 Cr, 121,571 units"
+        ],
+        [
+          "Catalogue",
+          "95 listings in 39 families (57 active)"
+        ],
+        [
+          "Median price",
+          "Rs 2,999"
+        ],
+        [
+          "Seller",
+          "HYDRO VALVES. only; 100% of Buy Boxes"
+        ],
+        [
+          "Oldest listing",
+          "October 2019 (median age 30 months)"
+        ]
+      ],
+      "channels": [
+        [
+          "Amazon.in",
+          "~Rs 13 Cr in the 30-day festive window"
+        ],
+        [
+          "Zepto",
+          "5 gas-stove SKUs, 12-15% of a small Gas Stove category; ~Rs 14-20 lakh a month"
+        ],
+        [
+          "Blinkit, Instamart",
+          "No appliance listings"
+        ],
+        [
+          "Flipkart, D2C (miltonhomeappliances.com), social",
+          "Not checked in this run"
+        ]
+      ],
+      "points": [
+        [
+          "Two Miltons",
+          "Hydro Valves' Milton (this screen) is identified by seller. The original Milton (Hamilton Housewares) sells Rs 2.13 Cr of appliances through other sellers and is mainly bottles, flasks and lunch boxes."
+        ],
+        [
+          "Growth",
+          "Unit-weighted sales up ~186% year on year against ~35% for its sub-categories; the festive window overstates the level, not the gap."
+        ],
+        [
+          "Operations",
+          "2.6% out-of-stock over 90 days on Amazon."
+        ]
+      ],
+      "mixTitle": "Share of revenue",
+      "mix": [
+        [
+          "Electric Kettles",
+          "35%",
+          "Rs 4.60 Cr; Rapid at Rs 699"
+        ],
+        [
+          "Sandwich Makers",
+          "18%",
+          "Rs 2.34 Cr; Rs 1,099-1,205"
+        ],
+        [
+          "Gas Stoves",
+          "17%",
+          "Rs 2.16 Cr; Rs 3,780 average"
+        ],
+        [
+          "Egg boilers, yogurt makers",
+          "10%",
+          "Rs 1.33 Cr; Rs 924-999"
+        ],
+        [
+          "Rice and multi-cook",
+          "8%",
+          "Rs 1.00 Cr; Champ at Rs 1,399"
+        ],
+        [
+          "Air Fryers",
+          "7%",
+          "Rs 0.92 Cr; Rs 5,412 average"
+        ],
+        [
+          "Induction / infrared cooktops",
+          "5%",
+          "Rs 0.63 Cr; Rs 2,999"
+        ]
+      ],
+      "heroes": [
+        [
+          "Rapid electric kettle 1.8L",
+          "66,087 units · Rs 4.15 Cr",
+          "32% of brand revenue; 19 months old; +311% YoY"
+        ],
+        [
+          "Champ multi-cook kettle 1.5L",
+          "7,488 units · Rs 1.00 Cr",
+          "Same listing family as Rapid"
+        ],
+        [
+          "Royal Express sandwich maker",
+          "8,230 units · Rs 0.86 Cr",
+          "#1 on every sandwich-maker head term"
+        ],
+        [
+          "Smart egg boiler",
+          "8,303 units · Rs 0.78 Cr",
+          "#3 on \"egg boiler electric\""
+        ],
+        [
+          "Classic infrared cooktop",
+          "2,134 units · Rs 0.63 Cr",
+          "Rating 3.7; warranty complaints"
+        ]
+      ],
+      "note": "The top 3 listings are 46% of revenue; the Rapid/Champ kettle family alone is about 40%."
     }
   },
   {
@@ -60,6 +300,130 @@
       "keepa": true,
       "chrome": true,
       "scored": true
+    },
+    "about": {
+      "summary": "An Amazon-first home-furnishing brand built on a very large catalogue of variants: 17,040 listings, of which about one in three sold anything in the last 30 days. The model is breadth: thousands of size, colour and fabric variants of the same covers, a steady flow of new listings, and no single hit.",
+      "facts": [
+        [
+          "Amazon, 30 days",
+          "~Rs 8.26 Cr, ~84,900 units"
+        ],
+        [
+          "Average selling price",
+          "~Rs 973"
+        ],
+        [
+          "Catalogue",
+          "17,040 listings (9,143 active) in 2,170 families; 5,771 sold in 30 days"
+        ],
+        [
+          "Seller",
+          "HOKIPO, Buy Box holder on its own listings"
+        ],
+        [
+          "Oldest listing",
+          "February 2016 (median age 16 months)"
+        ]
+      ],
+      "channels": [
+        [
+          "Amazon.in",
+          "~Rs 8.26 Cr in the 30-day festive window"
+        ],
+        [
+          "Quick commerce",
+          "Not listed on Blinkit, Instamart or Zepto"
+        ],
+        [
+          "Flipkart, D2C, social",
+          "Not checked in this run"
+        ]
+      ],
+      "points": [
+        [
+          "New listings",
+          "41% listed in the last 12 months; 1,699 listings (243 families) in the last 3 months."
+        ],
+        [
+          "Spread",
+          "419 listings selling 40+ units a month make 51% of revenue; about 11,300 listings sold nothing."
+        ],
+        [
+          "Products",
+          "Light (99.8% of units at or under 3 kg), priced Rs 900-2,600 in the hero range."
+        ]
+      ],
+      "mixTitle": "Share of revenue",
+      "mix": [
+        [
+          "Sofa Slipcovers",
+          "58.2%",
+          "Rs 4.81 Cr; 8,261 listings"
+        ],
+        [
+          "Armrest Covers",
+          "4.7%",
+          "Rs 38 lakh"
+        ],
+        [
+          "Dining Chair Slipcovers",
+          "4.1%",
+          "Rs 34 lakh"
+        ],
+        [
+          "Storage Boxes",
+          "4.0%",
+          "Rs 33 lakh"
+        ],
+        [
+          "Table Cloths, Place Mats",
+          "3.4%",
+          "Rs 28 lakh"
+        ],
+        [
+          "Doormats",
+          "3.3%",
+          "Rs 27 lakh"
+        ],
+        [
+          "Armchair and recliner slipcovers",
+          "5.6%",
+          "Rs 47 lakh"
+        ],
+        [
+          "Other",
+          "~17%",
+          "Laundry, blankets, dustbins, cushion covers and more"
+        ]
+      ],
+      "heroes": [
+        [
+          "Chenille sofa cover 3-seater throw",
+          "294 units · Rs 7.6 lakh",
+          "Rs 2,599; rated 4.3; 46 months old"
+        ],
+        [
+          "Plush Haven sofa cover mat 3-seater",
+          "260 units · Rs 5.2 lakh",
+          "Rs 2,113; rated 4.2"
+        ],
+        [
+          "Nestiva fully covered sofa cover",
+          "232 units · Rs 4.8 lakh",
+          "Rs 2,232; rated 3.7; 9 months old"
+        ],
+        [
+          "Wall-mounted dustbin",
+          "556 units · Rs 4.7 lakh",
+          "Rs 892; rated 4.4; 60 months old"
+        ],
+        [
+          "Jacquard stretchable sofa cover",
+          "194 units · Rs 4.7 lakh",
+          "Rs 2,480; rated 3.8"
+        ]
+      ],
+      "note": "The best listing is 0.9% of brand revenue; the top 10 listings are 5.8%, and the top 10 of 902 selling families 20.8%."
     }
   },
   {
@@ -81,6 +445,137 @@
       "keepa": true,
       "chrome": true,
       "scored": true
+    },
+    "about": {
+      "summary": "A young, Amazon-led small-appliance brand selling about Rs 5.1 crore a month on Amazon India, mid-priced kitchen and home appliances at about Rs 1,570 a unit. Almost all listings are sold by RetailEZ Pvt Ltd; the brand's website names Emagn Solutions Private Limited as the company behind CADLEC.",
+      "facts": [
+        [
+          "Amazon, 30 days",
+          "~Rs 5.06 Cr, ~32,200 units"
+        ],
+        [
+          "Average selling price",
+          "~Rs 1,570"
+        ],
+        [
+          "Catalogue",
+          "36 active listings in 25 families"
+        ],
+        [
+          "Seller",
+          "RetailEZ Pvt Ltd (95% of revenue); Dawntech sells the chimneys"
+        ],
+        [
+          "Listing age",
+          "Oldest 37 months; most families 11-23 months"
+        ]
+      ],
+      "channels": [
+        [
+          "Amazon India",
+          "Main channel; ~Rs 5.1 crore a month"
+        ],
+        [
+          "Flipkart",
+          "Material: ~22 listings, rating pools similar in size to Amazon's"
+        ],
+        [
+          "cadlec.in (Shopify)",
+          "Small: 42 products, 24 sold out; median 53% off"
+        ],
+        [
+          "Zepto",
+          "Small: 2 kettles and the Cruise 12L OTG"
+        ],
+        [
+          "Blinkit",
+          "Not listed"
+        ],
+        [
+          "Instamart",
+          "Not checked (needed a phone login)"
+        ]
+      ],
+      "points": [
+        [
+          "Who is behind it",
+          "RetailEZ also sold an original Milton kettle, so it looks like an appliance distributor or brand house. Its link to Emagn Solutions is a question for the founder meeting."
+        ],
+        [
+          "Growth",
+          "Most listings are too new for a year-on-year figure; 90-day trends are strongly up (mixer grinders +332%, ceiling fans +223% to +514%), partly seasonal."
+        ],
+        [
+          "Weight",
+          "About 62% of units weigh 3 kg or less; fans, OTGs and chimneys are bulky."
+        ]
+      ],
+      "mixTitle": "Share of revenue",
+      "mix": [
+        [
+          "Induction Cooktop (incl. infrared)",
+          "27%",
+          "Rs 134.7 lakh; best rank #24"
+        ],
+        [
+          "Oven Toaster Grills",
+          "23%",
+          "Rs 115.7 lakh; #1 in the sub-category"
+        ],
+        [
+          "Ceiling Fans",
+          "21%",
+          "Rs 108.5 lakh; best rank #35"
+        ],
+        [
+          "Mixer Grinders",
+          "18%",
+          "Rs 93.2 lakh; best rank #33"
+        ],
+        [
+          "Kitchen chimneys",
+          "5%",
+          "Rs 25.2 lakh"
+        ],
+        [
+          "Immersion Rods",
+          "4%",
+          "Rs 18.9 lakh"
+        ],
+        [
+          "Electric Kettles",
+          "2%",
+          "Rs 8.8 lakh"
+        ]
+      ],
+      "heroes": [
+        [
+          "MultiChef / Cruise / Ovnix OTGs",
+          "22.9% of revenue · 4,214 units",
+          "Rated 3.7; 16 months old"
+        ],
+        [
+          "JarGenie / Jarsphere mixer grinders",
+          "15.3% · 5,751 units",
+          "Rated 3.5; 23 months old"
+        ],
+        [
+          "Grevity / Defender BLDC ceiling fans",
+          "12.6% · 2,797 units",
+          "Rated 4.2"
+        ],
+        [
+          "Breeza ceiling fan",
+          "8.9% · 4,079 units",
+          "Rated 4.0"
+        ],
+        [
+          "HeatMate infrared cooktop",
+          "6.1% · 1,370 units",
+          "Rated 3.9"
+        ]
+      ],
+      "note": "The top family is 23% of revenue and the top 3 are 51%; the single best listing is 12%."
     }
   },
   {
@@ -133,6 +628,129 @@
         "listings": 22,
         "seller": "EVERS"
       }
-    ]
+    ],
+    "about": {
+      "summary": "A home-office furniture business selling about Rs 2.84 crore a month on Amazon India through three brands, screened as one brand house. The core is computer and office tables at a premium price, about Rs 8,900 an order on average.",
+      "facts": [
+        [
+          "Amazon, 30 days",
+          "~Rs 2.84 Cr across 3 brands"
+        ],
+        [
+          "Average order",
+          "~Rs 8,900"
+        ],
+        [
+          "Catalogue",
+          "271 listings in 94 families"
+        ],
+        [
+          "Sellers",
+          "EVERS (TEKAVO, Deskio); Furniture Factory Outlet (FFO)"
+        ],
+        [
+          "Age",
+          "Core tables 5-6 years old; half of listings under a year"
+        ]
+      ],
+      "channels": [
+        [
+          "Amazon.in",
+          "~Rs 2.84 Cr a month; single seller on every listing"
+        ],
+        [
+          "Flipkart",
+          "~31 TEKAVO listings (seller EVERSTECHNOSERVICESPVT), 7 FFO, 2 Deskio; few ratings"
+        ],
+        [
+          "D2C",
+          "tekavo.in (497 products) and wudinox.com, FFO's own site (246 products)"
+        ],
+        [
+          "Quick commerce",
+          "Not on Blinkit or Zepto"
+        ]
+      ],
+      "points": [
+        [
+          "Ownership",
+          "The client states TEKAVO owns FFO and Deskio. tekavo.in names Evers Technoservices LLP, Ahmedabad; wudinox.com names FFO, Odhav, Ahmedabad, with no legal entity."
+        ],
+        [
+          "Growth",
+          "Only 31% of revenue has a year-ago figure; where it exists, the group's desks grew about 50% against 14% for the category."
+        ],
+        [
+          "Products",
+          "Every product is bulky; none weighs 3 kg or less."
+        ]
+      ],
+      "mixTitle": "Share of revenue",
+      "mix": [
+        [
+          "Desks",
+          "72%",
+          "Rs 205 lakh; computer, L-shaped and gaming tables"
+        ],
+        [
+          "Bathroom Shelves",
+          "5%",
+          "Rs 13.7 lakh; FFO's washing-machine rack"
+        ],
+        [
+          "Home Storage & Organisation",
+          "3%",
+          "Rs 9.6 lakh"
+        ],
+        [
+          "Bedside Tables",
+          "3%",
+          "Rs 9.1 lakh (FFO)"
+        ],
+        [
+          "Computer Workstations",
+          "3%",
+          "Rs 9.0 lakh"
+        ],
+        [
+          "Utility and dining tables",
+          "5%",
+          "Rs 13.5 lakh"
+        ],
+        [
+          "Other",
+          "5%",
+          "Rs 14.2 lakh"
+        ]
+      ],
+      "heroes": [
+        [
+          "Kynes computer table (TEKAVO)",
+          "28.4% of revenue · 969 units",
+          "895 ratings, 4.2; 69 months old"
+        ],
+        [
+          "Trio computer table (TEKAVO)",
+          "10.0% · 347 units",
+          "833 ratings, 4.3"
+        ],
+        [
+          "Nova computer table with storage (FFO)",
+          "9.5% · 237 units",
+          "113 ratings, 4.2"
+        ],
+        [
+          "Hirak electric standing desk (TEKAVO)",
+          "6.0% · 106 units",
+          "125 ratings, 3.9"
+        ],
+        [
+          "Washing-machine rack (FFO)",
+          "4.8% · 219 units",
+          "48 ratings, 4.6; 7 months old"
+        ]
+      ],
+      "note": "The Kynes family carries 28% of revenue; no single listing is above 7%. Only two families have 500 or more ratings."
+    }
   }
 ]

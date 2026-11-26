@@ -3,7 +3,7 @@
 Usage:
     python -m pipeline.build_dashboard            # writes outputs/dashboard/index.html
 
-Brands come from pipeline/brands.json (one entry per brand: key, name, group, category, run,
+Brands come from pipeline/brands.json (one entry per brand: key, name, group, category, run, about,
 asof, channels, report, why). To add a brand, add an entry and rebuild. Reads, for each brand, runs/<run>/screen_scoring_inputs.csv, screen_scoring_mid.csv and
 screen_scoring_outputs.csv, embeds them as JSON in one self-contained HTML page (no external
 scripts), and writes it to outputs/dashboard/. Re-run after any rescore, then redeploy.
