@@ -1,6 +1,8 @@
 """Amazon India 30-day sales by brand (Helium 10), for every brand in the quick-commerce table.
 
     python -m pipeline.amazon_brand_sales extract    # parse Helium 10 batch pulls from session transcripts
+    python -m pipeline.amazon_brand_sales import-csv <folder> [--batches runs/_sourcing/amazon_pull/batches.tsv]
+                                                     # add Black Box CSV exports (browser run) to the listing rows
     python -m pipeline.amazon_brand_sales build      # join with runs/_qcom/qcom_brand_sales.csv
 
 Pulls are search_products calls (marketplace IN, brand_include = a batch of brands,
@@ -94,18 +96,66 @@ def extract():
     print(f"{len(queries)} queries, {len(d):,} listings, {d.brand.nunique():,} Amazon brand names")
 
 
+def num(s):
+    return pd.to_numeric(s.astype(str).str.replace(r"[^0-9.\-]", "", regex=True), errors="coerce")
+
+
+def import_csv(folder, batches=None):
+    """Black Box CSV exports -> listing rows (same shape as the MCP pulls), plus 12-month units if exported."""
+    files = sorted(glob.glob(os.path.join(folder, "*.csv")))
+    if not files:
+        sys.exit(f"no CSV files in {folder}")
+    out = []
+    for f in files:
+        d = pd.read_csv(f)
+        cols = {c.lower().strip(): c for c in d.columns}
+        pick = lambda *names: next((cols[n] for n in names if n in cols), None)
+        a, b = pick("asin"), pick("brand")
+        rev, units, price = pick("asin revenue", "revenue"), pick("asin sales", "sales"), pick("price", "price ₹", "price (₹)")
+        year = next((c for c in d.columns if re.search(r"(12[- ]?month|last year sales|year sales|annual)", c, re.I)
+                     and not re.search(r"(%|over year|yoy)", c, re.I)), None)
+        if not (a and b and rev and units):
+            print("skipped (missing ASIN/Brand/Revenue/Sales columns):", f, list(d.columns)[:12]); continue
+        x = pd.DataFrame({"asin": d[a], "brand": d[b], "units": num(d[units]).fillna(0), "revenue_rs": num(d[rev]).fillna(0)})
+        x["price_rs"] = num(d[price]) if price else None
+        x["units_12m"] = num(d[year]) if year else None
+        x["source"] = "blackbox_csv:" + os.path.basename(f)
+        out.append(x)
+        print(f"{os.path.basename(f)}: {len(x)} rows; 12-month column: {year or 'none'}")
+    new = pd.concat(out).drop_duplicates("asin")
+    old = pd.read_csv(f"{RAW}/rows.csv.gz") if os.path.exists(f"{RAW}/rows.csv.gz") else pd.DataFrame()
+    allr = pd.concat([old[~old.asin.isin(new.asin)] if len(old) else old, new], ignore_index=True)
+    allr.to_csv(f"{RAW}/rows.csv.gz", index=False)
+    if batches:
+        q = json.load(open(f"{RAW}/queries.json")) if os.path.exists(f"{RAW}/queries.json") else []
+        for line in open(batches).read().splitlines()[1:]:
+            q.append({"brands": [s.strip() for s in line.split("\t", 1)[1].split("|")], "rows": None, "capped": False, "source": "blackbox_csv"})
+        json.dump(q, open(f"{RAW}/queries.json", "w"))
+    print(f"{len(new):,} listings imported; {len(allr):,} in total")
+
+
 def build():
     d = pd.read_csv(f"{RAW}/rows.csv.gz")
     queries = json.load(open(f"{RAW}/queries.json"))
     asked = {slug(b) for q in queries for b in q["brands"]}
     capped = {slug(q["brands"][0]) for q in queries if q["capped"] and len(q["brands"]) == 1}
     d["brand_key"] = d.brand.map(slug)
+    if "units_12m" not in d:
+        d["units_12m"] = None
+    d["price_rs"] = d.get("price_rs", pd.Series(index=d.index, dtype=float))
+    d["rev_12m_rs"] = d.units_12m * d.price_rs.fillna(d.revenue_rs / d.units.where(d.units > 0))
     a = (d.groupby("brand_key").agg(amazon_brand=("brand", lambda s: s.mode().iat[0]), amazon_listings=("asin", "count"),
-                                    amazon_units_30d=("units", "sum"), amazon_revenue_30d_rs=("revenue_rs", "sum")).reset_index())
+                                    amazon_units_30d=("units", "sum"), amazon_revenue_30d_rs=("revenue_rs", "sum"),
+                                    amazon_revenue_12m_rs=("rev_12m_rs", lambda s: s.sum(min_count=1))).reset_index())
+    a["amazon_revenue_12m_cr"] = (a.amazon_revenue_12m_rs / 1e7).round(2)
+    a = a.drop(columns="amazon_revenue_12m_rs")
     a["amazon_revenue_30d_lakh"] = (a.amazon_revenue_30d_rs / 1e5).round(2)
     a["capped_top500"] = a.brand_key.isin(capped)
     q = pd.read_csv("runs/_qcom/qcom_brand_sales.csv")
     names = q.groupby("brand_key").brand.first().reset_index()
+    if os.path.exists("runs/_sourcing/universe.csv"):  # Amazon-only brands from the team's universe
+        s = pd.read_csv("runs/_sourcing/universe.csv")[["key", "brand"]].rename(columns={"key": "brand_key"})
+        names = pd.concat([names, s[~s.brand_key.isin(names.brand_key)]], ignore_index=True)
     a = names.merge(a, on="brand_key", how="left")
     a["amazon_status"] = a.apply(lambda r: "found" if r.amazon_listings == r.amazon_listings and r.amazon_listings > 0
                                  else ("no selling listing" if r.brand_key in asked else "not queried"), axis=1)
@@ -122,4 +172,8 @@ def build():
 
 
 if __name__ == "__main__":
-    {"extract": extract, "build": build}[sys.argv[1]]()
+    if sys.argv[1] == "import-csv":
+        bt = sys.argv[sys.argv.index("--batches") + 1] if "--batches" in sys.argv else None
+        import_csv(sys.argv[2], bt)
+    else:
+        {"extract": extract, "build": build}[sys.argv[1]]()
