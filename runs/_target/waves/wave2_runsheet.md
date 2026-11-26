@@ -31,7 +31,7 @@ For each: tell me the exact category path, rows exported, and whether the result
 
 ## Part B: brand exports (about 2-3 hours)
 
-`wave2_brand_batches.tsv` lists 16 batches (`batch <tab> category group <tab> brand | brand | ...`).
+`wave2_brand_batches.tsv` lists 16 batches (some shortened after the no-product-fit exclusions) (`batch <tab> category group <tab> brand | brand | ...`).
 For each batch: **Brand** = every brand in the batch (pick every matching spelling Black Box suggests;
 case, spaces, "&", ® signs vary); **Monthly Sales (ASIN level) at least 1**; no category or other filters.
 Export as `w2_brands_<batch>.csv`. If a batch hits the row cap, split it in half and export each half

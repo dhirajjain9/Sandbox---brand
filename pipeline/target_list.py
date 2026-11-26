@@ -52,14 +52,16 @@ def main(path):
     reg = json.load(open("pipeline/brands.json"))
     sk = {mm: b["key"] for b in reg for mm in (b["match"] if isinstance(b["match"], list) else [b["match"]])}
     t["screened"] = t.key.map(sk)
-    from pipeline.target_exclusions import ESTABLISHED, LISTED, ROLLUP
+    from pipeline.target_exclusions import ESTABLISHED, LISTED, NO_FIT, ROLLUP
     u = pd.read_csv("runs/_sourcing/universe.csv")
     wb_est = set(u[u.status.astype(str).str.startswith("Established")].key)
     ro = {slug(b): f"Roll-up: {g}" for g, L in ROLLUP.items() for b in L}
     li = {slug(b): f"Listed: {g}" for g, L in LISTED.items() for b in L}
     es = {slug(b) for b in ESTABLISHED}
+    nf = {slug(b) for b in NO_FIT}
     t["exclude_reason"] = t.key.map(lambda x: ro.get(x) or li.get(x) or ("Established (workbook)" if x in wb_est else
                                     ("Established (well-known)" if x in es else "")))
+    t.loc[(t.exclude_reason == "") & t.key.isin(nf) & (t.source == "Quick commerce only"), "exclude_reason"] = "No product fit (electronics/gaming)"
     t["in_target"] = t.exclude_reason == ""
     os.makedirs("runs/_target", exist_ok=True)
     t.to_csv("runs/_target/master_list_with_exclusions.csv", index=False)

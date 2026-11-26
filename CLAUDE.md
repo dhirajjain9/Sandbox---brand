@@ -26,7 +26,7 @@ batches is expensive (about one call per brand); budget Helium 10 calls (1,000 a
 
 ## TARGET: master extraction list (set by the user, 26 Nov 2026)
 
-`runs/_target/master_list.csv`: **1,346 brands** (after wave 1 Part B listed-company additions) = Master File brands excluding "Skipped" and
+`runs/_target/master_list.csv`: **1,319 brands** (after wave 1 Part B listed-company additions and 27 no-product-fit electronics/gaming brands) = Master File brands excluding "Skipped" and
 "Skipped (Established)" (336) + quick-commerce brands not in the Master File (1,233), minus 215 exclusions
 (established per workbook or well-known, listed-company owned, roll-up owned: Mensa, GlobalBees, Upscalio, GOAT;
 lists in `pipeline/target_exclusions.py`; excluded rows kept in master_list_with_exclusions.csv).

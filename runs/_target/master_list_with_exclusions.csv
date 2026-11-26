@@ -360,12 +360,12 @@ Aegon,,,,,aegon,Quick commerce only,Home Decor,not queried,,,5.77,,,5.77,,,True
 Aganta,,,,,aganta,Quick commerce only,Decorative Lights,not queried,,,3.79,,,3.79,,,True
 AGMECO,,,,,agmeco,Quick commerce only,Bath & Laundry,not queried,,,,,1.57,1.57,,,True
 Ahaar,,,,,ahaar,Quick commerce only,Cookware,not queried,,,,,,,,,True
-Ailkin,,,,,ailkin,Quick commerce only,Appliances,found,116.81,,5.22,,,5.22,,,True
+Ailkin,,,,,ailkin,Quick commerce only,Appliances,found,116.81,,5.22,,,5.22,,No product fit (electronics/gaming),False
 Aime,,,,,aime,Quick commerce only,Pooja Needs,not queried,,,4.34,,,4.34,,,True
 Airganic,,,,,airganic,Quick commerce only,Home Furnishing,not queried,,,,,0.0,0.0,,,True
 Airveda,,,,,airveda,Quick commerce only,Appliances,found,5.2,,0.0,,,0.0,,,True
 Air Wick,,,,,airwick,Quick commerce only,Home Decor,not queried,,,0.0,,0.14,0.14,,Established (workbook),False
-ajjas,,,,,ajjas,Quick commerce only,Appliances,found,62.78,,0.0,,,0.0,,,True
+ajjas,,,,,ajjas,Quick commerce only,Appliances,found,62.78,,0.0,,,0.0,,No product fit (electronics/gaming),False
 akaar,,,,,akaar,Quick commerce only,Festive & Occasion Needs,not queried,,,0.0,,,0.0,,,True
 Aksharveda,,,,,aksharveda,Quick commerce only,Pooja & Worship Needs,found,27.33,0.0,,,21.8,21.8,,,True
 Alina,,,,,alina,Quick commerce only,Home Furnishing,not queried,,,0.46,,,0.46,,,True
@@ -375,7 +375,7 @@ Ambica,,,,,ambica,Quick commerce only,Pooja & Worship Needs,not queried,,,,,0.06
 Ambrane,,,,,ambrane,Quick commerce only,Home Appliances,found,2495.86,,22.51,181.56,13.75,217.82,,Established (workbook),False
 American Micronic,,,,,americanmicronic,Quick commerce only,Kitchen Appliances,found,213.63,15.66,,0.0,,0.0,,,True
 American Tourister,,,,,americantourister,Quick commerce only,Bags,found,2261.69,,18.51,1.35,,19.860000000000003,,Established (well-known),False
-Amkette,,,,,amkette,Quick commerce only,Powerbanks Chargers Cables,not queried,,,,0.0,,0.0,,,True
+Amkette,,,,,amkette,Quick commerce only,Powerbanks Chargers Cables,not queried,,,,0.0,,0.0,,No product fit (electronics/gaming),False
 Amogha,,,,,amogha,Quick commerce only,Home Decor,not queried,,,0.0,0.0,3.86,3.86,,,True
 AMRO Beautility Needs,,,,,amrobeautilityneeds,Quick commerce only,Home Furnishing,not queried,,,11.72,,,11.72,,,True
 Amul,,,,,amul,Quick commerce only,Pooja Needs,not queried,,,11.31,,2.92,14.23,,Established (well-known),False
@@ -385,7 +385,7 @@ Anant Mangalmai,,,,,anantmangalmai,Quick commerce only,Pooja & Worship Needs,not
 Anchor,,,,,anchor,Quick commerce only,Home Appliances,not queried,,,,,1.72,1.72,,Established (workbook),False
 Anil,,,,,anil,Quick commerce only,Cleaning Tools,not queried,,,0.0,,,0.0,,,True
 Anomeo,,,,,anomeo,Quick commerce only,Sports & Fitness,not queried,,,0.16,,,0.16,,,True
-Ant Esports,,,,,antesports,Quick commerce only,Appliances,found,505.69,,217.12,,,217.12,,,True
+Ant Esports,,,,,antesports,Quick commerce only,Appliances,found,505.69,,217.12,,,217.12,,No product fit (electronics/gaming),False
 Antson,,,,,antson,Quick commerce only,Decorative Lights,not queried,,,0.06,,,0.06,,,True
 Antzco,,,,,antzco,Quick commerce only,Home Furnishing,not queried,,,,,0.76,0.76,,,True
 Anveshan,,,,,anveshan,Quick commerce only,Pooja & Worship Needs,not queried,,,,,0.0,0.0,,,True
@@ -411,12 +411,12 @@ Aspekt,,,,,aspekt,Quick commerce only,Utility & Tools,not queried,,,,,,,,,True
 Assassin's Creed,,,,,assassinscreed,Quick commerce only,Appliances,no selling listing,,,0.08,,,0.08,,Listed: Ubisoft,False
 Astrotalk,,,,,astrotalk,Quick commerce only,Pooja & Worship Needs,found,97.4,,,,69.76,69.76,,Established (workbook),False
 Astroyogi,,,,,astroyogi,Quick commerce only,Pooja & Worship Needs,found,2.42,,,,130.52,130.52,,Established (well-known),False
-Asus,,,,,asus,Quick commerce only,Powerbanks Chargers Cables,not queried,,,,0.0,,0.0,,,True
+Asus,,,,,asus,Quick commerce only,Powerbanks Chargers Cables,not queried,,,,0.0,,0.0,,No product fit (electronics/gaming),False
 atovio,,,,,atovio,Quick commerce only,Appliances,found,153.05,,0.99,,,0.99,,,True
 AuraCam,,,,,auracam,Quick commerce only,Decorative Lights,not queried,,,8.34,,,8.34,,,True
 Aurave,,,,,aurave,Quick commerce only,Home Furnishing,not queried,,,,,,,,,True
 Aurum,,,,,aurum,Quick commerce only,Home Decor,not queried,,,0.0,,0.05,0.05,,,True
-Ausha,,,,,ausha,Quick commerce only,Appliances,found,24.37,,2.26,,0.08,2.34,,,True
+Ausha,,,,,ausha,Quick commerce only,Appliances,found,24.37,,2.26,,0.08,2.34,,No product fit (electronics/gaming),False
 AUTOFURNISH,,,,,autofurnish,Quick commerce only,Home Furnishing,not queried,,,,,0.01,0.01,,,True
 Autofy,,,,,autofy,Quick commerce only,Home Furnishing,not queried,,,,,11.4,11.4,,,True
 autoguys,,,,,autoguys,Quick commerce only,Home Furnishing,not queried,,,,,1.62,1.62,,,True
@@ -457,7 +457,7 @@ Beloxy,,,,,beloxy,Quick commerce only,Decorative Lights,not queried,,,1.18,,,1.1
 BENGALEN,,,,,bengalen,Quick commerce only,Pooja Needs,not queried,,,0.0,,,0.0,,,True
 Bersache,,,,,bersache,Quick commerce only,"Clothing, Footwear & Accessories",found,36.64,,240.78,,,240.78,,,True
 Besque,,,,,besque,Quick commerce only,Home Furnishing,not queried,,,6.06,,,6.06,,,True
-Bestor,,,,,bestor,Quick commerce only,Powerbanks Chargers Cables,not queried,,,,0.09,0.0,0.09,,,True
+Bestor,,,,,bestor,Quick commerce only,Powerbanks Chargers Cables,not queried,,,,0.09,0.0,0.09,,No product fit (electronics/gaming),False
 Betterhood,,,,,betterhood,Quick commerce only,Home Furnishing,not queried,,,,2.63,,2.63,,,True
 Bianca,,,,,bianca,Quick commerce only,Home Furnishing,found,0.41,,45.78,5.54,35.1,86.42,,,True
 BIC,,,,,bic,Quick commerce only,Stationery Needs,found,8.73,,41.72,,,41.72,,Established (well-known),False
@@ -491,7 +491,7 @@ Borosil,,,,,borosil,Quick commerce only,Pooja Needs,found,1568.6,,264.17,144.07,
 Bosch,,,,,bosch,Quick commerce only,Utility & Tools,found,12031.57,,,14.74,1.08,15.82,,Established (workbook),False
 Bosco,,,,,bosco,Quick commerce only,Home Decor,not queried,,,,0.09,,0.09,,,True
 Boss,,,,,boss,Quick commerce only,Festive & Occasion Needs,found,100.72,19.81,0.0,,2.52,2.52,,,True
-Boult,,,,,boult,Quick commerce only,Appliances,no selling listing,,,0.48,,,0.48,,,True
+Boult,,,,,boult,Quick commerce only,Appliances,no selling listing,,,0.48,,,0.48,,No product fit (electronics/gaming),False
 Boutique Living,,,,,boutiqueliving,Quick commerce only,Home Furnishing,not queried,,,,,0.06,0.06,,,True
 Branditude,,,,,branditude,Quick commerce only,Travel And Luggage,no selling listing,,,,7.47,,7.47,,,True
 Braun,,,,,braun,Quick commerce only,Appliances,not queried,,,5.99,6.08,,12.07,,Established (workbook),False
@@ -547,7 +547,7 @@ Cleno,,,,,cleno,Quick commerce only,Cleaning Tools,not queried,,,0.0,,,0.0,,,Tru
 Clipking,,,,,clipking,Quick commerce only,Bathware & Laundry,not queried,,,,0.02,,0.02,,,True
 Cloudsell,,,,,cloudsell,Quick commerce only,Home Furnishing,not queried,,,7.54,,,7.54,,,True
 Clover,,,,,clover,Quick commerce only,Home Furnishing,not queried,,,1.4,,,1.4,,,True
-CMF,,,,,cmf,Quick commerce only,Powerbanks Chargers Cables,not queried,,,,12.91,,12.91,,,True
+CMF,,,,,cmf,Quick commerce only,Powerbanks Chargers Cables,not queried,,,,12.91,,12.91,,No product fit (electronics/gaming),False
 Cock,,,,,cock,Quick commerce only,Festive & Occasion Needs,not queried,,,,,,,,,True
 Cock Brand,,,,,cockbrand,Quick commerce only,Festive & Occasion Needs,not queried,,,5.74,0.01,0.62,6.37,,,True
 Cock Wow,,,,,cockwow,Quick commerce only,Pooja Needs,not queried,,,,0.0,,0.0,,,True
@@ -562,7 +562,7 @@ Corength,,,,,corength,Quick commerce only,Kitchen & Dining Needs,not queried,,,1
 Cortina,,,,,cortina,Quick commerce only,Home Furnishing,found,103.91,5.84,0.15,3.54,0.85,4.54,,,True
 Cosco,,,,,cosco,Quick commerce only,Bags,found,50.34,,126.54,49.33,,175.87,,Established (well-known),False
 CoseePerfy,,,,,coseeperfy,Quick commerce only,Home Furnishing,not queried,,,0.33,,,0.33,,,True
-Cosmic Byte,,,,,cosmicbyte,Quick commerce only,Appliances,found,232.9,,12.1,,,12.1,,,True
+Cosmic Byte,,,,,cosmicbyte,Quick commerce only,Appliances,found,232.9,,12.1,,,12.1,,No product fit (electronics/gaming),False
 Cosmo Plastoware,,,,,cosmoplastoware,Quick commerce only,Kitchen Storage,not queried,,,,,0.04,0.04,,,True
 Coway,,,,,coway,Quick commerce only,Appliances,not queried,,,0.2,,,0.2,,Established (workbook),False
 Cozyclean,,,,,cozyclean,Quick commerce only,Home Furnishing,not queried,,,,0.01,,0.01,,,True
@@ -607,7 +607,7 @@ Dettol,,,,,dettol,Quick commerce only,Kitchen Cleaning,not queried,,,,,0.02,0.02
 Devnidhi,,,,,devnidhi,Quick commerce only,Pooja & Worship Needs,not queried,,,,,4.46,4.46,,,True
 Dew Fresh,,,,,dewfresh,Quick commerce only,Kitchen Cleaning,not queried,,,,,,,,,True
 Digismart,,,,,digismart,Quick commerce only,Appliances,no selling listing,,,37.86,,,37.86,,,True
-Digitek,,,,,digitek,Quick commerce only,Appliances,found,1269.88,,259.73,0.0,,259.73,,,True
+Digitek,,,,,digitek,Quick commerce only,Appliances,found,1269.88,,259.73,0.0,,259.73,,No product fit (electronics/gaming),False
 Disney,,,,,disney,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.0,,,0.0,,,True
 Dispo Queen,,,,,dispoqueen,Quick commerce only,Tissues & Disposables,not queried,,,,0.1,,0.1,,,True
 Divine Vibes,,,,,divinevibes,Quick commerce only,Home Decor,not queried,,,,,13.89,13.89,,,True
@@ -625,7 +625,7 @@ Dr. Fixit,,,,,drfixit,Quick commerce only,Utility & Tools,not queried,,,,4.03,,4
 DroliaFresh,,,,,droliafresh,Quick commerce only,Cleaning Tools,not queried,,,13.85,0.43,,14.28,,,True
 Dr Physio,,,,,drphysio,Quick commerce only,Appliances,found,301.44,,198.96,,,198.96,,,True
 Dr Trust,,,,,drtrust,Quick commerce only,Appliances,found,619.17,,134.61,,,134.61,,Established (well-known),False
-Dubstep,,,,,dubstep,Quick commerce only,Appliances,found,107.05,,12.7,34.84,,47.540000000000006,,,True
+Dubstep,,,,,dubstep,Quick commerce only,Appliances,found,107.05,,12.7,34.84,,47.540000000000006,,No product fit (electronics/gaming),False
 Dunlop,,,,,dunlop,Quick commerce only,Sports & Gym,not queried,,,,0.0,,0.0,,,True
 Duracell,,,,,duracell,Quick commerce only,Lights & Bulbs,not queried,,,,7.63,,7.63,,Established (workbook),False
 Duzzit,,,,,duzzit,Quick commerce only,Cleaning Tools,not queried,,,0.0,,,0.0,,,True
@@ -663,7 +663,7 @@ Evaa Enterprises,,,,,evaaenterprises,Quick commerce only,Decorative Lights,no se
 Eveready,,,,,eveready,Quick commerce only,Home Appliances,found,602.38,,,42.52,71.31,113.83000000000001,,Established (workbook),False
 Everyday,,,,,everyday,Quick commerce only,Tissues & Disposables,not queried,,,0.0,,,0.0,,,True
 EVM,,,,,evm,Quick commerce only,Storage & Organizers,found,686.7,,,84.35,,84.35,,,True
-Evofox,,,,,evofox,Quick commerce only,Appliances,found,489.05,,0.7,,,0.7,,,True
+Evofox,,,,,evofox,Quick commerce only,Appliances,found,489.05,,0.7,,,0.7,,No product fit (electronics/gaming),False
 EXALT,,,,,exalt,Quick commerce only,"Flowers, Plants & Gardening",not queried,,,0.38,,,0.38,,,True
 EXCLUSIVISH,,,,,exclusivish,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.84,,,0.84,,,True
 Exo,,,,,exo,Quick commerce only,Kitchen Cleaning,not queried,,,,0.0,,0.0,,,True
@@ -704,7 +704,7 @@ Fizzytech,,,,,fizzytech,Quick commerce only,Decorative Lights,found,100.95,4.45,
 Flair,,,,,flair,Quick commerce only,Stationery Needs,found,82.93,,118.04,,46.29,164.33,,Established (workbook),False
 Flexnest,,,,,flexnest,Quick commerce only,Appliances,found,499.77,,0.02,,,0.02,,,True
 Flite,,,,,flite,Quick commerce only,"Clothing, Footwear & Accessories",found,61.41,,65.96,,,65.96,,,True
-Flix,,,,,flix,Quick commerce only,Powerbanks Chargers Cables,not queried,,,,0.02,,0.02,,,True
+Flix,,,,,flix,Quick commerce only,Powerbanks Chargers Cables,not queried,,,,0.02,,0.02,,No product fit (electronics/gaming),False
 Flo,,,,,flo,Quick commerce only,Home Furnishing,found,389.44,22.38,,,0.06,0.06,,,True
 Floreal,,,,,floreal,Quick commerce only,Home Decor,not queried,,,,2.9,,2.9,,,True
 Florida,,,,,florida,Quick commerce only,Home Furnishing,not queried,,,0.02,,2.49,2.5100000000000002,,,True
@@ -748,7 +748,7 @@ Gimi,,,,,gimi,Quick commerce only,Bathware & Laundry,not queried,,,,0.0,,0.0,,,T
 Giri,,,,,giri,Quick commerce only,Pooja Needs,not queried,,,,0.0,,0.0,,,True
 Gita Press,,,,,gitapress,Quick commerce only,Pooja Needs,not queried,,,,0.0,,0.0,,,True
 Giva,,,,,giva,Quick commerce only,Festive & Occasion Needs,not queried,,,0.21,0.0,,0.21,,,True
-Gizmore,,,,,gizmore,Quick commerce only,Powerbanks Chargers Cables,not queried,,,,0.15,,0.15,,,True
+Gizmore,,,,,gizmore,Quick commerce only,Powerbanks Chargers Cables,not queried,,,,0.15,,0.15,,No product fit (electronics/gaming),False
 Gkd,,,,,gkd,Quick commerce only,Kitchen & Dining Needs,no selling listing,,,8.4,,,8.4,,,True
 GKI,,,,,gki,Quick commerce only,Sports & Gym,not queried,,,,5.76,,5.76,,,True
 Glen,,,,,glen,Quick commerce only,Kitchen Appliances,found,1267.65,,,23.97,23.18,47.15,,Established (well-known),False
@@ -768,7 +768,7 @@ Goldmedal,,,,,goldmedal,Quick commerce only,Appliances,found,114.68,,16.28,,93.0
 Gold Winner,,,,,goldwinner,Quick commerce only,Pooja Needs,no selling listing,,,,36.02,,36.02,,,True
 GoMechanic,,,,,gomechanic,Quick commerce only,Appliances,found,14.0,,26.14,6.41,,32.55,,Established (well-known),False
 GoPro,,,,,gopro,Quick commerce only,Appliances,found,206.08,,0.17,,,0.17,,Listed: GoPro,False
-Grand Pitstop,,,,,grandpitstop,Quick commerce only,Appliances,found,127.61,,3.78,,,3.78,,,True
+Grand Pitstop,,,,,grandpitstop,Quick commerce only,Appliances,found,127.61,,3.78,,,3.78,,No product fit (electronics/gaming),False
 Greenland,,,,,greenland,Quick commerce only,Sports & Gym,not queried,,,,0.0,,0.0,,,True
 Green Soul,,,,,greensoul,Quick commerce only,Home Furnishing,not queried,,,0.73,,,0.73,,Established (workbook),False
 Green Toys,,,,,greentoys,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.23,,,0.23,,,True
@@ -784,7 +784,7 @@ Habere India,,,,,habereindia,Quick commerce only,Decorative Lights,no selling li
 Hafele,,,,,hafele,Quick commerce only,Kitchen Appliances,found,101.61,,,,20.16,20.16,,Established (workbook),False
 Hamilton Beach,,,,,hamiltonbeach,Quick commerce only,Home Appliances,found,351.35,14.33,,,13.94,13.94,,Established (well-known),False
 Hamleys,,,,,hamleys,Quick commerce only,Stationery & Crafts,not queried,,,,,0.38,0.38,,,True
-Hammer,,,,,hammer,Quick commerce only,Powerbanks Chargers Cables,found,259.55,,,91.86,,91.86,,,True
+Hammer,,,,,hammer,Quick commerce only,Powerbanks Chargers Cables,found,259.55,,,91.86,,91.86,,No product fit (electronics/gaming),False
 Happinzo,,,,,happinzo,Quick commerce only,Home Furnishing,not queried,,,,,,,,,True
 Happi Planet,,,,,happiplanet,Quick commerce only,Hardware & Fittings,not queried,,,,,0.0,0.0,,,True
 Happy Mail,,,,,happymail,Quick commerce only,Home Furnishing,no selling listing,,,,,45.41,45.41,,,True
@@ -926,7 +926,7 @@ Krama,,,,,krama,Quick commerce only,Home Furnishing,not queried,,,,,,,,,True
 Kramig,,,,,kramig,Quick commerce only,Home Decor,not queried,,,,,,,,,True
 Kramson,,,,,kramson,Quick commerce only,Cleaning Tools,not queried,,,,0.04,,0.04,,,True
 kreations,,,,,kreations,Quick commerce only,Festive & Occasion Needs,not queried,,,0.0,,,0.0,,,True
-Kreo,,,,,kreo,Quick commerce only,Appliances,found,344.65,,5.65,,,5.65,,,True
+Kreo,,,,,kreo,Quick commerce only,Appliances,found,344.65,,5.65,,,5.65,,No product fit (electronics/gaming),False
 Kriiddaank,,,,,kriiddaank,Quick commerce only,Stationery & Crafts,not queried,,,,,0.34,0.34,,,True
 Kritilife,,,,,kritilife,Quick commerce only,Home Decor,not queried,,,1.25,,,1.25,,,True
 Kuber,,,,,kuber,Quick commerce only,Home Decor,no selling listing,,,15.38,15.06,40.12,70.56,,,True
@@ -937,7 +937,7 @@ LacyLook,,,,,lacylook,Quick commerce only,Home Furnishing,not queried,,,1.64,0.0
 Lakme,,,,,lakme,Quick commerce only,Utility & Tools,not queried,,,,0.04,,0.04,,,True
 Lamy,,,,,lamy,Quick commerce only,Stationery Needs,not queried,,,1.06,,,1.06,,,True
 La Opala,,,,,laopala,Quick commerce only,Bakeware & Bbq,not queried,,,,0.25,17.95,18.2,,Established (workbook),False
-Lapcare,,,,,lapcare,Quick commerce only,Powerbanks Chargers Cables,not queried,,,,0.12,0.01,0.13,,,True
+Lapcare,,,,,lapcare,Quick commerce only,Powerbanks Chargers Cables,not queried,,,,0.12,0.01,0.13,,No product fit (electronics/gaming),False
 Larah,,,,,larah,Quick commerce only,Kitchen & Dining Needs,no selling listing,,,163.26,70.03,8.22,241.51,,Established (workbook),False
 LAUTUS,,,,,lautus,Quick commerce only,Home Furnishing,not queried,,,0.0,,,0.0,,,True
 Lavender,,,,,lavender,Quick commerce only,Home Furnishing,not queried,,,,0.0,,0.0,,,True
@@ -1067,7 +1067,7 @@ nude,,,,,nude,Quick commerce only,Barware,not queried,,,,0.1,,0.1,,,True
 Nuluv,,,,,nuluv,Quick commerce only,Home Furnishing,not queried,,,,0.0,,0.0,,,True
 Numic,,,,,numic,Quick commerce only,Home Decor,not queried,,,0.0,,,0.0,,,True
 Nuovi,,,,,nuovi,Quick commerce only,Stationery Needs,not queried,,,16.74,0.02,,16.759999999999998,,,True
-Nu Republic,,,,,nurepublic,Quick commerce only,Bags,found,28.27,,11.62,92.08,,103.7,,,True
+Nu Republic,,,,,nurepublic,Quick commerce only,Bags,found,28.27,,11.62,92.08,,103.7,,No product fit (electronics/gaming),False
 Nutips,,,,,nutips,Quick commerce only,Utility & Tools,not queried,,,,0.86,,0.86,,,True
 NutriBullet,,,,,nutribullet,Quick commerce only,Appliances,found,169.69,,0.86,,14.71,15.57,,Established (workbook),False
 Oakter,,,,,oakter,Quick commerce only,Appliances,found,191.8,,17.07,,,17.07,,,True
@@ -1080,9 +1080,9 @@ Olaian,,,,,olaian,Quick commerce only,"Clothing, Footwear & Accessories",no sell
 Omizoo,,,,,omizoo,Quick commerce only,"Clothing, Footwear & Accessories",not queried,,,0.08,,,0.08,,,True
 Om Prabhat,,,,,omprabhat,Quick commerce only,Utility & Tools,not queried,,,,0.27,,0.27,,,True
 Om Shanthi,,,,,omshanthi,Quick commerce only,Pooja Needs,no selling listing,,,30.56,46.57,106.33,183.45999999999998,,Established (workbook),False
-Onelap,,,,,onelap,Quick commerce only,Appliances,found,180.01,,0.02,,,0.02,,,True
+Onelap,,,,,onelap,Quick commerce only,Appliances,found,180.01,,0.02,,,0.02,,No product fit (electronics/gaming),False
 O.n.e living,,,,,oneliving,Quick commerce only,Kitchen & Dining Needs,not queried,,,1.09,,,1.09,,,True
-OnePlus,,,,,oneplus,Quick commerce only,Powerbanks Chargers Cables,not queried,,,,0.1,,0.1,,,True
+OnePlus,,,,,oneplus,Quick commerce only,Powerbanks Chargers Cables,not queried,,,,0.1,,0.1,,No product fit (electronics/gaming),False
 Orchid Pillows,,,,,orchidpillows,Quick commerce only,Home Furnishing,not queried,,,2.8,,,2.8,,,True
 Oreva,,,,,oreva,Quick commerce only,Home Decor,not queried,,,,0.01,,0.01,,,True
 Outshock,,,,,outshock,Quick commerce only,Sports & Gym,not queried,,,,1.4,,1.4,,,True
@@ -1106,7 +1106,7 @@ Park+,,,,,park,Quick commerce only,Home Furnishing,not queried,,,,0.11,0.7,0.809
 Parker,,,,,parker,Quick commerce only,Stationery Needs,found,212.67,,148.78,,,148.78,,Established (well-known),False
 Party Propz,,,,,partypropz,Quick commerce only,Home Furnishing,found,119.9,,663.99,32.48,64.13,760.6,,Established (workbook),False
 Patanjali,,,,,patanjali,Quick commerce only,Pooja Needs,found,556.95,,34.76,,0.06,34.82,,Established (workbook),False
-Pebble,,,,,pebble,Quick commerce only,Powerbanks Chargers Cables,not queried,,,,0.0,,0.0,,,True
+Pebble,,,,,pebble,Quick commerce only,Powerbanks Chargers Cables,not queried,,,,0.0,,0.0,,No product fit (electronics/gaming),False
 Pee Safe,,,,,peesafe,Quick commerce only,Appliances,no selling listing,,,18.5,8.42,,26.92,,,True
 Pencil,,,,,pencil,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.02,,,0.02,,,True
 Pentel,,,,,pentel,Quick commerce only,Stationery Needs,not queried,,,10.31,,,10.31,,,True
@@ -1303,7 +1303,7 @@ Solognac,,,,,solognac,Quick commerce only,Storage & Organizers,not queried,,,,5.
 Sophiya,,,,,sophiya,Quick commerce only,Bathroom Essentials,not queried,,,8.29,,,8.29,,,True
 Soul,,,,,soul,Quick commerce only,Festive & Occasion Needs,not queried,,,0.0,,,0.0,,,True
 Soulflower,,,,,soulflower,Quick commerce only,Home Decor,found,147.97,,10.84,8.07,5.78,24.69,,,True
-Sounce,,,,,sounce,Quick commerce only,Appliances,found,371.4,,4.37,0.01,,4.38,,,True
+Sounce,,,,,sounce,Quick commerce only,Appliances,found,371.4,,4.37,0.01,,4.38,,No product fit (electronics/gaming),False
 Spaces,,,,,spaces,Quick commerce only,Home Furnishing,found,16.75,,11.79,0.74,2.47,15.0,,Established (workbook),False
 Sparkmate,,,,,sparkmate,Quick commerce only,Bath & Laundry,not queried,,,,,5.52,5.52,,,True
 Spartan,,,,,spartan,Quick commerce only,Home Improvement,not queried,,,0.02,1.22,,1.24,,,True
@@ -1340,7 +1340,7 @@ Stona,,,,,stona,Quick commerce only,Steel Utensils,not queried,,,,,0.62,0.62,,,T
 Storescent,,,,,storescent,Quick commerce only,Bags,not queried,,,1.71,,,1.71,,,True
 Strauss,,,,,strauss,Quick commerce only,Decorative Lights,not queried,,,7.9,0.4,,8.3,,Listed: Strauss Group,False
 Striders,,,,,striders,Quick commerce only,Bags,not queried,,,0.74,,0.12,0.86,,,True
-Stuffcool,,,,,stuffcool,Quick commerce only,Powerbanks Chargers Cables,not queried,,,,0.39,,0.39,,,True
+Stuffcool,,,,,stuffcool,Quick commerce only,Powerbanks Chargers Cables,not queried,,,,0.39,,0.39,,No product fit (electronics/gaming),False
 stylehouse,,,,,stylehouse,Quick commerce only,Appliances,no selling listing,,,0.0,,,0.0,,,True
 Submarine,,,,,submarine,Quick commerce only,Stationery Needs,not queried,,,0.0,,,0.0,,,True
 Sujata,,,,,sujata,Quick commerce only,Kitchen Appliances,not queried,,,,0.0,,0.0,,Established (workbook),False
@@ -1438,7 +1438,7 @@ Tuco,,,,,tuco,Quick commerce only,Bottles Flasks Tiffins,not queried,,,,0.08,,0.
 Tulip Elite,,,,,tulipelite,Quick commerce only,Home Furnishing,not queried,,,0.0,,,0.0,,,True
 Tulips,,,,,tulips,Quick commerce only,Tissues & Disposables,not queried,,,17.58,0.12,,17.7,,,True
 Twohands,,,,,twohands,Quick commerce only,Pooja Needs,not queried,,,0.46,,,0.46,,,True
-Tygot,,,,,tygot,Quick commerce only,Appliances,found,146.21,,0.0,,,0.0,,,True
+Tygot,,,,,tygot,Quick commerce only,Appliances,found,146.21,,0.0,,,0.0,,No product fit (electronics/gaming),False
 Tynor,,,,,tynor,Quick commerce only,Sports & Gym,found,420.29,,,83.9,,83.9,,Established (well-known),False
 Tyohaar,,,,,tyohaar,Quick commerce only,Decorative Lights,not queried,,,10.83,,,10.83,,,True
 Ullas,,,,,ullas,Quick commerce only,Pooja Needs,not queried,,,,15.58,,15.58,,,True
@@ -1463,7 +1463,7 @@ urbanrinse,,,,,urbanrinse,Quick commerce only,Cleaning Tools,not queried,,,,0.0,
 Urban Tribe,,,,,urbantribe,Quick commerce only,Lunch Boxes,not queried,,,,,0.58,0.58,,,True
 Urban Wipe,,,,,urbanwipe,Quick commerce only,Kitchen Cleaning,not queried,,,,,13.08,13.08,,,True
 Urban Yog,,,,,urbanyog,Quick commerce only,Appliances,found,1072.18,,0.3,27.7,,28.0,,Established (well-known),False
-Urbn,,,,,urbn,Quick commerce only,Powerbanks Chargers Cables,not queried,,,,1.57,,1.57,,,True
+Urbn,,,,,urbn,Quick commerce only,Powerbanks Chargers Cables,not queried,,,,1.57,,1.57,,No product fit (electronics/gaming),False
 Urgo,,,,,urgo,Quick commerce only,Tissues & Disposables,no selling listing,,,240.42,101.3,1.12,342.84,,,True
 Utensila,,,,,utensila,Quick commerce only,Jars Containers Holders,not queried,,,,0.24,,0.24,,,True
 utilikart,,,,,utilikart,Quick commerce only,Bathware & Laundry,no selling listing,,,,15.35,,15.35,,,True

@@ -71,3 +71,9 @@ LISTED = {
 }
 # Large private MNCs / house brands treated as established
 ESTABLISHED += ["Amul", "Mars", "Crayola", "Razer", "Solognac", "Forclaz", "Artengo", "Perfly", "Kiprun", "Tarmak", "Oxelo", "Tribord", "Elops"]
+
+# No product fit (user decision, 26 Nov 2026): gaming, computer, phone, audio and car electronics accessories.
+# Applied to quick-commerce-only brands; the team's Master File picks are left as they are.
+NO_FIT = ["Cosmic Byte", "Kreo", "Evofox", "Ant Esports", "Onelap", "Sounce", "Ausha", "Ailkin", "ajjas", "Tygot", "Dubstep",
+          "Digitek", "Boult", "Hammer", "CMF", "Pebble", "OnePlus", "Asus", "Amkette", "Stuffcool", "Urbn", "Gizmore", "Flix",
+          "Lapcare", "Bestor", "Nu Republic", "Grand Pitstop"]
