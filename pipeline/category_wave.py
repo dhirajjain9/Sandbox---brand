@@ -37,10 +37,13 @@ def main():
     gm = json.load(open(a.group_map))
     gm_slug = {re.sub(r"[^a-z0-9]", "", k.lower()): (k, v) for k, v in gm.items()}
     out = []
-    for f in sorted(glob.glob(os.path.join(a.folder, "*_cat_*.csv"))):
-        label = re.sub(r"^w\d+_cat_", "", os.path.basename(f)[:-4])
+    files = {}
+    for f in sorted(glob.glob(os.path.join(a.folder, "*_cat_*.csv"))):  # price-band splits: w1_cat_<name>__<band>.csv
+        label = re.sub(r"__.*$", "", re.sub(r"^w\d+_cat_", "", os.path.basename(f)[:-4]))
+        files.setdefault(label, []).append(f)
+    for label, fs in files.items():
         name, group = gm_slug.get(re.sub(r"[^a-z0-9]", "", label.lower()), (label.replace("_", " "), "Unassigned"))
-        t = brand_table(load(f))
+        t = brand_table(pd.concat([load(f) for f in fs]))
         t.insert(0, "group", group)
         t.insert(0, "period", a.period)
         t.insert(0, "platform", "Amazon India")
