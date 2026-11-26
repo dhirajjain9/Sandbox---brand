@@ -126,6 +126,25 @@ def categories(brands):
                                 "asp": clean(r.asp), "rating": clean(r.rating), "yoy": clean(r.yoy_pct),
                                 "screened": next((x["key"] for x in brands if norm(r.brand) in (x["match"] if isinstance(x["match"], list) else [x["match"]])), None)}
                                for r in t.head(10).itertuples()]}
+    wave = ROOT / "runs" / "_categories" / "category_market.csv"  # target-list category waves
+    if wave.exists():
+        w = pd.read_csv(wave)
+        for (gname, name), t in w.groupby(["group", "subcategory"]):
+            g = groups.setdefault(gname, {})
+            if name in g:
+                continue
+            t = t.sort_values("revenue", ascending=False).reset_index(drop=True)
+            rev, units = t.revenue.sum(), t.units.sum()
+            y = t[t.yoy_pct.notna() & (t.yoy_units > 0)]
+            prior = (y.yoy_units / (1 + y.yoy_pct / 100)).sum()
+            g[name] = {"name": name, "slug": slug(name), "platform": t.platform[0], "period": t.period[0],
+                       "revenue": float(rev), "units": int(units), "asp": round(rev / units) if units else 0, "brands": len(t),
+                       "top5": round(t.revenue.head(5).sum() / rev * 100, 1) if rev else 0,
+                       "yoy": round((y.yoy_units.sum() / prior - 1) * 100, 1) if prior else None,
+                       "yoyCoverage": round(y.yoy_units.sum() / units * 100) if units else 0, "leader": t.brand[0], "screened": [],
+                       "top": [{"brand": r.brand, "revShare": round(r.revenue / rev * 100, 1), "unitShare": round(r.units / units * 100, 1),
+                                "asp": clean(r.asp), "rating": clean(r.rating), "yoy": clean(r.yoy_pct), "screened": None}
+                               for r in t.head(10).itertuples()]}
     return [{"name": gname, "slug": slug(gname), "subs": sorted(subs.values(), key=lambda s: -s["revenue"]),
              "brandKeys": [b["key"] for b in brands if b["group"] == gname]} for gname, subs in sorted(groups.items())]
 
