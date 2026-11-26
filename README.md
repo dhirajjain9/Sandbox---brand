@@ -7,6 +7,13 @@ A static, self-contained dashboard (`outputs/dashboard/index.html`) shows every 
 its category markets, and side-by-side comparisons. Views use URL hashes, e.g. `#/brand/cadlec`,
 `#/category/kitchen-appliances`, `#/compare/cadlec,milton`.
 
+### Quick-commerce sales by brand (`pipeline/qcom_brand_sales.py`)
+
+`runs/_qcom/qcom_brand_sales.csv` holds every brand in the GobbleCube exports by platform, category and month,
+with sales estimated as category share x category size. Look one up with
+`python -m pipeline.qcom_brand_sales brand nestroots` (add `--by category` for the split); rebuild with `build`
+after adding a new export.
+
 ### Adding a brand (`pipeline/new_brand.py`)
 
 1. **Register it.** `python -m pipeline.new_brand add --name "TEKAVO" --group "Home & office furniture" --category "Computer tables and office furniture"`
