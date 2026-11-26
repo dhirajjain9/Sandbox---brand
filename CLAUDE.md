@@ -24,6 +24,14 @@ batches with context starting "Amazon 30-day sales for quick-commerce brands", t
 `python -m pipeline.amazon_brand_sales extract` and `build`, then rebuild the dashboard. Splitting capped
 batches is expensive (about one call per brand); budget Helium 10 calls (1,000 a month).
 
+## TARGET: master extraction list (set by the user, 26 Nov 2026)
+
+`runs/_target/master_list.csv`: **1,569 brands** = Master File brands excluding "Skipped" and
+"Skipped (Established)" (336) + quick-commerce brands not in the Master File (1,233). This is the list data
+extraction must cover. Rebuild coverage after each pull: `python -m pipeline.target_list <workbook.xlsx>`.
+Coverage at setting: Amazon full pull 404 (344 found, 60 none selling), 1,165 not yet; quick commerce 1,271.
+Roles: we do data and diligence; outreach decisions belong to the outreach team.
+
 ## Sourcing universe (the team's brand list)
 
 `runs/_sourcing/universe.csv`, from the team's CH dashboard workbook (`data/raw/sourcing/`, gitignored):
