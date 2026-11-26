@@ -162,12 +162,12 @@ def sourcing_json():
     s = lambda v: None if pd.isna(v) else str(v)
     cols = ["brand", "ch_category", "secondary", "subcategory", "status", "outreach", "owner", "skip_reason", "comment",
             "file_amazon_cr", "file_blinkit_cr", "file_instamart_cr", "file_zepto_cr", "file_total_cr",
-            "amz_full_cr", "amz_ratio", "amz_full_status", "qc_blinkit_cr", "qc_instamart_cr", "qc_zepto_cr", "qc_total_cr",
+            "amz_full_cr", "amz_ratio", "amz_full_status", "amz_12m_cr", "amz_coverage", "qc_blinkit_cr", "qc_instamart_cr", "qc_zepto_cr", "qc_total_cr",
             "screen_key", "screen_verdict", "website"]
     rows = [[n(r[c]) if c.endswith("_cr") or c == "amz_ratio" else s(r[c]) for c in cols] for _, r in u.iterrows()]
     return {"cols": cols, "rows": rows,
             "note": "Workbook: CH dashboard, 26 Nov 2026 (Amazon from bestseller lists, quick commerce from GobbleCube, annualised x12). "
-                    "Ours: Amazon full brand pull (Helium 10, 30 days to 26 Nov 2026) x12; quick commerce at selling price, Sep-Oct 2026 average x12. "
+                    "Ours: Amazon full brand pull (Helium 10 API and Black Box, 30 days to 26 Nov 2026) x12, with the trailing 12 months where Helium 10 reports it (about 0.65x the festive figure); quick commerce at selling price, Sep-Oct 2026 average x12. "
                     "Both periods include the festive season."}
 
 

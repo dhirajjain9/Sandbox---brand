@@ -856,7 +856,7 @@ async function sourcing() {
         <td class="small">${esc(r.secondary || "")}<span class="fine note">${esc(r.subcategory || "")}</span></td>
         <td class="small">${esc(r.status || "")}<span class="fine note">${esc(r.outreach || "No outreach yet")}${r.skip_reason ? " · " + esc(r.skip_reason) : ""}</span></td>
         <td class="num small">${cr(r.file_amazon_cr)}<span class="fine note">${cr(fq)}</span></td>
-        <td class="num small">${r.amz_full_status === "no selling listing" ? '<span class="fine">None selling</span>' : cr(r.amz_full_cr)}${r.amz_ratio >= 3 ? `<span class="flag">${r.amz_ratio >= 100 ? "100x+" : Math.round(r.amz_ratio) + "x"} workbook</span>` : ""}</td>
+        <td class="num small">${r.amz_full_status === "no selling listing" ? '<span class="fine">None selling</span>' : cr(r.amz_full_cr)}${r.amz_12m_cr ? `<span class="fine note">12 months: ${cr(r.amz_12m_cr)}</span>` : ""}${r.amz_coverage && !String(r.amz_coverage).startsWith("complete") ? `<span class="fine note">${esc(r.amz_coverage)}</span>` : ""}${r.amz_ratio >= 3 ? `<span class="flag">${r.amz_ratio >= 100 ? "100x+" : Math.round(r.amz_ratio) + "x"} workbook</span>` : ""}</td>
         <td class="num small">${cr(r.qc_total_cr)}${r.qc_total_cr != null ? `<span class="fine note">${[r.qc_blinkit_cr, r.qc_instamart_cr, r.qc_zepto_cr].map(v => v == null ? "—" : v.toFixed(1)).join(" · ")}</span>` : ""}</td>
         <td class="small">${r.screen_key ? `<a href="#/brand/${esc(r.screen_key)}">${esc(r.screen_verdict)} ›</a>` : '<span class="fine">—</span>'}</td></tr>`; }).join("")}</tbody></table></div>
       ${L.length > sfil.n ? `<p style="margin-top:14px"><a href="#" id="smore">Show all ${L.length.toLocaleString("en-IN")} ›</a></p>` : ""}`;

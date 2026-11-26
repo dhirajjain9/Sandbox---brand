@@ -60,6 +60,11 @@ def main(path):
     u["amz_full_cr"] = u.key.map((a.amazon_revenue_30d_lakh.fillna(0) * 12 / 100).to_dict())
     u["amz_full_status"] = u.key.map(a.amazon_status.to_dict())
     u["amz_capped"] = u.key.map(a.capped_top500.to_dict())
+    u["amz_12m_cr"] = u.key.map(a.amazon_revenue_12m_cr.to_dict()) if "amazon_revenue_12m_cr" in a else None
+    sv = "data/raw/sourcing/amazon_in_sourcing_brands_summary_v2.csv"  # full-pull coverage per brand (sourcing run, 26 Nov)
+    if os.path.exists(sv):
+        s = pd.read_csv(sv)
+        u["amz_coverage"] = u.key.map(dict(zip(s.our_brand.map(slug), s.coverage)))
     q = pd.read_csv("runs/_qcom/qcom_brand_sales.csv")
     q = q[q.month.isin(["2026-09", "2026-10"])]
     for pf in ["Blinkit", "Instamart", "Zepto"]:
@@ -79,7 +84,7 @@ def main(path):
     u["screen_verdict"] = u.key.map(lambda k: tier.get(k, (None, None))[1])
     u["target"] = u.status.isin(TARGET)
     u["best_total_cr"] = u[["amz_full_cr", "qc_total_cr"]].sum(axis=1, min_count=1)
-    num = ["file_total_cr", "file_amazon_cr", "file_blinkit_cr", "file_instamart_cr", "file_zepto_cr", "amz_full_cr",
+    num = ["amz_12m_cr", "file_total_cr", "file_amazon_cr", "file_blinkit_cr", "file_instamart_cr", "file_zepto_cr", "amz_full_cr",
            "qc_blinkit_cr", "qc_instamart_cr", "qc_zepto_cr", "qc_total_cr", "amz_ratio", "best_total_cr"]
     for c in num:
         u[c] = pd.to_numeric(u[c], errors="coerce").round(2)

@@ -112,8 +112,9 @@ def import_csv(folder, batches=None):
         pick = lambda *names: next((cols[n] for n in names if n in cols), None)
         a, b = pick("asin"), pick("brand")
         rev, units, price = pick("asin revenue", "revenue"), pick("asin sales", "sales"), pick("price", "price ₹", "price (₹)")
-        year = next((c for c in d.columns if re.search(r"(12[- ]?month|last year sales|year sales|annual)", c, re.I)
-                     and not re.search(r"(%|over year|yoy)", c, re.I)), None)
+        # Black Box's "Last Year Sales" is parent-level (repeated on every child), so it is not summed per listing
+        year = next((c for c in d.columns if re.search(r"(12[- ]?month|asin year sales|annual)", c, re.I)
+                     and not re.search(r"(%|over year|yoy|parent)", c, re.I)), None)
         if not (a and b and rev and units):
             print("skipped (missing ASIN/Brand/Revenue/Sales columns):", f, list(d.columns)[:12]); continue
         x = pd.DataFrame({"asin": d[a], "brand": d[b], "units": num(d[units]).fillna(0), "revenue_rs": num(d[rev]).fillna(0)})
