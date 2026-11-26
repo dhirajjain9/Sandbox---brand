@@ -43,10 +43,10 @@ alltime,All Time,,,,,,not queried
 amayadecors,Amaya Decors,,,,,,not queried
 amazon,Amazon,,,,,,not queried
 ambica,Ambica,,,,,,not queried
-ambition,Ambition,,,,,,not queried
+ambition,Ambition,,,,,,no selling listing
 ambrane,Ambrane,Ambrane,232.0,340129.0,2495.86,False,found
 americanmicronic,American Micronic,,,,,,not queried
-americantourister,American Tourister,,,,,,not queried
+americantourister,American Tourister,American Tourister,500.0,86592.0,2261.69,True,found
 amkette,Amkette,,,,,,not queried
 amogha,Amogha,,,,,,not queried
 amro,amro,,,,,,no selling listing
@@ -76,10 +76,10 @@ araldite,Araldite,,,,,,not queried
 aravi,Aravi,,,,,,no selling listing
 archies,Archies,,,,,,not queried
 ariete,Ariete,,,,,,not queried
-aristo,Aristo,,,,,,not queried
+aristo,Aristo,ARISTO,262.0,43230.0,202.54,False,found
 aristocrat,Aristocrat,Aristocrat,245.0,86038.0,1974.58,False,found
-arlavya,Arlavya,,,,,,not queried
-aromahpure,Aromahpure,,,,,,not queried
+arlavya,Arlavya,ARLAVYA,2.0,4.0,0.08,False,found
+aromahpure,Aromahpure,Aromahpure,240.0,41580.0,96.83,False,found
 arounest,Arou Nest,,,,,,not queried
 arrabi,Arrabi,,,,,,no selling listing
 arrowmax,ARROW max,,,,,,not queried
@@ -117,7 +117,7 @@ avs,AVS,,,,,,not queried
 avyaan,Avyaan,,,,,,not queried
 awell,A-WELL,,,,,,not queried
 awenest,Awenest,,,,,,not queried
-awestuffs,Awestuffs,,,,,,not queried
+awestuffs,Awestuffs,Awestuffs,176.0,917.0,4.3,False,found
 axlon,axlon,,,,,,not queried
 axon,Axon,,,,,,not queried
 ayodhyabhakti,Ayodhya Bhakti,,,,,,not queried
@@ -149,7 +149,7 @@ beco,Beco,Beco,67.0,459947.0,1215.79,False,found
 bedspun,Bedspun,,,,,,not queried
 behoma,Behoma,,,,,,not queried
 belkin,Belkin,,,,,,not queried
-bellavita,Bella Vita,,,,,,not queried
+bellavita,Bella Vita,,,,,,no selling listing
 beloxy,Beloxy,,,,,,not queried
 bengalen,BENGALEN,,,,,,not queried
 bergner,Bergner,BERGNER,500.0,51037.0,942.64,True,found
@@ -158,10 +158,10 @@ besque,Besque,,,,,,not queried
 bestor,Bestor,,,,,,not queried
 betterhood,Betterhood,,,,,,not queried
 bianca,Bianca,BIANCA,19.0,49.0,0.41,False,found
-bic,BIC,,,,,,not queried
+bic,BIC,BIC,158.0,954.0,8.73,False,found
 bigblue,Big Blue,,,,,,not queried
 bigplastics,Big Plastics,,,,,,not queried
-billebon,Billebon,,,,,,not queried
+billebon,Billebon,Billebon,126.0,24234.0,76.53,False,found
 bio,Bio,,,,,,not queried
 biogreen,Biogreen,,,,,,not queried
 bioweaves,Bioweaves,,,,,,not queried
@@ -171,7 +171,7 @@ birthdaypopper,Birthday Popper,,,,,,not queried
 bittoo,Bittoo,,,,,,not queried
 blackboxpapers,Black Box Papers,,,,,,not queried
 blackcarrot,BLACKCARROT,,,,,,not queried
-blackdecker,Black+Decker,,,,,,not queried
+blackdecker,Black+Decker,BLACK+DECKER,186.0,17510.0,439.53,False,found
 blendlife,BlendLife,,,,,,not queried
 bloomingdales,Bloomingdale's,,,,,,not queried
 bloomingo,Bloomingo,,,,,,not queried
@@ -185,36 +185,36 @@ bohofy,Bohofy,,,,,,not queried
 boldfit,Boldfit,Boldfit,500.0,525202.0,2673.28,True,found
 boltsip,Boltsip,,,,,,not queried
 bombae,Bombae,BOMBAE,68.0,36157.0,279.97,False,found
-bombaydyeing,Bombay Dyeing,,,,,,not queried
+bombaydyeing,Bombay Dyeing,Bombay Dyeing,350.0,7272.0,95.18,False,found
 bombaygreens,Bombay Greens,,,,,,not queried
 bombaykookware,Bombay Kookware,Bombay Kookware,9.0,42.0,0.33,False,found
 bombayshavingcompany,Bombay Shaving Company,Bombay Shaving Company,67.0,97279.0,555.7,False,found
 bondtite,Bondtite,,,,,,not queried
 bonkerz,Bonkerz,,,,,,not queried
 borosil,Borosil,Borosil,500.0,148240.0,1568.6,True,found
-bosch,Bosch,,,,,,not queried
+bosch,Bosch,Bosch,500.0,195392.0,12031.57,True,found
 bosco,Bosco,,,,,,not queried
 boss,Boss,,,,,,not queried
 boult,Boult,,,,,,not queried
 boutiqueliving,Boutique Living,,,,,,not queried
-branditude,Branditude,,,,,,not queried
+branditude,Branditude,,,,,,no selling listing
 braun,Braun,,,,,,not queried
 brayden,Brayden,,,,,,not queried
 brickbrown,Brick Brown,,,,,,not queried
 brightstorey,Bright Storey,,,,,,not queried
 bronson,Bronson,,,,,,not queried
 broomify,Broomify,,,,,,not queried
-brustro,Brustro,,,,,,not queried
+brustro,Brustro,BRUSTRO,500.0,52352.0,193.23,True,found
 btag,Btag,,,,,,not queried
 btwin,Btwin,,,,,,not queried
 buildskill,Buildskill,,,,,,not queried
 bulfyss,Bulfyss,Bulfyss,24.0,681.0,1.89,False,found
 bulkhunt,Bulkhunt,,,,,,not queried
-bunsak,Bunsak,,,,,,not queried
-butterfly,Butterfly,,,,,,not queried
+bunsak,Bunsak,,,,,,no selling listing
+butterfly,Butterfly,Butterfly,235.0,89343.0,2038.82,False,found
 caddletoes,Caddle & Toes,,,,,,not queried
 camelbak,CamelBak,,,,,,not queried
-camlin,Camlin,,,,,,not queried
+camlin,Camlin,Camlin,322.0,13234.0,24.89,False,found
 campus,Campus,Campus,500.0,111334.0,1151.87,True,found
 canaveral,Canaveral,,,,,,not queried
 canon,Canon,Canon,231.0,34181.0,2606.62,False,found
@@ -222,7 +222,7 @@ caprese,Caprese,,,,,,not queried
 capsicum,Capsicum,,,,,,no selling listing
 carbinic,Carbinic,,,,,,not queried
 careforce,Careforce,,,,,,no selling listing
-caresmith,Caresmith,,,,,,not queried
+caresmith,Caresmith,CARESMITH,44.0,50327.0,1000.74,False,found
 careswipe,Careswipe,,,,,,not queried
 carltonlondon,Carlton London,,,,,,not queried
 carote,Carote,,,,,,not queried
@@ -254,7 +254,7 @@ chrome,Chrome,,,,,,not queried
 chuk,Chuk,,,,,,no selling listing
 chumbak,Chumbak,Chumbak,315.0,4706.0,39.44,False,found
 cif,Cif,,,,,,not queried
-cinagro,Cinagro,,,,,,not queried
+cinagro,Cinagro,CINAGRO,193.0,25941.0,76.89,False,found
 cir,CIR,,,,,,not queried
 citizen,Citizen,Citizen,246.0,12539.0,127.11,False,found
 claret,Claret,,,,,,not queried
@@ -312,7 +312,7 @@ cristaldarques,Cristal D'Arques,,,,,,not queried
 crompton,Crompton,Crompton,500.0,212220.0,4077.61,True,found
 crownsy,crownsy,,,,,,not queried
 crystal,Crystal,Crystal,361.0,30625.0,72.44,False,found
-cult,Cult,,,,,,not queried
+cult,Cult,CULT,500.0,81155.0,996.43,True,found
 curaa,Curaa,,,,,,not queried
 cureskin,Cureskin,,,,,,not queried
 cuttales,CutTales,CutTales,2.0,6.0,0.04,False,found
@@ -329,16 +329,16 @@ dancingpanda,Dancing Panda,,,,,,not queried
 dash,Dash,,,,,,not queried
 dashakarma,Dashakarma,,,,,,not queried
 dazzle,Dazzle,,,,,,not queried
-ddecor,D'Decor,,,,,,not queried
+ddecor,D'Decor,,,,,,no selling listing
 ddesh,ddesh,,,,,,not queried
 dealberg,dealberg,,,,,,not queried
 dearjoy,DearJoy,,,,,,not queried
-decathlon,Decathlon,,,,,,not queried
+decathlon,Decathlon,Decathlon,59.0,811.0,6.03,False,found
 deepcutlery,Deep Cutlery,,,,,,not queried
 dehatipushtak,Dehati Pushtak,,,,,,not queried
 dejurefitness,De Jure Fitness,,,,,,not queried
 deli,Deli,,,,,,not queried
-delibohemi,DeliBohemi,,,,,,not queried
+delibohemi,DeliBohemi,,,,,,no selling listing
 deliwrap,deliwrap,,,,,,not queried
 denzo,Denzo,,,,,,not queried
 deodap,DeoDap,,,,,,not queried
@@ -349,20 +349,20 @@ dettol,Dettol,,,,,,not queried
 devnidhi,Devnidhi,,,,,,not queried
 dewfresh,Dew Fresh,,,,,,not queried
 dheepam,Dheepam,,,,,,no selling listing
-diacraft,DiaCraft,,,,,,not queried
+diacraft,DiaCraft,DiaCraft,56.0,729.0,1.47,False,found
 digismart,Digismart,DIGISMART,80.0,2428.0,47.09,False,found
 digitek,Digitek,Digitek,239.0,66529.0,1269.88,False,found
 disney,Disney,,,,,,not queried
 dispoqueen,Dispo Queen,,,,,,not queried
 divinesenses,Divine Senses,,,,,,not queried
 divinevibes,Divine Vibes,,,,,,not queried
-doctorextrasoft,Doctor Extra Soft,,,,,,not queried
+doctorextrasoft,Doctor Extra Soft,DOCTOR EXTRA SOFT,500.0,59781.0,413.92,True,found
 doctortowels,DoctorTowels,,,,,,not queried
 doft,Doft,,,,,,not queried
 dolfin,Dolfin,,,,,,not queried
 dollar,Dollar,,,,,,not queried
 doms,Doms,,,,,,not queried
-domyos,Domyos,,,,,,not queried
+domyos,Domyos,,,,,,no selling listing
 drapemyhome,Drape My Home,Drape My Home,16.0,42.0,0.28,False,found
 drbio,Dr. Bio,,,,,,not queried
 dreamcare,Dream Care,DREAM CARE,500.0,1968.0,8.24,True,found
@@ -381,7 +381,7 @@ duzzit,Duzzit,,,,,,not queried
 dyanora,Dyanora,,,,,,not queried
 dylect,Dylect,,,,,,not queried
 dynore,Dynore,Dynore,500.0,12665.0,35.66,True,found
-dyson,Dyson,,,,,,not queried
+dyson,Dyson,Dyson,37.0,6331.0,2098.14,False,found
 ea,EA,,,,,,not queried
 earthchakra,Earth Chakra,,,,,,not queried
 earthfokus,earthfokus,,,,,,not queried
@@ -392,21 +392,21 @@ ecolink,EcoLink,,,,,,not queried
 ecoright,EcoRight,EcoRight,119.0,1957.0,12.6,False,found
 ecosense,ECO Sense,,,,,,not queried
 ecosoul,Eco Soul,ECO SOUL,55.0,8134.0,22.57,False,found
-ecovacs,Ecovacs,,,,,,not queried
+ecovacs,Ecovacs,ECOVACS,49.0,19622.0,6941.2,False,found
 ecraftindia,eCraftIndia,eCraftIndia,500.0,45191.0,137.33,True,found
 edd,Edd,,,,,,not queried
 edenbrooks,Eden & Brooks,,,,,,not queried
 eduwation,Eduwation,,,,,,not queried
 eduway,Eduway,,,,,,not queried
-eha,Eha,,,,,,not queried
+eha,Eha,Eha,500.0,30470.0,192.71,True,found
 einsteinbox,Einstein Box,,,,,,not queried
 ekam,Ekam,EKAM,48.0,14852.0,45.85,False,found
 ekdodhai,EK DO Dhai,,,,,,not queried
-ekhasa,Ekhasa,,,,,,not queried
+ekhasa,Ekhasa,Ekhasa,398.0,27659.0,174.04,False,found
 ekta,Ekta,,,,,,not queried
 elastpro,ElastPro,,,,,,not queried
 eleenova,Eleenova,,,,,,not queried
-elefant,Elefant,,,,,,not queried
+elefant,Elefant,,,,,,no selling listing
 elegantweavers,Elegant Weavers,ELEGANT WEAVERS,21.0,26.0,0.11,False,found
 elephant,Elephant,,,,,,not queried
 ellementry,Ellementry,,,,,,not queried
@@ -426,12 +426,12 @@ eurekaforbes,Eureka Forbes,Eureka Forbes,48.0,19329.0,1062.4,False,found
 evaaenterprises,Evaa Enterprises,,,,,,no selling listing
 eveready,Eveready,EVEREADY,234.0,142843.0,602.38,False,found
 everest,Everest,Everest,187.0,187016.0,307.41,False,found
-evereve,Evereve,,,,,,not queried
+evereve,Evereve,Evereve,59.0,105119.0,231.77,False,found
 everyday,Everyday,,,,,,not queried
 evm,EVM,EVM,167.0,28611.0,686.7,False,found
 evofox,Evofox,,,,,,not queried
 exalt,EXALT,,,,,,not queried
-exclusivelane,ExclusiveLane,,,,,,not queried
+exclusivelane,ExclusiveLane,ExclusiveLane,500.0,11434.0,133.0,True,found
 exclusivish,EXCLUSIVISH,,,,,,not queried
 exo,Exo,,,,,,not queried
 ezee,Ezee,Ezee,53.0,101977.0,175.84,False,found
@@ -452,7 +452,7 @@ famyo,Famyo,,,,,,not queried
 fancode,FanCode,,,,,,not queried
 farlin,Farlin,,,,,,not queried
 farmerr,Farmerr,,,,,,not queried
-fashionclouds,Fashion clouds,,,,,,not queried
+fashionclouds,Fashion clouds,Fashion Clouds,1.0,24.0,0.07,False,found
 fashionstring,Fashion String,,,,,,not queried
 fason,FASON,,,,,,not queried
 fastrack,Fastrack,Fastrack,500.0,114963.0,2101.52,True,found
@@ -468,7 +468,7 @@ fevibond,Fevibond,,,,,,not queried
 fevicol,Fevicol,,,,,,not queried
 fevicreate,Fevicreate,,,,,,not queried
 fevicryl,Fevicryl,,,,,,not queried
-fevikwik,Fevikwik,,,,,,not queried
+fevikwik,Fevikwik,Fevikwik,21.0,14150.0,15.82,False,found
 fevistik,Fevistik,,,,,,not queried
 fgear,F Gear,,,,,,not queried
 fiama,Fiama,,,,,,not queried
@@ -488,7 +488,7 @@ floryn,Floryn,,,,,,not queried
 floryndecor,Floryn Decor,,,,,,not queried
 floweraura,Flower Aura,,,,,,no selling listing
 flx,FLX,,,,,,not queried
-flyloons,Flyloons,,,,,,not queried
+flyloons,Flyloons,Flyloons,38.0,911.0,1.38,False,found
 flyngo,Flyngo,FLYNGO,141.0,132256.0,548.16,False,found
 fnp,FNP,fnp,65.0,2596.0,10.04,False,found
 fns,FNS,,,,,,not queried
@@ -498,9 +498,9 @@ forclaz,Forclaz,,,,,,not queried
 forus,Forus,,,,,,not queried
 fovera,Fovera,FOVERA,291.0,60609.0,586.81,False,found
 freecultr,Freecultr,,,,,,not queried
-freemans,Freemans,,,,,,not queried
+freemans,Freemans,FREEMANS,181.0,44603.0,98.93,False,found
 frenchconnection,French Connection,,,,,,not queried
-frenchware,Frenchware,,,,,,not queried
+frenchware,Frenchware,Frenchware,99.0,16758.0,54.15,False,found
 freshbury,Freshbury,,,,,,not queried
 freshee,Freshee,,,,,,not queried
 freshones,Fresh Ones,,,,,,not queried
@@ -523,7 +523,7 @@ gaddaco,Gadda Co,,,,,,not queried
 gala,Gala,Gala,95.0,137624.0,390.09,False,found
 ganesh,Ganesh,GANESH,206.0,108422.0,208.23,False,found
 gardengenie,Garden Genie,,,,,,not queried
-gardenscoir,Gardens Coir,,,,,,not queried
+gardenscoir,Gardens Coir,,,,,,no selling listing
 gebi,Gebi,GEBI,3.0,11.0,0.06,False,found
 generic,Generic,,,,,,not queried
 genie,Genie,,,,,,not queried
@@ -547,11 +547,11 @@ gleva,Gleva,,,,,,not queried
 glimma,Glimma,,,,,,not queried
 glimpsehomes,Glimpse Homes,,,,,,not queried
 gloxy,GLOXY,,,,,,not queried
-gluman,Gluman,,,,,,not queried
+gluman,Gluman,Gluman,190.0,3485.0,11.94,False,found
 gm,GM,GM,279.0,108514.0,475.57,False,found
 go24,Go24,Go24,14.0,3298.0,33.64,False,found
 godrej,Godrej,,,,,,not queried
-godrejcartini,Godrej Cartini,,,,,,not queried
+godrejcartini,Godrej Cartini,,,,,,no selling listing
 godrejlocks,Godrej Locks,,,,,,not queried
 godrejsecuritysolutions,Godrej Security Solutions,,,,,,not queried
 gods,GODS,,,,,,not queried
@@ -560,7 +560,7 @@ gogear,gogear,,,,,,not queried
 gogreen,Go Green,,,,,,not queried
 gohooked,Go Hooked,,,,,,not queried
 goldmedal,Goldmedal,Goldmedal,393.0,27712.0,114.68,False,found
-goldwinner,Gold Winner,,,,,,not queried
+goldwinner,Gold Winner,,,,,,no selling listing
 gomechanic,GoMechanic,GoMechanic,8.0,400.0,14.0,False,found
 goodscity,GOODSCITY,,,,,,not queried
 gopro,GoPro,,,,,,not queried
@@ -571,16 +571,16 @@ greensoul,Green Soul,,,,,,not queried
 greentoys,Green Toys,,,,,,not queried
 greenvale,Greenvale,,,,,,no selling listing
 grihokon,Grihokon,,,,,,not queried
-grishva,Grishva,,,,,,not queried
+grishva,Grishva,GRISHVA,38.0,80.0,0.19,False,found
 groovydudz,Groovydudz,,,,,,not queried
 gubb,Gubb,GUBB,208.0,18352.0,31.38,False,found
 gudiyatoys,Gudiya Toys,,,,,,not queried
 gullak,Gullak,,,,,,not queried
 gurkha,Gurkha,,,,,,not queried
 gwcreations,Gw Creations,,,,,,not queried
-habereindia,Habere India,,,,,,not queried
-habitat,Habitat,,,,,,not queried
-hafele,Hafele,,,,,,not queried
+habereindia,Habere India,,,,,,no selling listing
+habitat,Habitat,Habitat,86.0,327.0,1.68,False,found
+hafele,Hafele,Hafele,30.0,1182.0,101.61,False,found
 halonix,Halonix,Halonix,489.0,121536.0,446.5,False,found
 hamiltonbeach,Hamilton Beach,,,,,,not queried
 hamleys,Hamleys,,,,,,not queried
@@ -592,7 +592,7 @@ happiplanet,Happi Planet,,,,,,not queried
 happykitchen,Happy Kitchen,,,,,,no selling listing
 happymail,Happy Mail,,,,,,no selling listing
 happyshield,happyshield,,,,,,not queried
-happytohang,Happy to Hang,,,,,,not queried
+happytohang,Happy to Hang,Happy To Hang,14.0,4981.0,9.01,False,found
 happytyohaar,Happy Tyohaar,,,,,,not queried
 happyware,happyware,,,,,,not queried
 hargharpuja,Har Ghar Puja,,,,,,not queried
@@ -602,7 +602,7 @@ harrison,Harrison,,,,,,not queried
 harrypotter,Harry Potter,,,,,,not queried
 hashwow,HashWOW,HashWOW,33.0,545.0,2.17,False,found
 hausen,Hausen,,,,,,not queried
-hauser,Hauser,,,,,,not queried
+hauser,Hauser,Hauser,200.0,39813.0,66.96,False,found
 hauskinder,Haus & Kinder,haus & kinder,500.0,48121.0,529.9,True,found
 hausofbars,Haus of Bars,,,,,,not queried
 havells,Havells,Havells,500.0,279997.0,6602.92,True,found
@@ -627,7 +627,7 @@ himaakars,himaakars,,,,,,not queried
 himalayatextiles,Himalaya Textiles,,,,,,not queried
 himeya,Himeya,,,,,,not queried
 hindalco,Hindalco,,,,,,not queried
-hindcraft,Hindcraft,,,,,,not queried
+hindcraft,Hindcraft,HindCraft,223.0,1519.0,7.76,False,found
 hindson,Hindson,,,,,,not queried
 hindware,Hindware,,,,,,not queried
 hipkoo,Hipkoo,,,,,,not queried
@@ -650,7 +650,7 @@ homelane,HomeLane,,,,,,not queried
 homeleedekor,Homelee Dekor,,,,,,not queried
 homelight,Home Light,,,,,,not queried
 homelites,Homelites,,,,,,no selling listing
-homemonde,Homemonde,,,,,,not queried
+homemonde,Homemonde,HOMEMONDE,500.0,24765.0,284.5,True,found
 homerz,Homerz,Homerz,500.0,52123.0,240.67,True,found
 homesake,Homesake,,,,,,not queried
 homeshastra,HomeShastra,,,,,,not queried
@@ -660,15 +660,15 @@ homestrap,Homestrap,HomeStrap,500.0,115024.0,676.0,True,found
 hometruths,Home Truths,,,,,,no selling listing
 homezit,Homez it,,,,,,not queried
 homies,Homies,,,,,,not queried
-honeywell,Honeywell,,,,,,not queried
-hoom,HOOM,,,,,,not queried
+honeywell,Honeywell,Honeywell,222.0,38250.0,2554.61,False,found
+hoom,HOOM,HOOM,12.0,31.0,0.1,False,found
 hoovufresh,Hoovu Fresh,,,,,,not queried
 hostahomes,Hosta Homes,,,,,,not queried
-hotgown,hotgown,,,,,,not queried
+hotgown,hotgown,HotGown,8.0,9.0,0.04,False,found
 housegoods,housegoods,,,,,,not queried
 houseoffestivals,House of Festivals,,,,,,not queried
 houseofgulab,House of Gulab,,,,,,not queried
-houseofquirk,House of Quirk,,,,,,not queried
+houseofquirk,House of Quirk,House of Quirk,500.0,64036.0,743.18,True,found
 houseofwemy,House Of Wemy,,,,,,not queried
 hp,HP,HP,500.0,132900.0,14692.64,True,found
 hrx,HRX,,,,,,not queried
@@ -678,23 +678,23 @@ hummingbird,Humming Bird,,,,,,not queried
 icare,I-Care,,,,,,not queried
 ifazah,Ifazah,,,,,,not queried
 igp,IGP,IGP,151.0,1993.0,10.17,False,found
-ikea,IKEA,,,,,,not queried
+ikea,IKEA,Ikea,500.0,24154.0,151.97,True,found
 ilearnngrow,Ilearnngrow,,,,,,not queried
 ilife,ILIFE,,,,,,not queried
-imagimake,Imagimake,,,,,,not queried
+imagimake,Imagimake,Imagimake,222.0,37122.0,212.7,False,found
 imeco,Imeco,,,,,,not queried
-impetus,Impetus,,,,,,not queried
+impetus,Impetus,IMPETUS,111.0,477.0,2.71,False,found
 impressions,Impressions,,,,,,not queried
 impulse,Impulse,Impulse,123.0,14905.0,126.57,False,found
 imvelo,Imvelo,,,,,,not queried
-inalsa,Inalsa,,,,,,not queried
+inalsa,Inalsa,Inalsa,125.0,50203.0,2321.72,False,found
 indiacircus,India Circus,,,,,,not queried
 indianara,Indianara,,,,,,not queried
 indianshelf,indianshelf,,,,,,not queried
 indigear,Indi Gear,,,,,,not queried
 indigifts,Indigifts,,,,,,not queried
 indigo,Indigo,,,,,,not queried
-inesis,Inesis,,,,,,not queried
+inesis,Inesis,,,,,,no selling listing
 infantino,Infantino,,,,,,not queried
 insightcosmetics,Insight Cosmetics,,,,,,not queried
 instacuppa,InstaCuppa,,,,,,not queried
@@ -703,7 +703,7 @@ instantpot,Instant Pot,,,,,,not queried
 instax,Instax,instax,58.0,21349.0,626.29,False,found
 intellilens,Intellilens,,,,,,not queried
 internationalgift,International Gift,,,,,,not queried
-irekahomes,Ireka Homes,,,,,,not queried
+irekahomes,Ireka Homes,ireka HOMES,157.0,1691.0,16.5,False,found
 iridanaturals,Irida Naturals,Irida Naturals,156.0,3284.0,15.15,False,found
 iris,Iris,IRIS,332.0,20530.0,71.41,False,found
 irisceleste,Iris Celeste,,,,,,not queried
@@ -715,7 +715,7 @@ ivas,IVAS,,,,,,not queried
 iveo,Iveo,,,,,,not queried
 ivs,ivs,,,,,,no selling listing
 jackinthebox,Jackinthebox,,,,,,not queried
-jagersmith,Jager-Smith,,,,,,not queried
+jagersmith,Jager-Smith,Jager-Smith,15.0,141.0,0.7,False,found
 jaikashi,Jai Kashi,,,,,,no selling listing
 jaipurfabric,Jaipur Fabric,,,,,,not queried
 jalore,jalore,,,,,,no selling listing
@@ -727,16 +727,16 @@ jasco,Jasco,,,,,,not queried
 jaspo,Jaspo,jaspo,500.0,30675.0,247.79,True,found
 jatin,Jatin,,,,,,no selling listing
 java,Java,Java,10.0,1317.0,3.97,False,found
-jaypee,Jaypee,,,,,,not queried
+jaypee,Jaypee,JAYPEE,206.0,8138.0,47.73,False,found
 jaypeeplus,Jaypee Plus,Jaypee Plus,349.0,11915.0,106.81,False,found
 jdfresh,JD Fresh,,,,,,not queried
-jeevanjyoti,Jeevan Jyoti,,,,,,not queried
+jeevanjyoti,Jeevan Jyoti,,,,,,no selling listing
 jensons,Jensons,JENSONS,74.0,1315.0,3.85,False,found
 jetfire,JetFire,,,,,,not queried
 jinglecrafts,JingleCrafts,,,,,,not queried
 jio,Jio,,,,,,not queried
 jkpac,Jk Pac,,,,,,not queried
-jkpaper,JK Paper,,,,,,not queried
+jkpaper,JK Paper,JK Paper,24.0,6876.0,14.82,False,found
 jltbasics,Jlt Basics,,,,,,not queried
 jockey,Jockey,Jockey,500.0,237552.0,1454.57,False,found
 joff,Joff,,,,,,not queried
@@ -773,13 +773,13 @@ kidology,Kidology,,,,,,not queried
 kilig,Kilig,,,,,,not queried
 kimjaly,Kimjaly,,,,,,not queried
 kiprun,Kiprun,,,,,,not queried
-kipsta,Kipsta,,,,,,not queried
+kipsta,Kipsta,Kipsta,36.0,440.0,3.71,False,found
 kitchenaid,KitchenAid,,,,,,not queried
-kitchenessentials,Kitchen Essentials,,,,,,not queried
+kitchenessentials,Kitchen Essentials,Kitchen Essentials,4.0,8.0,0.17,False,found
 kitchenette,Kitchenette,,,,,,not queried
 kitchengalaxy,Kitchen Galaxy,,,,,,not queried
 kitsters,Kitsters,,,,,,not queried
-kkumbrellas,Kk Umbrellas,,,,,,not queried
+kkumbrellas,Kk Umbrellas,,,,,,no selling listing
 klap,KLAP,,,,,,not queried
 klassic,Klassic,,,,,,not queried
 kleenex,Kleenex,,,,,,not queried
@@ -787,18 +787,18 @@ klenzmo,Klenzmo,,,,,,not queried
 klotthe,Klotthe,KLOTTHE,58.0,95.0,0.65,False,found
 kloy,Kloy,,,,,,not queried
 kmjsa,KMJSA,,,,,,not queried
-kohler,Kohler,,,,,,not queried
+kohler,Kohler,Kohler,456.0,24758.0,631.13,False,found
 kolar,Kolar,,,,,,not queried
 kolorr,Kolorr,,,,,,not queried
 konex,Konex,,,,,,not queried
-konquertimes,Konquer Times,,,,,,not queried
+konquertimes,Konquer Times,Konquer TimeS,85.0,17516.0,65.91,False,found
 kooltech,Kooltech,,,,,,not queried
 kopa,Kopa,KOPA,24.0,69.0,0.38,False,found
 koparo,Koparo,,,,,,not queried
 kores,Kores,,,,,,not queried
 kosher,Kosher,,,,,,not queried
 koti,Koti,,,,,,not queried
-kotton,Kotton,,,,,,not queried
+kotton,Kotton,,,,,,no selling listing
 kozynap,Kozynap,,,,,,not queried
 krama,Krama,,,,,,not queried
 kramig,Kramig,,,,,,not queried
@@ -813,7 +813,7 @@ kuelox,Kuelox,,,,,,not queried
 kuhl,Kuhl,,,,,,not queried
 kuq,KUQ,,,,,,not queried
 kuvings,Kuvings,,,,,,not queried
-kvg,Kvg,,,,,,not queried
+kvg,Kvg,,,,,,no selling listing
 kvthomes,KVT Homes,,,,,,not queried
 kyari,Kyari,KYARI,297.0,6996.0,28.67,False,found
 lacylook,LacyLook,,,,,,not queried
@@ -853,30 +853,30 @@ lit,Lit,,,,,,not queried
 litt,Litt,,,,,,not queried
 littleberry,Little Berry,,,,,,not queried
 littlebirdie,Little Birdie,,,,,,not queried
-livpure,Livpure,,,,,,not queried
+livpure,Livpure,Livpure,69.0,8395.0,735.52,False,found
 liza,Liza,,,,,,not queried
 lizol,Lizol,,,,,,not queried
 locklock,Lock & Lock,,,,,,not queried
 logitech,Logitech,,,,,,not queried
 longway,Longway,LONGWAY,299.0,88859.0,1369.48,False,found
-lorazzo,Lorazzo,,,,,,not queried
+lorazzo,Lorazzo,Lorazzo,95.0,3688.0,56.94,False,found
 lordsoffashion,Lords of Fashion,,,,,,not queried
 lovechild,Lovechild,,,,,,not queried
 luckyglass,Lucky Glass,,,,,,not queried
 luminarc,Luminarc,,,,,,not queried
 lumivolt,Lumivolt,,,,,,not queried
 lumov,Lumov,,,,,,not queried
-lushomes,Lushomes,,,,,,not queried
+lushomes,Lushomes,Lushomes,8.0,12.0,0.09,False,found
 luteti,Luteti,,,,,,not queried
 luxehomeinternational,Luxe Home International,,,,,,not queried
-luxor,Luxor,,,,,,not queried
+luxor,Luxor,Luxor,294.0,29144.0,49.5,False,found
 lynrex,Lynrex,,,,,,not queried
-macclite,Macclite,,,,,,not queried
-madoverprint,Mad Over Print,,,,,,not queried
+macclite,Macclite,MACclite,30.0,48.0,0.76,False,found
+madoverprint,Mad Over Print,,,,,,no selling listing
 mae,mae,,,,,,not queried
 magnus,Magnus,Magnus,124.0,1570.0,19.73,False,found
 maharaja,Maharaja,,,,,,not queried
-maharajawhiteline,Maharaja Whiteline,,,,,,not queried
+maharajawhiteline,Maharaja Whiteline,Maharaja Whiteline,45.0,10833.0,198.17,False,found
 mahaware,Mahaware,,,,,,not queried
 maitrienviro,Maitri Enviro,,,,,,not queried
 majestique,Majestique,,,,,,not queried
@@ -906,12 +906,12 @@ meliimelii,Meliimelii,,,,,,not queried
 mestiere,Mestiere,,,,,,not queried
 metallurehome,Metallure Home,,,,,,not queried
 metalux,Metalux,,,,,,not queried
-metashot,MetaShot,,,,,,not queried
+metashot,MetaShot,METASHOT,6.0,1763.0,104.75,False,found
 metroliving,Metro Living,,,,,,not queried
 meyer,Meyer,,,,,,not queried
 microtek,Microtek,,,,,,not queried
 midazzle,Midazzle,,,,,,not queried
-midea,Midea,,,,,,not queried
+midea,Midea,Midea,38.0,6100.0,723.52,False,found
 millennium,Millennium,,,,,,not queried
 milton,Milton,MILTON,500.0,594937.0,4450.52,True,found
 minu,Minu,,,,,,not queried
@@ -922,27 +922,27 @@ mokobara,Mokobara,MOKOBARA,287.0,22895.0,1304.85,False,found
 moksh,Moksh,,,,,,not queried
 monkey555,Monkey 555,Monkey 555,28.0,528.0,1.75,False,found
 montecarlo,Monte Carlo,,,,,,not queried
-mopnme,MOP N ME,,,,,,not queried
+mopnme,MOP N ME,,,,,,no selling listing
 morivahomes,MorivaHomes,,,,,,not queried
 morovik,Morovik,,,,,,not queried
 morphyrichards,Morphy Richards,Morphy Richards,89.0,17953.0,746.33,False,found
 motomax,Motomax,,,,,,not queried
-motorzee,motorzee,,,,,,not queried
+motorzee,motorzee,,,,,,no selling listing
 moxiebeauty,Moxie Beauty,,,,,,not queried
 mprow,MPROW,,,,,,not queried
 mrmop,Mr Mop,,,,,,not queried
-mrmuscle,Mr Muscle,,,,,,not queried
-mrpen,Mr. Pen,,,,,,not queried
+mrmuscle,Mr Muscle,Mr Muscle,26.0,21880.0,48.66,False,found
+mrpen,Mr. Pen,Mr. Pen,23.0,1729.0,3.72,False,found
 mrright,MrRight,,,,,,not queried
 mrstheclub,Mrs the Club,,,,,,not queried
 mrtoolman,Mr Toolman,,,,,,not queried
-mseal,M-Seal,,,,,,not queried
+mseal,M-Seal,M-Seal,2.0,59.0,0.04,False,found
 mtl,mtl,,,,,,not queried
 multibrandcombo,Multibrand Combo,,,,,,not queried
 multibrite,Multibrite,,,,,,not queried
 mummaslife,Mumma's Life,,,,,,not queried
-muscleblaze,MuscleBlaze,,,,,,not queried
-mush,Mush,,,,,,not queried
+muscleblaze,MuscleBlaze,MuscleBlaze,301.0,124409.0,2612.74,False,found
+mush,Mush,Mush,283.0,5625.0,55.7,False,found
 mygate,Mygate,,,,,,not queried
 myorlcare,MyORL-Care,,,,,,not queried
 mypoojabox,My Pooja Box,,,,,,not queried
@@ -972,7 +972,7 @@ nestroots,Nestroots,,,,,,not queried
 nev,Nev,,,,,,not queried
 newdawn,New Dawn,New Dawn,1.0,3.0,0.01,False,found
 newdru,Newdru,,,,,,not queried
-newtone,Newtone,,,,,,not queried
+newtone,Newtone,NEWTONE,36.0,15901.0,35.97,False,found
 nh10designs,Nh10 Designs,,,,,,not queried
 nike,Nike,,,,,,not queried
 nilkamal,Nilkamal,,,,,,not queried
@@ -996,11 +996,11 @@ nuovi,Nuovi,,,,,,not queried
 nurepublic,Nu Republic,Nu Republic,29.0,3773.0,28.27,False,found
 nurturinggreen,Nurturing Green,Nurturing Green,128.0,6529.0,28.79,False,found
 nutips,Nutips,,,,,,not queried
-nutribullet,NutriBullet,,,,,,not queried
+nutribullet,NutriBullet,NutriBullet,19.0,2175.0,169.69,False,found
 nutripro,Nutripro,NUTRIPRO,20.0,60743.0,924.9,False,found
-nuuk,Nuuk,,,,,,not queried
+nuuk,Nuuk,NUUK,43.0,12659.0,627.1,False,found
 nytarra,Nytarra,,,,,,not queried
-oakter,Oakter,,,,,,not queried
+oakter,Oakter,OAKTER,9.0,11743.0,191.8,False,found
 oasisbaklawa,Oasis Baklawa,,,,,,not queried
 ocean,Ocean,Ocean,181.0,3717.0,24.86,False,found
 octus,Octus,,,,,,not queried
@@ -1008,8 +1008,8 @@ oddtoordinary,ODD to Ordinary,,,,,,not queried
 oddy,Oddy,,,,,,not queried
 oggn,OGGN,OGGN,36.0,54.0,0.28,False,found
 oicia,Oicia,,,,,,not queried
-olaian,Olaian,,,,,,not queried
-oliveware,Oliveware,,,,,,not queried
+olaian,Olaian,,,,,,no selling listing
+oliveware,Oliveware,,,,,,no selling listing
 ombhakti,Om Bhakti,OM Bhakti,3.0,7.0,0.02,False,found
 omega,Omega,,,,,,not queried
 omizoo,Omizoo,,,,,,not queried
@@ -1024,17 +1024,17 @@ oreva,Oreva,,,,,,not queried
 orientelectric,Orient Electric,Orient Electric,441.0,179265.0,2938.66,False,found
 origami,Origami,Origami,59.0,155574.0,344.99,False,found
 ornalight,Ornalight,Ornalight,1.0,1.0,0.0,False,found
-orpat,Orpat,,,,,,not queried
-orthorest,Ortho + Rest,,,,,,not queried
+orpat,Orpat,Orpat,76.0,19665.0,147.15,False,found
+orthorest,Ortho + Rest,Ortho + Rest,500.0,13229.0,52.34,True,found
 outshock,Outshock,,,,,,not queried
 ownair,ownair,,,,,,not queried
 oxelo,Oxelo,,,,,,not queried
 oxifresh,Oxi Fresh,,,,,,not queried
-oyehappy,Oye Happy,,,,,,not queried
+oyehappy,Oye Happy,Oye Happy,165.0,6619.0,13.9,False,found
 oytra,Oytra,,,,,,not queried
 ozone,Ozone,,,,,,not queried
 packmate,Packmate,,,,,,not queried
-packnwrap,Pack N Wrap,,,,,,not queried
+packnwrap,Pack N Wrap,,,,,,no selling listing
 palakgreens,Palak Greens,,,,,,not queried
 panaromas,Pan Aromas,,,,,,not queried
 panasonic,Panasonic,,,,,,not queried
@@ -1050,12 +1050,12 @@ parax,Parax,,,,,,no selling listing
 park,Park+,,,,,,not queried
 parker,Parker,Parker,408.0,49118.0,212.67,False,found
 partypropz,Party Propz,Party Propz,450.0,44902.0,119.9,False,found
-pasabahce,Pasabahce,,,,,,not queried
+pasabahce,Pasabahce,Pasabahce,125.0,582.0,8.3,False,found
 paseo,Paseo,PASEO,55.0,2820.0,12.86,False,found
-patanjali,Patanjali,,,,,,not queried
+patanjali,Patanjali,Patanjali,500.0,289144.0,556.95,True,found
 pebble,Pebble,,,,,,not queried
 peepultree,Peepul Tree,Peepul Tree,166.0,2270.0,16.69,False,found
-peesafe,Pee Safe,,,,,,not queried
+peesafe,Pee Safe,,,,,,no selling listing
 pencil,Pencil,,,,,,not queried
 pengessentials,Peng Essentials,,,,,,not queried
 pentel,Pentel,,,,,,not queried
@@ -1064,7 +1064,7 @@ perch,Perch,,,,,,not queried
 perfly,Perfly,,,,,,not queried
 perfy,Perfy,,,,,,not queried
 perpetual,Perpetual,perpetual,61.0,649.0,2.55,False,found
-pesca,Pesca,,,,,,not queried
+pesca,Pesca,,,,,,no selling listing
 petals,Petals,,,,,,not queried
 petcrux,Petcrux,,,,,,not queried
 pexpo,Pexpo,,,,,,not queried
@@ -1079,7 +1079,7 @@ pichai,Pichai,,,,,,not queried
 pidilite,Pidilite,,,,,,not queried
 piecesandaccents,Pieces and Accents,,,,,,not queried
 piematrix,Pie Matrix,,,,,,not queried
-pierrecardin,Pierre Cardin,,,,,,not queried
+pierrecardin,Pierre Cardin,Pierre Cardin,48.0,480.0,1.8,False,found
 pigeon,Pigeon,Pigeon,500.0,314956.0,3567.38,True,found
 pilot,Pilot,Pilot,500.0,20914.0,81.66,True,found
 pitambari,Pitambari,,,,,,not queried
@@ -1106,7 +1106,7 @@ powermax,Powermax,,,,,,not queried
 prakritii,Prakritii,,,,,,not queried
 pranah,Pranah,,,,,,not queried
 pranayskleanup,Pranay's Kleanup,,,,,,not queried
-preethi,Preethi,,,,,,not queried
+preethi,Preethi,Preethi,100.0,38637.0,1719.58,False,found
 premier,Premier,PREMIER,200.0,26460.0,78.02,False,found
 premium,Premium,,,,,,not queried
 prestige,Prestige,Prestige,500.0,295220.0,6657.63,True,found
@@ -1136,9 +1136,9 @@ qips,QIPS,,,,,,not queried
 qleanup,qleanup,,,,,,not queried
 quace,Quace,Quace,103.0,9997.0,25.36,False,found
 quarant,Quarant,,,,,,not queried
-qubo,Qubo,,,,,,not queried
+qubo,Qubo,Qubo,55.0,32488.0,2075.51,False,found
 qudrat,Qudrat,,,,,,not queried
-quechua,Quechua,,,,,,not queried
+quechua,Quechua,,,,,,no selling listing
 quickclickgoods,Quick Click Goods,,,,,,not queried
 quiclean,QUICLEAN,,,,,,not queried
 quillora,Quillora,,,,,,not queried
@@ -1150,7 +1150,7 @@ raffles,Raffles,,,,,,not queried
 ramila,Ramila,,,,,,not queried
 ramraj,Ramraj,,,,,,not queried
 rangeela,Rangeela,,,,,,not queried
-ranvika,Ranvika,,,,,,not queried
+ranvika,Ranvika,,,,,,no selling listing
 rasdek,RASDEK,,,,,,not queried
 ratan,Ratan,RATAN,450.0,6151.0,46.51,False,found
 ratanplastics,Ratan Plastics,,,,,,not queried
@@ -1160,19 +1160,19 @@ raymond,Raymond,Raymond,500.0,8977.0,99.67,True,found
 razer,Razer,,,,,,not queried
 reach,Reach,,,,,,not queried
 recleno,ReCleno,,,,,,not queried
-redchief,Red Chief,,,,,,not queried
+redchief,Red Chief,Red Chief,500.0,20260.0,424.04,True,found
 reeq,ReeQ,,,,,,not queried
 reffo,Reffo,,,,,,not queried
 renee,Renee,,,,,,not queried
 rengvo,Rengvo,,,,,,not queried
 resitape,Resitape,,,,,,not queried
 rewop,REWOP,,,,,,not queried
-reynolds,Reynolds,,,,,,not queried
+reynolds,Reynolds,Reynolds,146.0,10880.0,19.64,False,found
 richfeel,Richfeel,,,,,,not queried
 rico,Rico,,,,,,not queried
 ritu,Ritu,,,,,,not queried
 ritualistic,RITUALISTIC,,,,,,not queried
-riversoft,RiverSoft,,,,,,not queried
+riversoft,RiverSoft,RiverSoft,126.0,12374.0,155.84,False,found
 rivika,rivika,,,,,,not queried
 rkv,RKV,,,,,,not queried
 robustt,Robustt,Robustt,500.0,237121.0,4608.44,True,found
@@ -1186,17 +1186,17 @@ roots,Roots,,,,,,not queried
 roseate,Roseate,Roseate,221.0,49913.0,184.43,False,found
 rosha,Rosha,,,,,,not queried
 rousrie,Rousrie,,,,,,not queried
-roxmac,Roxmac,,,,,,not queried
+roxmac,Roxmac,Roxmac,1.0,4.0,0.04,False,found
 roxx,Roxx,,,,,,not queried
 royal,Royal,,,,,,not queried
-royalkart,Royalkart,,,,,,not queried
+royalkart,Royalkart,royalkart,74.0,1710.0,9.52,False,found
 rr,RR,,,,,,not queried
 ruhe,Ruhe,,,,,,not queried
 ruhihomefurnishing,Ruhi Home Furnishing,,,,,,not queried
 rumeha,rumeha,,,,,,not queried
 rusabl,Rusabl,,,,,,not queried
 rush,Rush,,,,,,no selling listing
-saaj,Saaj,,,,,,not queried
+saaj,Saaj,,,,,,no selling listing
 sacredheartcrafts,Sacredheart Crafts,,,,,,not queried
 saf,Saf,,,,,,not queried
 safari,Safari,Safari,371.0,274082.0,6956.69,False,found
@@ -1210,11 +1210,11 @@ samsonite,Samsonite,,,,,,not queried
 samsung,Samsung,Samsung,500.0,606518.0,134215.3,True,found
 sandisk,SanDisk,SanDisk,287.0,91149.0,4348.82,False,found
 sanfe,Sanfe,,,,,,not queried
-sanjeevkapoor,Sanjeev Kapoor,,,,,,not queried
+sanjeevkapoor,Sanjeev Kapoor,Sanjeev Kapoor,32.0,142.0,1.03,False,found
 sanskriti,Sanskriti,,,,,,not queried
 sapana,Sapana,,,,,,not queried
 sapna,Sapna,,,,,,not queried
-saralhome,Saral Home,,,,,,not queried
+saralhome,Saral Home,Saral Home,3.0,30.0,0.25,False,found
 saraswati,Saraswati,,,,,,not queried
 sarefit,sarefit,,,,,,not queried
 sarte,sarte,,,,,,not queried
@@ -1234,11 +1234,11 @@ se7en,Se7en,Se7en,1.0,1280.0,2.57,False,found
 seagate,Seagate,,,,,,not queried
 seetara,Seetara,,,,,,not queried
 selleys,Selleys,,,,,,not queried
-selpak,Selpak,,,,,,not queried
-selvel,Selvel,,,,,,not queried
-senego,Senego,,,,,,not queried
+selpak,Selpak,SELPAK,77.0,15398.0,111.15,False,found
+selvel,Selvel,SELVEL,46.0,194.0,1.06,False,found
+senego,Senego,Senego,93.0,24664.0,113.24,False,found
 servdharm,Servdharm,Servdharm,103.0,12903.0,46.25,False,found
-sg,SG,,,,,,not queried
+sg,SG,SG,500.0,18386.0,179.63,True,found
 shaktitechnology,Shakti Technology,,,,,,not queried
 shalimar,Shalimar,Shalimar,123.0,78350.0,300.98,False,found
 shanya,Shanya,,,,,,not queried
@@ -1257,7 +1257,7 @@ shreerakhi,Shree Rakhi,,,,,,not queried
 shreeshyam,Shree Shyam,,,,,,not queried
 shriganesha,Shri Ganesha,,,,,,not queried
 shrisam,Shri & Sam,,,,,,not queried
-shrisamriddhienterprises,Shri Samriddhi Enterprises,,,,,,not queried
+shrisamriddhienterprises,Shri Samriddhi Enterprises,,,,,,no selling listing
 shrisamridhdhi,Shri Samridhdhi,,,,,,not queried
 shryoan,Shryoan,,,,,,not queried
 shubhika,Shubhika,,,,,,not queried
@@ -1283,9 +1283,9 @@ skiphop,Skip Hop,,,,,,not queried
 skitch,Skitch,,,,,,not queried
 skullfit,Skullfit,,,,,,not queried
 skuviz,Skuviz,,,,,,not queried
-skybags,Skybags,,,,,,not queried
-slainte,Slainte,,,,,,not queried
-sleeprabbit,SleepRabbit,,,,,,not queried
+skybags,Skybags,Skybags,377.0,41121.0,606.37,False,found
+slainte,Slainte,,,,,,no selling listing
+sleeprabbit,SleepRabbit,,,,,,no selling listing
 sleepsia,Sleepsia,Sleepsia,139.0,1939.0,20.47,False,found
 sleepycat,Sleepycat,,,,,,not queried
 sleepyhead,Sleepyhead,,,,,,not queried
@@ -1304,8 +1304,8 @@ sneakare,Sneakare,,,,,,not queried
 softattire,Soft Attire,,,,,,not queried
 softdreams,Softdreams,,,,,,not queried
 softel,Softel,,,,,,not queried
-softouch,Softouch,,,,,,not queried
-softspun,Softspun,,,,,,not queried
+softouch,Softouch,Softouch,75.0,144726.0,395.62,False,found
+softspun,Softspun,SOFTSPUN,148.0,60564.0,165.85,False,found
 sohamhousewares,Soham Housewares,Soham Housewares,3.0,8.0,0.02,False,found
 sohum,Sohum,Sohum,31.0,958.0,5.26,False,found
 soiflamecraft,Soi Flamecraft,,,,,,not queried
@@ -1320,14 +1320,14 @@ soul,Soul,,,,,,not queried
 soulflower,Soulflower,Soulflower,153.0,47755.0,147.97,False,found
 soulscents,Soul & Scents,,,,,,not queried
 sounce,Sounce,,,,,,not queried
-spaces,Spaces,,,,,,not queried
+spaces,Spaces,Spaces,203.0,1836.0,16.75,False,found
 sparkmate,Sparkmate,,,,,,not queried
 spartan,Spartan,,,,,,not queried
-sparx,Sparx,,,,,,not queried
+sparx,Sparx,SPARX,500.0,96029.0,668.91,True,found
 spasht,Spasht,,,,,,not queried
-specialyou,Special You,,,,,,not queried
+specialyou,Special You,,,,,,no selling listing
 speedex,Speedex,,,,,,not queried
-speedo,Speedo,,,,,,not queried
+speedo,Speedo,Speedo,500.0,3496.0,49.28,True,found
 spiderjuice,Spiderjuice,,,,,,not queried
 spinbot,Spinbot,SpinBot,44.0,13737.0,110.08,False,found
 spine,Spine,,,,,,not queried
@@ -1343,7 +1343,7 @@ stacpro,stacpro,,,,,,not queried
 stag,Stag,,,,,,not queried
 stainoff,Stainoff,,,,,,not queried
 standard,Standard,,,,,,not queried
-stanley,Stanley,,,,,,not queried
+stanley,Stanley,STANLEY,500.0,40228.0,400.67,True,found
 star,Star,,,,,,not queried
 staranddaisy,StarAndDaisy,,,,,,not queried
 stareverwhite,Star Ever White,,,,,,not queried
@@ -1355,7 +1355,7 @@ status,Status,Status,1.0,99.0,0.19,False,found
 staze,Staze,,,,,,not queried
 steelgrip,Steelgrip,,,,,,not queried
 steellock,Steel Lock,,,,,,not queried
-steelo,Steelo,,,,,,not queried
+steelo,Steelo,Steelo,2.0,10.0,0.13,False,found
 stehlen,Stehlen,,,,,,not queried
 stellarhome,Stellar Home,,,,,,not queried
 sterling,Sterling,,,,,,not queried
@@ -1377,7 +1377,7 @@ sugarhomeware,Sugar Homeware,,,,,,not queried
 sujata,Sujata,,,,,,not queried
 sumeet,Sumeet,Sumeet,500.0,66173.0,587.85,True,found
 sumukhi,Sumukhi,,,,,,not queried
-sun,Sun,,,,,,not queried
+sun,Sun,Sun,16.0,205.0,3.07,False,found
 sunking,SUN King,,,,,,not queried
 sunpet,Sunpet,,,,,,not queried
 suntails,Suntails,,,,,,not queried
@@ -1398,7 +1398,7 @@ swachhtouch,Swachh Touch,,,,,,not queried
 swadeshistyle,Swadeshi Style,,,,,,not queried
 swaha,Swaha,,,,,,not queried
 swamiji,Swami Ji,,,,,,not queried
-swarajya,Swarajya,,,,,,not queried
+swarajya,Swarajya,,,,,,no selling listing
 swastika,Swastika,,,,,,not queried
 swastikhousewares,Swastik Housewares,,,,,,no selling listing
 swayam,Swayam,,,,,,not queried
@@ -1409,7 +1409,7 @@ sy,Sy,,,,,,not queried
 symphony,Symphony,,,,,,not queried
 syska,Syska,,,,,,not queried
 taparia,Taparia,,,,,,not queried
-tapo,Tapo,,,,,,not queried
+tapo,Tapo,Tapo,24.0,8068.0,102.05,False,found
 tarasparklinghomes,Tara Sparkling Homes,,,,,,not queried
 tarkan,Tarkan,,,,,,not queried
 tarmak,Tarmak,,,,,,not queried
@@ -1418,7 +1418,7 @@ tattvalogy,Tattvalogy,,,,,,not queried
 tattvic,Tattvic,,,,,,not queried
 teakwood,Teakwood,,,,,,not queried
 technochitra,Technochitra,,,,,,not queried
-teckle,Teckle,,,,,,not queried
+teckle,Teckle,TECKLE,1.0,3.0,0.01,False,found
 tefal,Tefal,,,,,,not queried
 tekcool,Tekcool,TEKCOOL,500.0,69869.0,490.9,True,found
 tempware,Tempware,,,,,,no selling listing
@@ -1431,7 +1431,7 @@ thebetterhome,The Better Home,The Better Home,500.0,21463.0,285.16,True,found
 theblindreliefassociationdelhi,The Blind Relief Association Delhi,,,,,,not queried
 theclownfish,The Clownfish,,,,,,not queried
 theearthstore,The Earth Store,The Earth Store,500.0,21158.0,139.0,True,found
-thefreshlivery,The Fresh Livery,,,,,,not queried
+thefreshlivery,The Fresh Livery,,,,,,no selling listing
 thegreenchapter,The Green Chapter,,,,,,not queried
 thehappinessstory,The Happiness Story,,,,,,not queried
 thehonesthomecompany,The Honest Home Company,THE HONEST HOME COMPANY,43.0,9283.0,20.14,False,found
@@ -1449,7 +1449,7 @@ thestoneaisle,The Stone Aisle,,,,,,not queried
 thewalletstore,The Wallet Store,,,,,,not queried
 thewhitewillow,The White Willow,,,,,,not queried
 thewishingchair,The Wishing Chair,,,,,,not queried
-thewoodwhite,The Wood White,,,,,,not queried
+thewoodwhite,The Wood White,,,,,,no selling listing
 tiara,Tiara,,,,,,not queried
 tiedribbons,Tied Ribbons,TIED RIBBONS,500.0,86844.0,367.14,True,found
 timalfi,Timalfi,,,,,,not queried
@@ -1465,15 +1465,15 @@ tombow,Tombow,,,,,,not queried
 tommyhilfiger,Tommy Hilfiger,,,,,,not queried
 tomuncle,Tom Uncle,,,,,,not queried
 toreto,Toreto,,,,,,not queried
-tosaa,Tosaa,,,,,,not queried
+tosaa,Tosaa,Tosaa,161.0,25979.0,86.87,False,found
 tota,Tota,,,,,,not queried
 toyimagine,Toy Imagine,,,,,,not queried
 toyshine,Toyshine,Toyshine,500.0,18119.0,93.85,True,found
-toytales,Toytales,,,,,,not queried
+toytales,Toytales,TOYTALES,38.0,521.0,1.8,False,found
 tplink,TP-Link,TP-Link,244.0,56683.0,1377.66,False,found
 tradeft,tradeft,,,,,,not queried
 trajectory,Trajectory,,,,,,not queried
-tramontina,Tramontina,,,,,,not queried
+tramontina,Tramontina,TRAMONTINA,306.0,8773.0,234.03,False,found
 trancehomelinen,Trance Home Linen,,,,,,not queried
 trans,Trans,,,,,,not queried
 trapstar,Trap Star,,,,,,not queried
@@ -1509,7 +1509,7 @@ tynor,Tynor,TYNOR,500.0,68286.0,420.29,True,found
 tyohaar,Tyohaar,,,,,,not queried
 ugaoo,Ugaoo,UGAOO,500.0,153777.0,560.55,True,found
 ullas,Ullas,,,,,,not queried
-ultracarepro,Ultracare PRO,,,,,,not queried
+ultracarepro,Ultracare PRO,UltraCare PRO,25.0,3031.0,50.76,False,found
 ultrawrap,Ultra Wrap,,,,,,not queried
 umai,Umai,,,,,,not queried
 umamistudio,Umami Studio,,,,,,not queried
@@ -1517,7 +1517,7 @@ unbranded,Unbranded,Unbranded,3.0,245.0,1.17,False,found
 uni,Uni,,,,,,not queried
 uniball,Uni-ball,uni-ball,305.0,37744.0,102.0,False,found
 uniformer,Uniformer,,,,,,not queried
-unify,Unify,,,,,,not queried
+unify,Unify,Unify,87.0,8226.0,48.65,False,found
 unitedlys,Unitedlys,,,,,,not queried
 unleash,Unleash,,,,,,not queried
 untumble,Untumble,,,,,,not queried
@@ -1528,7 +1528,7 @@ urbanbasics,Urban Basics,,,,,,not queried
 urbanborn,Urban Born,,,,,,not queried
 urbanchef,Urban Chef,,,,,,not queried
 urbanfest,Urban Fest,,,,,,no selling listing
-urbanfix,UrbanFix,,,,,,not queried
+urbanfix,UrbanFix,URBANFIX,34.0,2776.0,12.93,False,found
 urbanjungle,Urban Jungle,Urban Jungle,104.0,1813.0,82.46,False,found
 urbanplant,Urban Plant,,,,,,not queried
 urbanplatter,Urban Platter,,,,,,not queried
@@ -1541,23 +1541,23 @@ urbn,Urbn,,,,,,not queried
 urgo,Urgo,,,,,,no selling listing
 usha,Usha,USHA,352.0,36872.0,1121.54,False,found
 utensila,Utensila,,,,,,not queried
-utilikart,utilikart,,,,,,not queried
+utilikart,utilikart,,,,,,no selling listing
 uttam,Uttam,,,,,,not queried
 vaadiherbals,Vaadi Herbals,,,,,,not queried
 vahdam,Vahdam,,,,,,not queried
-varde,Varde,,,,,,not queried
+varde,Varde,,,,,,no selling listing
 varietyhome,VarietyHome,,,,,,not queried
 varkaus,varkaus,,,,,,not queried
 varmora,Varmora,,,,,,not queried
-vaya,Vaya,,,,,,not queried
+vaya,Vaya,VAYA,77.0,4140.0,57.3,False,found
 vectorx,Vector X,,,,,,not queried
-veet,Veet,,,,,,not queried
+veet,Veet,Veet,70.0,45257.0,158.82,False,found
 vega,Vega,VEGA,500.0,232639.0,1511.68,True,found
 veigo,Veigo,,,,,,not queried
 veronic,Veronic,,,,,,not queried
 verox,VEROX,,,,,,not queried
 vestahomes,Vesta Homes,Vesta Homes,69.0,7241.0,55.61,False,found
-vgr,VGR,,,,,,not queried
+vgr,VGR,VGR,126.0,34914.0,345.77,False,found
 vguard,V-Guard,,,,,,not queried
 vibebling,Vibebling,,,,,,not queried
 vibhuticrafts,Vibhuticrafts,,,,,,not queried
@@ -1574,22 +1574,22 @@ vincentchase,Vincent Chase,,,,,,not queried
 vinod,Vinod,,,,,,not queried
 vip,VIP,,,,,,not queried
 vipin,Vipin,,,,,,not queried
-visko,Visko,,,,,,not queried
+visko,Visko,Visko,31.0,94.0,0.23,False,found
 vista,Vista,,,,,,not queried
 vitalogy,Vitalogy,,,,,,not queried
 vivarainwear,Viva Rainwear,,,,,,not queried
 vivatra,Vivatra,,,,,,not queried
 vlcc,VLCC,,,,,,not queried
 voiish,Voiish,,,,,,not queried
-voltasbeko,Voltas Beko,,,,,,not queried
+voltasbeko,Voltas Beko,Voltas Beko,78.0,5059.0,695.66,False,found
 voylla,Voylla,,,,,,not queried
 vvv,VVV,,,,,,no selling listing
 waabisaabi,WAABI-SAABI,,,,,,not queried
 waaho,Waaho,,,,,,not queried
-wakefit,Wakefit,,,,,,not queried
+wakefit,Wakefit,Wakefit,500.0,145810.0,6149.87,True,found
 walton,Walton,,,,,,not queried
 warmex,Warmex,,,,,,not queried
-warmfinity,Warmfinity,,,,,,not queried
+warmfinity,Warmfinity,Warmfinity,29.0,6139.0,8.8,False,found
 warmthweb,Warmth WEB,,,,,,not queried
 warnerbros,Warner Bros.,,,,,,not queried
 waterscience,WaterScience,waterscience,77.0,42199.0,561.3,False,found
@@ -1597,10 +1597,10 @@ watko,Watko,,,,,,not queried
 wavex,Wavex,,,,,,not queried
 wayona,Wayona,,,,,,not queried
 wazdorf,Wazdorf,,,,,,not queried
-wd,WD,,,,,,not queried
+wd,WD,,,,,,no selling listing
 wd40,WD-40,WD-40,29.0,43253.0,670.54,False,found
 webby,Webby,,,,,,not queried
-weirdwolf,Weird wolf,,,,,,not queried
+weirdwolf,Weird wolf,WEIRD WOLF,24.0,20702.0,112.96,False,found
 welme,Welme,,,,,,not queried
 welspun,Welspun,Welspun,289.0,20715.0,87.81,False,found
 wembley,Wembley,,,,,,not queried
@@ -1619,19 +1619,19 @@ winikrafts,Wini Krafts,,,,,,not queried
 winston,Winston,WINSTON,36.0,11491.0,217.26,False,found
 wintex,Wintex,Wintex,31.0,159.0,1.03,False,found
 wipro,Wipro,wipro,500.0,114332.0,956.88,True,found
-wiselife,Wiselife,,,,,,not queried
+wiselife,Wiselife,Wiselife,291.0,18968.0,151.76,False,found
 wishkey,Wishkey,,,,,,not queried
 wollzo,wollzo,,,,,,not queried
 wonderchef,Wonderchef,Wonderchef,446.0,65401.0,974.17,False,found
 wonderstand,WonderStand,WonderStand,67.0,3162.0,17.58,False,found
-worldbeautycare,WorldBeautyCare,,,,,,not queried
+worldbeautycare,WorldBeautyCare,,,,,,no selling listing
 wrapnwrap,Wrap N Wrap,,,,,,not queried
 wynhard,Wynhard,Wynhard,27.0,5097.0,25.88,False,found
 wypall,WypAll,,,,,,not queried
 xech,Xech,Xech,54.0,31120.0,269.64,False,found
 xelectron,X Electron,,,,,,not queried
 xergy,Xergy,,,,,,not queried
-xiaomi,Xiaomi,,,,,,not queried
+xiaomi,Xiaomi,XIAOMI,85.0,124486.0,13768.98,False,found
 xoiped,Xoiped,,,,,,not queried
 xtrim,Xtrim,XTRIM,41.0,11874.0,67.12,False,found
 yellocut,Yellocut,,,,,,not queried
@@ -1648,7 +1648,7 @@ yuging,yuging,,,,,,not queried
 yuki,YUKI,,,,,,not queried
 zaicus,Zaicus,,,,,,not queried
 zappfresh,Zappfresh,,,,,,not queried
-zdalamit,ZdalaMit,,,,,,not queried
+zdalamit,ZdalaMit,ZdalaMit,71.0,8878.0,56.13,False,found
 zebra,Zebra,,,,,,not queried
 zebronics,Zebronics,,,,,,not queried
 zedak,Zedak,,,,,,not queried
@@ -1658,13 +1658,13 @@ zeiss,Zeiss,,,,,,not queried
 zenker,Zenker,,,,,,not queried
 zep,Zep+,,,,,,not queried
 zepbake,zepbake,,,,,,not queried
-zepfoil,zepfoil,,,,,,not queried
+zepfoil,zepfoil,,,,,,no selling listing
 zepwrap,zepwrap,,,,,,not queried
 zike,Zike,,,,,,not queried
 zipify,Zipify,,,,,,not queried
 zlade,Zlade,,,,,,not queried
-zocivoci,Zoci Voci,,,,,,not queried
+zocivoci,Zoci Voci,ZOCI VOCI,353.0,5643.0,63.04,False,found
 zoomshoes,Zoom Shoes,,,,,,not queried
 zouk,Zouk,ZOUK,500.0,61775.0,775.9,True,found
 zulaxy,Zulaxy,Zulaxy,30.0,32955.0,89.96,False,found
-zunvolt,Zunvolt,,,,,,not queried
+zunvolt,Zunvolt,ZunVolt,6.0,32.0,0.32,False,found

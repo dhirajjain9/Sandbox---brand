@@ -14,6 +14,16 @@ price); months without a category size keep the share and leave sales blank.
   exported home and kitchen categories; say that, not "no data".
 - Brand names are as GobbleCube shows them ("Milton" there mixes Hydro Valves and the original Milton).
 
+## Amazon 30-day sales for the quick-commerce brands
+
+`runs/_qcom/amazon_brand_sales_30d.csv` (brand totals) and `runs/_qcom/qcom_amazon_by_category.csv`
+(quick-commerce category x brand, Sep/Oct 2026, with Amazon alongside); shown on the dashboard's Quick
+commerce page (`outputs/dashboard/qcom.json`). Helium 10 pull of 26 Nov 2026: 580 brands queried (96% of
+quick-commerce sales); 1,189 small brands have amazon_status "not queried". To extend: run search_products
+batches with context starting "Amazon 30-day sales for quick-commerce brands", then
+`python -m pipeline.amazon_brand_sales extract` and `build`, then rebuild the dashboard. Splitting capped
+batches is expensive (about one call per brand); budget Helium 10 calls (1,000 a month).
+
 ## Other conventions
 
 - Brand verdict is FIT / NO FIT (never "pass"); checks are Met / Not met; the two must-clear checks are Gates; bar 60.
