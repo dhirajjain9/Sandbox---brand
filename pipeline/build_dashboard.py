@@ -3,7 +3,8 @@
 Usage:
     python -m pipeline.build_dashboard            # writes outputs/dashboard/index.html
 
-Reads, for each brand in BRANDS, runs/<run>/screen_scoring_inputs.csv, screen_scoring_mid.csv and
+Brands come from pipeline/brands.json (one entry per brand: key, name, group, category, run,
+asof, channels, report, why). To add a brand, add an entry and rebuild. Reads, for each brand, runs/<run>/screen_scoring_inputs.csv, screen_scoring_mid.csv and
 screen_scoring_outputs.csv, embeds them as JSON in one self-contained HTML page (no external
 scripts), and writes it to outputs/dashboard/. Re-run after any rescore, then redeploy.
 """
@@ -15,24 +16,7 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "outputs" / "dashboard"
 
-BRANDS = [
-    {"key": "auradecor", "name": "Aura Decor", "run": "runs/2026-11-24_auradecor", "asof": "2026-11-25",
-     "category": "Candles and home fragrance", "channels": "Blinkit-led (about 87% of known sales); Amazon; D2C; Flipkart",
-     "report": "https://claude.ai/artifact/CMw6k8EPzF8rAKmXQwUgNG",
-     "why": "Fails on quality (seller feedback 69% negative over 3 months) and price (value brand, deep discounts)."},
-    {"key": "milton", "name": "Milton Home Appliances (Hydro Valves)", "run": "runs/2026-11-25_milton", "asof": "2026-11-25",
-     "category": "Small kitchen appliances", "channels": "Amazon about 98%; small D2C site; a few Flipkart listings",
-     "report": "https://claude.ai/artifact/A1vRC6cBhKZmkaNvqn6Fv1",
-     "why": "Fails on product defects; pricing borderline; almost entirely Amazon."},
-    {"key": "hokipo", "name": "HOKIPO", "run": "runs/2026-11-25_hokipo", "asof": "2026-11-25",
-     "category": "Home furnishing (sofa covers)", "channels": "Amazon-led; hokipo.in D2C; Flipkart; not on quick commerce",
-     "report": "https://claude.ai/artifact/MKb17AvDJD5CQfY6uHcBmm",
-     "why": "Strong pricing, but sofa-cover complaints and no growth in the core."},
-    {"key": "cadlec", "name": "CADLEC", "run": "runs/2026-11-25_cadlec", "asof": "2026-11-26",
-     "category": "Small kitchen and home appliances", "channels": "Amazon about Rs 5.1 crore/month; Flipkart material; small D2C; Zepto (3 products)",
-     "report": "https://claude.ai/artifact/HzXsPWRsABn3e3ayitwuJq",
-     "why": "Fast-growing value brand; fails on quality (23% 1-2 star) and price (57% off list)."},
-]
+BRANDS = json.loads((ROOT / "pipeline" / "brands.json").read_text())
 
 MID_FEEDS = {
     "M2": "SKU Spikiness, Concentration Risk", "M3": "SKU Spikiness", "M4": "Demand Durability",
@@ -64,7 +48,7 @@ def load(b):
     scored = inp["score"].notna()
     return {**b, "tier": tier, "clears": clears, "mustOk": must_ok,
             "coverage": round(float(inp.loc[scored, "weight"].sum() / inp["weight"].sum()) * 100),
-            "inputsScored": int(scored.sum()), "inputsTotal": len(inp), "checks": checks,
+            "inputsScored": int(scored.sum()), "mustMissed": [c["name"] for c in checks if c["must"] and c["result"] == "Miss"], "inputsTotal": len(inp), "checks": checks,
             "mids": [{"id": r.mid, "feeds": MID_FEEDS.get(r.mid, ""), "score": clean(r.score),
                       "coverage": round(float(r.weight_coverage) * 100), "scored": int(r.inputs_scored),
                       "total": int(r.inputs_total)} for r in mid.itertuples()],
@@ -73,13 +57,59 @@ def load(b):
                         "score": clean(r.score)} for r in inp.itertuples()]}
 
 
+def slug(s):
+    return "".join(c if c.isalnum() else "-" for c in s.lower()).strip("-")
+
+
+def categories(brands):
+    """Group sub-category markets (runs/<run>/category_market.csv) under each brand's group."""
+    norm = lambda s: str(s).casefold().replace(" ", "")
+    groups = {}
+    for b in brands:
+        f = ROOT / b["run"] / "category_market.csv"
+        if not f.exists():
+            continue
+        m = pd.read_csv(f)
+        for name, t in m.groupby("subcategory"):
+            g = groups.setdefault(b["group"], {})
+            if name in g and g[name]["revenue"] >= t.revenue.sum():
+                continue
+            t = t.sort_values("revenue", ascending=False).reset_index(drop=True)
+            rev, units = t.revenue.sum(), t.units.sum()
+            y = t[t.yoy_pct.notna() & (t.yoy_units > 0)]
+            prior = (y.yoy_units / (1 + y.yoy_pct / 100)).sum()
+            screened = []
+            for x in brands:
+                hit = t.index[t.brand.map(norm) == x["match"]]
+                if len(hit):
+                    i = hit[0]
+                    screened.append({"key": x["key"], "rank": int(i) + 1, "revShare": round(t.revenue[i] / rev * 100, 1),
+                                     "asp": clean(t.asp[i]), "rating": clean(t.rating[i])})
+            g[name] = {"name": name, "slug": slug(name), "platform": t.platform[0], "period": t.period[0],
+                       "revenue": float(rev), "units": int(units), "asp": round(rev / units), "brands": len(t),
+                       "top5": round(t.revenue.head(5).sum() / rev * 100, 1),
+                       "yoy": round((y.yoy_units.sum() / prior - 1) * 100, 1) if prior else None,
+                       "yoyCoverage": round(y.yoy_units.sum() / units * 100) if units else 0,
+                       "leader": t.brand[0], "screened": screened,
+                       "top": [{"brand": r.brand, "revShare": round(r.revenue / rev * 100, 1), "unitShare": round(r.units / units * 100, 1),
+                                "asp": clean(r.asp), "rating": clean(r.rating), "yoy": clean(r.yoy_pct),
+                                "screened": next((x["key"] for x in brands if norm(r.brand) == x["match"]), None)}
+                               for r in t.head(10).itertuples()]}
+    return [{"name": gname, "slug": slug(gname), "subs": sorted(subs.values(), key=lambda s: -s["revenue"]),
+             "brandKeys": [b["key"] for b in brands if b["group"] == gname]} for gname, subs in sorted(groups.items())]
+
+
 def main():
     data = [load(b) for b in BRANDS]
+    for d in data:
+        d["groupSlug"] = slug(d["group"])
+    cats = categories(BRANDS)
     html = (Path(__file__).with_name("dashboard_template.html").read_text()
-            .replace("/*__DATA__*/null", json.dumps(data, ensure_ascii=False)))
+            .replace("/*__DATA__*/null", json.dumps(data, ensure_ascii=False))
+            .replace("/*__CATS__*/null", json.dumps(cats, ensure_ascii=False)))
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "index.html").write_text(html)
-    print(f"wrote {OUT / 'index.html'} ({len(html):,} bytes, {len(data)} brands)")
+    print(f"wrote {OUT / 'index.html'} ({len(html):,} bytes, {len(data)} brands, {len(cats)} categories, {sum(len(c['subs']) for c in cats)} sub-categories)")
 
 
 if __name__ == "__main__":

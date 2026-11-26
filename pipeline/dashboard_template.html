@@ -2,242 +2,625 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
 <title>Brand Fit Screen</title>
 <style>
 :root {
   color-scheme: light;
-  --bg: #f6f6f4; --surface: #ffffff; --surface-2: #f0efec; --border: #e2e1dd;
-  --text: #191919; --text-2: #5f5f5f; --text-3: #8a8a8a;
-  --accent: #257de0; --track: #e9e8e4; --threshold: #191919;
-  --good: #0aac23; --good-ink: #006c10; --good-bg: #e5f4e4;
-  --bad: #dc3c3d; --bad-ink: #b3261e; --bad-bg: #fbebeb;
-  --na-bg: #f0efec; --bar: #257de0; --bar-miss: #9dc8f7;
+  --bg: #ffffff; --bg-alt: #f5f5f7; --tile: #f5f5f7; --tile-hover: #ececef; --card: #ffffff;
+  --ink: #1d1d1f; --ink-2: #6e6e73; --ink-3: #86868b; --line: #d2d2d7; --hair: rgba(0,0,0,.08);
+  --link: #0066cc; --accent: #0071e3; --accent-ink: #ffffff;
+  --good: #1a7f37; --good-soft: #e3f4e6; --bad: #c9252c; --bad-soft: #fde8e8;
+  --track: #e8e8ed; --bar: #0071e3; --bar-dim: #a8c7f0; --line60: #1d1d1f;
+  --nav: rgba(251,251,253,.8); --shadow: 0 2px 12px rgba(0,0,0,.06);
 }
 @media (prefers-color-scheme: dark) {
   :root:where(:not([data-theme="light"])) {
     color-scheme: dark;
-    --bg: #121212; --surface: #191919; --surface-2: #222; --border: #2e2e2e;
-    --text: #efefef; --text-2: #a8a8a8; --text-3: #7a7a7a;
-    --accent: #338ced; --track: #2b2b2b; --threshold: #efefef;
-    --good: #0aac23; --good-ink: #4fd162; --good-bg: #16301a;
-    --bad: #dc3c3d; --bad-ink: #ff7b7b; --bad-bg: #3a1a1a;
-    --na-bg: #262626; --bar: #338ced; --bar-miss: #1757ac;
+    --bg: #000000; --bg-alt: #101012; --tile: #161617; --tile-hover: #1e1e20; --card: #161617;
+    --ink: #f5f5f7; --ink-2: #a1a1a6; --ink-3: #86868b; --line: #424245; --hair: rgba(255,255,255,.1);
+    --link: #2997ff; --accent: #0a84ff; --accent-ink: #ffffff;
+    --good: #30d158; --good-soft: #10301a; --bad: #ff6961; --bad-soft: #3a1416;
+    --track: #2c2c2e; --bar: #0a84ff; --bar-dim: #1d4b80; --line60: #f5f5f7;
+    --nav: rgba(22,22,23,.8); --shadow: none;
   }
 }
 :root[data-theme="dark"] {
   color-scheme: dark;
-  --bg: #121212; --surface: #191919; --surface-2: #222; --border: #2e2e2e;
-  --text: #efefef; --text-2: #a8a8a8; --text-3: #7a7a7a;
-  --accent: #338ced; --track: #2b2b2b; --threshold: #efefef;
-  --good: #0aac23; --good-ink: #4fd162; --good-bg: #16301a;
-  --bad: #dc3c3d; --bad-ink: #ff7b7b; --bad-bg: #3a1a1a;
-  --na-bg: #262626; --bar: #338ced; --bar-miss: #1757ac;
+  --bg: #000000; --bg-alt: #101012; --tile: #161617; --tile-hover: #1e1e20; --card: #161617;
+  --ink: #f5f5f7; --ink-2: #a1a1a6; --ink-3: #86868b; --line: #424245; --hair: rgba(255,255,255,.1);
+  --link: #2997ff; --accent: #0a84ff; --accent-ink: #ffffff;
+  --good: #30d158; --good-soft: #10301a; --bad: #ff6961; --bad-soft: #3a1416;
+  --track: #2c2c2e; --bar: #0a84ff; --bar-dim: #1d4b80; --line60: #f5f5f7;
+  --nav: rgba(22,22,23,.8); --shadow: none;
 }
 * { box-sizing: border-box; }
-body { margin: 0; background: var(--bg); color: var(--text);
-  font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
-header { background: var(--surface); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 5; }
-.wrap { max-width: 1180px; margin: 0 auto; padding: 0 16px; }
-.top { display: flex; align-items: center; gap: 16px; padding: 12px 0; flex-wrap: wrap; }
-h1 { font-size: 17px; margin: 0; font-weight: 650; }
-.sub { color: var(--text-2); font-size: 12px; }
-nav { display: flex; gap: 4px; margin-left: auto; flex-wrap: wrap; }
-nav button, .seg button { border: 1px solid var(--border); background: var(--surface); color: var(--text);
-  padding: 6px 12px; border-radius: 8px; cursor: pointer; font: inherit; }
-nav button[aria-selected="true"], .seg button[aria-pressed="true"] { background: var(--text); color: var(--surface); border-color: var(--text); }
-main { padding: 20px 0 48px; }
-h2 { font-size: 15px; margin: 28px 0 10px; }
-.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
-.grid4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
-.brandcard h3 { margin: 0 0 2px; font-size: 15px; }
-.brandcard .cat { color: var(--text-2); font-size: 12px; }
-.tier { display: inline-flex; align-items: center; gap: 6px; font-weight: 650; margin: 10px 0 6px; font-size: 18px; }
-.kv { display: grid; grid-template-columns: auto 1fr; gap: 2px 10px; font-size: 12px; color: var(--text-2); }
-.kv b { color: var(--text); font-weight: 600; }
-.why { font-size: 12.5px; margin: 10px 0 8px; }
-a { color: var(--accent); }
-.chip { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; font-weight: 600; padding: 1px 8px;
-  border-radius: 999px; white-space: nowrap; }
-.chip.clear { background: var(--good-bg); color: var(--good-ink); }
-.chip.miss { background: var(--bad-bg); color: var(--bad-ink); }
-.chip.na { background: var(--na-bg); color: var(--text-2); }
-.must { white-space: nowrap; font-size: 11px; color: var(--text-2); border: 1px solid var(--border); border-radius: 4px; padding: 0 4px; margin-left: 6px; }
-table { border-collapse: collapse; width: 100%; }
-th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border); vertical-align: middle; }
-th { font-size: 12px; color: var(--text-2); font-weight: 600; background: var(--surface); position: sticky; top: 0; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+  font: 17px/1.47 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", "Segoe UI", Roboto, Arial, sans-serif;
+  letter-spacing: -.022em; -webkit-font-smoothing: antialiased; }
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button { font: inherit; letter-spacing: inherit; color: inherit; }
+.wrap { max-width: 1024px; margin: 0 auto; padding: 0 22px; }
+.wide { max-width: 1240px; }
+
+/* Global nav */
+.gnav { position: sticky; top: 0; z-index: 50; background: var(--nav); backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px); border-bottom: 1px solid var(--hair); }
+.gnav .wrap { display: flex; align-items: center; height: 48px; gap: 28px; }
+.gnav .mark { font-weight: 600; font-size: 15px; letter-spacing: -.01em; color: var(--ink); }
+.gnav nav { display: flex; gap: 26px; margin-left: auto; font-size: 13px; }
+.gnav nav a { color: var(--ink); opacity: .8; }
+.gnav nav a[aria-current="page"] { opacity: 1; font-weight: 600; }
+.gnav nav a:hover { opacity: 1; text-decoration: none; }
+
+/* Typography */
+.eyebrow { color: var(--ink-2); font-size: 17px; font-weight: 600; letter-spacing: -.01em; margin: 0 0 6px; }
+.headline { font-size: clamp(40px, 7vw, 72px); line-height: 1.05; font-weight: 700; letter-spacing: -.015em; margin: 0; }
+.sub { font-size: clamp(19px, 2.4vw, 26px); line-height: 1.25; color: var(--ink-2); font-weight: 500; margin: 12px 0 0; letter-spacing: -.01em; }
+.h2 { font-size: clamp(28px, 4vw, 40px); line-height: 1.1; font-weight: 700; letter-spacing: -.005em; margin: 0 0 8px; }
+.h3 { font-size: 21px; font-weight: 600; margin: 0; letter-spacing: -.01em; }
+.muted { color: var(--ink-2); }
+.small { font-size: 14px; }
+.fine { font-size: 12px; color: var(--ink-3); letter-spacing: -.01em; }
+
+/* Hero */
+.hero { text-align: center; padding: 72px 0 40px; }
+.stats { display: flex; justify-content: center; gap: clamp(20px, 6vw, 64px); margin: 40px 0 0; flex-wrap: wrap; }
+.stat b { display: block; font-size: clamp(32px, 5vw, 48px); font-weight: 700; letter-spacing: -.02em; line-height: 1.05; }
+.stat span { color: var(--ink-2); font-size: 14px; }
+
+/* Controls */
+.controls { position: sticky; top: 48px; z-index: 40; background: var(--bg); padding: 14px 0 12px; border-bottom: 1px solid var(--hair); }
+.controls .row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.search { flex: 1 1 220px; display: flex; align-items: center; gap: 8px; background: var(--bg-alt); border-radius: 12px; padding: 0 12px; height: 40px; }
+.search input { border: 0; background: transparent; color: var(--ink); font: inherit; font-size: 16px; width: 100%; outline: none; }
+.chips { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; padding: 10px 0 2px; }
+.chips::-webkit-scrollbar { display: none; }
+.chip-btn { flex: none; border: 1px solid var(--line); background: transparent; border-radius: 980px; padding: 6px 16px; font-size: 14px; cursor: pointer; white-space: nowrap; }
+.chip-btn[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.chip-btn .n { color: var(--ink-3); margin-left: 4px; }
+.chip-btn[aria-pressed="true"] .n { color: inherit; opacity: .7; }
+select.sort { appearance: none; -webkit-appearance: none; border: 1px solid var(--line); background: transparent; color: var(--ink); border-radius: 12px; height: 40px; padding: 0 34px 0 14px; font: inherit; font-size: 14px; cursor: pointer;
+  background-image: linear-gradient(45deg, transparent 50%, var(--ink-2) 50%), linear-gradient(135deg, var(--ink-2) 50%, transparent 50%);
+  background-position: calc(100% - 18px) 17px, calc(100% - 13px) 17px; background-size: 5px 5px; background-repeat: no-repeat; }
+
+/* Groups and tiles */
+.group { padding: 44px 0 8px; }
+.group-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 18px; }
+.group-head .count { color: var(--ink-2); font-size: 14px; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
+.tile { position: relative; background: var(--tile); border-radius: 22px; padding: 28px 26px 22px; display: flex; flex-direction: column; min-height: 320px;
+  transition: background .2s ease, transform .3s cubic-bezier(.2,.8,.2,1); cursor: pointer; }
+.tile:hover { background: var(--tile-hover); transform: translateY(-2px); }
+.tile:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+.tile .cat { color: var(--ink-2); font-size: 14px; font-weight: 600; }
+.tile .name { font-size: 28px; line-height: 1.12; font-weight: 700; letter-spacing: -.01em; margin: 6px 0 12px; }
+.tile .why { color: var(--ink-2); font-size: 15px; line-height: 1.4; margin: 0 0 18px; flex: 1; }
+.tile .foot { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 16px; }
+.tile .more { font-size: 15px; color: var(--link); }
+.cmp-toggle { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: var(--ink-2); cursor: pointer; background: none; border: 0; padding: 4px 0; }
+.cmp-toggle .box { width: 18px; height: 18px; border-radius: 50%; border: 1.5px solid var(--ink-3); display: grid; place-items: center; }
+.cmp-toggle[aria-pressed="true"] { color: var(--accent); }
+.cmp-toggle[aria-pressed="true"] .box { background: var(--accent); border-color: var(--accent); }
+.cmp-toggle[aria-pressed="true"] .box::after { content: ""; width: 5px; height: 9px; border: solid #fff; border-width: 0 2px 2px 0; transform: rotate(45deg) translate(-1px,-1px); }
+
+/* Pills and dots */
+.pill { display: inline-flex; align-items: center; gap: 5px; border-radius: 980px; padding: 3px 11px; font-size: 13px; font-weight: 600; letter-spacing: -.01em; white-space: nowrap; }
+.pill.good { background: var(--good-soft); color: var(--good); }
+.pill.bad { background: var(--bad-soft); color: var(--bad); }
+.pill.neutral { background: var(--bg-alt); color: var(--ink-2); }
+.dots { display: flex; gap: 6px; align-items: center; }
+.dot { width: 26px; height: 6px; border-radius: 3px; background: var(--track); }
+.dot.clear { background: var(--good); }
+.dot.miss { background: var(--bad); opacity: .85; }
+.dots-legend { font-size: 12px; color: var(--ink-3); margin-top: 6px; }
+
+/* Compare tray */
+.tray { visibility: hidden; position: fixed; left: 50%; bottom: 20px; transform: translate(-50%, 140%); z-index: 60; transition: transform .35s cubic-bezier(.2,.8,.2,1);
+  background: var(--nav); backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border: 1px solid var(--hair); border-radius: 980px; padding: 8px 8px 8px 20px; display: flex; align-items: center; gap: 14px; box-shadow: 0 8px 30px rgba(0,0,0,.12);
+  max-width: calc(100vw - 32px); }
+.tray.show { transform: translate(-50%, 0); visibility: visible; }
+.tray .names { font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 46vw; }
+.btn { border: 0; background: var(--accent); color: var(--accent-ink); border-radius: 980px; padding: 9px 20px; font-size: 15px; cursor: pointer; white-space: nowrap; }
+.btn.ghost { background: transparent; color: var(--link); padding: 9px 10px; }
+.btn:disabled { opacity: .4; cursor: default; }
+
+/* Brand page */
+.bhero { padding: 64px 0 36px; text-align: center; }
+.bhero .headline { font-size: clamp(40px, 6.5vw, 64px); }
+.bhero .pill { font-size: 15px; padding: 5px 14px; margin-top: 18px; }
+.bhero .sub { max-width: 760px; margin-left: auto; margin-right: auto; }
+.bhero .links { margin-top: 22px; display: flex; gap: 26px; justify-content: center; font-size: 17px; }
+.glance { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin: 16px 0 0; }
+.glance .g { background: var(--tile); border-radius: 18px; padding: 22px; }
+.glance .g b { display: block; font-size: 30px; font-weight: 700; letter-spacing: -.02em; line-height: 1.1; }
+.glance .g span { color: var(--ink-2); font-size: 14px; }
+.section { padding: 56px 0 8px; }
+.section.alt { background: var(--bg-alt); padding-bottom: 56px; margin-top: 48px; }
+.checks { display: grid; gap: 14px; margin-top: 22px; }
+.check { background: var(--card); border-radius: 18px; padding: 20px 22px; display: grid; grid-template-columns: minmax(180px, 260px) 1fr auto; gap: 22px; align-items: center; box-shadow: var(--shadow); }
+.section:not(.alt) .check { background: var(--tile); box-shadow: none; }
+.check .t { font-weight: 600; font-size: 17px; }
+.check .f { color: var(--ink-3); font-size: 12px; margin-top: 2px; }
+.check .must { font-size: 11px; font-weight: 600; color: var(--ink-2); border: 1px solid var(--line); border-radius: 6px; padding: 1px 6px; margin-left: 8px; vertical-align: 2px; white-space: nowrap; }
+.check .v { text-align: right; min-width: 128px; }
+.check .v b { font-size: 28px; font-weight: 700; letter-spacing: -.02em; display: block; line-height: 1; margin-bottom: 6px; }
+.meter { position: relative; height: 10px; background: var(--track); border-radius: 5px; }
+.meter > i { position: absolute; inset: 0 auto 0 0; border-radius: 5px; background: var(--bar); transition: width .8s cubic-bezier(.2,.8,.2,1); }
+.meter.dim > i { background: var(--bar-dim); }
+.meter > s { position: absolute; left: 60%; top: -5px; bottom: -5px; width: 2px; background: var(--line60); opacity: .5; border-radius: 1px; }
+.meter-sm { height: 6px; }
+.meter-sm > i { border-radius: 3px; }
+.cov { color: var(--ink-3); font-size: 12px; margin-top: 4px; }
+.legend { display: flex; gap: 18px; flex-wrap: wrap; color: var(--ink-3); font-size: 12px; margin-top: 14px; align-items: center; }
+.legend .l60 { display: inline-block; width: 2px; height: 12px; background: var(--line60); opacity: .5; vertical-align: -2px; margin-right: 6px; }
+
+/* Tables */
+.tbl-wrap { overflow-x: auto; margin-top: 18px; border-radius: 18px; background: var(--card); box-shadow: var(--shadow); }
+.section:not(.alt) .tbl-wrap { background: var(--tile); box-shadow: none; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { padding: 12px 16px; text-align: left; border-bottom: 1px solid var(--hair); vertical-align: middle; }
+th { color: var(--ink-2); font-weight: 600; font-size: 12px; }
+tr:last-child td { border-bottom: 0; }
 td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
-.scroll { overflow-x: auto; }
-.matrix td { min-width: 150px; }
-.cell { display: flex; align-items: center; gap: 8px; }
-.score { font-variant-numeric: tabular-nums; font-weight: 600; width: 34px; text-align: right; }
-.meter { display: block; position: relative; height: 8px; background: var(--track); border-radius: 4px; flex: 1; min-width: 60px; }
-.meter > i { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 4px; background: var(--bar); }
-.meter.miss > i { background: var(--bar-miss); }
-.meter > b { position: absolute; left: 60%; top: -3px; bottom: -3px; width: 2px; background: var(--threshold); opacity: .55; }
-.cov { color: var(--text-3); font-size: 11px; white-space: nowrap; }
-.bars .row { display: grid; grid-template-columns: minmax(150px, 230px) 1fr 70px 110px; gap: 12px; align-items: center;
-  padding: 9px 0; border-bottom: 1px solid var(--border); }
-.bars .row:last-child { border-bottom: 0; }
-.bars .name { font-weight: 600; }
-.bars .formula { color: var(--text-3); font-size: 11px; }
-.bars .meter { height: 12px; border-radius: 6px; }
-.bars .meter > i { border-radius: 6px; }
-.toolbar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin: 6px 0 10px; }
-select, input[type=search] { font: inherit; padding: 6px 10px; border-radius: 8px; border: 1px solid var(--border);
-  background: var(--surface); color: var(--text); }
-.legend { display: flex; gap: 14px; flex-wrap: wrap; color: var(--text-2); font-size: 12px; margin: 8px 0 0; align-items: center; }
-.legend .tick { display: inline-block; width: 2px; height: 12px; background: var(--threshold); opacity: .55; vertical-align: middle; }
-.muted { color: var(--text-3); }
-.tip { position: fixed; pointer-events: none; background: var(--text); color: var(--surface); font-size: 12px; padding: 6px 8px;
-  border-radius: 6px; max-width: 280px; z-index: 20; display: none; }
-.method p, .method li { max-width: 780px; }
-@media (max-width: 640px) {
-  .bars .row { grid-template-columns: 1fr 60px; }
-  .bars .row .meter { grid-column: 1 / -1; order: 3; }
-  .bars .row .cov { display: none; }
+details { margin-top: 18px; }
+summary { cursor: pointer; color: var(--link); font-size: 17px; list-style: none; }
+summary::-webkit-details-marker { display: none; }
+summary::after { content: " +"; }
+details[open] summary::after { content: " –"; }
+.seg { display: inline-flex; background: var(--bg-alt); border-radius: 10px; padding: 2px; }
+.section.alt .seg { background: var(--card); }
+.seg button { border: 0; background: transparent; padding: 6px 14px; border-radius: 8px; font-size: 13px; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--card); box-shadow: 0 1px 3px rgba(0,0,0,.12); font-weight: 600; }
+.section.alt .seg button[aria-pressed="true"] { background: var(--bg-alt); }
+
+/* Compare page */
+.cmp-grid { display: grid; gap: 0; margin-top: 28px; }
+.cmp-row { display: grid; gap: 16px; padding: 18px 0; border-bottom: 1px solid var(--hair); align-items: center; }
+.cmp-row .lab { font-weight: 600; font-size: 15px; }
+.cmp-head { align-items: end; }
+.cmp-head .bn { font-size: 21px; font-weight: 700; letter-spacing: -.01em; line-height: 1.15; }
+.cmp-cell b { font-size: 22px; font-weight: 700; letter-spacing: -.02em; }
+.empty { text-align: center; padding: 80px 0; color: var(--ink-2); }
+
+.subgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 18px; margin-top: 22px; }
+.subcard { background: var(--card); border-radius: 18px; padding: 22px; box-shadow: var(--shadow); }
+.section:not(.alt) .subcard { background: var(--tile); box-shadow: none; }
+.subcard .nm { font-size: 21px; font-weight: 700; letter-spacing: -.01em; }
+.kpis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 14px 0; }
+.kpis b { display: block; font-size: 22px; font-weight: 700; letter-spacing: -.02em; }
+.kpis span { color: var(--ink-2); font-size: 12px; }
+.rankline { font-size: 13px; color: var(--ink-2); margin-top: 6px; }
+.rankline a { font-weight: 600; }
+.hbar { display: grid; grid-template-columns: minmax(130px, 200px) 1fr 90px; gap: 14px; align-items: center; padding: 8px 0; }
+.hbar .track { height: 18px; background: var(--track); border-radius: 5px; position: relative; }
+.hbar .track i { position: absolute; inset: 0 auto 0 0; background: var(--bar); border-radius: 5px; }
+.hbar .val { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; font-size: 15px; }
+tr.me td { background: var(--good-soft); }
+tr.me td:first-child { font-weight: 700; }
+.sharebar { height: 6px; background: var(--track); border-radius: 3px; position: relative; min-width: 80px; }
+.sharebar i { position: absolute; inset: 0 auto 0 0; background: var(--bar); border-radius: 3px; }
+.eyelink { color: var(--ink-2); }
+.eyelink:hover { color: var(--link); }
+footer { border-top: 1px solid var(--hair); margin-top: 72px; padding: 22px 0 90px; color: var(--ink-3); font-size: 12px; }
+.tip { position: fixed; pointer-events: none; background: var(--ink); color: var(--bg); font-size: 12px; padding: 6px 9px; border-radius: 8px; max-width: 260px; z-index: 80; display: none; line-height: 1.35; }
+
+@media (max-width: 760px) {
+  .gnav nav { gap: 16px; }
+  .glance { grid-template-columns: repeat(2, 1fr); }
+  .check { grid-template-columns: 1fr auto; }
+  .check .meter { grid-column: 1 / -1; order: 3; }
+  .hero { padding-top: 48px; }
+  .tray .names { max-width: 38vw; }
 }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
 </head>
 <body>
-<header><div class="wrap top">
-  <div><h1>Brand Fit Screen</h1><div class="sub">Marketplace and D2C brand screening: 49 inputs, 13 metrics, 6 checks</div></div>
-  <nav role="tablist">
-    <button role="tab" data-view="overview" aria-selected="true">Overview</button>
-    <button role="tab" data-view="brand" aria-selected="false">Brand detail</button>
-    <button role="tab" data-view="method" aria-selected="false">Method</button>
+<header class="gnav"><div class="wrap wide">
+  <a class="mark" href="#/">Brand Fit Screen</a>
+  <nav aria-label="Main">
+    <a href="#/" data-nav="home">Brands</a>
+    <a href="#/categories" data-nav="categories">Categories</a>
+    <a href="#/compare" data-nav="compare">Compare</a>
+    <a href="#/method" data-nav="method">How it works</a>
   </nav>
 </div></header>
-<main class="wrap">
-  <section id="v-overview"></section>
-  <section id="v-brand" hidden></section>
-  <section id="v-method" hidden class="method"></section>
-</main>
+<main id="app"></main>
+<div class="tray" id="tray" role="region" aria-label="Compare selection">
+  <span class="names" id="trayNames"></span>
+  <button class="btn ghost" id="trayClear">Clear</button>
+  <button class="btn" id="trayGo">Compare</button>
+</div>
 <div class="tip" id="tip"></div>
 <script>
 const DATA = /*__DATA__*/null;
-const $ = (s, el = document) => el.querySelector(s);
+const CATS = /*__CATS__*/null;
+const catBySlug = Object.fromEntries(CATS.map(c => [c.slug, c]));
+const CHECKS = DATA[0].checks.map(c => c.name);
+const SHORT = {"SKU Spikiness": "SKU spikiness", "Demand Durability": "Demand durability", "Qcomm Traction": "Quick commerce",
+  "Customer Quality Signal": "Customer quality", "Pricing Power": "Pricing power", "Concentration Risk": "Concentration"};
+const app = document.getElementById("app");
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));
-const fmt = v => v == null ? "—" : (Math.abs(v) >= 100 ? v.toLocaleString("en-IN", {maximumFractionDigits: 0}) : (+v.toFixed(3)).toString());
 const sc = v => v == null ? "—" : (+v).toFixed(1);
-const chip = r => r === "Clear" ? '<span class="chip clear">✓ Clear</span>' : r === "Miss" ? '<span class="chip miss">✕ Miss</span>' : `<span class="chip na">${esc(r || "Not scored")}</span>`;
-const tierChip = b => b.tier === "Pass" ? '<span class="chip miss">✕ Pass</span>' : `<span class="chip clear">✓ ${esc(b.tier)}</span>`;
-const meter = (s, miss) => `<span class="meter${miss ? " miss" : ""}"><i style="width:${Math.max(0, Math.min(100, s ?? 0))}%"></i><b></b></span>`;
-const tip = $("#tip");
+const fmt = v => v == null ? "—" : (Math.abs(v) >= 100 ? v.toLocaleString("en-IN", {maximumFractionDigits: 0}) : String(+(+v).toFixed(3)));
+const byKey = Object.fromEntries(DATA.map(b => [b.key, b]));
+const store = { get(k, d) { try { return JSON.parse(localStorage.getItem("bfs." + k)) ?? d; } catch (e) { return d; } },
+                set(k, v) { try { localStorage.setItem("bfs." + k, JSON.stringify(v)); } catch (e) {} } };
+let ui = { q: "", group: "All", tier: "All", sort: store.get("sort", "group"), inputs: "all" };
+let picks = store.get("picks", []).filter(k => byKey[k]);
+
+const tierPill = b => b.tier === "Pass" ? '<span class="pill bad">✕ Pass</span>' : `<span class="pill good">✓ ${esc(b.tier)}</span>`;
+const resPill = r => r === "Clear" ? '<span class="pill good">✓ Clear</span>' : r === "Miss" ? '<span class="pill bad">✕ Miss</span>' : `<span class="pill neutral">${esc(r)}</span>`;
+const meter = (s, ok, sm) => `<div class="meter${sm ? " meter-sm" : ""}${ok ? "" : " dim"}"><i style="width:${Math.max(0, Math.min(100, s ?? 0))}%"></i><s></s></div>`;
+const dots = b => `<div class="dots" aria-label="${b.clears} of 6 checks clear">${b.checks.map(c =>
+  `<span class="dot ${c.result === "Clear" ? "clear" : "miss"}" data-tip="${esc(SHORT[c.name] || c.name)}: ${sc(c.score)} · ${esc(c.result)}"></span>`).join("")}</div>`;
+const mustText = b => b.mustOk ? "Both passed" : b.mustMissed.map(n => SHORT[n] || n).join(" and ") + " missed";
+
+/* Tooltip */
+const tip = document.getElementById("tip");
 document.addEventListener("mousemove", e => {
   const t = e.target.closest("[data-tip]");
   if (!t) { tip.style.display = "none"; return; }
   tip.innerHTML = t.dataset.tip; tip.style.display = "block";
-  const x = Math.min(e.clientX + 14, innerWidth - tip.offsetWidth - 8);
-  tip.style.left = x + "px"; tip.style.top = (e.clientY + 14) + "px";
+  tip.style.left = Math.min(e.clientX + 14, innerWidth - tip.offsetWidth - 8) + "px";
+  tip.style.top = (e.clientY + 16) + "px";
 });
-let state = { view: "overview", brand: DATA[0].key, filter: "all", q: "" };
-try { Object.assign(state, JSON.parse(localStorage.getItem("bfs") || "{}")); } catch (e) {}
-const save = () => { try { localStorage.setItem("bfs", JSON.stringify(state)); } catch (e) {} };
 
-function overview() {
-  const checks = DATA[0].checks.map(c => c.name);
-  const cards = DATA.map(b => `
-    <div class="card brandcard">
-      <h3>${esc(b.name)}</h3><div class="cat">${esc(b.category)}</div>
-      <div class="tier">${tierChip(b)}</div>
-      <div class="kv"><span>Clears</span><b>${b.clears} of 6</b>
-        <span>Must-clears</span><b>${b.mustOk ? "Both passed" : b.checks.filter(c => c.must && c.result === "Miss").map(c => c.name.replace(" Signal","")).join(", ") + " missed"}</b>
-        <span>Inputs measured</span><b>${b.inputsScored} of ${b.inputsTotal} (${b.coverage}% of weight)</b>
-        <span>As of</span><b>${esc(b.asof)}</b></div>
-      <div class="why">${esc(b.why)}</div>
-      <a href="#" data-open="${b.key}">Open detail</a> · <a href="${esc(b.report)}" target="_blank" rel="noopener">Full report ↗</a>
-    </div>`).join("");
-  const rows = checks.map((name, i) => `<tr><th scope="row">${esc(name)}${DATA[0].checks[i].must ? '<span class="must">must-clear</span>' : ""}</th>` +
-    DATA.map(b => { const c = b.checks[i];
-      return `<td data-tip="<b>${esc(b.name)}</b><br>${esc(c.name)}: ${sc(c.score)} (${esc(c.result)})<br>${esc(c.formula)}<br>Input coverage ${c.coverage}%">
-        <div class="cell"><span class="score">${sc(c.score)}</span>${meter(c.score, c.result !== "Clear")}${chip(c.result)}</div>
-        <div class="cov">${c.coverage}% of inputs</div></td>`; }).join("") + "</tr>").join("");
-  $("#v-overview").innerHTML = `
-    <div class="grid4">${cards}</div>
-    <h2>Six checks by brand</h2>
-    <div class="card scroll"><table class="matrix">
-      <thead><tr><th>Check</th>${DATA.map(b => `<th>${esc(b.name)}</th>`).join("")}</tr></thead>
-      <tbody>${rows}</tbody></table>
-      <div class="legend"><span><span class="tick"></span> Clear line at 60</span><span>Bars: score out of 100</span>
-      <span>Tier: a must-clear Miss is a Pass; otherwise 5+ Clears = Strong fit, 4 = Worth a look</span></div>
-    </div>`;
-  document.querySelectorAll("[data-open]").forEach(a => a.onclick = e => { e.preventDefault(); state.brand = a.dataset.open; show("brand"); });
+/* Compare tray */
+function syncTray() {
+  store.set("picks", picks);
+  const tray = document.getElementById("tray");
+  tray.classList.toggle("show", picks.length > 0 && !location.hash.startsWith("#/compare"));
+  document.getElementById("trayNames").textContent = picks.length + " selected · " + picks.map(k => byKey[k].name).join(", ");
+  document.getElementById("trayGo").disabled = picks.length < 2;
+  document.querySelectorAll("[data-pick]").forEach(b => b.setAttribute("aria-pressed", picks.includes(b.dataset.pick)));
+}
+function togglePick(k) {
+  picks = picks.includes(k) ? picks.filter(x => x !== k) : (picks.length >= 4 ? [...picks.slice(1), k] : [...picks, k]);
+  syncTray();
+}
+document.getElementById("trayClear").onclick = () => { picks = []; syncTray(); };
+document.getElementById("trayGo").onclick = () => { location.hash = "#/compare/" + picks.join(","); };
+
+/* Home */
+function home() {
+  const groups = [...new Set(DATA.map(b => b.group))].sort();
+  const counts = Object.fromEntries(groups.map(g => [g, DATA.filter(b => b.group === g).length]));
+  const tiers = ["Strong fit", "Worth a look", "Pass"];
+  const tierN = t => DATA.filter(b => b.tier === t).length;
+  app.innerHTML = `
+  <section class="hero wrap">
+    <p class="eyebrow">Brand Fit Screen</p>
+    <h1 class="headline">Every brand.<br>One clear answer.</h1>
+    <p class="sub">49 marketplace signals, distilled into six checks and a single fit decision.</p>
+    <div class="stats">
+      <div class="stat"><b>${DATA.length}</b><span>brands screened</span></div>
+      <a class="stat" href="#/categories" style="color:inherit"><b>${groups.length}</b><span>categories ›</span></a>
+      <div class="stat"><b>${tierN("Strong fit") + tierN("Worth a look")}</b><span>worth a closer look</span></div>
+      <div class="stat"><b>${tierN("Pass")}</b><span>passed on</span></div>
+    </div>
+  </section>
+  <div class="controls"><div class="wrap wide">
+    <div class="row">
+      <label class="search"><svg width="15" height="15" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5.2" fill="none" stroke="currentColor" stroke-width="1.6" opacity=".6"/><path d="M11 11l3.6 3.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" opacity=".6"/></svg>
+        <input id="q" type="search" placeholder="Search brands, categories or channels" value="${esc(ui.q)}" aria-label="Search brands"></label>
+      <select class="sort" id="tier" aria-label="Filter by tier"><option>All</option>${tiers.map(t => `<option${ui.tier === t ? " selected" : ""}>${t}</option>`).join("")}</select>
+      <select class="sort" id="sort" aria-label="Sort">
+        ${[["group","By category"],["clears","Most checks cleared"],["coverage","Most data measured"],["recent","Most recent"],["name","Name A–Z"]].map(([v,l]) => `<option value="${v}"${ui.sort === v ? " selected" : ""}>${l}</option>`).join("")}
+      </select>
+    </div>
+    <div class="chips" role="group" aria-label="Category">
+      ${["All", ...groups].map(g => `<button class="chip-btn" data-group="${esc(g)}" aria-pressed="${ui.group === g}">${esc(g)}<span class="n">${g === "All" ? DATA.length : counts[g]}</span></button>`).join("")}
+    </div>
+  </div></div>
+  <div class="wrap wide" id="results"></div>`;
+  const q = document.getElementById("q");
+  q.oninput = () => { ui.q = q.value; results(); };
+  document.getElementById("sort").onchange = e => { ui.sort = e.target.value; store.set("sort", ui.sort); results(); };
+  document.getElementById("tier").onchange = e => { ui.tier = e.target.value; results(); };
+  document.querySelectorAll("[data-group]").forEach(b => b.onclick = () => {
+    ui.group = b.dataset.group; document.querySelectorAll("[data-group]").forEach(x => x.setAttribute("aria-pressed", x === b)); results(); });
+  results();
+}
+function results() {
+  const q = ui.q.trim().toLowerCase();
+  let list = DATA.filter(b => (ui.group === "All" || b.group === ui.group) && (ui.tier === "All" || b.tier === ui.tier)
+    && (!q || [b.name, b.group, b.category, b.channels, b.why].join(" ").toLowerCase().includes(q)));
+  const sorters = { clears: (a, b) => b.clears - a.clears || b.coverage - a.coverage, coverage: (a, b) => b.coverage - a.coverage,
+    recent: (a, b) => b.asof.localeCompare(a.asof), name: (a, b) => a.name.localeCompare(b.name), group: (a, b) => a.name.localeCompare(b.name) };
+  list.sort(sorters[ui.sort] || sorters.name);
+  const el = document.getElementById("results");
+  if (!list.length) { el.innerHTML = `<div class="empty"><p class="h3">No brands match.</p><p class="small">Try a different search or category.</p></div>`; return; }
+  const tile = b => `
+    <article class="tile" tabindex="0" data-go="${b.key}" aria-label="${esc(b.name)}">
+      <div class="cat">${esc(b.group)}</div>
+      <h3 class="name">${esc(b.name)}</h3>
+      <div>${tierPill(b)}</div>
+      <p class="why" style="margin-top:14px">${esc(b.why)}</p>
+      ${dots(b)}
+      <div class="dots-legend">${b.clears} of 6 checks clear · ${b.coverage}% of data measured</div>
+      <div class="foot">
+        <span class="more">Learn more ›</span>
+        <button class="cmp-toggle" data-pick="${b.key}" aria-pressed="${picks.includes(b.key)}"><span class="box"></span>Compare</button>
+      </div>
+    </article>`;
+  const grouped = ui.sort === "group" && ui.group === "All";
+  const sections = grouped ? [...new Set(list.map(b => b.group))].sort().map(g => [g, list.filter(b => b.group === g)]) : [[null, list]];
+  el.innerHTML = sections.map(([g, items]) => `
+    <section class="group">
+      ${g ? `<div class="group-head"><h2 class="h2">${esc(g)}</h2><span class="count">${items.length} brand${items.length > 1 ? "s" : ""}</span></div>`
+          : `<div class="group-head"><span class="count">${items.length} brand${items.length > 1 ? "s" : ""}</span></div>`}
+      <div class="tiles">${items.map(tile).join("")}</div>
+    </section>`).join("");
+  el.querySelectorAll("[data-go]").forEach(t => {
+    t.onclick = e => { if (e.target.closest("[data-pick]")) return; location.hash = "#/brand/" + t.dataset.go; };
+    t.onkeydown = e => { if (e.key === "Enter" && !e.target.closest("[data-pick]")) location.hash = "#/brand/" + t.dataset.go; };
+  });
+  el.querySelectorAll("[data-pick]").forEach(b => b.onclick = e => { e.stopPropagation(); togglePick(b.dataset.pick); });
+  syncTray();
 }
 
-function brand() {
-  const b = DATA.find(x => x.key === state.brand) || DATA[0];
-  const q = state.q.toLowerCase();
-  const inputs = b.inputs.filter(r => (state.filter === "all" || (state.filter === "scored" ? r.score != null : r.score == null))
-    && (!q || (r.id + " " + r.name).toLowerCase().includes(q)));
-  $("#v-brand").innerHTML = `
-    <div class="toolbar">
-      <select id="brandSel" aria-label="Brand">${DATA.map(x => `<option value="${x.key}"${x.key === b.key ? " selected" : ""}>${esc(x.name)}</option>`).join("")}</select>
-      ${tierChip(b)} <span class="muted">${b.clears} of 6 Clears · ${b.inputsScored} of ${b.inputsTotal} inputs (${b.coverage}% of weight) · as of ${esc(b.asof)}</span>
-      <a href="${esc(b.report)}" target="_blank" rel="noopener" style="margin-left:auto">Full report ↗</a>
+/* Brand page */
+function brand(key) {
+  const b = byKey[key];
+  if (!b) { app.innerHTML = `<div class="empty wrap"><p class="h3">Brand not found.</p><p><a href="#/">See all brands ›</a></p></div>`; return; }
+  const peers = DATA.filter(x => x.group === b.group && x.key !== b.key);
+  app.innerHTML = `
+  <section class="bhero wrap">
+    <p class="eyebrow"><a class="eyelink" href="#/category/${b.groupSlug}">${esc(b.group)}</a> · ${esc(b.category)}</p>
+    <h1 class="headline">${esc(b.name)}</h1>
+    <div>${tierPill(b)}</div>
+    <p class="sub">${esc(b.why)}</p>
+    <div class="links">
+      <a href="${esc(b.report)}" target="_blank" rel="noopener">Read the full report ›</a>
+      <a href="#" id="addCmp">${picks.includes(b.key) ? "Added to compare ✓" : "Add to compare ›"}</a>
     </div>
-    <div class="card"><div class="kv"><span>Category</span><b>${esc(b.category)}</b><span>Channels</span><b>${esc(b.channels)}</b><span>Read</span><b>${esc(b.why)}</b></div></div>
-    <h2>Six checks</h2>
-    <div class="card bars">${b.checks.map(c => `
-      <div class="row" data-tip="${esc(c.name)}: ${sc(c.score)}<br>${esc(c.formula)}<br>Input coverage ${c.coverage}%">
-        <div><div class="name">${esc(c.name)}${c.must ? '<span class="must">must-clear</span>' : ""}</div><div class="formula">${esc(c.formula)}</div></div>
-        ${meter(c.score, c.result !== "Clear")}
-        <div class="score" style="width:auto">${sc(c.score)}</div>
-        <div>${chip(c.result)} <span class="cov">${c.coverage}%</span></div>
-      </div>`).join("")}
-      <div class="legend"><span><span class="tick"></span> Clear line at 60</span><span>% = share of the check's input weight measured</span></div>
+  </section>
+  <div class="wrap">
+    <div class="glance">
+      <div class="g"><b>${b.clears}<span style="font-size:18px;color:var(--ink-3)"> / 6</span></b><span>checks clear</span></div>
+      <div class="g"><b style="font-size:19px;line-height:1.25;padding:5px 0 4px">${esc(mustText(b))}</b><span>must-clear checks</span></div>
+      <div class="g"><b>${b.coverage}%</b><span>of data measured (${b.inputsScored} of ${b.inputsTotal} inputs)</span></div>
+      <div class="g"><b style="font-size:24px;padding:3px 0">${esc(new Date(b.asof).toLocaleDateString("en-IN", {day: "numeric", month: "short", year: "numeric"}))}</b><span>data as of</span></div>
     </div>
-    <h2>Mid-layer metrics</h2>
-    <div class="card scroll"><table>
-      <thead><tr><th>Metric</th><th>Feeds check</th><th class="num">Score</th><th style="min-width:140px"></th><th class="num">Weight measured</th><th class="num">Inputs</th></tr></thead>
-      <tbody>${b.mids.map(m => `<tr><td>${m.id}</td><td>${esc(m.feeds)}</td><td class="num">${sc(m.score)}</td>
-        <td>${m.score == null ? '<span class="muted">no data</span>' : meter(m.score, m.score < 60)}</td>
-        <td class="num">${m.coverage}%</td><td class="num">${m.scored} of ${m.total}</td></tr>`).join("")}</tbody></table></div>
-    <h2>Raw inputs</h2>
-    <div class="toolbar">
-      <div class="seg" role="group" aria-label="Filter inputs">${["all","scored","missing"].map(f => `<button data-f="${f}" aria-pressed="${state.filter === f}">${f[0].toUpperCase() + f.slice(1)}</button>`).join(" ")}</div>
-      <input type="search" id="q" placeholder="Search inputs" value="${esc(state.q)}" aria-label="Search inputs">
-      <span class="muted">${inputs.length} shown</span>
+    <p class="small muted" style="margin:18px 2px 0"><b style="color:var(--ink)">Channels.</b> ${esc(b.channels)}</p>
+  </div>
+  <section class="section alt">
+    <div class="wrap">
+      <p class="eyebrow">The six checks</p>
+      <h2 class="h2">Where it clears, and where it doesn't.</h2>
+      <div class="checks">${b.checks.map(c => `
+        <div class="check" data-tip="${esc(c.formula)}<br>${c.coverage}% of this check's inputs measured">
+          <div><div class="t">${esc(SHORT[c.name] || c.name)}${c.must ? '<span class="must">Must-clear</span>' : ""}</div><div class="f">${esc(c.formula)}</div></div>
+          ${meter(c.score, c.result === "Clear")}
+          <div class="v"><b>${sc(c.score)}</b>${resPill(c.result)}<div class="cov">${c.coverage}% measured</div></div>
+        </div>`).join("")}
+      </div>
+      <div class="legend"><span><span class="l60"></span>Clears at 60</span><span>A Miss on either must-clear means Pass</span></div>
     </div>
-    <div class="card scroll"><table>
-      <thead><tr><th>ID</th><th>Metric</th><th>Input</th><th class="num">Value</th><th class="num">Score</th><th style="min-width:120px"></th><th class="num">Floor → ceiling</th><th class="num">Weight</th></tr></thead>
-      <tbody>${inputs.map(r => `<tr><td>${esc(r.id)}</td><td>${esc(r.mid)}</td><td>${esc(r.name)}</td>
-        <td class="num">${fmt(r.value)}</td><td class="num">${r.score == null ? '<span class="muted">—</span>' : sc(r.score)}</td>
-        <td>${r.score == null ? '<span class="muted">not measured</span>' : meter(r.score, r.score < 60)}</td>
-        <td class="num">${fmt(r.floor)} → ${fmt(r.ceiling)} ${r.dir === "L" ? "(lower is better)" : ""}</td><td class="num">${fmt(r.weight)}</td></tr>`).join("")}</tbody></table></div>`;
-  $("#brandSel").onchange = e => { state.brand = e.target.value; save(); brand(); };
-  document.querySelectorAll("[data-f]").forEach(x => x.onclick = () => { state.filter = x.dataset.f; save(); brand(); });
-  const qi = $("#q"); qi.oninput = () => { state.q = qi.value; save(); brand(); const n = $("#q"); n.focus(); n.setSelectionRange(n.value.length, n.value.length); };
+  </section>
+  <section class="section wrap">
+    <p class="eyebrow">Under the hood</p>
+    <h2 class="h2">13 metrics. 49 signals.</h2>
+    <details${store.get("openMetrics", false) ? " open" : ""} id="dMetrics"><summary>Show mid-layer metrics</summary>
+      <div class="tbl-wrap"><table>
+        <thead><tr><th>Metric</th><th>Feeds</th><th class="num">Score</th><th style="min-width:140px"></th><th class="num">Measured</th></tr></thead>
+        <tbody>${b.mids.map(m => `<tr><td>${m.id}</td><td>${esc(m.feeds)}</td><td class="num">${sc(m.score)}</td>
+          <td>${m.score == null ? '<span class="fine">No data</span>' : meter(m.score, m.score >= 60, true)}</td>
+          <td class="num">${m.scored} of ${m.total}</td></tr>`).join("")}</tbody></table></div>
+    </details>
+    <details${store.get("openInputs", false) ? " open" : ""} id="dInputs"><summary>Show all inputs</summary>
+      <div style="margin-top:16px" class="seg" role="group" aria-label="Filter inputs">
+        ${["all","measured","missing"].map(f => `<button data-f="${f}" aria-pressed="${ui.inputs === f}">${f[0].toUpperCase() + f.slice(1)}</button>`).join("")}
+      </div>
+      <div class="tbl-wrap"><table>
+        <thead><tr><th>ID</th><th>Signal</th><th class="num">Value</th><th class="num">Score</th><th style="min-width:110px"></th><th class="num">Scale</th></tr></thead>
+        <tbody id="inputRows"></tbody></table></div>
+    </details>
+  </section>
+  ${competes(b)}
+  ${peers.length ? `<section class="section wrap">
+    <p class="eyebrow">More in ${esc(b.group)}</p>
+    <div class="tiles" style="margin-top:18px">${peers.map(p => `
+      <a class="tile" href="#/brand/${p.key}" style="min-height:0;color:inherit;text-decoration:none">
+        <div class="cat">${esc(p.category)}</div><h3 class="name" style="font-size:22px">${esc(p.name)}</h3>
+        <div>${tierPill(p)}</div><div style="margin-top:16px">${dots(p)}</div>
+        <div class="foot"><span class="more">Learn more ›</span><span class="more" data-cmp2="${p.key}">Compare side by side ›</span></div>
+      </a>`).join("")}</div>
+  </section>` : ""}`;
+  const rows = () => {
+    const list = b.inputs.filter(r => ui.inputs === "all" || (ui.inputs === "measured" ? r.score != null : r.score == null));
+    document.getElementById("inputRows").innerHTML = list.map(r => `<tr><td>${esc(r.id)}</td><td>${esc(r.name)}</td>
+      <td class="num">${fmt(r.value)}</td><td class="num">${r.score == null ? '<span class="fine">—</span>' : sc(r.score)}</td>
+      <td>${r.score == null ? '<span class="fine">Not measured</span>' : meter(r.score, r.score >= 60, true)}</td>
+      <td class="num fine">${fmt(r.floor)} → ${fmt(r.ceiling)}${r.dir === "L" ? " (lower is better)" : ""}</td></tr>`).join("");
+  };
+  rows();
+  document.querySelectorAll("[data-f]").forEach(x => x.onclick = () => { ui.inputs = x.dataset.f;
+    document.querySelectorAll("[data-f]").forEach(y => y.setAttribute("aria-pressed", y === x)); rows(); });
+  document.getElementById("dMetrics").ontoggle = e => store.set("openMetrics", e.target.open);
+  document.getElementById("dInputs").ontoggle = e => store.set("openInputs", e.target.open);
+  document.getElementById("addCmp").onclick = e => { e.preventDefault(); if (!picks.includes(b.key)) togglePick(b.key);
+    e.target.textContent = "Added to compare ✓"; };
+  document.querySelectorAll("[data-cmp2]").forEach(a => a.onclick = e => { e.preventDefault(); e.stopPropagation();
+    location.hash = "#/compare/" + b.key + "," + a.dataset.cmp2; });
 }
 
-function method() {
-  $("#v-method").innerHTML = `<div class="card">
-    <h2 style="margin-top:0">How the screen works</h2>
-    <ol>
-      <li><b>Raw inputs (49).</b> Each input is scored 0–100 on a straight line between a floor and a ceiling (reversed where lower is better). Missing inputs are left out and the remaining weights rescaled.</li>
-      <li><b>Mid-layer metrics (13).</b> Each metric is the weighted average of its scored inputs.</li>
-      <li><b>Six checks.</b> Each check is a weighted average of its metrics and clears at 60. Customer Quality and Pricing Power are must-clears.</li>
-      <li><b>Tier.</b> A Miss on either must-clear means Pass. Otherwise 5 or more Clears is Strong fit, 4 is Worth a look, fewer is Pass.</li>
-      <li><b>Coverage.</b> The share of input weight actually measured. Low coverage means a score can still move.</li>
-      <li><b>SKU Spikiness growth proxy.</b> Where listings with year-ago sales cover less than half of a brand's revenue (CADLEC, HOKIPO), the two SKU Spikiness growth inputs use 90-day sales growth divided by the sub-category's 90-day growth over the same window, which removes the festive lift.</li>
-    </ol>
-    <h2>Check formulas</h2>
-    <table><tbody>${Object.entries(DATA[0].checks.reduce((a, c) => (a[c.name] = c.formula, a), {})).map(([k, v]) => `<tr><td>${esc(k)}</td><td>${esc(v)}</td></tr>`).join("")}</tbody></table>
-    <h2>Sources</h2>
-    <p>Helium 10 (connector), Keepa exports, GobbleCube and Claude in Chrome reads of Amazon, Flipkart, brand websites, Meta Ad Library, Instagram and quick-commerce apps. Sales figures are estimates for the 30 days to late November 2026, a window that includes Diwali. Each brand's full report has the details and caveats.</p>
+/* Compare page */
+function compare(keys) {
+  keys = (keys || picks).filter(k => byKey[k]).slice(0, 4);
+  if (keys.length < 2) {
+    app.innerHTML = `<section class="hero wrap"><p class="eyebrow">Compare</p><h1 class="headline">Side by side.</h1>
+      <p class="sub">Choose two to four brands, from any category.</p></section>
+      <div class="wrap"><div class="tiles">${DATA.map(b => `
+        <div class="tile" style="min-height:0"><div class="cat">${esc(b.group)}</div><h3 class="name" style="font-size:22px">${esc(b.name)}</h3>
+        <div>${tierPill(b)}</div><div class="foot"><span></span>
+        <button class="cmp-toggle" data-pick="${b.key}" aria-pressed="${picks.includes(b.key)}"><span class="box"></span>Compare</button></div></div>`).join("")}
+      </div><p style="text-align:center;margin-top:28px"><button class="btn" id="go" ${picks.length < 2 ? "disabled" : ""}>Compare selected</button></p></div>`;
+    document.querySelectorAll("[data-pick]").forEach(b => b.onclick = () => { togglePick(b.dataset.pick);
+      document.getElementById("go").disabled = picks.length < 2; });
+    document.getElementById("go").onclick = () => { location.hash = "#/compare/" + picks.join(","); };
+    return;
+  }
+  picks = keys; syncTray();
+  const bs = keys.map(k => byKey[k]);
+  const cols = `grid-template-columns: minmax(130px, 200px) repeat(${bs.length}, minmax(150px, 1fr))`;
+  app.innerHTML = `
+  <section class="hero wrap" style="padding-bottom:8px"><p class="eyebrow">Compare</p><h1 class="headline" style="font-size:clamp(36px,6vw,56px)">Side by side.</h1></section>
+  <div class="wrap wide" style="overflow-x:auto">
+    <div class="cmp-grid" style="min-width:${200 + bs.length * 170}px">
+      <div class="cmp-row cmp-head" style="${cols}"><div></div>${bs.map(b => `<div><div class="fine">${esc(b.group)}</div><div class="bn">${esc(b.name)}</div>
+        <div style="margin-top:8px">${tierPill(b)}</div><div class="fine" style="margin-top:8px"><a href="#/brand/${b.key}">Details ›</a> · <a href="#" data-drop="${b.key}">Remove</a></div></div>`).join("")}</div>
+      <div class="cmp-row" style="${cols}"><div class="lab">Checks clear</div>${bs.map(b => `<div class="cmp-cell"><b>${b.clears}</b> <span class="muted">of 6</span><div style="margin-top:8px">${dots(b)}</div></div>`).join("")}</div>
+      ${CHECKS.map((n, i) => `<div class="cmp-row" style="${cols}"><div class="lab">${esc(SHORT[n] || n)}${b0must(i) ? '<div class="fine">Must-clear</div>' : ""}</div>
+        ${bs.map(b => { const c = b.checks[i]; return `<div class="cmp-cell" data-tip="${esc(c.formula)}<br>${c.coverage}% measured"><b>${sc(c.score)}</b> ${resPill(c.result)}<div style="margin-top:10px">${meter(c.score, c.result === "Clear", true)}</div></div>`; }).join("")}</div>`).join("")}
+      <div class="cmp-row" style="${cols}"><div class="lab">Data measured</div>${bs.map(b => `<div class="cmp-cell"><b>${b.coverage}%</b><div class="fine">${b.inputsScored} of ${b.inputsTotal} inputs</div></div>`).join("")}</div>
+      <div class="cmp-row" style="${cols}"><div class="lab">Channels</div>${bs.map(b => `<div class="small muted">${esc(b.channels)}</div>`).join("")}</div>
+      <div class="cmp-row" style="${cols};border-bottom:0"><div class="lab">The read</div>${bs.map(b => `<div class="small">${esc(b.why)}</div>`).join("")}</div>
+    </div>
+    <div class="legend"><span><span class="l60"></span>Clears at 60</span><span><a href="#/compare" id="change">Change brands ›</a></span></div>
   </div>`;
+  document.querySelectorAll("[data-drop]").forEach(a => a.onclick = e => { e.preventDefault();
+    const left = keys.filter(k => k !== a.dataset.drop); picks = left; syncTray(); location.hash = "#/compare/" + left.join(","); });
+  document.getElementById("change").onclick = e => { e.preventDefault(); location.hash = "#/compare/"; compare([]); };
+}
+const b0must = i => DATA[0].checks[i].must;
+
+/* Categories */
+const cr = v => (v / 1e7).toLocaleString("en-IN", {maximumFractionDigits: v >= 1e8 ? 0 : 1});
+const pct = v => v == null ? "—" : (v > 0 ? "+" : "") + Math.round(v) + "%";
+function catTotals(c) { const rev = c.subs.reduce((a, x) => a + x.revenue, 0); return { rev, n: c.subs.length }; }
+function categoriesIndex() {
+  app.innerHTML = `
+  <section class="hero wrap"><p class="eyebrow">Categories</p><h1 class="headline">Know the field.<br>Then judge the brand.</h1>
+    <p class="sub">Market size, growth and the leaders in every sub-category our brands compete in.</p></section>
+  <div class="wrap wide"><div class="tiles">${CATS.map(c => { const t = catTotals(c); return `
+    <a class="tile" href="#/category/${c.slug}" style="color:inherit;text-decoration:none;min-height:280px">
+      <div class="cat">${t.n} sub-categories</div>
+      <h3 class="name">${esc(c.name)}</h3>
+      <div class="kpis" style="grid-template-columns:repeat(2,1fr)"><div><b>₹${cr(t.rev)} cr</b><span>a month on Amazon, covered listings</span></div>
+        <div><b>${c.brandKeys.length}</b><span>brand${c.brandKeys.length > 1 ? "s" : ""} screened</span></div></div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap">${c.brandKeys.map(k => `<span class="pill neutral">${esc(byKey[k].name)}</span>`).join("")}</div>
+      <div class="foot"><span class="more">Explore the category ›</span></div>
+    </a>`; }).join("")}</div></div>`;
+}
+function category(slugv) {
+  const c = catBySlug[slugv];
+  if (!c) { app.innerHTML = `<div class="empty wrap"><p class="h3">Category not found.</p><p><a href="#/categories">See all categories ›</a></p></div>`; return; }
+  const t = catTotals(c), maxRev = Math.max(...c.subs.map(x => x.revenue));
+  const brands = c.brandKeys.map(k => byKey[k]);
+  const competitors = new Set(c.subs.flatMap(x => x.top.map(r => r.brand))).size;
+  app.innerHTML = `
+  <section class="hero wrap" style="padding-bottom:24px"><p class="eyebrow"><a class="eyelink" href="#/categories">Categories</a></p>
+    <h1 class="headline">${esc(c.name)}</h1>
+    <p class="sub">₹${cr(t.rev)} crore a month on Amazon India across ${t.n} sub-categories, in the listings we pulled.</p>
+    <div class="stats">
+      <div class="stat"><b>₹${cr(t.rev)} cr</b><span>monthly sales covered</span></div>
+      <div class="stat"><b>${t.n}</b><span>sub-categories</span></div>
+      <div class="stat"><b>${brands.length}</b><span>brands screened</span></div>
+    </div></section>
+  <section class="section alt" style="margin-top:24px"><div class="wrap">
+    <p class="eyebrow">Market size</p><h2 class="h2">Where the money is.</h2>
+    <div class="card" style="margin-top:18px;background:var(--card);border-radius:18px;padding:18px 22px;box-shadow:var(--shadow)">
+      ${c.subs.map(x => `<div class="hbar" data-tip="${esc(x.name)}: ₹${cr(x.revenue)} cr a month · ${x.units.toLocaleString("en-IN")} units · growth ${pct(x.yoy)}">
+        <div class="small" style="font-weight:600">${esc(x.name)}</div>
+        <div class="track"><i style="width:${(x.revenue / maxRev * 100).toFixed(1)}%"></i></div>
+        <div class="val">₹${cr(x.revenue)} cr</div></div>`).join("")}
+      <div class="fine" style="margin-top:8px">Monthly sales, ₹ crore. Helium 10 estimates, ${esc(c.subs[0].period)}; listings above each pull's sales cut-off only.</div>
+    </div>
+  </div></section>
+  <section class="section wrap">
+    <p class="eyebrow">Sub-categories</p><h2 class="h2">Size, growth and who leads.</h2>
+    <div class="subgrid">${c.subs.map(x => `
+      <div class="subcard">
+        <div class="nm">${esc(x.name)}</div>
+        <div class="kpis">
+          <div><b>₹${cr(x.revenue)} cr</b><span>a month</span></div>
+          <div><b>${pct(x.yoy)}</b><span>year on year*</span></div>
+          <div><b>${Math.round(x.top5)}%</b><span>top-5 share</span></div>
+        </div>
+        <div class="small muted">Leader <b style="color:var(--ink)">${esc(x.leader)}</b> · ${x.brands} brands · avg ₹${x.asp.toLocaleString("en-IN")}</div>
+        ${x.screened.map(s => `<div class="rankline"><a href="#/brand/${s.key}">${esc(byKey[s.key].name)}</a> ranks #${s.rank} with ${s.revShare}% of sales${s.asp ? `, at ₹${Math.round(s.asp).toLocaleString("en-IN")} average` : ""}</div>`).join("")}
+        <details><summary>Top 10 brands</summary>
+          <div class="tbl-wrap" style="margin-top:12px"><table>
+            <thead><tr><th>#</th><th>Brand</th><th>Share of sales</th><th class="num">Avg price</th><th class="num">Rating</th><th class="num">YoY*</th></tr></thead>
+            <tbody>${x.top.map((r, i) => `<tr class="${r.screened ? "me" : ""}"><td>${i + 1}</td><td>${r.screened ? `<a href="#/brand/${r.screened}">${esc(r.brand)}</a>` : esc(r.brand)}</td>
+              <td><div style="display:flex;align-items:center;gap:8px"><div class="sharebar" style="flex:1"><i style="width:${Math.min(100, r.revShare / x.top[0].revShare * 100)}%"></i></div><span class="small" style="width:44px;text-align:right">${r.revShare}%</span></div></td>
+              <td class="num">₹${r.asp ? Math.round(r.asp).toLocaleString("en-IN") : "—"}</td><td class="num">${r.rating ?? "—"}</td><td class="num">${pct(r.yoy)}</td></tr>`).join("")}</tbody></table></div>
+        </details>
+      </div>`).join("")}</div>
+    <p class="fine" style="margin-top:16px">* Year-on-year growth across listings that report a year-ago figure; ${c.subs.map(x => `${esc(x.name)} ${x.yoyCoverage}%`).join(", ")} of units covered.</p>
+  </section>
+  <section class="section wrap">
+    <p class="eyebrow">Screened in ${esc(c.name)}</p>
+    <div class="tiles" style="margin-top:18px">${brands.map(p => `
+      <a class="tile" href="#/brand/${p.key}" style="min-height:0;color:inherit;text-decoration:none">
+        <div class="cat">${esc(p.category)}</div><h3 class="name" style="font-size:22px">${esc(p.name)}</h3>
+        <div>${tierPill(p)}</div><div style="margin-top:16px">${dots(p)}</div>
+        <div class="foot"><span class="more">Learn more ›</span></div></a>`).join("")}</div>
+  </section>`;
+}
+function competes(b) {
+  const c = CATS.find(x => x.name === b.group); if (!c) return "";
+  const rows = c.subs.map(x => ({ x, s: x.screened.find(s => s.key === b.key) })).filter(r => r.s);
+  if (!rows.length) return "";
+  return `<section class="section wrap">
+    <p class="eyebrow">Where it competes</p><h2 class="h2">Its place in each market.</h2>
+    <div class="tbl-wrap"><table>
+      <thead><tr><th>Sub-category</th><th class="num">Market, ₹ cr/month</th><th class="num">Rank</th><th>Share of sales</th><th>Leader</th><th class="num">Market YoY*</th></tr></thead>
+      <tbody>${rows.map(({x, s}) => `<tr><td>${esc(x.name)}</td><td class="num">${cr(x.revenue)}</td><td class="num">#${s.rank}</td>
+        <td><div style="display:flex;align-items:center;gap:8px"><div class="sharebar" style="flex:1;max-width:160px"><i style="width:${Math.min(100, s.revShare / x.top[0].revShare * 100)}%"></i></div><span class="small">${s.revShare}%</span></div></td>
+        <td>${esc(x.leader)} (${x.top[0].revShare}%)</td><td class="num">${pct(x.yoy)}</td></tr>`).join("")}</tbody></table></div>
+    <p class="fine" style="margin-top:10px">Amazon India, Helium 10 estimates. Share bars are relative to the sub-category leader. <a href="#/category/${c.slug}">See the full ${esc(c.name)} view ›</a></p>
+  </section>`;
 }
 
-function show(v) {
-  state.view = v; save();
-  document.querySelectorAll("nav button").forEach(b => b.setAttribute("aria-selected", b.dataset.view === v));
-  ["overview", "brand", "method"].forEach(x => $("#v-" + x).hidden = x !== v);
-  ({overview, brand, method})[v]();
-  scrollTo(0, 0);
+/* Method */
+function method() {
+  app.innerHTML = `
+  <section class="hero wrap"><p class="eyebrow">How it works</p><h1 class="headline">Signals in.<br>Decision out.</h1>
+    <p class="sub">Three layers turn outside-in marketplace data into a fit decision you can trace back to its source.</p></section>
+  <section class="section alt"><div class="wrap">
+    <div class="glance" style="grid-template-columns:repeat(3,1fr)">
+      <div class="g"><b>49</b><span>raw signals, each scored 0–100 between a floor and a ceiling</span></div>
+      <div class="g"><b>13</b><span>mid-layer metrics, each a weighted average of its signals</span></div>
+      <div class="g"><b>6</b><span>checks that clear at 60, two of them must-clear</span></div>
+    </div>
+    <div class="checks">${DATA[0].checks.map(c => `<div class="check" style="grid-template-columns:minmax(180px,260px) 1fr">
+      <div class="t">${esc(SHORT[c.name] || c.name)}${c.must ? '<span class="must">Must-clear</span>' : ""}</div><div class="muted small">${esc(c.formula)}</div></div>`).join("")}</div>
+  </div></section>
+  <section class="section wrap">
+    <h2 class="h2">The fit decision.</h2>
+    <p class="muted">A Miss on either must-clear check (Customer quality, Pricing power) means Pass. Otherwise five or more Clears is Strong fit, four is Worth a look, fewer is Pass. Signals that could not be measured are left out and the rest re-weighted; "data measured" shows how much of the weight is real.</p>
+    <h2 class="h2" style="margin-top:40px">Young brands.</h2>
+    <p class="muted">When listings with a year-ago sales figure cover less than half of a brand's revenue, the two SKU spikiness growth signals use 90-day sales growth divided by the category's own 90-day growth, which removes the festive lift.</p>
+    <h2 class="h2" style="margin-top:40px">Sources.</h2>
+    <p class="muted">Helium 10, Keepa, GobbleCube, and reads of Amazon, Flipkart, brand websites, Meta Ad Library, Instagram and quick-commerce apps. Sales are estimates for the 30 days to late November 2026, a window that includes Diwali. Each brand's full report carries the detail and caveats.</p>
+  </section>`;
 }
-document.querySelectorAll("nav button").forEach(b => b.onclick = () => show(b.dataset.view));
-show(state.view);
+
+/* Router */
+function route() {
+  const h = location.hash.replace(/^#\/?/, "");
+  const [page, arg] = h.split("/");
+  document.querySelectorAll("[data-nav]").forEach(a => a.setAttribute("aria-current", (a.dataset.nav === (page || "home") || (a.dataset.nav === "home" && page === "brand") || (a.dataset.nav === "categories" && page === "category")) ? "page" : "false"));
+  if (page === "brand") brand(arg);
+  else if (page === "compare") compare(arg ? arg.split(",").filter(Boolean) : null);
+  else if (page === "method") method();
+  else if (page === "categories") categoriesIndex();
+  else if (page === "category") category(arg);
+  else home();
+  syncTray();
+  window.scrollTo({ top: 0 });
+}
+addEventListener("hashchange", route);
+route();
 </script>
+<footer><div class="wrap wide">Brand Fit Screen · internal diligence tool · scores are estimates from outside-in data and are not a substitute for the brand's own numbers.</div></footer>
 </body>
 </html>

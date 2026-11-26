@@ -1,0 +1,50 @@
+[
+  {
+    "key": "auradecor",
+    "name": "Aura Decor",
+    "run": "runs/2026-11-24_auradecor",
+    "asof": "2026-11-25",
+    "category": "Candles and home fragrance",
+    "channels": "Blinkit-led (about 87% of known sales); Amazon; D2C; Flipkart",
+    "report": "https://claude.ai/artifact/CMw6k8EPzF8rAKmXQwUgNG",
+    "why": "Fails on quality (seller feedback 69% negative over 3 months) and price (value brand, deep discounts).",
+    "group": "Home fragrance",
+    "match": "auradecor"
+  },
+  {
+    "key": "milton",
+    "name": "Milton Home Appliances (Hydro Valves)",
+    "run": "runs/2026-11-25_milton",
+    "asof": "2026-11-25",
+    "category": "Small kitchen appliances",
+    "channels": "Amazon about 98%; small D2C site; a few Flipkart listings",
+    "report": "https://claude.ai/artifact/A1vRC6cBhKZmkaNvqn6Fv1",
+    "why": "Fails on product defects; pricing borderline; almost entirely Amazon.",
+    "group": "Kitchen appliances",
+    "match": "milton(hydrovalves)"
+  },
+  {
+    "key": "hokipo",
+    "name": "HOKIPO",
+    "run": "runs/2026-11-25_hokipo",
+    "asof": "2026-11-25",
+    "category": "Home furnishing (sofa covers)",
+    "channels": "Amazon-led; hokipo.in D2C; Flipkart; not on quick commerce",
+    "report": "https://claude.ai/artifact/MKb17AvDJD5CQfY6uHcBmm",
+    "why": "Strong pricing, but sofa-cover complaints and no growth in the core.",
+    "group": "Home furnishing",
+    "match": "hokipo"
+  },
+  {
+    "key": "cadlec",
+    "name": "CADLEC",
+    "run": "runs/2026-11-25_cadlec",
+    "asof": "2026-11-26",
+    "category": "Small kitchen and home appliances",
+    "channels": "Amazon about Rs 5.1 crore/month; Flipkart material; small D2C; Zepto (3 products)",
+    "report": "https://claude.ai/artifact/HzXsPWRsABn3e3ayitwuJq",
+    "why": "Fast-growing value brand; fails on quality (23% 1-2 star) and price (57% off list).",
+    "group": "Kitchen appliances",
+    "match": "cadlec"
+  }
+]
