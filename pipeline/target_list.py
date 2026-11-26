@@ -52,9 +52,22 @@ def main(path):
     reg = json.load(open("pipeline/brands.json"))
     sk = {mm: b["key"] for b in reg for mm in (b["match"] if isinstance(b["match"], list) else [b["match"]])}
     t["screened"] = t.key.map(sk)
+    from pipeline.target_exclusions import ESTABLISHED, LISTED, ROLLUP
+    u = pd.read_csv("runs/_sourcing/universe.csv")
+    wb_est = set(u[u.status.astype(str).str.startswith("Established")].key)
+    ro = {slug(b): f"Roll-up: {g}" for g, L in ROLLUP.items() for b in L}
+    li = {slug(b): f"Listed: {g}" for g, L in LISTED.items() for b in L}
+    es = {slug(b) for b in ESTABLISHED}
+    t["exclude_reason"] = t.key.map(lambda x: ro.get(x) or li.get(x) or ("Established (workbook)" if x in wb_est else
+                                    ("Established (well-known)" if x in es else "")))
+    t["in_target"] = t.exclude_reason == ""
     os.makedirs("runs/_target", exist_ok=True)
-    t.to_csv("runs/_target/master_list.csv", index=False)
-    print(f"{len(t):,} brands: {t.source.value_counts().to_dict()}")
+    t.to_csv("runs/_target/master_list_with_exclusions.csv", index=False)
+    t[t.in_target].to_csv("runs/_target/master_list.csv", index=False)
+    print(f"{len(t):,} brands before exclusions: {t.source.value_counts().to_dict()}")
+    print("excluded:", t[~t.in_target].exclude_reason.str.split(":").str[0].value_counts().to_dict(), "->", int(t.in_target.sum()), "in target")
+    print(pd.crosstab(t.source, t.in_target).to_string())
+    t = t[t.in_target]
     print("Amazon:", t.amazon_status.value_counts().to_dict(), "| with 12-month:", int(t.amazon_12m_cr.notna().sum()))
     print("Quick commerce figures:", int(t.qc_month_lakh.notna().sum()), "| screened:", int(t.screened.notna().sum()))
 

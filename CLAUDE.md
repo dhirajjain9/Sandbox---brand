@@ -26,10 +26,12 @@ batches is expensive (about one call per brand); budget Helium 10 calls (1,000 a
 
 ## TARGET: master extraction list (set by the user, 26 Nov 2026)
 
-`runs/_target/master_list.csv`: **1,569 brands** = Master File brands excluding "Skipped" and
-"Skipped (Established)" (336) + quick-commerce brands not in the Master File (1,233). This is the list data
-extraction must cover. Rebuild coverage after each pull: `python -m pipeline.target_list <workbook.xlsx>`.
-Coverage at setting: Amazon full pull 404 (344 found, 60 none selling), 1,165 not yet; quick commerce 1,271.
+`runs/_target/master_list.csv`: **1,354 brands** = Master File brands excluding "Skipped" and
+"Skipped (Established)" (336) + quick-commerce brands not in the Master File (1,233), minus 215 exclusions
+(established per workbook or well-known, listed-company owned, roll-up owned: Mensa, GlobalBees, Upscalio, GOAT;
+lists in `pipeline/target_exclusions.py`; excluded rows kept in master_list_with_exclusions.csv).
+This is the list data extraction must cover. Rebuild after each pull: `python -m pipeline.target_list <workbook.xlsx>`.
+Coverage at setting: Amazon full pull 290 (239 found, 51 none selling), 1,064 not yet; quick commerce 1,060.
 Roles: we do data and diligence; outreach decisions belong to the outreach team.
 
 ## Sourcing universe (the team's brand list)
