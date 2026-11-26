@@ -1,0 +1,23 @@
+{
+ "category_group": "Home decor & candles",
+ "rating": 4.026,
+ "category_rating": 3.936,
+ "rating_subcategories": 4,
+ "one_two_star": 0.143,
+ "sample_problem_share": 0.435,
+ "sample_design": "recent+critical",
+ "seller_negative_90d": 0.69,
+ "derived": {
+  "9b": 0.1451,
+  "9c": 0.09,
+  "9d": 5.75,
+  "category_seller_median": 0.12,
+  "peer_sellers": 8,
+  "benchmark": "runs/_benchmarks/seller_feedback_peers_2026-11-26.csv"
+ },
+ "read": {
+  "product": "Rated above its d\u00e9cor and candle sub-categories (4.03 vs 3.94). About 15% of buyers report a problem, mostly short burn time and candles that don't float.",
+  "fulfilment": "69% negative seller feedback, nearly 6 times the d\u00e9cor median of 12%.",
+  "verdict": "Not met at 33.3. The product holds up against the category; the seller account does not."
+ }
+}

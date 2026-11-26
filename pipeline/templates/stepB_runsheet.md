@@ -23,7 +23,7 @@ For each:
    products share one rating pool (same numbers), say so.
 2. **Reviews:** read the **20 most recent** reviews and the **10 most recent critical** (1-2 star)
    reviews (if Amazon shows 10 per page, build the 20 most recent from the newest at each star
-   level, and say so). Count how many mention:
+   level, and say so). Note each review's star rating. Count how many mention:
    - damaged / broken / dented on arrival
    - defect or stops working (breaks, stops working, poor build, wobble, noise, finish problems)
    - smaller / less powerful than described, or missing parts
@@ -74,7 +74,9 @@ in Delhi or Bengaluru if asked; do not log in). For each: listed or not, how man
 CSV-ready tables:
 
 1. `asin, total_ratings, avg_rating, pct_5, pct_4, pct_3, pct_2, pct_1, pooled_family(y/n),
-   reviews_read, damaged, defect, smaller_missing, wrong_used, safety, service, top_complaints`
+   reviews_read, critical_read, problems_in_critical, problems_in_3to5_star, damaged, defect, smaller_missing, wrong_used, safety, service, top_complaints`
+   (critical_read = 1-2 star reviews among those read; the two problems_in_* columns split the
+   damaged + defect + smaller_missing + wrong_used count by star level, so problems can be scored per buyer.)
 2. `seller, period, positive_pct, neutral_pct, negative_pct, ratings`
 3. `active_ads, started_last_30d, platforms, links_to, example_themes`
 4. `handle, followers, total_posts, posts_last_30d, avg_likes_12, median_likes_own, avg_comments_12,

@@ -1,0 +1,23 @@
+{
+ "category_group": "Furniture",
+ "rating": 4.214,
+ "category_rating": 4.118,
+ "rating_subcategories": 4,
+ "one_two_star": 0.098,
+ "sample_problem_share": 0.539,
+ "sample_design": "recent+critical",
+ "seller_negative_90d": 0.35,
+ "derived": {
+  "9b": 0.1325,
+  "9c": 0.096,
+  "9d": 7.0,
+  "category_seller_median": 0.05,
+  "peer_sellers": 7,
+  "benchmark": "runs/_benchmarks/seller_feedback_peers_2026-11-26.csv"
+ },
+ "read": {
+  "product": "Rated slightly above its furniture sub-categories (4.21 vs 4.12). But about 13% of buyers report a product problem: missing screws, misaligned holes, damaged panels and hard assembly.",
+  "fulfilment": "35% negative seller feedback over 90 days, 7 times the furniture median of 5% (Lukzer about 0%, Plantex 1%, The Sleep Company 17%). EVERS, at 41%, is the worst seller in the sample; FFO, at 19%, is on a par with Craftcenter.",
+  "verdict": "Not met at 43.8. Furniture is not a forgiving category, so the seller problem is real, not category noise. Taking fulfilment out of the gate would still leave it at about 52."
+ }
+}

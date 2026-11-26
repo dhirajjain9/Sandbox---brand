@@ -17,7 +17,7 @@
   --ink: #1d1d1f; --ink-2: #6e6e73; --ink-3: #86868b; --line: #d2d2d7; --hair: rgba(0,0,0,.08);
   --link: #0066cc; --accent: #0071e3; --accent-ink: #ffffff;
   --good: #1a7f37; --good-soft: #e3f4e6; --bad: #c9252c; --bad-soft: #fde8e8;
-  --track: #e8e8ed; --bar: #0071e3; --bar-dim: #a8c7f0; --line60: #1d1d1f;
+  --track: #e8e8ed; --bar: #0071e3; --bar-dim: #a8c7f0; --line60: #1d1d1f; --chg: #b8420a; --chg-soft: #fdeee4;
   --nav: rgba(251,251,253,.8); --shadow: 0 2px 12px rgba(0,0,0,.06);
 }
 @media (prefers-color-scheme: dark) {
@@ -27,7 +27,7 @@
     --ink: #f5f5f7; --ink-2: #a1a1a6; --ink-3: #86868b; --line: #424245; --hair: rgba(255,255,255,.1);
     --link: #2997ff; --accent: #0a84ff; --accent-ink: #ffffff;
     --good: #30d158; --good-soft: #10301a; --bad: #ff6961; --bad-soft: #3a1416;
-    --track: #2c2c2e; --bar: #0a84ff; --bar-dim: #1d4b80; --line60: #f5f5f7;
+    --track: #2c2c2e; --bar: #0a84ff; --bar-dim: #1d4b80; --line60: #f5f5f7; --chg: #ff9f5a; --chg-soft: #3a2314;
     --nav: rgba(22,22,23,.8); --shadow: none;
   }
 }
@@ -37,7 +37,7 @@
   --ink: #f5f5f7; --ink-2: #a1a1a6; --ink-3: #86868b; --line: #424245; --hair: rgba(255,255,255,.1);
   --link: #2997ff; --accent: #0a84ff; --accent-ink: #ffffff;
   --good: #30d158; --good-soft: #10301a; --bad: #ff6961; --bad-soft: #3a1416;
-  --track: #2c2c2e; --bar: #0a84ff; --bar-dim: #1d4b80; --line60: #f5f5f7;
+  --track: #2c2c2e; --bar: #0a84ff; --bar-dim: #1d4b80; --line60: #f5f5f7; --chg: #ff9f5a; --chg-soft: #3a2314;
   --nav: rgba(22,22,23,.8); --shadow: none;
 }
 * { box-sizing: border-box; }
@@ -142,11 +142,23 @@ select.sort { appearance: none; -webkit-appearance: none; border: 1px solid var(
 .bhero .pill { font-size: 15px; padding: 5px 14px; margin-top: 18px; }
 .bhero .sub { max-width: 760px; margin-left: auto; margin-right: auto; }
 .bhero .links { margin-top: 22px; display: flex; gap: 26px; justify-content: center; font-size: 17px; }
+.cq { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 22px; }
+.cq .c { background: var(--tile); border-radius: 18px; padding: 22px; }
+.cq .c .k { font-size: 13px; font-weight: 600; color: var(--ink-2); text-transform: uppercase; letter-spacing: .04em; margin: 0 0 8px; }
+.cq .c .big { color: var(--ink); font-size: 26px; font-weight: 700; letter-spacing: -.02em; line-height: 1.15; margin: 0 0 4px; }
+.cq .c p { margin: 10px 0 0; font-size: 15px; line-height: 1.45; color: var(--ink-2); }
+.note { display: block; margin-top: 3px; }
+.chg { color: var(--chg) !important; }
+.chg-tag { display: inline-block; font-size: 11px; font-weight: 600; color: var(--chg); background: var(--chg-soft); border-radius: 6px; padding: 1px 7px; margin-left: 8px; vertical-align: 2px; white-space: nowrap; letter-spacing: 0; text-transform: none; }
+.legend .chg-key { color: var(--chg); font-weight: 600; }
+.changes { margin-top: 18px; }
+@media (max-width: 760px) { .cq { grid-template-columns: 1fr; } }
 .glance { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin: 16px 0 0; }
 .glance .g { background: var(--tile); border-radius: 18px; padding: 22px; }
 .glance .g b { display: block; font-size: 30px; font-weight: 700; letter-spacing: -.02em; line-height: 1.1; }
 .glance .g span { color: var(--ink-2); font-size: 14px; }
 .section { padding: 56px 0 8px; }
+.section.wrap { padding-left: 22px; padding-right: 22px; }
 .section.alt { background: var(--bg-alt); padding-bottom: 56px; margin-top: 48px; }
 .checks { display: grid; gap: 14px; margin-top: 22px; }
 .check { background: var(--card); border-radius: 18px; padding: 20px 22px; display: grid; grid-template-columns: minmax(180px, 260px) 1fr auto; gap: 22px; align-items: center; box-shadow: var(--shadow); }
@@ -250,6 +262,7 @@ footer { border-top: 1px solid var(--hair); margin-top: 72px; padding: 22px 0 90
 <script>
 const DATA = /*__DATA__*/null;
 const CATS = /*__CATS__*/null;
+const CQ_CHANGES = /*__CQ__*/null;
 const catBySlug = Object.fromEntries(CATS.map(c => [c.slug, c]));
 const SCORED = DATA.filter(b => b.checks.length);
 const CHECKS = SCORED[0].checks.map(c => c.name);
@@ -408,6 +421,28 @@ function screeningPage(b) {
   </div></section>
   ${subTable(b)}`;
 }
+function cqSection(b) {
+  const q = b.cq; if (!q) return "";
+  const c = b.checks.find(x => x.name === "Customer Quality Signal");
+  const sign = v => (v > 0 ? "+" : "") + v.toFixed(2);
+  return `<section class="section wrap">
+    <p class="eyebrow chg">Customer quality, in context<span class="chg-tag">Updated 26 Nov</span></p>
+    <h2 class="h2">Judged against its own category.</h2>
+    <p class="muted" style="max-width:760px">Rating and seller feedback are compared with the brand's own sub-categories and peer sellers, and review complaints are corrected for a sample that leans critical. ${esc(q.read.verdict)}</p>
+    <div class="cq">
+      <div class="c"><p class="k chg">Product vs category</p>
+        <p class="big">${sign(q.d9c)} stars</p><span class="fine">${q.rating.toFixed(2)} vs ${q.category_rating.toFixed(2)} across ${q.rating_subcategories} sub-categor${q.rating_subcategories > 1 ? "ies" : "y"} · about ${Math.round(q.d9b * 100)}% of buyers report a product problem</span>
+        <p>${esc(q.read.product)}</p></div>
+      <div class="c"><p class="k chg">Fulfilment vs category</p>
+        <p class="big">${q.d9d.toFixed(1)}× the norm</p><span class="fine">${Math.round(q.seller_negative_90d * 100)}% negative vs a ${Math.round(q.median * 100)}% median across ${q.peers} ${esc(q.category_group.toLowerCase())} sellers (90 days)</span>
+        <p>${esc(q.read.fulfilment)}</p></div>
+      <div class="c"><p class="k">Gate result</p>
+        <p class="big">${sc(c.score)}</p>${resPill(c.result)}
+        <p>${c.result === "Clear" ? "Gets through the Customer Quality gate." : "Below the bar of 60, so this gate blocks a FIT."} <a href="#/method">Why this changed ›</a></p></div>
+    </div>
+  </section>`;
+}
+
 function brand(key) {
   const b = byKey[key];
   if (!b) { app.innerHTML = `<div class="empty wrap"><p class="h3">Brand not found.</p><p><a href="#/">See all brands ›</a></p></div>`; return; }
@@ -439,14 +474,15 @@ function brand(key) {
       <h2 class="h2">Where it meets the bar, and where it doesn't.</h2>
       <div class="checks">${b.checks.map(c => `
         <div class="check" data-tip="${esc(c.formula)}<br>${c.coverage}% of this check's inputs measured">
-          <div><div class="t">${esc(SHORT[c.name] || c.name)}${c.must ? '<span class="must">Gate</span>' : ""}</div><div class="f">${esc(c.formula)}</div></div>
+          <div><div class="t">${esc(SHORT[c.name] || c.name)}${c.must ? '<span class="must">Gate</span>' : ""}${b.cq && c.name === "Customer Quality Signal" ? '<span class="chg-tag">Updated 26 Nov</span>' : ""}</div><div class="f${b.cq && c.name === "Customer Quality Signal" ? " chg" : ""}">${b.cq && c.name === "Customer Quality Signal" ? "M9, now judged against the category" : esc(c.formula)}</div></div>
           ${meter(c.score, c.result === "Clear")}
           <div class="v"><b>${sc(c.score)}</b>${resPill(c.result)}<div class="cov">${c.coverage}% measured</div></div>
         </div>`).join("")}
       </div>
-      <div class="legend"><span><span class="l60"></span>Bar: 60</span><span>Not meeting either gate makes the brand a NO FIT</span></div>
+      <div class="legend"><span><span class="l60"></span>Bar: 60</span><span>Not meeting either gate makes the brand a NO FIT</span>${b.cq ? '<span class="chg-key">Orange marks a method change (26 Nov 2026)</span>' : ""}</div>
     </div>
   </section>
+  ${cqSection(b)}
   <section class="section wrap">
     <p class="eyebrow">Under the hood</p>
     <h2 class="h2">13 metrics. 49 signals.</h2>
@@ -479,7 +515,7 @@ function brand(key) {
   </section>` : ""}`;
   const rows = () => {
     const list = b.inputs.filter(r => ui.inputs === "all" || (ui.inputs === "measured" ? r.score != null : r.score == null));
-    document.getElementById("inputRows").innerHTML = list.map(r => `<tr><td>${esc(r.id)}</td><td>${esc(r.name)}</td>
+    document.getElementById("inputRows").innerHTML = list.map(r => `<tr><td>${esc(r.id)}</td><td${b.inputNotes && b.inputNotes[r.id] ? ' class="chg"' : ""}>${esc(r.name)}${b.inputNotes && b.inputNotes[r.id] ? `<span class="chg-tag">Updated 26 Nov</span><span class="fine note chg">${esc(b.inputNotes[r.id])}</span>` : ""}</td>
       <td class="num">${fmt(r.value)}</td><td class="num">${r.score == null ? '<span class="fine">—</span>' : sc(r.score)}</td>
       <td>${r.score == null ? '<span class="fine">Not measured</span>' : meter(r.score, r.score >= 60, true)}</td>
       <td class="num fine">${fmt(r.floor)} → ${fmt(r.ceiling)}${r.dir === "L" ? " (lower is better)" : ""}</td></tr>`).join("");
@@ -643,6 +679,19 @@ function method() {
     <p class="muted">Every brand is a FIT or a NO FIT. A brand is a FIT when it gets through both gates (Customer quality and Pricing power) and meets at least four of the six checks. Anything else is a NO FIT. A check is met at a score of 60 or more. Signals that could not be measured are left out and the rest re-weighted; "data measured" shows how much of the weight is real.</p>
     <h2 class="h2" style="margin-top:40px">Young brands.</h2>
     <p class="muted">When listings with a year-ago sales figure cover less than half of a brand's revenue, the two SKU spikiness growth signals use 90-day sales growth divided by the category's own 90-day growth, which removes the festive lift.</p>
+    <h2 class="h2 chg" style="margin-top:40px">Customer quality, judged by category.<span class="chg-tag">Updated 26 Nov</span></h2>
+    <p class="muted">Updated 26 Nov 2026; changes appear <span class="chg">in orange</span> across the dashboard. Three of the five Customer Quality signals are now read against the brand's own category, because fixed scales failed every brand for reasons that were partly the category and partly the sample.</p>
+    <div class="tbl-wrap changes"><table>
+      <thead><tr><th>Signal</th><th>Before</th><th>Now</th><th>Why</th></tr></thead>
+      <tbody>
+        <tr><td>Seller feedback</td><td>Negative share, 1% to 10%</td><td class="chg">Ratio to the median of the category's top peer sellers: 0.5× scores 100, 2× scores 0</td><td>Norms differ: furniture peers run about 5% negative, appliances about 18%. A normal appliance seller used to score 0.</td></tr>
+        <tr><td>Rating</td><td>Average rating, 3.6 to 4.5</td><td class="chg">Gap to the same sub-categories' average: −0.2 scores 0, +0.2 scores 100</td><td>Categories rate differently; the question is whether shoppers prefer this brand to the alternatives.</td></tr>
+        <tr><td>Review problems</td><td>Share of reviews read citing damage, defects, missing parts or wrong items</td><td class="chg">The same, converted to a share of buyers using the brand's real 1-2 star share</td><td>The sample (20 newest plus 10 newest critical reviews) is about half critical, so every brand used to score 0.</td></tr>
+      </tbody></table></div>
+    <div class="tbl-wrap changes"><table>
+      <thead><tr><th>Brand</th><th class="num">Before</th><th class="num">Now</th><th>Gate</th><th>Verdict</th></tr></thead>
+      <tbody>${CQ_CHANGES.map(r => `<tr><td><a href="#/brand/${r.key}">${esc(byKey[r.key] ? byKey[r.key].name : r.key)}</a></td><td class="num">${r.before}</td><td class="num chg">${r.after}</td><td>${esc(r.gate)}</td><td>${esc(r.verdict)}</td></tr>`).join("")}</tbody></table></div>
+    <p class="muted small">No verdict changed. HOKIPO now gets through both gates but meets 3 of 6 checks, one short of a FIT. The review correction is an estimate until run sheets record complaints by star level; the HOKIPO rating comparison rests on one sub-category.</p>
     <h2 class="h2" style="margin-top:40px">Sources.</h2>
     <p class="muted">Helium 10, Keepa, GobbleCube, and reads of Amazon, Flipkart, brand websites, Meta Ad Library, Instagram and quick-commerce apps. Sales are estimates for the 30 days to late November 2026, a window that includes Diwali. Each brand's full report carries the detail and caveats.</p>
   </section>`;

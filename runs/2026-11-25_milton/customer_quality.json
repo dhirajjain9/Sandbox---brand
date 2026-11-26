@@ -1,0 +1,23 @@
+{
+ "category_group": "Kitchen & home appliances",
+ "rating": 4.031,
+ "category_rating": 4.023,
+ "rating_subcategories": 5,
+ "one_two_star": 0.145,
+ "sample_problem_share": 0.151,
+ "sample_design": "recent",
+ "seller_negative_90d": 0.18,
+ "derived": {
+  "9b": 0.151,
+  "9c": 0.008,
+  "9d": 1.0,
+  "category_seller_median": 0.18,
+  "peer_sellers": 11,
+  "benchmark": "runs/_benchmarks/seller_feedback_peers_2026-11-26.csv"
+ },
+ "read": {
+  "product": "Rated in line with its appliance sub-categories (4.03 vs 4.02), but 15% of recent reviews report a defect, damage or a wrong item.",
+  "fulfilment": "18% negative seller feedback, exactly the appliance median of 18%. Previously this scored 0; it now scores 67.",
+  "verdict": "Not met at 38.1. Fulfilment is normal for appliances; product defects hold it back."
+ }
+}

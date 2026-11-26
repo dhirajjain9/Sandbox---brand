@@ -1,0 +1,23 @@
+{
+ "category_group": "Kitchen & home appliances",
+ "rating": 3.848,
+ "category_rating": 3.997,
+ "rating_subcategories": 6,
+ "one_two_star": 0.226,
+ "sample_problem_share": 0.155,
+ "sample_design": "recent+critical",
+ "seller_negative_90d": 0.03,
+ "derived": {
+  "9b": 0.0724,
+  "9c": -0.149,
+  "9d": 0.167,
+  "category_seller_median": 0.18,
+  "peer_sellers": 11,
+  "benchmark": "runs/_benchmarks/seller_feedback_peers_2026-11-26.csv"
+ },
+ "read": {
+  "product": "Rated 0.15 below its appliance sub-categories (3.85 vs 4.00), with 23% of ratings at 1-2 stars. About 7% of buyers report a problem: units that fail in days or weeks, missing parts, used units sent.",
+  "fulfilment": "3% negative seller feedback, a sixth of the appliance median of 18%. Delivery is not the problem.",
+  "verdict": "Not met at 41.1. A genuine product problem: ratings trail the category."
+ }
+}

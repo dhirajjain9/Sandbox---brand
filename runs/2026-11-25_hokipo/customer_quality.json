@@ -1,0 +1,23 @@
+{
+ "category_group": "Home furnishings",
+ "rating": 3.85,
+ "category_rating": 3.858,
+ "rating_subcategories": 1,
+ "one_two_star": 0.088,
+ "sample_problem_share": 0.34,
+ "sample_design": "recent+critical",
+ "seller_negative_90d": 0.04,
+ "derived": {
+  "9b": 0.0763,
+  "9c": -0.008,
+  "9d": 0.444,
+  "category_seller_median": 0.09,
+  "peer_sellers": 7,
+  "benchmark": "runs/_benchmarks/seller_feedback_peers_2026-11-26.csv"
+ },
+ "read": {
+  "product": "Rated in line with its sub-category (3.85 vs 3.86; one sub-category compared). About 8% of buyers report a problem, mainly colour variance and fit.",
+  "fulfilment": "4% negative seller feedback, under half the home-furnishings median of 9%.",
+  "verdict": "Met at 69.4: the only brand through this gate. It is still a NO FIT, with 3 of 6 checks met; the shortfall is growth and quick commerce, not quality."
+ }
+}

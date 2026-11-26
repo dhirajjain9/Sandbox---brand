@@ -66,6 +66,27 @@ def load(b):
                         "score": clean(r.score)} for r in inp.itertuples()]}
 
 
+# Customer Quality before / after the category-relative method (26 Nov 2026), shown on the Method page
+CQ_BEFORE = {"auradecor": 25.3, "milton": 29.2, "hokipo": 48.5, "cadlec": 21.7, "tekavo": 38.0}
+
+
+def customer_quality(b):
+    f = ROOT / b["run"] / "customer_quality.json"
+    if not f.exists():
+        return {}
+    q = json.loads(f.read_text())
+    d = q["derived"]
+    cq = {k: q[k] for k in ["category_group", "rating", "category_rating", "rating_subcategories", "seller_negative_90d", "read"]}
+    cq.update(d9b=d["9b"], d9c=d["9c"], d9d=d["9d"], median=d["category_seller_median"], peers=d["peer_sellers"])
+    notes = {
+        "9b": f"{q['sample_problem_share']:.0%} of reviews read; about {d['9b']:.0%} of buyers once corrected for a critical-heavy sample"
+              if q["sample_design"] != "recent" else f"{q['sample_problem_share']:.0%} of the most recent reviews",
+        "9c": f"{q['rating']:.2f} vs {q['category_rating']:.2f} for the same sub-categories",
+        "9d": f"{q['seller_negative_90d']:.0%} negative vs a {d['category_seller_median']:.0%} median across {d['peer_sellers']} {q['category_group'].lower()} sellers",
+    }
+    return {"cq": cq, "inputNotes": notes}
+
+
 def slug(s):
     return "".join(c if c.isalnum() else "-" for c in s.lower()).strip("-")
 
@@ -110,13 +131,20 @@ def categories(brands):
 
 
 def main():
-    data = [load(b) for b in BRANDS]
+    data = [{**load(b), **customer_quality(b)} for b in BRANDS]
+    changes = []
+    for d in data:
+        c = next((x for x in d["checks"] if x["name"] == "Customer Quality Signal"), None)
+        if c and d["key"] in CQ_BEFORE:
+            changes.append({"key": d["key"], "before": CQ_BEFORE[d["key"]], "after": c["score"],
+                            "gate": "Met" if c["result"] == "Clear" else "Not met", "verdict": d["tier"]})
     for d in data:
         d["groupSlug"] = slug(d["group"])
     cats = categories(BRANDS)
     html = (Path(__file__).with_name("dashboard_template.html").read_text()
             .replace("/*__DATA__*/null", json.dumps(data, ensure_ascii=False))
-            .replace("/*__CATS__*/null", json.dumps(cats, ensure_ascii=False)))
+            .replace("/*__CATS__*/null", json.dumps(cats, ensure_ascii=False))
+            .replace("/*__CQ__*/null", json.dumps(changes, ensure_ascii=False)))
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "index.html").write_text(html)
     print(f"wrote {OUT / 'index.html'} ({len(html):,} bytes, {len(data)} brands, {len(cats)} categories, {sum(len(c['subs']) for c in cats)} sub-categories)")

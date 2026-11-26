@@ -21,4 +21,8 @@ its category markets, and side-by-side comparisons. Views use URL hashes, e.g. `
    `python -m pipeline.new_brand stage --key <key> --done competition history ...`.
 5. **Score.** Fill inputs with `python -m pipeline.rescore runs/<run> id=value ...`; add peer sources to `pipeline/category_market.py`;
    then `stage --done scored` turns it into a full FIT / NO FIT brand.
+   **Customer Quality (9b, 9c, 9d) is judged against the category** (since 26 Nov 2026): write `runs/<run>/customer_quality.json`
+   (rating and its sub-categories' rating, 1-2 star share, review problem share, seller negative feedback, category group),
+   pull 90-day feedback for the category's top peer sellers into `runs/_benchmarks/seller_feedback_peers_*.csv` if the
+   category is new, then run `python -m pipeline.customer_quality runs/<run>`. See its docstring for the formulas.
 6. **Publish.** `python -m pipeline.build_dashboard` and push; Vercel redeploys automatically.

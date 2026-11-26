@@ -28,9 +28,9 @@ id,mid,input,dir,floor,ceiling,weight,value,score
 8b,M8,Qcomm search rank on category keywords (Blinkit),L,1.0,20.0,0.25,,
 8c,M8,"Qcomm category share (Zepto gas stoves, SP)",H,0.0,0.2,0.35,0.124,62.0
 9a,M9,Share of 1-2 star ratings (rating-weighted),L,0.05,0.25,0.3,0.145,52.5
-9b,M9,"Review issue share (damage/defect/wrong, latest 30 x 15 families)",L,0.02,0.15,0.3,0.151,0.0
-9c,M9,"Average rating (rating-weighted, Keepa)",H,3.6,4.5,0.2,4.14,59.999999999999964
-9d,M9,Seller negative feedback (90 days),L,0.01,0.1,0.15,0.18,0.0
+9b,M9,"Product problems per buyer (damage, defect, missing, wrong item; sample-corrected)",L,0.02,0.15,0.3,0.151,0.0
+9c,M9,"Rating vs category average (stars, same sub-categories)",H,-0.2,0.2,0.2,0.008000000000000007,52.0
+9d,M9,"Seller negative feedback vs category median (x, 90 days)",L,0.5,2.0,0.15,1.0,66.66666666666666
 9e,M9,COD fee (D2C),H,0.0,50.0,0.05,,
 10a,M10,Amazon discount vs list price (revenue-weighted),L,0.15,0.6,0.3,0.419,40.22222222222223
 10b,M10,Deal days per month (Keepa chart reads),L,2.0,20.0,0.15,0.85,100.0
