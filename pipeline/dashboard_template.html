@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Brand Fit Screen</title>
+<style>
+:root {
+  color-scheme: light;
+  --bg: #f6f6f4; --surface: #ffffff; --surface-2: #f0efec; --border: #e2e1dd;
+  --text: #191919; --text-2: #5f5f5f; --text-3: #8a8a8a;
+  --accent: #257de0; --track: #e9e8e4; --threshold: #191919;
+  --good: #0aac23; --good-ink: #006c10; --good-bg: #e5f4e4;
+  --bad: #dc3c3d; --bad-ink: #b3261e; --bad-bg: #fbebeb;
+  --na-bg: #f0efec; --bar: #257de0; --bar-miss: #9dc8f7;
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+    --bg: #121212; --surface: #191919; --surface-2: #222; --border: #2e2e2e;
+    --text: #efefef; --text-2: #a8a8a8; --text-3: #7a7a7a;
+    --accent: #338ced; --track: #2b2b2b; --threshold: #efefef;
+    --good: #0aac23; --good-ink: #4fd162; --good-bg: #16301a;
+    --bad: #dc3c3d; --bad-ink: #ff7b7b; --bad-bg: #3a1a1a;
+    --na-bg: #262626; --bar: #338ced; --bar-miss: #1757ac;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #121212; --surface: #191919; --surface-2: #222; --border: #2e2e2e;
+  --text: #efefef; --text-2: #a8a8a8; --text-3: #7a7a7a;
+  --accent: #338ced; --track: #2b2b2b; --threshold: #efefef;
+  --good: #0aac23; --good-ink: #4fd162; --good-bg: #16301a;
+  --bad: #dc3c3d; --bad-ink: #ff7b7b; --bad-bg: #3a1a1a;
+  --na-bg: #262626; --bar: #338ced; --bar-miss: #1757ac;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+header { background: var(--surface); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 5; }
+.wrap { max-width: 1180px; margin: 0 auto; padding: 0 16px; }
+.top { display: flex; align-items: center; gap: 16px; padding: 12px 0; flex-wrap: wrap; }
+h1 { font-size: 17px; margin: 0; font-weight: 650; }
+.sub { color: var(--text-2); font-size: 12px; }
+nav { display: flex; gap: 4px; margin-left: auto; flex-wrap: wrap; }
+nav button, .seg button { border: 1px solid var(--border); background: var(--surface); color: var(--text);
+  padding: 6px 12px; border-radius: 8px; cursor: pointer; font: inherit; }
+nav button[aria-selected="true"], .seg button[aria-pressed="true"] { background: var(--text); color: var(--surface); border-color: var(--text); }
+main { padding: 20px 0 48px; }
+h2 { font-size: 15px; margin: 28px 0 10px; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
+.grid4 { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+.brandcard h3 { margin: 0 0 2px; font-size: 15px; }
+.brandcard .cat { color: var(--text-2); font-size: 12px; }
+.tier { display: inline-flex; align-items: center; gap: 6px; font-weight: 650; margin: 10px 0 6px; font-size: 18px; }
+.kv { display: grid; grid-template-columns: auto 1fr; gap: 2px 10px; font-size: 12px; color: var(--text-2); }
+.kv b { color: var(--text); font-weight: 600; }
+.why { font-size: 12.5px; margin: 10px 0 8px; }
+a { color: var(--accent); }
+.chip { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; font-weight: 600; padding: 1px 8px;
+  border-radius: 999px; white-space: nowrap; }
+.chip.clear { background: var(--good-bg); color: var(--good-ink); }
+.chip.miss { background: var(--bad-bg); color: var(--bad-ink); }
+.chip.na { background: var(--na-bg); color: var(--text-2); }
+.must { white-space: nowrap; font-size: 11px; color: var(--text-2); border: 1px solid var(--border); border-radius: 4px; padding: 0 4px; margin-left: 6px; }
+table { border-collapse: collapse; width: 100%; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+th { font-size: 12px; color: var(--text-2); font-weight: 600; background: var(--surface); position: sticky; top: 0; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+.scroll { overflow-x: auto; }
+.matrix td { min-width: 150px; }
+.cell { display: flex; align-items: center; gap: 8px; }
+.score { font-variant-numeric: tabular-nums; font-weight: 600; width: 34px; text-align: right; }
+.meter { display: block; position: relative; height: 8px; background: var(--track); border-radius: 4px; flex: 1; min-width: 60px; }
+.meter > i { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 4px; background: var(--bar); }
+.meter.miss > i { background: var(--bar-miss); }
+.meter > b { position: absolute; left: 60%; top: -3px; bottom: -3px; width: 2px; background: var(--threshold); opacity: .55; }
+.cov { color: var(--text-3); font-size: 11px; white-space: nowrap; }
+.bars .row { display: grid; grid-template-columns: minmax(150px, 230px) 1fr 70px 110px; gap: 12px; align-items: center;
+  padding: 9px 0; border-bottom: 1px solid var(--border); }
+.bars .row:last-child { border-bottom: 0; }
+.bars .name { font-weight: 600; }
+.bars .formula { color: var(--text-3); font-size: 11px; }
+.bars .meter { height: 12px; border-radius: 6px; }
+.bars .meter > i { border-radius: 6px; }
+.toolbar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin: 6px 0 10px; }
+select, input[type=search] { font: inherit; padding: 6px 10px; border-radius: 8px; border: 1px solid var(--border);
+  background: var(--surface); color: var(--text); }
+.legend { display: flex; gap: 14px; flex-wrap: wrap; color: var(--text-2); font-size: 12px; margin: 8px 0 0; align-items: center; }
+.legend .tick { display: inline-block; width: 2px; height: 12px; background: var(--threshold); opacity: .55; vertical-align: middle; }
+.muted { color: var(--text-3); }
+.tip { position: fixed; pointer-events: none; background: var(--text); color: var(--surface); font-size: 12px; padding: 6px 8px;
+  border-radius: 6px; max-width: 280px; z-index: 20; display: none; }
+.method p, .method li { max-width: 780px; }
+@media (max-width: 640px) {
+  .bars .row { grid-template-columns: 1fr 60px; }
+  .bars .row .meter { grid-column: 1 / -1; order: 3; }
+  .bars .row .cov { display: none; }
+}
+</style>
+</head>
+<body>
+<header><div class="wrap top">
+  <div><h1>Brand Fit Screen</h1><div class="sub">Marketplace and D2C brand screening: 49 inputs, 13 metrics, 6 checks</div></div>
+  <nav role="tablist">
+    <button role="tab" data-view="overview" aria-selected="true">Overview</button>
+    <button role="tab" data-view="brand" aria-selected="false">Brand detail</button>
+    <button role="tab" data-view="method" aria-selected="false">Method</button>
+  </nav>
+</div></header>
+<main class="wrap">
+  <section id="v-overview"></section>
+  <section id="v-brand" hidden></section>
+  <section id="v-method" hidden class="method"></section>
+</main>
+<div class="tip" id="tip"></div>
+<script>
+const DATA = /*__DATA__*/null;
+const $ = (s, el = document) => el.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));
+const fmt = v => v == null ? "—" : (Math.abs(v) >= 100 ? v.toLocaleString("en-IN", {maximumFractionDigits: 0}) : (+v.toFixed(3)).toString());
+const sc = v => v == null ? "—" : (+v).toFixed(1);
+const chip = r => r === "Clear" ? '<span class="chip clear">✓ Clear</span>' : r === "Miss" ? '<span class="chip miss">✕ Miss</span>' : `<span class="chip na">${esc(r || "Not scored")}</span>`;
+const tierChip = b => b.tier === "Pass" ? '<span class="chip miss">✕ Pass</span>' : `<span class="chip clear">✓ ${esc(b.tier)}</span>`;
+const meter = (s, miss) => `<span class="meter${miss ? " miss" : ""}"><i style="width:${Math.max(0, Math.min(100, s ?? 0))}%"></i><b></b></span>`;
+const tip = $("#tip");
+document.addEventListener("mousemove", e => {
+  const t = e.target.closest("[data-tip]");
+  if (!t) { tip.style.display = "none"; return; }
+  tip.innerHTML = t.dataset.tip; tip.style.display = "block";
+  const x = Math.min(e.clientX + 14, innerWidth - tip.offsetWidth - 8);
+  tip.style.left = x + "px"; tip.style.top = (e.clientY + 14) + "px";
+});
+let state = { view: "overview", brand: DATA[0].key, filter: "all", q: "" };
+try { Object.assign(state, JSON.parse(localStorage.getItem("bfs") || "{}")); } catch (e) {}
+const save = () => { try { localStorage.setItem("bfs", JSON.stringify(state)); } catch (e) {} };
+
+function overview() {
+  const checks = DATA[0].checks.map(c => c.name);
+  const cards = DATA.map(b => `
+    <div class="card brandcard">
+      <h3>${esc(b.name)}</h3><div class="cat">${esc(b.category)}</div>
+      <div class="tier">${tierChip(b)}</div>
+      <div class="kv"><span>Clears</span><b>${b.clears} of 6</b>
+        <span>Must-clears</span><b>${b.mustOk ? "Both passed" : b.checks.filter(c => c.must && c.result === "Miss").map(c => c.name.replace(" Signal","")).join(", ") + " missed"}</b>
+        <span>Inputs measured</span><b>${b.inputsScored} of ${b.inputsTotal} (${b.coverage}% of weight)</b>
+        <span>As of</span><b>${esc(b.asof)}</b></div>
+      <div class="why">${esc(b.why)}</div>
+      <a href="#" data-open="${b.key}">Open detail</a> · <a href="${esc(b.report)}" target="_blank" rel="noopener">Full report ↗</a>
+    </div>`).join("");
+  const rows = checks.map((name, i) => `<tr><th scope="row">${esc(name)}${DATA[0].checks[i].must ? '<span class="must">must-clear</span>' : ""}</th>` +
+    DATA.map(b => { const c = b.checks[i];
+      return `<td data-tip="<b>${esc(b.name)}</b><br>${esc(c.name)}: ${sc(c.score)} (${esc(c.result)})<br>${esc(c.formula)}<br>Input coverage ${c.coverage}%">
+        <div class="cell"><span class="score">${sc(c.score)}</span>${meter(c.score, c.result !== "Clear")}${chip(c.result)}</div>
+        <div class="cov">${c.coverage}% of inputs</div></td>`; }).join("") + "</tr>").join("");
+  $("#v-overview").innerHTML = `
+    <div class="grid4">${cards}</div>
+    <h2>Six checks by brand</h2>
+    <div class="card scroll"><table class="matrix">
+      <thead><tr><th>Check</th>${DATA.map(b => `<th>${esc(b.name)}</th>`).join("")}</tr></thead>
+      <tbody>${rows}</tbody></table>
+      <div class="legend"><span><span class="tick"></span> Clear line at 60</span><span>Bars: score out of 100</span>
+      <span>Tier: a must-clear Miss is a Pass; otherwise 5+ Clears = Strong fit, 4 = Worth a look</span></div>
+    </div>`;
+  document.querySelectorAll("[data-open]").forEach(a => a.onclick = e => { e.preventDefault(); state.brand = a.dataset.open; show("brand"); });
+}
+
+function brand() {
+  const b = DATA.find(x => x.key === state.brand) || DATA[0];
+  const q = state.q.toLowerCase();
+  const inputs = b.inputs.filter(r => (state.filter === "all" || (state.filter === "scored" ? r.score != null : r.score == null))
+    && (!q || (r.id + " " + r.name).toLowerCase().includes(q)));
+  $("#v-brand").innerHTML = `
+    <div class="toolbar">
+      <select id="brandSel" aria-label="Brand">${DATA.map(x => `<option value="${x.key}"${x.key === b.key ? " selected" : ""}>${esc(x.name)}</option>`).join("")}</select>
+      ${tierChip(b)} <span class="muted">${b.clears} of 6 Clears · ${b.inputsScored} of ${b.inputsTotal} inputs (${b.coverage}% of weight) · as of ${esc(b.asof)}</span>
+      <a href="${esc(b.report)}" target="_blank" rel="noopener" style="margin-left:auto">Full report ↗</a>
+    </div>
+    <div class="card"><div class="kv"><span>Category</span><b>${esc(b.category)}</b><span>Channels</span><b>${esc(b.channels)}</b><span>Read</span><b>${esc(b.why)}</b></div></div>
+    <h2>Six checks</h2>
+    <div class="card bars">${b.checks.map(c => `
+      <div class="row" data-tip="${esc(c.name)}: ${sc(c.score)}<br>${esc(c.formula)}<br>Input coverage ${c.coverage}%">
+        <div><div class="name">${esc(c.name)}${c.must ? '<span class="must">must-clear</span>' : ""}</div><div class="formula">${esc(c.formula)}</div></div>
+        ${meter(c.score, c.result !== "Clear")}
+        <div class="score" style="width:auto">${sc(c.score)}</div>
+        <div>${chip(c.result)} <span class="cov">${c.coverage}%</span></div>
+      </div>`).join("")}
+      <div class="legend"><span><span class="tick"></span> Clear line at 60</span><span>% = share of the check's input weight measured</span></div>
+    </div>
+    <h2>Mid-layer metrics</h2>
+    <div class="card scroll"><table>
+      <thead><tr><th>Metric</th><th>Feeds check</th><th class="num">Score</th><th style="min-width:140px"></th><th class="num">Weight measured</th><th class="num">Inputs</th></tr></thead>
+      <tbody>${b.mids.map(m => `<tr><td>${m.id}</td><td>${esc(m.feeds)}</td><td class="num">${sc(m.score)}</td>
+        <td>${m.score == null ? '<span class="muted">no data</span>' : meter(m.score, m.score < 60)}</td>
+        <td class="num">${m.coverage}%</td><td class="num">${m.scored} of ${m.total}</td></tr>`).join("")}</tbody></table></div>
+    <h2>Raw inputs</h2>
+    <div class="toolbar">
+      <div class="seg" role="group" aria-label="Filter inputs">${["all","scored","missing"].map(f => `<button data-f="${f}" aria-pressed="${state.filter === f}">${f[0].toUpperCase() + f.slice(1)}</button>`).join(" ")}</div>
+      <input type="search" id="q" placeholder="Search inputs" value="${esc(state.q)}" aria-label="Search inputs">
+      <span class="muted">${inputs.length} shown</span>
+    </div>
+    <div class="card scroll"><table>
+      <thead><tr><th>ID</th><th>Metric</th><th>Input</th><th class="num">Value</th><th class="num">Score</th><th style="min-width:120px"></th><th class="num">Floor → ceiling</th><th class="num">Weight</th></tr></thead>
+      <tbody>${inputs.map(r => `<tr><td>${esc(r.id)}</td><td>${esc(r.mid)}</td><td>${esc(r.name)}</td>
+        <td class="num">${fmt(r.value)}</td><td class="num">${r.score == null ? '<span class="muted">—</span>' : sc(r.score)}</td>
+        <td>${r.score == null ? '<span class="muted">not measured</span>' : meter(r.score, r.score < 60)}</td>
+        <td class="num">${fmt(r.floor)} → ${fmt(r.ceiling)} ${r.dir === "L" ? "(lower is better)" : ""}</td><td class="num">${fmt(r.weight)}</td></tr>`).join("")}</tbody></table></div>`;
+  $("#brandSel").onchange = e => { state.brand = e.target.value; save(); brand(); };
+  document.querySelectorAll("[data-f]").forEach(x => x.onclick = () => { state.filter = x.dataset.f; save(); brand(); });
+  const qi = $("#q"); qi.oninput = () => { state.q = qi.value; save(); brand(); const n = $("#q"); n.focus(); n.setSelectionRange(n.value.length, n.value.length); };
+}
+
+function method() {
+  $("#v-method").innerHTML = `<div class="card">
+    <h2 style="margin-top:0">How the screen works</h2>
+    <ol>
+      <li><b>Raw inputs (49).</b> Each input is scored 0–100 on a straight line between a floor and a ceiling (reversed where lower is better). Missing inputs are left out and the remaining weights rescaled.</li>
+      <li><b>Mid-layer metrics (13).</b> Each metric is the weighted average of its scored inputs.</li>
+      <li><b>Six checks.</b> Each check is a weighted average of its metrics and clears at 60. Customer Quality and Pricing Power are must-clears.</li>
+      <li><b>Tier.</b> A Miss on either must-clear means Pass. Otherwise 5 or more Clears is Strong fit, 4 is Worth a look, fewer is Pass.</li>
+      <li><b>Coverage.</b> The share of input weight actually measured. Low coverage means a score can still move.</li>
+      <li><b>SKU Spikiness growth proxy.</b> Where listings with year-ago sales cover less than half of a brand's revenue (CADLEC, HOKIPO), the two SKU Spikiness growth inputs use 90-day sales growth divided by the sub-category's 90-day growth over the same window, which removes the festive lift.</li>
+    </ol>
+    <h2>Check formulas</h2>
+    <table><tbody>${Object.entries(DATA[0].checks.reduce((a, c) => (a[c.name] = c.formula, a), {})).map(([k, v]) => `<tr><td>${esc(k)}</td><td>${esc(v)}</td></tr>`).join("")}</tbody></table>
+    <h2>Sources</h2>
+    <p>Helium 10 (connector), Keepa exports, GobbleCube and Claude in Chrome reads of Amazon, Flipkart, brand websites, Meta Ad Library, Instagram and quick-commerce apps. Sales figures are estimates for the 30 days to late November 2026, a window that includes Diwali. Each brand's full report has the details and caveats.</p>
+  </div>`;
+}
+
+function show(v) {
+  state.view = v; save();
+  document.querySelectorAll("nav button").forEach(b => b.setAttribute("aria-selected", b.dataset.view === v));
+  ["overview", "brand", "method"].forEach(x => $("#v-" + x).hidden = x !== v);
+  ({overview, brand, method})[v]();
+  scrollTo(0, 0);
+}
+document.querySelectorAll("nav button").forEach(b => b.onclick = () => show(b.dataset.view));
+show(state.view);
+</script>
+</body>
+</html>
