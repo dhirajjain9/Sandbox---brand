@@ -211,7 +211,10 @@ footer { border-top: 1px solid var(--hair); margin-top: 72px; padding: 22px 0 90
 .tip { position: fixed; pointer-events: none; background: var(--ink); color: var(--bg); font-size: 12px; padding: 6px 9px; border-radius: 8px; max-width: 260px; z-index: 80; display: none; line-height: 1.35; }
 
 @media (max-width: 760px) {
-  .gnav nav { gap: 16px; }
+  .gnav .wrap { gap: 14px; }
+  .gnav .mark { white-space: nowrap; font-size: 14px; }
+  .gnav nav { gap: 14px; overflow-x: auto; scrollbar-width: none; white-space: nowrap; font-size: 12px; }
+  .gnav nav::-webkit-scrollbar { display: none; }
   .glance { grid-template-columns: repeat(2, 1fr); }
   .check { grid-template-columns: 1fr auto; }
   .check .meter { grid-column: 1 / -1; order: 3; }
@@ -228,7 +231,7 @@ footer { border-top: 1px solid var(--hair); margin-top: 72px; padding: 22px 0 90
     <a href="#/" data-nav="home">Brands</a>
     <a href="#/categories" data-nav="categories">Categories</a>
     <a href="#/compare" data-nav="compare">Compare</a>
-    <a href="#/method" data-nav="method">How it works</a>
+    <a href="#/method" data-nav="method">Method</a>
   </nav>
 </div></header>
 <main id="app"></main>
