@@ -3,3 +3,7 @@ data/
 __pycache__/
 *.pyc
 .DS_Store
+
+# uploaded run notes and logs from browser sessions (local only)
+runs/_target/waves/*_resume_notes.md
+runs/_target/waves/*_partA_log.tsv
