@@ -121,6 +121,7 @@ select.sort { appearance: none; -webkit-appearance: none; border: 1px solid var(
 .dots { display: flex; gap: 6px; align-items: center; }
 .dot { width: 26px; height: 6px; border-radius: 3px; background: var(--track); }
 .dot.clear { background: var(--good); }
+.dot.stage { background: var(--accent); }
 .dot.miss { background: var(--bad); opacity: .85; }
 .dots-legend { font-size: 12px; color: var(--ink-3); margin-top: 6px; }
 
@@ -250,7 +251,8 @@ footer { border-top: 1px solid var(--hair); margin-top: 72px; padding: 22px 0 90
 const DATA = /*__DATA__*/null;
 const CATS = /*__CATS__*/null;
 const catBySlug = Object.fromEntries(CATS.map(c => [c.slug, c]));
-const CHECKS = DATA[0].checks.map(c => c.name);
+const SCORED = DATA.filter(b => b.checks.length);
+const CHECKS = SCORED[0].checks.map(c => c.name);
 const SHORT = {"SKU Spikiness": "SKU spikiness", "Demand Durability": "Demand durability", "Qcomm Traction": "Quick commerce",
   "Customer Quality Signal": "Customer quality", "Pricing Power": "Pricing power", "Concentration Risk": "Concentration"};
 const app = document.getElementById("app");
@@ -263,10 +265,13 @@ const store = { get(k, d) { try { return JSON.parse(localStorage.getItem("bfs." 
 let ui = { q: "", group: "All", tier: "All", sort: store.get("sort", "group"), inputs: "all" };
 let picks = store.get("picks", []).filter(k => byKey[k]);
 
-const tierPill = b => b.tier === "FIT" ? '<span class="pill good verdict">✓ FIT</span>' : '<span class="pill bad verdict">✕ NO FIT</span>';
+const tierPill = b => b.tier === "IN SCREENING" ? '<span class="pill neutral verdict">IN SCREENING</span>' : b.tier === "FIT" ? '<span class="pill good verdict">✓ FIT</span>' : '<span class="pill bad verdict">✕ NO FIT</span>';
 const resPill = r => r === "Clear" ? '<span class="pill good">✓ Met</span>' : r === "Miss" ? '<span class="pill bad">✕ Not met</span>' : `<span class="pill neutral">${esc(r)}</span>`;
 const meter = (s, ok, sm) => `<div class="meter${sm ? " meter-sm" : ""}${ok ? "" : " dim"}"><i style="width:${Math.max(0, Math.min(100, s ?? 0))}%"></i><s></s></div>`;
-const dots = b => `<div class="dots" aria-label="${b.clears} of 6 checks met">${b.checks.map(c =>
+const stageDots = b => `<div class="dots" aria-label="${(b.stageList || []).filter(s => s.done).length} of 6 steps done">${(b.stageList || []).map(s =>
+  `<span class="dot ${s.done ? "stage" : ""}" data-tip="${esc(s.label)}: ${s.done ? "done" : "to do"}"></span>`).join("")}</div>`;
+const subLine = b => b.subBrands && b.subBrands.length > 1 ? `<div class="fine" style="margin-top:2px">Brand house: ${b.subBrands.map(x => esc(x.name)).join(" · ")}</div>` : "";
+const dots = b => !b.checks.length ? stageDots(b) : `<div class="dots" aria-label="${b.clears} of 6 checks met">${b.checks.map(c =>
   `<span class="dot ${c.result === "Clear" ? "clear" : "miss"}" data-tip="${esc(SHORT[c.name] || c.name)}: ${sc(c.score)} · ${c.result === "Clear" ? "Met" : "Not met"}"></span>`).join("")}</div>`;
 const mustText = b => b.mustOk ? "Through both gates" : "Blocked at " + b.mustMissed.map(n => SHORT[n] || n).join(" and ");
 
@@ -300,7 +305,7 @@ document.getElementById("trayGo").onclick = () => { location.hash = "#/compare/"
 function home() {
   const groups = [...new Set(DATA.map(b => b.group))].sort();
   const counts = Object.fromEntries(groups.map(g => [g, DATA.filter(b => b.group === g).length]));
-  const tiers = ["FIT", "NO FIT"];
+  const tiers = ["FIT", "NO FIT", ...(DATA.some(b => b.tier === "IN SCREENING") ? ["IN SCREENING"] : [])];
   const tierN = t => DATA.filter(b => b.tier === t).length;
   app.innerHTML = `
   <section class="hero wrap">
@@ -308,10 +313,11 @@ function home() {
     <h1 class="headline">Every brand.<br>One clear answer.</h1>
     <p class="sub">49 marketplace signals, distilled into six checks and one verdict: FIT or NO FIT.</p>
     <div class="stats">
-      <div class="stat"><b>${DATA.length}</b><span>brands screened</span></div>
+      <div class="stat"><b>${SCORED.length}</b><span>brands screened</span></div>
       <a class="stat" href="#/categories" style="color:inherit"><b>${groups.length}</b><span>categories ›</span></a>
       <div class="stat"><b>${tierN("FIT")}</b><span>FIT</span></div>
       <div class="stat"><b>${tierN("NO FIT")}</b><span>NO FIT</span></div>
+      ${tierN("IN SCREENING") ? `<div class="stat"><b>${tierN("IN SCREENING")}</b><span>in screening</span></div>` : ""}
     </div>
   </section>
   <div class="controls"><div class="wrap wide">
@@ -348,14 +354,14 @@ function results() {
   const tile = b => `
     <article class="tile" tabindex="0" data-go="${b.key}" aria-label="${esc(b.name)}">
       <div class="cat">${esc(b.group)}</div>
-      <h3 class="name">${esc(b.name)}</h3>
-      <div>${tierPill(b)}</div>
+      <h3 class="name">${esc(b.name)}</h3>${subLine(b)}
+      <div style="margin-top:8px">${tierPill(b)}</div>
       <p class="why" style="margin-top:14px">${esc(b.why)}</p>
       ${dots(b)}
-      <div class="dots-legend">${b.clears} of 6 checks met · ${b.coverage}% of data measured</div>
+      <div class="dots-legend">${b.checks.length ? `${b.clears} of 6 checks met · ${b.coverage}% of data measured` : `${b.stageList.filter(s => s.done).length} of 6 screening steps done`}</div>
       <div class="foot">
         <span class="more">Learn more ›</span>
-        <button class="cmp-toggle" data-pick="${b.key}" aria-pressed="${picks.includes(b.key)}"><span class="box"></span>Compare</button>
+        ${b.checks.length ? `<button class="cmp-toggle" data-pick="${b.key}" aria-pressed="${picks.includes(b.key)}"><span class="box"></span>Compare</button>` : ""}
       </div>
     </article>`;
   const grouped = ui.sort === "group" && ui.group === "All";
@@ -375,13 +381,41 @@ function results() {
 }
 
 /* Brand page */
+function subTable(b) {
+  if (!b.subBrands || b.subBrands.length < 2) return "";
+  return `<section class="section wrap"><p class="eyebrow">Brand house</p><h2 class="h2">${b.subBrands.length} brands, screened as one.</h2>
+    <div class="tbl-wrap"><table><thead><tr><th>Brand</th><th>Amazon brand name</th><th>Seller</th><th class="num">₹ lakh / month</th><th>Share of sales</th><th class="num">Listings</th></tr></thead>
+    <tbody>${b.subBrands.map(x => `<tr><td><b>${esc(x.name)}</b></td><td class="small muted">${esc(x.amazonBrand)}</td><td class="small">${esc(x.seller || "")}</td>
+      <td class="num">${x.revenueMonthly != null ? (x.revenueMonthly / 1e5).toFixed(1) : "—"}</td>
+      <td><div style="display:flex;align-items:center;gap:8px"><div class="sharebar" style="flex:1;max-width:160px"><i style="width:${x.share || 0}%"></i></div><span class="small">${x.share ?? "—"}%</span></div></td>
+      <td class="num">${x.listings ?? "—"}</td></tr>`).join("")}</tbody></table></div>
+    <p class="fine" style="margin-top:10px">Amazon India, Helium 10 estimates for the last 30 days. Scores are for the brands combined.</p></section>`;
+}
+function screeningPage(b) {
+  const done = b.stageList.filter(s => s.done).length;
+  app.innerHTML = `
+  <section class="bhero wrap">
+    <p class="eyebrow">${esc(b.group)} · ${esc(b.category)}</p>
+    <h1 class="headline">${esc(b.name)}</h1>${subLine(b)}
+    <div style="margin-top:14px">${tierPill(b)}</div>
+    <p class="sub">${done} of 6 screening steps done. The verdict appears here once the brand is scored.</p>
+    ${b.report ? `<div class="links"><a href="${esc(b.report)}" target="_blank" rel="noopener">Read the report so far ›</a></div>` : ""}
+  </section>
+  <section class="section alt"><div class="wrap">
+    <p class="eyebrow">Progress</p><h2 class="h2">Where the screen stands.</h2>
+    <div class="checks">${b.stageList.map((s, i) => `<div class="check" style="grid-template-columns:1fr auto">
+      <div class="t">${i + 1}. ${esc(s.label)}</div><div>${s.done ? '<span class="pill good">✓ Done</span>' : '<span class="pill neutral">To do</span>'}</div></div>`).join("")}</div>
+  </div></section>
+  ${subTable(b)}`;
+}
 function brand(key) {
   const b = byKey[key];
   if (!b) { app.innerHTML = `<div class="empty wrap"><p class="h3">Brand not found.</p><p><a href="#/">See all brands ›</a></p></div>`; return; }
-  const peers = DATA.filter(x => x.group === b.group && x.key !== b.key);
+  if (!b.checks.length) { screeningPage(b); return; }
+  const peers = DATA.filter(x => x.group === b.group && x.key !== b.key && x.checks.length);
   app.innerHTML = `
   <section class="bhero wrap">
-    <p class="eyebrow"><a class="eyelink" href="#/category/${b.groupSlug}">${esc(b.group)}</a> · ${esc(b.category)}</p>
+    <p class="eyebrow">${catBySlug[b.groupSlug] ? `<a class="eyelink" href="#/category/${b.groupSlug}">${esc(b.group)}</a>` : esc(b.group)} · ${esc(b.category)}</p>
     <h1 class="headline">${esc(b.name)}</h1>
     <div>${tierPill(b)}</div>
     <p class="sub">${esc(b.why)}</p>
@@ -432,6 +466,7 @@ function brand(key) {
         <tbody id="inputRows"></tbody></table></div>
     </details>
   </section>
+  ${subTable(b)}
   ${competes(b)}
   ${peers.length ? `<section class="section wrap">
     <p class="eyebrow">More in ${esc(b.group)}</p>
@@ -466,7 +501,7 @@ function compare(keys) {
   if (keys.length < 2) {
     app.innerHTML = `<section class="hero wrap"><p class="eyebrow">Compare</p><h1 class="headline">Side by side.</h1>
       <p class="sub">Choose two to four brands, from any category.</p></section>
-      <div class="wrap"><div class="tiles">${DATA.map(b => `
+      <div class="wrap"><div class="tiles">${SCORED.map(b => `
         <div class="tile" style="min-height:0"><div class="cat">${esc(b.group)}</div><h3 class="name" style="font-size:22px">${esc(b.name)}</h3>
         <div>${tierPill(b)}</div><div class="foot"><span></span>
         <button class="cmp-toggle" data-pick="${b.key}" aria-pressed="${picks.includes(b.key)}"><span class="box"></span>Compare</button></div></div>`).join("")}
@@ -498,7 +533,7 @@ function compare(keys) {
     const left = keys.filter(k => k !== a.dataset.drop); picks = left; syncTray(); location.hash = "#/compare/" + left.join(","); });
   document.getElementById("change").onclick = e => { e.preventDefault(); location.hash = "#/compare/"; compare([]); };
 }
-const b0must = i => DATA[0].checks[i].must;
+const b0must = i => SCORED[0].checks[i].must;
 
 /* Categories */
 const cr = v => (v / 1e7).toLocaleString("en-IN", {maximumFractionDigits: v >= 1e8 ? 0 : 1});
@@ -600,7 +635,7 @@ function method() {
       <div class="g"><b>13</b><span>mid-layer metrics, each a weighted average of its signals</span></div>
       <div class="g"><b>6</b><span>checks, each met at 60; two of them are gates</span></div>
     </div>
-    <div class="checks">${DATA[0].checks.map(c => `<div class="check" style="grid-template-columns:minmax(180px,260px) 1fr">
+    <div class="checks">${SCORED[0].checks.map(c => `<div class="check" style="grid-template-columns:minmax(180px,260px) 1fr">
       <div class="t">${esc(SHORT[c.name] || c.name)}${c.must ? '<span class="must">Gate</span>' : ""}</div><div class="muted small">${esc(c.formula)}</div></div>`).join("")}</div>
   </div></section>
   <section class="section wrap">

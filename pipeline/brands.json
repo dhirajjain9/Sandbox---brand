@@ -9,7 +9,16 @@
     "report": "https://claude.ai/artifact/CMw6k8EPzF8rAKmXQwUgNG",
     "why": "Fails on quality (seller feedback 69% negative over 3 months) and price (value brand, deep discounts).",
     "group": "Home fragrance",
-    "match": "auradecor"
+    "match": "auradecor",
+    "status": "scored",
+    "stages": {
+      "brand_pull": true,
+      "competition": true,
+      "history": true,
+      "keepa": true,
+      "chrome": true,
+      "scored": true
+    }
   },
   {
     "key": "milton",
@@ -21,7 +30,16 @@
     "report": "https://claude.ai/artifact/A1vRC6cBhKZmkaNvqn6Fv1",
     "why": "Fails on product defects; pricing borderline; almost entirely Amazon.",
     "group": "Kitchen appliances",
-    "match": "milton(hydrovalves)"
+    "match": "milton(hydrovalves)",
+    "status": "scored",
+    "stages": {
+      "brand_pull": true,
+      "competition": true,
+      "history": true,
+      "keepa": true,
+      "chrome": true,
+      "scored": true
+    }
   },
   {
     "key": "hokipo",
@@ -33,7 +51,16 @@
     "report": "https://claude.ai/artifact/MKb17AvDJD5CQfY6uHcBmm",
     "why": "Strong pricing, but sofa-cover complaints and no growth in the core.",
     "group": "Home furnishing",
-    "match": "hokipo"
+    "match": "hokipo",
+    "status": "scored",
+    "stages": {
+      "brand_pull": true,
+      "competition": true,
+      "history": true,
+      "keepa": true,
+      "chrome": true,
+      "scored": true
+    }
   },
   {
     "key": "cadlec",
@@ -45,6 +72,67 @@
     "report": "https://claude.ai/artifact/HzXsPWRsABn3e3ayitwuJq",
     "why": "Fast-growing value brand; fails on quality (23% 1-2 star) and price (57% off list).",
     "group": "Kitchen appliances",
-    "match": "cadlec"
+    "match": "cadlec",
+    "status": "scored",
+    "stages": {
+      "brand_pull": true,
+      "competition": true,
+      "history": true,
+      "keepa": true,
+      "chrome": true,
+      "scored": true
+    }
+  },
+  {
+    "key": "tekavo",
+    "name": "TEKAVO",
+    "run": "runs/2026-11-26_tekavo",
+    "asof": "2026-11-26",
+    "group": "Home & office furniture",
+    "category": "Computer tables, office desks and storage furniture",
+    "channels": "To be checked",
+    "report": "",
+    "why": "Screening in progress.",
+    "match": [
+      "tekavo",
+      "ffofurniturefactoryoutlet",
+      "deskio"
+    ],
+    "status": "screening",
+    "stages": {
+      "brand_pull": true,
+      "competition": false,
+      "history": false,
+      "keepa": false,
+      "chrome": false,
+      "scored": false
+    },
+    "mainSeller": "EVERS",
+    "subBrands": [
+      {
+        "name": "TEKAVO",
+        "amazonBrand": "TEKAVO",
+        "revenueMonthly": 19997822,
+        "share": 70.4,
+        "listings": 174,
+        "seller": "EVERS"
+      },
+      {
+        "name": "FFO",
+        "amazonBrand": "FFO FURNITURE FACTORY OUTLET",
+        "revenueMonthly": 7769768,
+        "share": 27.3,
+        "listings": 75,
+        "seller": "Furniture Factory Outlet"
+      },
+      {
+        "name": "Deskio",
+        "amazonBrand": "Deskio",
+        "revenueMonthly": 645931,
+        "share": 2.3,
+        "listings": 22,
+        "seller": "EVERS"
+      }
+    ]
   }
 ]

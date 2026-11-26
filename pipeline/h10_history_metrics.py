@@ -159,7 +159,8 @@ def metrics(raw_dir, heroes, brand):
             cc, strict = [], []
             for c in comp:
                 br, t = (c.get("brand") or "").strip(), (c.get("title") or "").lower()
-                if brand in br.lower().replace(" ", "") or brand in t.replace(" ", "") or c.get("price") is None:
+                own = [x.strip() for x in brand.split(",")]
+                if any(x in br.lower().replace(" ", "") or x in t.replace(" ", "") for x in own) or c.get("price") is None:
                     continue
                 if any(k in t for k in h["core"]) and 0.75 * hp <= c["price"] / 100 <= 1.25 * hp:
                     cc.append(br or "(none)")
@@ -174,7 +175,7 @@ def metrics(raw_dir, heroes, brand):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--brand", required=True, help="lower-case, no spaces; excluded from copycats")
+    ap.add_argument("--brand", required=True, help="lower-case, no spaces; comma-separate sister brands; all excluded from copycats")
     ap.add_argument("--raw-dir", required=True)
     ap.add_argument("--heroes", required=True)
     ap.add_argument("--out", required=True)

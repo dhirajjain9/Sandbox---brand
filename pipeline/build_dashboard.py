@@ -35,8 +35,16 @@ def clean(v):
     return None if pd.isna(v) else (round(float(v), 4) if isinstance(v, float) else v)
 
 
+STAGE_LABELS = [("brand_pull", "Brand pull"), ("competition", "Competition"), ("history", "Hero history"),
+                ("keepa", "Keepa run"), ("chrome", "Chrome run"), ("scored", "Scored")]
+
+
 def load(b):
     run = ROOT / b["run"]
+    stages = [{"key": k, "label": l, "done": bool(b.get("stages", {}).get(k))} for k, l in STAGE_LABELS]
+    if b.get("status") == "screening" or not (run / "screen_scoring_outputs.csv").exists():
+        return {**b, "tier": "IN SCREENING", "clears": 0, "mustOk": False, "coverage": 0, "inputsScored": 0, "inputsTotal": 49,
+                "checks": [], "mids": [], "inputs": [], "mustMissed": [], "stageList": stages}
     inp = pd.read_csv(run / "screen_scoring_inputs.csv")
     mid = pd.read_csv(run / "screen_scoring_mid.csv")
     out = pd.read_csv(run / "screen_scoring_outputs.csv")
@@ -47,7 +55,7 @@ def load(b):
     # Brand verdict: FIT = through both gates (must-clear checks) and 4+ of 6 checks met; otherwise NO FIT.
     tier = "FIT" if must_ok and clears >= 4 else "NO FIT"
     scored = inp["score"].notna()
-    return {**b, "tier": tier, "clears": clears, "mustOk": must_ok,
+    return {**b, "stageList": stages, "tier": tier, "clears": clears, "mustOk": must_ok,
             "coverage": round(float(inp.loc[scored, "weight"].sum() / inp["weight"].sum()) * 100),
             "inputsScored": int(scored.sum()), "mustMissed": [c["name"] for c in checks if c["must"] and c["result"] == "Miss"], "inputsTotal": len(inp), "checks": checks,
             "mids": [{"id": r.mid, "feeds": MID_FEEDS.get(r.mid, ""), "score": clean(r.score),
@@ -81,7 +89,8 @@ def categories(brands):
             prior = (y.yoy_units / (1 + y.yoy_pct / 100)).sum()
             screened = []
             for x in brands:
-                hit = t.index[t.brand.map(norm) == x["match"]]
+                keys = x["match"] if isinstance(x["match"], list) else [x["match"]]
+                hit = t.index[t.brand.map(norm).isin(keys)]
                 if len(hit):
                     i = hit[0]
                     screened.append({"key": x["key"], "rank": int(i) + 1, "revShare": round(t.revenue[i] / rev * 100, 1),
@@ -94,7 +103,7 @@ def categories(brands):
                        "leader": t.brand[0], "screened": screened,
                        "top": [{"brand": r.brand, "revShare": round(r.revenue / rev * 100, 1), "unitShare": round(r.units / units * 100, 1),
                                 "asp": clean(r.asp), "rating": clean(r.rating), "yoy": clean(r.yoy_pct),
-                                "screened": next((x["key"] for x in brands if norm(r.brand) == x["match"]), None)}
+                                "screened": next((x["key"] for x in brands if norm(r.brand) in (x["match"] if isinstance(x["match"], list) else [x["match"]])), None)}
                                for r in t.head(10).itertuples()]}
     return [{"name": gname, "slug": slug(gname), "subs": sorted(subs.values(), key=lambda s: -s["revenue"]),
              "brandKeys": [b["key"] for b in brands if b["group"] == gname]} for gname, subs in sorted(groups.items())]
