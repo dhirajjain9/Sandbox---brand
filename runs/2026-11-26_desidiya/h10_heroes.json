@@ -1,0 +1,68 @@
+{
+ "B0BBFCG66M": {
+  "core": [
+   "serial string light",
+   "pixel string",
+   "string light",
+   "fairy light",
+   "rice light"
+  ],
+  "desc": [
+   "pixel",
+   "copper",
+   "35 feet",
+   "35 ft"
+  ]
+ },
+ "B0H8SSDB2Y": {
+  "core": [
+   "curtain light",
+   "waterfall",
+   "curtain string"
+  ],
+  "desc": [
+   "200 led",
+   "3x2",
+   "waterfall"
+  ]
+ },
+ "B0HP6QGZ2M": {},
+ "B0DH83Y8RK": {
+  "core": [
+   "projector",
+   "galaxy",
+   "star light"
+  ],
+  "desc": [
+   "astronaut"
+  ]
+ },
+ "B0HMQYD7T4": {
+  "core": [
+   "rope light",
+   "pipe light"
+  ],
+  "desc": [
+   "40 m",
+   "40 meter",
+   "40 metre",
+   "multicolour",
+   "multicolor"
+  ]
+ },
+ "B0FNX6LHLJ": {
+  "core": [
+   "crystal ball",
+   "ball light",
+   "curtain light"
+  ],
+  "desc": [
+   "crystal",
+   "80"
+  ]
+ },
+ "B0HP6M2DPW": {},
+ "B0HMHYXSWZ": {},
+ "B0DWXPC9TJ": {},
+ "B0C73B4D1W": {}
+}

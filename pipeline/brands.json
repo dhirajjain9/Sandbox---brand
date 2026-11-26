@@ -752,5 +752,27 @@
       ],
       "note": "The Kynes family carries 28% of revenue; no single listing is above 7%. Only two families have 500 or more ratings."
     }
+  },
+  {
+    "key": "desidiya",
+    "name": "Desidiya",
+    "run": "runs/2026-11-26_desidiya",
+    "asof": "2026-11-26",
+    "group": "Home decor & lighting",
+    "category": "Decorative lights, diyas and festive home decor",
+    "channels": "To be checked",
+    "report": "",
+    "why": "Screening in progress.",
+    "match": "desidiya",
+    "status": "screening",
+    "stages": {
+      "brand_pull": true,
+      "competition": false,
+      "history": false,
+      "keepa": false,
+      "chrome": false,
+      "scored": false
+    },
+    "mainSeller": "ETrade Online"
   }
 ]
