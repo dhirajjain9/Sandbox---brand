@@ -103,7 +103,9 @@ def heroes(a):
     d["subbrand"] = d.brand.map(lambda v: amap.get(slug(str(v)), str(v)))
     d.to_csv(run / f"h10_{a.key}_asins.csv", index=False)
     top = (d.sort_values("rev", ascending=False).drop_duplicates("parent").head(a.top))
-    json.dump({r.asin: {} for r in top.itertuples()}, open(run / "h10_heroes.json", "w"), indent=1)
+    hf = run / "h10_heroes.json"
+    old = json.load(open(hf)) if hf.exists() else {}
+    json.dump({r.asin: old.get(r.asin, {}) for r in top.itertuples()}, open(hf, "w"), indent=1)  # keeps copycat phrases
     sellers = d.groupby("seller").rev.sum().sort_values(ascending=False)
     main = [s for s in sellers.index[:3] if sellers[s] / sellers.sum() >= 0.05]
     seller_line = "Amazon sellers: " + ", ".join(f"**{s}** ({sellers[s] / sellers.sum():.0%} of revenue)" for s in main)

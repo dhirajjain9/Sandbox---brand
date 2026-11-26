@@ -102,7 +102,7 @@
     "stages": {
       "brand_pull": true,
       "competition": false,
-      "history": false,
+      "history": true,
       "keepa": false,
       "chrome": false,
       "scored": false
