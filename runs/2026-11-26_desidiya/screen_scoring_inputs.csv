@@ -1,50 +1,50 @@
 id,mid,input,dir,floor,ceiling,weight,value,score
-2a,M2,"Hero families by volume (500+ ratings, 300+ units a month)",H,0.0,10.0,0.5,,
-2b,M2,"Hero families growing fast (YoY >= 50%, or 90-day proxy for young brands)",H,0.0,6.0,0.5,,
-3a,M3,"Order growth of hero families (YoY, or 90-day proxy vs category)",H,0.0,0.3,0.4,,
-3b,M3,"Hero sales-rank change, year on year",H,-0.1,0.3,0.25,,
-3c,M3,Search rank on top 25 category keywords (median),L,1.0,30.0,0.2,,
-3d,M3,Share of hero families launched in last 12 months,H,0.0,0.5,0.15,,
-4a,M4,Months heroes held a sub-category top-100 rank (of 12),H,0.0,12.0,0.5,,
-4b,M4,Median age of hero families (months),H,6.0,48.0,0.2,,
-4c,M4,Brand growth vs category (points),H,-0.1,0.3,0.3,,
-5a,M5,Marketplace paid share of visible search volume,L,0.1,0.6,0.3,,
+2a,M2,"Hero families by volume (500+ ratings, 300+ units a month)",H,0.0,10.0,0.5,12.0,100.0
+2b,M2,"Hero families growing fast (YoY >= 50%, or 90-day proxy for young brands)",H,0.0,6.0,0.5,5.0,83.33333333333334
+3a,M3,"Order growth of hero families (YoY, or 90-day proxy vs category)",H,0.0,0.3,0.4,0.435,100.0
+3b,M3,"Hero sales-rank change, year on year",H,-0.1,0.3,0.25,0.218,79.5
+3c,M3,Search rank on top 25 category keywords (median),L,1.0,30.0,0.2,2.0,96.55172413793103
+3d,M3,Share of hero families launched in last 12 months,H,0.0,0.5,0.15,0.2,40.0
+4a,M4,Months heroes held a sub-category top-100 rank (of 12),H,0.0,12.0,0.5,3.8,31.666666666666664
+4b,M4,Median age of hero families (months),H,6.0,48.0,0.2,39.5,79.76190476190477
+4c,M4,Brand growth vs category (points),H,-0.1,0.3,0.3,0.26,89.99999999999999
+5a,M5,Marketplace paid share of visible search volume,L,0.1,0.6,0.3,0.59,2.0000000000000018
 5b,M5,Quick-commerce sponsored share of placements,L,0.05,0.5,0.15,,
 5c,M5,Quick-commerce ad share of voice,L,0.05,0.4,0.15,,
 5d,M5,Active Meta ads,L,20.0,300.0,0.2,,
 5e,M5,Paid share of web traffic,L,0.1,0.5,0.2,,
-6a,M6,Branded search trend (like-for-like),H,-0.1,0.4,0.25,,
+6a,M6,Branded search trend (like-for-like),H,-0.1,0.4,0.25,-0.235,0.0
 6b,M6,Monthly web visits,H,50000.0,1500000.0,0.2,,
 6c,M6,Web visits growth,H,-0.1,0.3,0.1,,
 6d,M6,Instagram followers,H,50000.0,1000000.0,0.1,,
 6e,M6,Engagement rate (median own post),H,0.005,0.04,0.15,,
 6f,M6,"Creator collaborations, last 90 days",H,0.0,60.0,0.2,,
-7a,M7,Quick-commerce platforms listed on (of 3),H,0.0,3.0,0.2,,
+7a,M7,Quick-commerce platforms listed on (of 3),H,0.0,3.0,0.2,3.0,100.0
 7b,M7,Dark-store listing share,H,0.1,0.8,0.3,,
-7c,M7,In-stock rate where listed,H,0.5,0.95,0.25,,
-7d,M7,Quick-commerce products per platform,H,0.0,10.0,0.15,,
-7e,M7,Share of units 3 kg or less,H,0.2,0.8,0.1,,
+7c,M7,In-stock rate where listed,H,0.5,0.95,0.25,0.4,0.0
+7d,M7,Quick-commerce products per platform,H,0.0,10.0,0.15,100.0,100.0
+7e,M7,Share of units 3 kg or less,H,0.2,0.8,0.1,1.0,100.0
 8a,M8,Restocks per listed slot per week,H,0.0,0.3,0.4,,
 8b,M8,Quick-commerce search rank,L,1.0,20.0,0.25,,
-8c,M8,Quick-commerce category share,H,0.0,0.2,0.35,,
+8c,M8,Quick-commerce category share,H,0.0,0.2,0.35,0.35,100.0
 9a,M9,Share of 1-2 star ratings (rating-weighted),L,0.05,0.25,0.3,,
 9b,M9,"Product problems per buyer (damage, defect, missing, wrong item; sample-corrected)",L,0.02,0.15,0.3,,
-9c,M9,"Rating vs category average (stars, same sub-categories)",H,-0.2,0.2,0.2,,
-9d,M9,"Seller negative feedback vs category median (x, 90 days)",L,0.5,2.0,0.15,,
+9c,M9,"Rating vs category average (stars, same sub-categories)",H,-0.2,0.2,0.2,-0.09,27.500000000000004
+9d,M9,"Seller negative feedback vs category median (x, 90 days)",L,0.5,2.0,0.15,0.89,73.99999999999999
 9e,M9,COD fee (D2C),H,0.0,50.0,0.05,,
-10a,M10,Marketplace discount vs list price (revenue-weighted),L,0.15,0.6,0.3,,
-10b,M10,Deal days per month,L,2.0,20.0,0.15,,
+10a,M10,Marketplace discount vs list price (revenue-weighted),L,0.15,0.6,0.3,0.71,0.0
+10b,M10,Deal days per month,L,2.0,20.0,0.15,3.2,93.33333333333333
 10c,M10,"D2C site-wide sales, last 90 days",L,0.0,8.0,0.1,,
 10d,M10,D2C average sale discount,L,0.1,0.5,0.1,,
-10e,M10,Quick-commerce discount vs MRP,L,0.1,0.5,0.1,,
-10f,M10,Sale-event rank lift,L,1.2,3.5,0.25,,
-11a,M11,Price index vs sub-category average,H,0.7,1.3,0.4,,
-11b,M11,Own Buy Box share,H,0.5,1.0,0.3,,
-11c,M11,Sellers per listing,L,1.0,8.0,0.15,,
+10e,M10,Quick-commerce discount vs MRP,L,0.1,0.5,0.1,0.63,0.0
+10f,M10,Sale-event rank lift,L,1.2,3.5,0.25,13.3,0.0
+11a,M11,Price index vs sub-category average,H,0.7,1.3,0.4,0.69,0.0
+11b,M11,Own Buy Box share,H,0.5,1.0,0.3,1.0,100.0
+11c,M11,Sellers per listing,L,1.0,8.0,0.15,1.65,90.71428571428571
 11d,M11,Quick-commerce vs marketplace price gap,L,0.0,0.15,0.15,,
-12a,M12,Top listing share of sales,L,0.1,0.6,0.35,,
-12b,M12,Top 3 listings share of sales,L,0.3,0.9,0.2,,
-12c,M12,Largest channel share of sales,L,0.5,0.95,0.2,,
+12a,M12,Top listing share of sales,L,0.1,0.6,0.35,0.064,100.0
+12b,M12,Top 3 listings share of sales,L,0.3,0.9,0.2,0.157,100.0
+12c,M12,Largest channel share of sales,L,0.5,0.95,0.2,0.52,95.55555555555554
 12d,M12,D2C catalogue size,H,20.0,300.0,0.15,,
-12e,M12,New families launched in last 90 days,H,0.0,15.0,0.1,,
-13a,M13,Look-alike listings per hero (strict match),L,0.0,30.0,1.0,,
+12e,M12,New families launched in last 90 days,H,0.0,15.0,0.1,15.0,100.0
+13a,M13,Look-alike listings per hero (strict match),L,0.0,30.0,1.0,2.0,93.33333333333333

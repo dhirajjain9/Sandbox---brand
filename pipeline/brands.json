@@ -760,19 +760,136 @@
     "asof": "2026-11-26",
     "group": "Home decor & lighting",
     "category": "Decorative lights, diyas and festive home decor",
-    "channels": "To be checked",
-    "report": "",
-    "why": "Screening in progress.",
+    "channels": "Amazon about Rs 13.8 Cr/month; Blinkit Rs 6.1 Cr, Instamart Rs 4.1 Cr, Zepto Rs 2.4 Cr (Oct 2026, selling price); D2C and Flipkart not checked",
+    "report": "https://claude.ai/artifact/FK8R3rc47KySYPq38ZgBu9",
+    "why": "#1 in festive LED lighting on Amazon and quick commerce, growing fast; fails on price (71% off list, below category) and weak ratings.",
     "match": "desidiya",
-    "status": "screening",
+    "status": "scored",
     "stages": {
       "brand_pull": true,
-      "competition": false,
-      "history": false,
-      "keepa": false,
+      "competition": true,
+      "history": true,
+      "keepa": true,
       "chrome": false,
-      "scored": false
+      "scored": true
     },
-    "mainSeller": "ETrade Online"
+    "mainSeller": "ETrade Online",
+    "about": {
+      "summary": "A festive and decorative lighting brand selling about Rs 26 crore a month at selling price, roughly half on Amazon and half on quick commerce. It is #1 in Amazon's LED Strips and leads decorative lighting on Blinkit, Zepto and Instamart. Figures cover Diwali, its peak season.",
+      "facts": [
+        [
+          "Amazon, 30 days",
+          "Rs 13.8 Cr, 3.68 lakh units"
+        ],
+        [
+          "Quick commerce, Oct 2026",
+          "Rs 12.5 Cr at selling price"
+        ],
+        [
+          "Average Amazon order",
+          "Rs 375"
+        ],
+        [
+          "Catalogue",
+          "308 listings in 168 families"
+        ],
+        [
+          "Sellers",
+          "ETrade Online 56%, ELAAR Store 44%"
+        ]
+      ],
+      "channels": [
+        [
+          "Amazon.in",
+          "Rs 13.8 Cr; #1 in LED Strips (32%)"
+        ],
+        [
+          "Blinkit",
+          "Rs 6.1 Cr SP, 94 SKUs; 31% of Decorative Lights"
+        ],
+        [
+          "Instamart",
+          "Rs 4.1 Cr SP, 124 SKUs; 40% of Home Decor"
+        ],
+        [
+          "Zepto",
+          "Rs 2.4 Cr SP, 82 SKUs; 38% of Bulbs & Lights"
+        ],
+        [
+          "D2C, Flipkart, social",
+          "Not checked yet"
+        ]
+      ],
+      "points": [
+        [
+          "Growth",
+          "Amazon units +41% year on year (all listings have a year-ago figure) against about 16% for its categories."
+        ],
+        [
+          "Seasonality",
+          "Branded search jumps 7-10x in Diwali weeks and runs at about 750 a week off-season."
+        ],
+        [
+          "Ownership",
+          "56% of Amazon sales run through ETrade Online, a multi-brand retailer; who owns the brand is a question for the founder meeting."
+        ]
+      ],
+      "mixTitle": "Share of Amazon revenue",
+      "mix": [
+        [
+          "LED Strips",
+          "37%",
+          "Rs 516 lakh; serial, rope and curtain lights"
+        ],
+        [
+          "Home & Decor lighting",
+          "30%",
+          "Rs 414 lakh"
+        ],
+        [
+          "Specialty Lighting",
+          "20%",
+          "Rs 279 lakh; projectors, rope lights"
+        ],
+        [
+          "Crystal ball lights",
+          "6%",
+          "Rs 80 lakh"
+        ],
+        [
+          "Wall, pendant, ceiling lamps",
+          "6%",
+          "Rs 77 lakh"
+        ]
+      ],
+      "heroes": [
+        [
+          "35 ft LED pixel serial light",
+          "28.7% of revenue · 177,286 units",
+          "6,492 ratings, 3.7; Rs 99"
+        ],
+        [
+          "40 m multicolour rope light",
+          "18.3% · 32,553 units",
+          "1,155 ratings, 3.6"
+        ],
+        [
+          "200 LED waterfall curtain lights",
+          "16.3% · 36,933 units",
+          "6,472 ratings, 3.8"
+        ],
+        [
+          "Astronaut galaxy projector",
+          "7.3% · 20,622 units",
+          "6,565 ratings, 4.0"
+        ],
+        [
+          "80 crystal ball Diwali lights",
+          "5.8% · 30,787 units",
+          "14,306 ratings, 4.0"
+        ]
+      ],
+      "note": "The top 3 families are 63% of Amazon revenue; no single listing is above 6.4%."
+    }
   }
 ]

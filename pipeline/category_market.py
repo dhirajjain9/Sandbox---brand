@@ -80,6 +80,10 @@ SOURCES = {
         for name, slug in [("Desks", "desks"), ("Computer Workstations", "computer_workstations"),
                            ("Bedside Tables", "bedside_tables"), ("Bathroom Shelves", "bathroom_shelves")]
     ],
+    "runs/2026-11-26_desidiya": [
+        (name, (lambda s=slug: h10_peers_csv(ROOT / "runs/2026-11-26_desidiya" / f"peers_{s}.csv")))
+        for name, slug in [("LED Strips", "led_strips"), ("Home Decor Lighting", "home_decor_lights")]
+    ],
     "runs/2026-11-25_cadlec": [
         (name, (lambda s=slug: h10_peers_csv(ROOT / "runs/2026-11-25_cadlec" / f"peers_{s}.csv")))
         for name, slug in [("Induction Cooktops", "induction_cooktop"), ("Oven Toaster Grills", "otg"), ("Ceiling Fans", "ceiling_fans"),
