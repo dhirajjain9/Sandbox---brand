@@ -154,6 +154,16 @@ select.sort { appearance: none; -webkit-appearance: none; border: 1px solid var(
 .kv li span { color: var(--ink-2); }
 @media (max-width: 900px) { .facts { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 760px) { .about2 { grid-template-columns: 1fr; } }
+.sfilters { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; align-items: center; }
+.sfilters select, .sfilters input { height: 40px; border-radius: 12px; border: 1px solid var(--line); background: var(--card); color: var(--ink); padding: 0 12px; font: inherit; font-size: 14px; }
+.sfilters label { font-size: 14px; display: flex; gap: 6px; align-items: center; }
+.flag { display: inline-block; font-size: 11px; font-weight: 600; color: var(--chg); background: var(--chg-soft); border-radius: 6px; padding: 1px 6px; margin-left: 6px; white-space: nowrap; }
+.stiles { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin-top: 18px; }
+.stiles .f { background: var(--tile); border-radius: 16px; padding: 14px 16px; cursor: pointer; border: 2px solid transparent; }
+.stiles .f[aria-pressed="true"] { border-color: var(--ink); }
+.stiles .f b { display: block; font-size: 24px; font-weight: 700; }
+.stiles .f span { font-size: 12px; color: var(--ink-2); }
+@media (max-width: 900px) { .stiles { grid-template-columns: repeat(2, 1fr); } }
 .qtiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; margin-top: 18px; }
 .qtile { background: var(--tile); border-radius: 18px; padding: 18px 20px; color: inherit; display: block; }
 .qtile:hover { background: var(--tile-hover); text-decoration: none; }
@@ -266,6 +276,7 @@ footer { border-top: 1px solid var(--hair); margin-top: 72px; padding: 22px 0 90
   <nav aria-label="Main">
     <a href="#/" data-nav="home">Brands</a>
     <a href="#/categories" data-nav="categories">Categories</a>
+    <a href="#/sourcing" data-nav="sourcing">Sourcing</a>
     <a href="#/qcom" data-nav="qcom">Quick commerce</a>
     <a href="#/compare" data-nav="compare">Compare</a>
     <a href="#/method" data-nav="method">Method</a>
@@ -794,6 +805,70 @@ async function qcomCat(s) {
   draw();
 }
 
+/* Sourcing: the team's brand universe with our Amazon / quick-commerce figures (sourcing.json) */
+let SJ = null;
+const sfil = { status: "target", outreach: "", cat: "", owner: "", q: "", under: false, sort: "best", n: 100 };
+async function sourcing() {
+  app.innerHTML = `<section class="hero wrap"><p class="eyebrow">Sourcing</p><h1 class="headline">Who to call next.</h1></section><div class="wrap"><p class="muted">Loading…</p></div>`;
+  if (!SJ) { try { const j = await (await fetch("sourcing.json", { cache: "no-cache" })).json(); SJ = j.rows.map(r => Object.fromEntries(j.cols.map((c, i) => [c, r[i]]))); SJ.note = j.note; } catch (e) { SJ = []; } }
+  const all = SJ;
+  const cnt = s => all.filter(r => r.status === s).length;
+  const statuses = ["Part of existing list", "New", "No product fit", "Established", "Established & part of existing list"];
+  const uniq = k => [...new Set(all.map(r => r[k]).filter(Boolean))].sort();
+  const cr = v => v == null ? '<span class="fine">—</span>' : "₹" + (v >= 100 ? v.toFixed(0) : v.toFixed(v < 10 ? 2 : 1)) + " Cr";
+  app.innerHTML = `<section class="hero wrap" style="padding-bottom:8px"><p class="eyebrow">Sourcing</p><h1 class="headline">Who to call next.</h1>
+    <p class="sub">The team's ${all.length.toLocaleString("en-IN")} brands above ₹1 Cr ARR, with outreach status, next to our own full Amazon and quick-commerce figures.</p></section>
+    <section class="section wrap" style="padding-top:12px">
+      <div class="stiles">
+        <div class="f" data-st="target" aria-pressed="${sfil.status === "target"}"><b>${cnt("Part of existing list") + cnt("New")}</b><span>Target: existing list + new</span></div>
+        ${statuses.slice(0, 3).map(s => `<div class="f" data-st="${esc(s)}" aria-pressed="${sfil.status === s}"><b>${cnt(s)}</b><span>${esc(s)}</span></div>`).join("")}
+        <div class="f" data-st="established" aria-pressed="${sfil.status === "established"}"><b>${cnt("Established") + cnt("Established & part of existing list")}</b><span>Established</span></div>
+      </div>
+      <div class="sfilters">
+        <input id="sq" placeholder="Find a brand" value="${esc(sfil.q)}" aria-label="Find a brand">
+        <select id="scat" aria-label="Category"><option value="">All categories</option>${uniq("secondary").map(c => `<option ${c === sfil.cat ? "selected" : ""}>${esc(c)}</option>`).join("")}</select>
+        <select id="sout" aria-label="Outreach status"><option value="">All outreach</option>${uniq("outreach").map(c => `<option ${c === sfil.outreach ? "selected" : ""}>${esc(c)}</option>`).join("")}<option value="__none" ${sfil.outreach === "__none" ? "selected" : ""}>No outreach yet</option></select>
+        <select id="sown" aria-label="Owner"><option value="">All owners</option>${uniq("owner").map(c => `<option ${c === sfil.owner ? "selected" : ""}>${esc(c)}</option>`).join("")}</select>
+        <select id="ssort" aria-label="Sort"><option value="best" ${sfil.sort === "best" ? "selected" : ""}>Sort: our Amazon + quick commerce</option><option value="file" ${sfil.sort === "file" ? "selected" : ""}>Sort: workbook ARR</option><option value="ratio" ${sfil.sort === "ratio" ? "selected" : ""}>Sort: most under-sized on Amazon</option></select>
+        <label><input type="checkbox" id="sund" ${sfil.under ? "checked" : ""}> Under-sized on Amazon (3x+)</label>
+      </div>
+      <div id="stbl"></div>
+      <p class="fine" style="margin-top:14px">${esc(SJ.note || "")} "Under-sized": our full Amazon pull is 3x or more the workbook's bestseller-based figure. All figures annualised, ₹ Cr.</p>
+    </section>`;
+  const draw = () => {
+    let L = all.filter(r => {
+      if (sfil.status === "target" && !["Part of existing list", "New"].includes(r.status)) return false;
+      if (sfil.status === "established" && !String(r.status).startsWith("Established")) return false;
+      if (!["target", "established", ""].includes(sfil.status) && r.status !== sfil.status) return false;
+      if (sfil.cat && r.secondary !== sfil.cat) return false;
+      if (sfil.outreach === "__none" ? r.outreach : (sfil.outreach && r.outreach !== sfil.outreach)) return false;
+      if (sfil.owner && r.owner !== sfil.owner) return false;
+      if (sfil.under && !(r.amz_ratio >= 3)) return false;
+      if (sfil.q && !String(r.brand).toLowerCase().includes(sfil.q.toLowerCase())) return false;
+      return true; });
+    const best = r => (r.amz_full_cr ?? r.file_amazon_cr ?? 0) + (r.qc_total_cr ?? ((r.file_blinkit_cr || 0) + (r.file_instamart_cr || 0) + (r.file_zepto_cr || 0)));
+    L.sort((a, b) => sfil.sort === "file" ? (b.file_total_cr || 0) - (a.file_total_cr || 0) : sfil.sort === "ratio" ? (b.amz_ratio || 0) - (a.amz_ratio || 0) : best(b) - best(a));
+    const rows = L.slice(0, sfil.n);
+    document.getElementById("stbl").innerHTML = `<p class="small muted" style="margin:16px 0 0">${L.length.toLocaleString("en-IN")} brands</p>
+      <div class="tbl-wrap"><table><thead><tr><th>Brand</th><th>Category</th><th>Status · outreach</th><th class="num">Workbook ARR<br><span class="fine">Amazon · Qcom</span></th><th class="num">Our Amazon ARR</th><th class="num">Our Qcom ARR<br><span class="fine">B · I · Z</span></th><th>Screen</th></tr></thead>
+      <tbody>${rows.map(r => { const fq = (r.file_blinkit_cr || 0) + (r.file_instamart_cr || 0) + (r.file_zepto_cr || 0);
+        return `<tr><td>${esc(r.brand)}${r.owner ? `<span class="fine note">Owner ${esc(r.owner)}</span>` : ""}</td>
+        <td class="small">${esc(r.secondary || "")}<span class="fine note">${esc(r.subcategory || "")}</span></td>
+        <td class="small">${esc(r.status || "")}<span class="fine note">${esc(r.outreach || "No outreach yet")}${r.skip_reason ? " · " + esc(r.skip_reason) : ""}</span></td>
+        <td class="num small">${cr(r.file_amazon_cr)}<span class="fine note">${cr(fq)}</span></td>
+        <td class="num small">${r.amz_full_status === "no selling listing" ? '<span class="fine">None selling</span>' : cr(r.amz_full_cr)}${r.amz_ratio >= 3 ? `<span class="flag">${r.amz_ratio >= 100 ? "100x+" : Math.round(r.amz_ratio) + "x"} workbook</span>` : ""}</td>
+        <td class="num small">${cr(r.qc_total_cr)}${r.qc_total_cr != null ? `<span class="fine note">${[r.qc_blinkit_cr, r.qc_instamart_cr, r.qc_zepto_cr].map(v => v == null ? "—" : v.toFixed(1)).join(" · ")}</span>` : ""}</td>
+        <td class="small">${r.screen_key ? `<a href="#/brand/${esc(r.screen_key)}">${esc(r.screen_verdict)} ›</a>` : '<span class="fine">—</span>'}</td></tr>`; }).join("")}</tbody></table></div>
+      ${L.length > sfil.n ? `<p style="margin-top:14px"><a href="#" id="smore">Show all ${L.length.toLocaleString("en-IN")} ›</a></p>` : ""}`;
+    const m = document.getElementById("smore"); if (m) m.onclick = e => { e.preventDefault(); sfil.n = 1e6; draw(); };
+  };
+  draw();
+  document.querySelectorAll("[data-st]").forEach(x => x.onclick = () => { sfil.status = sfil.status === x.dataset.st ? "" : x.dataset.st; sfil.n = 100;
+    document.querySelectorAll("[data-st]").forEach(y => y.setAttribute("aria-pressed", y.dataset.st === sfil.status)); draw(); });
+  const on = (id, k, ev = "onchange") => document.getElementById(id)[ev] = e => { sfil[k] = e.target.type === "checkbox" ? e.target.checked : e.target.value; sfil.n = 100; draw(); };
+  on("sq", "q", "oninput"); on("scat", "cat"); on("sout", "outreach"); on("sown", "owner"); on("ssort", "sort"); on("sund", "under");
+}
+
 /* Router */
 function route() {
   const h = location.hash.replace(/^#\/?/, "");
@@ -804,6 +879,7 @@ function route() {
   else if (page === "method") method();
   else if (page === "categories") categoriesIndex();
   else if (page === "category") category(arg);
+  else if (page === "sourcing") sourcing();
   else if (page === "qcom") (arg ? qcomCat(arg) : qcomIndex());
   else home();
   syncTray();

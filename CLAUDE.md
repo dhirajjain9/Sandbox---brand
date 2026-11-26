@@ -24,6 +24,15 @@ batches with context starting "Amazon 30-day sales for quick-commerce brands", t
 `python -m pipeline.amazon_brand_sales extract` and `build`, then rebuild the dashboard. Splitting capped
 batches is expensive (about one call per brand); budget Helium 10 calls (1,000 a month).
 
+## Sourcing universe (the team's brand list)
+
+`runs/_sourcing/universe.csv`, from the team's CH dashboard workbook (`data/raw/sourcing/`, gitignored):
+1,562 brands above Rs 1 Cr ARR with status, outreach status and owner, joined to our full Amazon pull,
+our quick-commerce figures and screen verdicts. Rebuild: `python -m pipeline.sourcing <workbook.xlsx>`,
+then `python -m pipeline.build_dashboard` (dashboard Sourcing page). Target = "Part of existing list" + "New" (742).
+The workbook's Amazon comes from bestseller lists and misses long tails (full pull median 9.6x); our figures and
+its quick commerce both cover the festive Sep-Oct/Nov period.
+
 ## Other conventions
 
 - Brand verdict is FIT / NO FIT (never "pass"); checks are Met / Not met; the two must-clear checks are Gates; bar 60.
