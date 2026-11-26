@@ -44,8 +44,8 @@ def load(b):
                "coverage": int(r.input_coverage_pct), "formula": CHECK_MIDS.get(r.output, "")} for r in out.itertuples()]
     must_ok = not any(c["must"] and c["result"] == "Miss" for c in checks)
     clears = sum(c["result"] == "Clear" for c in checks)
-    # Brand verdict: HIT = both must-clears pass and 4+ of 6 checks clear; otherwise MISS.
-    tier = "HIT" if must_ok and clears >= 4 else "MISS"
+    # Brand verdict: FIT = through both gates (must-clear checks) and 4+ of 6 checks met; otherwise NO FIT.
+    tier = "FIT" if must_ok and clears >= 4 else "NO FIT"
     scored = inp["score"].notna()
     return {**b, "tier": tier, "clears": clears, "mustOk": must_ok,
             "coverage": round(float(inp.loc[scored, "weight"].sum() / inp["weight"].sum()) * 100),

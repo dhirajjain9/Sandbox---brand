@@ -5,8 +5,9 @@ Usage:
 
 Same method as the original scoring: an input scores 0-100 between its floor and ceiling
 (reversed when lower is better); missing inputs are left out and weights rescaled; coverage =
-scored weight / total weight. A check clears at >= 60. Tier: a must-clear Miss is a Pass;
-otherwise 5+ Clears is Strong fit, 4 is Worth a look, fewer is Pass.
+scored weight / total weight. A check is met at >= 60 (stored as Clear / Miss in the CSV).
+Verdict: FIT when both gates (Customer Quality, Pricing Power) are met and 4+ of 6 checks are met;
+otherwise NO FIT.
 """
 import sys
 
@@ -58,9 +59,9 @@ def main():
     print(out.to_string(index=False))
     must_ok = not ((out.must_clear == "Yes") & (out.result == "Miss")).any()
     clears = int((out.result == "Clear").sum())
-    tier = "Pass" if not must_ok else "Strong fit" if clears >= 5 else "Worth a look" if clears >= 4 else "Pass"
+    tier = "FIT" if must_ok and clears >= 4 else "NO FIT"
     w = df.weight.sum()
-    print(f"Tier: {tier} ({clears} Clears; must-clears {'passed' if must_ok else 'missed'}); "
+    print(f"Verdict: {tier} ({clears} of 6 checks met; {'through both gates' if must_ok else 'blocked at a gate'}); "
           f"inputs scored {df.score.notna().sum()}/{len(df)}, weight coverage {df.loc[df.score.notna(), 'weight'].sum() / w:.0%}")
 
 
