@@ -7,3 +7,4 @@ __pycache__/
 # uploaded run notes and logs from browser sessions (local only)
 runs/_target/waves/*_resume_notes.md
 runs/_target/waves/*_partA_log.tsv
+runs/_target/waves/*_partB_log.tsv

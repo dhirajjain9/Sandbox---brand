@@ -51,7 +51,6 @@ LISTED = {
     "Monte Carlo Fashions": ["Monte Carlo"],
     "Provogue (India)": ["Provogue"],
     "Asian Paints": ["Asian Paints"],
-    "Schneider Electric": ["Schneider"],
     "Foxconn (Belkin)": ["Belkin"],
     "Take-Two Interactive": ["Rockstar Games"],
     "Asahi Kasei": ["Asahi Kasei"],
@@ -61,6 +60,14 @@ LISTED = {
     "Mitsubishi Pencil": ["Uni"],
     "Amazon": ["Amazon"],
     "PhysicsWallah": ["Physics Wallah"],
+    "GoPro": ["GoPro"],
+    "Warner Bros. Discovery": ["Warner Bros."],
+    "Electronic Arts": ["EA"],
+    "Bandai Namco": ["Bandai Namco"],
+    "CD Projekt": ["CD Projekt Red"],
+    "Ubisoft": ["Assassin's Creed"],
+    "Schneider Electric": ["Schneider", "APC"],
+    "De'Longhi": ["Ariete"],
 }
 # Large private MNCs / house brands treated as established
 ESTABLISHED += ["Amul", "Mars", "Crayola", "Razer", "Solognac", "Forclaz", "Artengo", "Perfly", "Kiprun", "Tarmak", "Oxelo", "Tribord", "Elops"]

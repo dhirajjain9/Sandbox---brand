@@ -1,19 +1,19 @@
 platform,category,brand,brand_key,sales_mrp_lakh_09,sales_mrp_lakh_10,sales_sp_lakh_09,sales_sp_lakh_10,share_mrp_pct_09,share_mrp_pct_10,skus_09,skus_10,amazon_units_30d,amazon_revenue_30d_lakh,amazon_listings,capped_top500,amazon_status
-Blinkit,Appliances,APC,apc,13.97,9.26,12.14,8.04,0.0881,0.0434,1.0,1.0,,,,,not queried
+Blinkit,Appliances,APC,apc,13.97,9.26,12.14,8.04,0.0881,0.0434,1.0,1.0,6687.0,405.82,18.0,False,found
 Blinkit,Appliances,Activa,activa,87.35,105.25,36.24,44.05,0.5508,0.4932,16.0,15.0,29046.0,681.17,241.0,False,found
 Blinkit,Appliances,Agaro,agaro,1334.43,1989.37,671.5,947.78,8.4138,9.3222,64.0,64.0,489484.0,7374.62,500.0,True,found
-Blinkit,Appliances,Ailkin,ailkin,11.4,13.48,4.83,5.62,0.0719,0.0632,1.0,1.0,,,,,not queried
-Blinkit,Appliances,Airveda,airveda,0.0,,0.0,,0.0,,1.0,,,,,,not queried
+Blinkit,Appliances,Ailkin,ailkin,11.4,13.48,4.83,5.62,0.0719,0.0632,1.0,1.0,16705.0,116.81,114.0,False,found
+Blinkit,Appliances,Airveda,airveda,0.0,,0.0,,0.0,,1.0,,38.0,5.2,4.0,False,found
 Blinkit,Appliances,Amazon,amazon,3.52,2.12,3.05,1.56,0.0222,0.0099,3.0,3.0,,,,,not queried
 Blinkit,Appliances,Ambrane,ambrane,46.34,76.43,19.32,25.69,0.2922,0.3581,2.0,2.0,340129.0,2495.86,232.0,False,found
 Blinkit,Appliances,Ant Esports,antesports,857.42,1138.64,201.6,232.17,5.4062,5.3357,28.0,28.0,82273.0,505.69,336.0,False,found
-Blinkit,Appliances,Ariete,ariete,0.1,0.0,0.06,0.0,0.0006,0.0,1.0,1.0,,,,,not queried
-Blinkit,Appliances,Assassin's Creed,assassinscreed,0.2,0.08,0.11,0.04,0.0013,0.0004,1.0,1.0,,,,,not queried
+Blinkit,Appliances,Ariete,ariete,0.1,0.0,0.06,0.0,0.0006,0.0,1.0,1.0,108.0,7.03,24.0,False,found
+Blinkit,Appliances,Assassin's Creed,assassinscreed,0.2,0.08,0.11,0.04,0.0013,0.0004,1.0,1.0,,,,,no selling listing
 Blinkit,Appliances,Atomberg,atomberg,34.06,19.23,20.18,11.65,0.2148,0.0901,14.0,13.0,105137.0,5211.6,222.0,False,found
-Blinkit,Appliances,Ausha,ausha,4.88,4.35,2.38,2.14,0.0307,0.0204,3.0,3.0,,,,,not queried
+Blinkit,Appliances,Ausha,ausha,4.88,4.35,2.38,2.14,0.0307,0.0204,3.0,3.0,891.0,24.37,127.0,False,found
 Blinkit,Appliances,Bajaj,bajaj,101.69,149.06,62.68,84.49,0.6412,0.6985,16.0,14.0,157760.0,2938.66,466.0,False,found
-Blinkit,Appliances,Bandai Namco,bandainamco,0.25,0.02,0.18,0.01,0.0016,0.0001,1.0,1.0,,,,,not queried
-Blinkit,Appliances,Bean Envy,beanenvy,0.04,0.03,0.03,0.03,0.0002,0.0002,1.0,1.0,,,,,not queried
+Blinkit,Appliances,Bandai Namco,bandainamco,0.25,0.02,0.18,0.01,0.0016,0.0001,1.0,1.0,2220.0,71.19,126.0,False,found
+Blinkit,Appliances,Bean Envy,beanenvy,0.04,0.03,0.03,0.03,0.0002,0.0002,1.0,1.0,7.0,0.05,2.0,False,found
 Blinkit,Appliances,Beardo,beardo,327.51,487.01,212.13,269.86,2.065,2.2821,8.0,8.0,310856.0,1266.36,460.0,False,found
 Blinkit,Appliances,Black+Decker,blackdecker,23.65,38.62,14.75,21.08,0.1491,0.181,1.0,1.0,17510.0,439.53,186.0,False,found
 Blinkit,Appliances,BlendLife,blendlife,0.29,0.18,0.13,0.08,0.0019,0.0009,1.0,1.0,604.0,10.53,6.0,False,found
@@ -21,66 +21,66 @@ Blinkit,Appliances,Boldfit,boldfit,415.85,254.22,110.68,65.27,2.622,1.1913,4.0,4
 Blinkit,Appliances,Bombae,bombae,146.28,176.55,132.09,148.4,0.9223,0.8273,2.0,2.0,36157.0,279.97,68.0,False,found
 Blinkit,Appliances,Bombay Shaving Company,bombayshavingcompany,1013.04,888.41,582.47,488.79,6.3874,4.1631,8.0,8.0,97279.0,555.7,67.0,False,found
 Blinkit,Appliances,Borosil,borosil,29.97,20.23,24.19,16.36,0.1889,0.0948,4.0,4.0,148240.0,1568.6,500.0,True,found
-Blinkit,Appliances,Boult,boult,1.05,2.55,0.29,0.67,0.0066,0.0119,1.0,1.0,,,,,not queried
+Blinkit,Appliances,Boult,boult,1.05,2.55,0.29,0.67,0.0066,0.0119,1.0,1.0,,,,,no selling listing
 Blinkit,Appliances,Braun,braun,12.28,4.85,8.62,3.36,0.0774,0.0227,3.0,3.0,,,,,not queried
-Blinkit,Appliances,Buildskill,buildskill,5.99,6.47,4.13,4.45,0.0377,0.0303,2.0,2.0,,,,,not queried
+Blinkit,Appliances,Buildskill,buildskill,5.99,6.47,4.13,4.45,0.0377,0.0303,2.0,2.0,31613.0,496.92,140.0,False,found
 Blinkit,Appliances,Butterfly,butterfly,11.36,9.09,6.42,5.23,0.0717,0.0426,3.0,3.0,89343.0,2038.82,235.0,False,found
-Blinkit,Appliances,CD Projekt Red,cdprojektred,0.12,0.03,0.09,0.03,0.0008,0.0002,1.0,1.0,,,,,not queried
+Blinkit,Appliances,CD Projekt Red,cdprojektred,0.12,0.03,0.09,0.03,0.0008,0.0002,1.0,1.0,,,,,no selling listing
 Blinkit,Appliances,Canon,canon,176.93,168.79,162.16,147.08,1.1155,0.791,12.0,12.0,34181.0,2606.62,231.0,False,found
 Blinkit,Appliances,Caresmith,caresmith,54.24,61.2,38.38,38.92,0.342,0.2868,5.0,5.0,50327.0,1000.74,44.0,False,found
 Blinkit,Appliances,Clearline,clearline,0.01,,0.0,,0.0001,,1.0,,933.0,40.44,5.0,False,found
 Blinkit,Appliances,Command,command,1.31,1.31,1.31,1.3,0.0083,0.0061,3.0,3.0,55308.0,309.1,82.0,False,found
 Blinkit,Appliances,Cookwell,cookwell,78.43,110.09,28.76,36.99,0.4945,0.5159,1.0,1.0,33684.0,616.12,45.0,False,found
-Blinkit,Appliances,Cosmic Byte,cosmicbyte,16.75,32.94,9.26,14.93,0.1056,0.1543,4.0,3.0,,,,,not queried
+Blinkit,Appliances,Cosmic Byte,cosmicbyte,16.75,32.94,9.26,14.93,0.1056,0.1543,4.0,3.0,15977.0,232.9,73.0,False,found
 Blinkit,Appliances,Coway,coway,0.2,0.35,0.16,0.24,0.0013,0.0016,2.0,2.0,,,,,not queried
 Blinkit,Appliances,Crompton,crompton,179.62,197.61,98.55,98.35,1.1325,0.926,3.0,3.0,212220.0,4077.61,500.0,True,found
 Blinkit,Appliances,Decathlon,decathlon,14.03,13.96,13.22,13.15,0.0884,0.0654,1.0,1.0,811.0,6.03,59.0,False,found
 Blinkit,Appliances,Desidiya,desidiya,118.95,133.58,66.98,70.56,0.75,0.626,11.0,11.0,367863.0,1380.54,236.0,False,found
-Blinkit,Appliances,Destinio,destinio,0.14,0.14,0.08,0.08,0.0009,0.0007,1.0,1.0,,,,,not queried
-Blinkit,Appliances,Digismart,digismart,68.43,69.2,25.85,25.9,0.4314,0.3243,9.0,9.0,2428.0,47.09,80.0,False,found
+Blinkit,Appliances,Destinio,destinio,0.14,0.14,0.08,0.08,0.0009,0.0007,1.0,1.0,16254.0,127.24,114.0,False,found
+Blinkit,Appliances,Digismart,digismart,68.43,69.2,25.85,25.9,0.4314,0.3243,9.0,9.0,,,,,no selling listing
 Blinkit,Appliances,Digitek,digitek,494.78,559.63,252.09,267.36,3.1197,2.6224,18.0,18.0,66529.0,1269.88,239.0,False,found
 Blinkit,Appliances,Dr Physio,drphysio,781.37,718.84,207.89,190.02,4.9267,3.3685,1.0,1.0,24061.0,301.44,21.0,False,found
 Blinkit,Appliances,Dr Trust,drtrust,350.37,387.74,125.74,133.14,2.2092,1.817,6.0,5.0,64361.0,619.17,126.0,False,found
 Blinkit,Appliances,Dubstep,dubstep,57.25,46.64,14.3,11.11,0.3609,0.2185,2.0,2.0,17603.0,107.05,43.0,False,found
-Blinkit,Appliances,Dyanora,dyanora,5.0,5.04,2.68,2.41,0.0315,0.0236,1.0,1.0,,,,,not queried
+Blinkit,Appliances,Dyanora,dyanora,5.0,5.04,2.68,2.41,0.0315,0.0236,1.0,1.0,,,,,no selling listing
 Blinkit,Appliances,Dyson,dyson,16.91,49.16,15.28,45.03,0.1066,0.2304,10.0,11.0,6331.0,2098.14,37.0,False,found
-Blinkit,Appliances,EA,ea,0.2,0.02,0.19,0.02,0.0012,0.0001,2.0,2.0,,,,,not queried
+Blinkit,Appliances,EA,ea,0.2,0.02,0.19,0.02,0.0012,0.0001,2.0,2.0,31.0,0.67,2.0,False,found
 Blinkit,Appliances,EcoLink,ecolink,2.15,2.11,1.4,1.19,0.0135,0.0099,2.0,2.0,1444.0,12.64,14.0,False,found
 Blinkit,Appliances,Ecovacs,ecovacs,3.12,6.67,1.26,2.73,0.0197,0.0313,1.0,1.0,19622.0,6941.2,49.0,False,found
 Blinkit,Appliances,Enliwish,enliwish,73.02,83.1,22.06,24.86,0.4604,0.3894,2.0,2.0,1344.0,8.8,51.0,False,found
 Blinkit,Appliances,Eureka Forbes,eurekaforbes,22.09,39.79,16.27,20.61,0.1393,0.1865,2.0,2.0,19329.0,1062.4,48.0,False,found
 Blinkit,Appliances,Evereve,evereve,19.74,45.01,10.14,21.21,0.1245,0.2109,1.0,1.0,105119.0,231.77,59.0,False,found
-Blinkit,Appliances,Evofox,evofox,1.55,0.67,0.99,0.42,0.0098,0.0031,5.0,5.0,,,,,not queried
+Blinkit,Appliances,Evofox,evofox,1.55,0.67,0.99,0.42,0.0098,0.0031,5.0,5.0,36141.0,489.05,98.0,False,found
 Blinkit,Appliances,Fadman,fadman,5.48,3.9,2.16,1.53,0.0346,0.0183,1.0,1.0,95.0,0.39,46.0,False,found
-Blinkit,Appliances,Flexnest,flexnest,0.04,0.07,0.02,0.03,0.0003,0.0003,4.0,4.0,,,,,not queried
-Blinkit,Appliances,Frizty,frizty,7.02,5.31,3.23,2.47,0.0443,0.0249,2.0,2.0,,,,,not queried
-Blinkit,Appliances,Fumato,fumato,0.05,0.02,0.02,0.01,0.0003,0.0001,4.0,3.0,,,,,not queried
-Blinkit,Appliances,G.Fidel,gfidel,0.49,0.39,0.21,0.16,0.0031,0.0018,1.0,1.0,,,,,not queried
+Blinkit,Appliances,Flexnest,flexnest,0.04,0.07,0.02,0.03,0.0003,0.0003,4.0,4.0,6788.0,499.77,60.0,False,found
+Blinkit,Appliances,Frizty,frizty,7.02,5.31,3.23,2.47,0.0443,0.0249,2.0,2.0,4523.0,52.75,5.0,False,found
+Blinkit,Appliances,Fumato,fumato,0.05,0.02,0.02,0.01,0.0003,0.0001,4.0,3.0,41.0,1.96,2.0,False,found
+Blinkit,Appliances,G.Fidel,gfidel,0.49,0.39,0.21,0.16,0.0031,0.0018,1.0,1.0,158.0,0.46,47.0,False,found
 Blinkit,Appliances,GM,gm,0.31,0.36,0.13,0.14,0.0019,0.0017,2.0,2.0,108514.0,475.57,279.0,False,found
 Blinkit,Appliances,GOODSCITY,goodscity,0.11,0.0,0.06,0.0,0.0007,0.0,5.0,3.0,7412.0,168.33,18.0,False,found
 Blinkit,Appliances,GoMechanic,gomechanic,53.66,54.84,27.35,24.93,0.3383,0.257,2.0,2.0,400.0,14.0,8.0,False,found
-Blinkit,Appliances,GoPro,gopro,0.22,0.22,0.19,0.15,0.0014,0.001,3.0,3.0,,,,,not queried
+Blinkit,Appliances,GoPro,gopro,0.22,0.22,0.19,0.15,0.0014,0.001,3.0,3.0,906.0,206.08,65.0,False,found
 Blinkit,Appliances,Goldmedal,goldmedal,22.37,29.72,15.12,17.44,0.141,0.1393,4.0,4.0,27712.0,114.68,393.0,False,found
-Blinkit,Appliances,Grand Pitstop,grandpitstop,5.49,5.0,3.94,3.61,0.0346,0.0234,1.0,1.0,,,,,not queried
+Blinkit,Appliances,Grand Pitstop,grandpitstop,5.49,5.0,3.94,3.61,0.0346,0.0234,1.0,1.0,15830.0,127.61,212.0,False,found
 Blinkit,Appliances,HP,hp,95.19,75.92,89.36,71.61,0.6002,0.3557,11.0,11.0,132900.0,14692.64,500.0,True,found
 Blinkit,Appliances,HashWOW,hashwow,46.24,40.2,26.48,24.5,0.2915,0.1884,8.0,7.0,545.0,2.17,33.0,False,found
 Blinkit,Appliances,Havells,havells,294.29,340.94,152.96,171.15,1.8555,1.5976,52.0,51.0,279997.0,6602.92,500.0,True,found
 Blinkit,Appliances,HealthSense,healthsense,16.16,11.09,10.45,7.11,0.1019,0.052,9.0,9.0,40944.0,471.8,45.0,False,found
-Blinkit,Appliances,Healthgenie,healthgenie,0.52,0.39,0.17,0.13,0.0033,0.0019,3.0,3.0,,,,,not queried
-Blinkit,Appliances,Homebasic,homebasic,0.0,33.53,0.0,8.05,0.0,0.1571,2.0,5.0,,,,,not queried
+Blinkit,Appliances,Healthgenie,healthgenie,0.52,0.39,0.17,0.13,0.0033,0.0019,3.0,3.0,10164.0,43.72,41.0,False,found
+Blinkit,Appliances,Homebasic,homebasic,0.0,33.53,0.0,8.05,0.0,0.1571,2.0,5.0,5722.0,29.31,78.0,False,found
 Blinkit,Appliances,Honeywell,honeywell,0.87,0.56,0.52,0.32,0.0055,0.0026,1.0,1.0,38250.0,2554.61,222.0,False,found
 Blinkit,Appliances,InstaCuppa,instacuppa,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,16014.0,312.32,86.0,False,found
 Blinkit,Appliances,Instax,instax,124.72,147.97,117.12,137.33,0.7864,0.6934,13.0,13.0,21349.0,626.29,58.0,False,found
 Blinkit,Appliances,Judge,judge,1.01,0.95,0.62,0.58,0.0064,0.0045,1.0,1.0,4343.0,48.97,98.0,False,found
 Blinkit,Appliances,Kent,kent,364.81,349.02,171.06,155.95,2.3002,1.6355,26.0,26.0,42440.0,2077.41,141.0,False,found
 Blinkit,Appliances,Kilig,kilig,3.94,3.09,1.38,0.95,0.0249,0.0145,3.0,3.0,1095.0,107.97,29.0,False,found
-Blinkit,Appliances,Kitchen Galaxy,kitchengalaxy,0.58,0.86,0.25,0.37,0.0037,0.004,1.0,1.0,,,,,not queried
-Blinkit,Appliances,Kreo,kreo,7.46,16.36,3.79,7.52,0.047,0.0767,5.0,5.0,,,,,not queried
+Blinkit,Appliances,Kitchen Galaxy,kitchengalaxy,0.58,0.86,0.25,0.37,0.0037,0.004,1.0,1.0,8.0,0.04,1.0,False,found
+Blinkit,Appliances,Kreo,kreo,7.46,16.36,3.79,7.52,0.047,0.0767,5.0,5.0,17124.0,344.65,69.0,False,found
 Blinkit,Appliances,Kuhl,kuhl,0.02,0.0,0.01,0.0,0.0001,0.0,1.0,1.0,,,,,not queried
 Blinkit,Appliances,Lifelong,lifelong,2446.07,4925.71,800.76,1358.71,15.4229,23.0821,68.0,66.0,523081.0,7893.04,500.0,True,found
 Blinkit,Appliances,Logitech,logitech,22.46,18.07,13.29,10.47,0.1416,0.0847,2.0,2.0,,,,,not queried
 Blinkit,Appliances,Maharaja Whiteline,maharajawhiteline,19.13,20.69,10.65,11.43,0.1206,0.097,3.0,3.0,10833.0,198.17,45.0,False,found
-Blinkit,Appliances,Meditive,meditive,1.32,1.68,0.43,0.54,0.0083,0.0079,2.0,2.0,,,,,not queried
+Blinkit,Appliances,Meditive,meditive,1.32,1.68,0.43,0.54,0.0083,0.0079,2.0,2.0,4392.0,62.6,47.0,False,found
 Blinkit,Appliances,MetaShot,metashot,10.56,11.67,8.31,8.47,0.0666,0.0547,1.0,1.0,1763.0,104.75,6.0,False,found
 Blinkit,Appliances,Microtek,microtek,11.09,7.8,6.76,4.74,0.0699,0.0366,2.0,2.0,9414.0,322.76,83.0,False,found
 Blinkit,Appliances,Morphy Richards,morphyrichards,27.55,43.43,15.91,23.63,0.1737,0.2035,12.0,12.0,17953.0,746.33,89.0,False,found
@@ -90,14 +90,14 @@ Blinkit,Appliances,Nasher Miles,nashermiles,8.88,4.76,2.49,1.29,0.056,0.0223,1.0
 Blinkit,Appliances,Native,native,0.7,0.26,0.5,0.2,0.0044,0.0012,1.0,1.0,,,,,not queried
 Blinkit,Appliances,Navum,navum,0.01,,0.0,,0.0001,,1.0,,,,,,no selling listing
 Blinkit,Appliances,Nescafe,nescafe,2.09,2.09,1.79,1.7,0.0132,0.0098,1.0,1.0,,,,,not queried
-Blinkit,Appliances,Nev,nev,1.97,1.96,0.59,0.59,0.0124,0.0092,1.0,1.0,,,,,not queried
+Blinkit,Appliances,Nev,nev,1.97,1.96,0.59,0.59,0.0124,0.0092,1.0,1.0,439.0,2.89,4.0,False,found
 Blinkit,Appliances,Newdru,newdru,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,,,,,not queried
 Blinkit,Appliances,NutriBullet,nutribullet,3.24,1.74,1.13,0.58,0.0204,0.0082,1.0,1.0,2175.0,169.69,19.0,False,found
 Blinkit,Appliances,Nutripro,nutripro,1071.49,1456.08,335.59,417.26,6.7559,6.8233,2.0,2.0,60743.0,924.9,20.0,False,found
 Blinkit,Appliances,Nuuk,nuuk,31.53,45.82,20.72,26.07,0.1988,0.2147,4.0,5.0,12659.0,627.1,43.0,False,found
 Blinkit,Appliances,Oakter,oakter,48.04,43.36,19.53,14.6,0.3029,0.2032,2.0,2.0,11743.0,191.8,9.0,False,found
 Blinkit,Appliances,One94Store,one94store,1.22,0.12,0.61,0.06,0.0077,0.0006,1.0,1.0,331343.0,1394.32,303.0,False,found
-Blinkit,Appliances,Onelap,onelap,0.0,0.08,0.0,0.04,0.0,0.0004,1.0,1.0,,,,,not queried
+Blinkit,Appliances,Onelap,onelap,0.0,0.08,0.0,0.04,0.0,0.0004,1.0,1.0,7409.0,180.01,13.0,False,found
 Blinkit,Appliances,Orient Electric,orientelectric,221.26,280.69,131.37,149.19,1.3951,1.3153,16.0,15.0,179265.0,2938.66,441.0,False,found
 Blinkit,Appliances,Orpat,orpat,24.12,27.58,19.6,22.37,0.1521,0.1292,2.0,2.0,19665.0,147.15,76.0,False,found
 Blinkit,Appliances,Ozone,ozone,0.4,0.85,0.24,0.51,0.0025,0.004,1.0,1.0,,,,,not queried
@@ -106,20 +106,20 @@ Blinkit,Appliances,Philips,philips,1395.55,1970.38,1026.23,1349.73,8.7992,9.2333
 Blinkit,Appliances,Pigeon,pigeon,30.94,49.19,17.51,27.93,0.1951,0.2305,6.0,5.0,314956.0,3567.38,500.0,True,found
 Blinkit,Appliances,PlayStation,playstation,124.34,110.43,111.95,101.24,0.784,0.5175,20.0,20.0,1151.0,64.28,69.0,False,found
 Blinkit,Appliances,Portronics,portronics,299.53,748.77,113.84,225.85,1.8886,3.5088,14.0,15.0,739041.0,4744.79,500.0,True,found
-Blinkit,Appliances,Powermax,powermax,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,,,,,not queried
+Blinkit,Appliances,Powermax,powermax,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,,,,,no selling listing
 Blinkit,Appliances,Prestige,prestige,227.97,209.67,124.88,121.28,1.4374,0.9825,12.0,12.0,295220.0,6657.63,500.0,True,found
-Blinkit,Appliances,Proscenic,proscenic,0.0,0.4,0.0,0.11,0.0,0.0019,1.0,1.0,,,,,not queried
-Blinkit,Appliances,Protouch,protouch,7.99,8.83,3.42,3.78,0.0504,0.0414,1.0,1.0,,,,,not queried
+Blinkit,Appliances,Proscenic,proscenic,0.0,0.4,0.0,0.11,0.0,0.0019,1.0,1.0,,,,,no selling listing
+Blinkit,Appliances,Protouch,protouch,7.99,8.83,3.42,3.78,0.0504,0.0414,1.0,1.0,6422.0,166.07,35.0,False,found
 Blinkit,Appliances,Qubo,qubo,27.44,17.19,15.51,10.01,0.173,0.0806,5.0,4.0,32488.0,2075.51,55.0,False,found
 Blinkit,Appliances,Razer,razer,7.93,5.56,3.88,2.82,0.05,0.0261,2.0,2.0,,,,,not queried
 Blinkit,Appliances,Robustt,robustt,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,237121.0,4608.44,500.0,True,found
 Blinkit,Appliances,Rockstar Games,rockstargames,0.87,0.41,0.66,0.31,0.0055,0.0019,2.0,2.0,,,,,not queried
 Blinkit,Appliances,Scotch-Brite,scotchbrite,3.4,3.96,3.21,3.65,0.0214,0.0186,1.0,1.0,209545.0,625.86,228.0,False,found
-Blinkit,Appliances,Shakti Technology,shaktitechnology,0.04,0.12,0.03,0.08,0.0003,0.0006,1.0,1.0,,,,,not queried
+Blinkit,Appliances,Shakti Technology,shaktitechnology,0.04,0.12,0.03,0.08,0.0003,0.0006,1.0,1.0,9109.0,434.88,39.0,False,found
 Blinkit,Appliances,Sipologie,sipologie,4.99,7.39,3.38,4.95,0.0315,0.0346,1.0,1.0,2541.0,47.4,20.0,False,found
 Blinkit,Appliances,Slovic,slovic,18.63,17.23,7.23,6.74,0.1175,0.0807,1.0,1.0,103229.0,659.15,312.0,False,found
 Blinkit,Appliances,Solara,solara,8.6,17.16,5.69,11.07,0.0542,0.0804,5.0,5.0,72388.0,2969.91,141.0,False,found
-Blinkit,Appliances,Sounce,sounce,15.87,16.52,4.35,4.39,0.1,0.0774,2.0,2.0,,,,,not queried
+Blinkit,Appliances,Sounce,sounce,15.87,16.52,4.35,4.39,0.1,0.0774,2.0,2.0,124662.0,371.4,500.0,True,found
 Blinkit,Appliances,Spinbot,spinbot,55.04,74.13,18.64,25.0,0.347,0.3474,3.0,3.0,13737.0,110.08,44.0,False,found
 Blinkit,Appliances,Stanley,stanley,0.93,0.77,0.68,0.6,0.0058,0.0036,2.0,2.0,40228.0,400.67,500.0,True,found
 Blinkit,Appliances,Striff,striff,121.03,114.43,44.38,40.5,0.7631,0.5362,4.0,4.0,66328.0,139.22,70.0,False,found
@@ -129,34 +129,34 @@ Blinkit,Appliances,Tex-Ro,texro,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,68261.0,701.11,3
 Blinkit,Appliances,The Better Home,thebetterhome,2.51,2.29,1.47,1.41,0.0158,0.0107,3.0,3.0,21463.0,285.16,500.0,True,found
 Blinkit,Appliances,Travel Blue,travelblue,1.98,1.15,1.39,0.78,0.0125,0.0054,3.0,3.0,314.0,4.16,86.0,False,found
 Blinkit,Appliances,Trutrtl,trutrtl,48.44,31.8,22.83,15.37,0.3054,0.149,8.0,8.0,3389.0,36.38,11.0,False,found
-Blinkit,Appliances,Tygot,tygot,0.01,0.0,0.0,0.0,0.0001,0.0,2.0,1.0,,,,,not queried
+Blinkit,Appliances,Tygot,tygot,0.01,0.0,0.0,0.0,0.0001,0.0,2.0,1.0,30105.0,146.21,41.0,False,found
 Blinkit,Appliances,Ultracare PRO,ultracarepro,36.02,49.78,17.61,24.6,0.2271,0.2333,7.0,7.0,3031.0,50.76,25.0,False,found
-Blinkit,Appliances,Unleash,unleash,0.0,,0.0,,0.0,,1.0,,,,,,not queried
+Blinkit,Appliances,Unleash,unleash,0.0,,0.0,,0.0,,1.0,,119.0,0.65,33.0,False,found
 Blinkit,Appliances,Urban Yog,urbanyog,0.27,0.63,0.2,0.41,0.0017,0.003,4.0,4.0,51456.0,1072.18,82.0,False,found
 Blinkit,Appliances,Usha,usha,0.01,0.08,0.01,0.08,0.0001,0.0004,1.0,1.0,36872.0,1121.54,352.0,False,found
 Blinkit,Appliances,V-Guard,vguard,2.77,2.24,1.9,1.61,0.0175,0.0105,9.0,9.0,,,,,not queried
 Blinkit,Appliances,VGR,vgr,58.85,52.56,43.65,34.38,0.371,0.2463,9.0,9.0,34914.0,345.77,126.0,False,found
 Blinkit,Appliances,Veet,veet,56.5,58.84,39.61,40.86,0.3562,0.2757,1.0,1.0,45257.0,158.82,70.0,False,found
 Blinkit,Appliances,Vega,vega,195.05,268.82,130.68,156.01,1.2298,1.2597,16.0,16.0,232639.0,1511.68,500.0,True,found
-Blinkit,Appliances,Warner Bros.,warnerbros,0.53,0.2,0.27,0.1,0.0033,0.0009,2.0,2.0,,,,,not queried
-Blinkit,Appliances,Welme,welme,5.06,4.69,4.04,3.38,0.0319,0.022,1.0,1.0,,,,,not queried
+Blinkit,Appliances,Warner Bros.,warnerbros,0.53,0.2,0.27,0.1,0.0033,0.0009,2.0,2.0,61.0,1.36,11.0,False,found
+Blinkit,Appliances,Welme,welme,5.06,4.69,4.04,3.38,0.0319,0.022,1.0,1.0,927.0,6.78,14.0,False,found
 Blinkit,Appliances,Winston,winston,86.62,98.3,48.31,49.21,0.5462,0.4606,15.0,15.0,11491.0,217.26,36.0,False,found
 Blinkit,Appliances,Wonderchef,wonderchef,285.32,466.6,133.07,175.73,1.799,2.1865,15.0,15.0,65401.0,974.17,446.0,False,found
 Blinkit,Appliances,WorldBeautyCare,worldbeautycare,39.82,38.58,14.66,14.15,0.2511,0.1808,2.0,2.0,,,,,no selling listing
-Blinkit,Appliances,X Electron,xelectron,5.76,9.41,1.99,3.06,0.0363,0.0441,4.0,4.0,,,,,not queried
+Blinkit,Appliances,X Electron,xelectron,5.76,9.41,1.99,3.06,0.0363,0.0441,4.0,4.0,,,,,no selling listing
 Blinkit,Appliances,Xech,xech,66.84,47.49,26.08,18.51,0.4214,0.2226,12.0,12.0,31120.0,269.64,54.0,False,found
 Blinkit,Appliances,Xiaomi,xiaomi,10.48,92.19,6.84,66.53,0.0661,0.432,7.0,6.0,124486.0,13768.98,85.0,False,found
 Blinkit,Appliances,ZdalaMit,zdalamit,37.89,35.56,15.4,13.91,0.2389,0.1667,5.0,4.0,8878.0,56.13,71.0,False,found
 Blinkit,Appliances,Zebronics,zebronics,2.91,7.49,1.16,2.28,0.0184,0.0351,4.0,3.0,,,,,not queried
-Blinkit,Appliances,Zlade,zlade,16.96,17.87,9.62,9.41,0.1069,0.0837,9.0,9.0,,,,,not queried
+Blinkit,Appliances,Zlade,zlade,16.96,17.87,9.62,9.41,0.1069,0.0837,9.0,9.0,2018.0,36.96,11.0,False,found
 Blinkit,Appliances,Zunvolt,zunvolt,7.23,5.62,2.86,2.38,0.0456,0.0263,2.0,3.0,32.0,0.32,6.0,False,found
-Blinkit,Appliances,ajjas,ajjas,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,,,,,not queried
-Blinkit,Appliances,atovio,atovio,0.76,4.04,0.31,1.67,0.0048,0.0189,2.0,2.0,,,,,not queried
-Blinkit,Appliances,stylehouse,stylehouse,0.02,0.01,0.0,0.0,0.0001,0.0,1.0,1.0,,,,,not queried
+Blinkit,Appliances,ajjas,ajjas,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,2641.0,62.78,5.0,False,found
+Blinkit,Appliances,atovio,atovio,0.76,4.04,0.31,1.67,0.0048,0.0189,2.0,2.0,9198.0,153.05,42.0,False,found
+Blinkit,Appliances,stylehouse,stylehouse,0.02,0.01,0.0,0.0,0.0001,0.0,1.0,1.0,,,,,no selling listing
 Blinkit,Bags,Adidas,adidas,15.45,12.13,11.97,9.55,0.4142,0.3087,7.0,7.0,52093.0,711.15,459.0,False,found
 Blinkit,Bags,American Tourister,americantourister,51.98,55.05,20.51,16.5,1.3935,1.4008,24.0,24.0,86592.0,2261.69,500.0,True,found
 Blinkit,Bags,Aristocrat,aristocrat,66.95,102.53,21.34,20.34,1.7949,2.6089,7.0,7.0,86038.0,1974.58,245.0,False,found
-Blinkit,Bags,BeastLife,beastlife,9.88,9.37,4.67,4.43,0.2649,0.2383,1.0,1.0,,,,,not queried
+Blinkit,Bags,BeastLife,beastlife,9.88,9.37,4.67,4.43,0.2649,0.2383,1.0,1.0,17131.0,269.6,132.0,False,found
 Blinkit,Bags,Boldfit,boldfit,115.59,109.26,51.87,48.19,3.0988,2.7803,3.0,3.0,525202.0,2673.28,500.0,True,found
 Blinkit,Bags,Bulkhunt,bulkhunt,3.0,3.5,1.92,2.24,0.0805,0.089,2.0,2.0,,,,,not queried
 Blinkit,Bags,Caprese,caprese,22.82,11.71,12.31,6.4,0.6118,0.2979,19.0,17.0,,,,,not queried
@@ -186,7 +186,7 @@ Blinkit,Bags,Nasher Miles,nashermiles,125.47,105.43,22.54,19.2,3.3639,2.6826,14.
 Blinkit,Bags,Nivia,nivia,39.67,42.05,24.4,25.93,1.0635,1.0699,2.0,2.0,128732.0,683.67,500.0,False,found
 Blinkit,Bags,Nu Republic,nurepublic,35.3,23.56,13.8,9.43,0.9463,0.5996,1.0,1.0,3773.0,28.27,29.0,False,found
 Blinkit,Bags,Puma,puma,0.0,0.01,0.0,0.0,0.0,0.0002,1.0,1.0,,,,,not queried
-Blinkit,Bags,QIPS,qips,0.56,0.07,0.41,0.04,0.015,0.0017,14.0,8.0,,,,,not queried
+Blinkit,Bags,QIPS,qips,0.56,0.07,0.41,0.04,0.015,0.0017,14.0,8.0,495.0,1.56,102.0,False,found
 Blinkit,Bags,Quechua,quechua,1.63,0.93,1.09,0.64,0.0437,0.0237,6.0,6.0,,,,,no selling listing
 Blinkit,Bags,Safari,safari,980.69,1395.2,223.86,285.64,26.2919,35.5011,28.0,24.0,274082.0,6956.69,371.0,False,found
 Blinkit,Bags,Scarters,scarters,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,,,,,not queried
@@ -214,7 +214,7 @@ Blinkit,Bathroom Essentials,D'Decor,ddecor,2.32,4.49,1.97,1.88,0.0978,0.1848,6.0
 Blinkit,Bathroom Essentials,ECO Sense,ecosense,13.36,10.24,8.89,7.18,0.5637,0.4212,3.0,3.0,,,,,not queried
 Blinkit,Bathroom Essentials,ExclusiveLane,exclusivelane,2.68,2.97,1.15,1.26,0.1131,0.1223,2.0,2.0,11434.0,133.0,500.0,True,found
 Blinkit,Bathroom Essentials,Fackelmann,fackelmann,11.5,14.06,6.32,7.33,0.4851,0.5786,2.0,1.0,17.0,0.18,9.0,False,found
-Blinkit,Bathroom Essentials,G.Fidel,gfidel,0.16,0.09,0.08,0.05,0.0068,0.0038,1.0,1.0,,,,,not queried
+Blinkit,Bathroom Essentials,G.Fidel,gfidel,0.16,0.09,0.08,0.05,0.0068,0.0038,1.0,1.0,158.0,0.46,47.0,False,found
 Blinkit,Bathroom Essentials,Gala,gala,18.33,14.97,18.26,14.86,0.7733,0.6162,2.0,2.0,137624.0,390.09,95.0,False,found
 Blinkit,Bathroom Essentials,Gebi,gebi,0.02,0.02,0.02,0.02,0.0008,0.0007,1.0,1.0,11.0,0.06,3.0,False,found
 Blinkit,Bathroom Essentials,Gluman,gluman,2.62,2.67,2.33,2.37,0.1104,0.1099,1.0,1.0,3485.0,11.94,190.0,False,found
@@ -250,7 +250,7 @@ Blinkit,Bathroom Essentials,Scotch-Brite,scotchbrite,55.21,73.71,51.93,71.12,2.3
 Blinkit,Bathroom Essentials,Sole Module,solemodule,0.02,0.0,0.01,0.0,0.0007,0.0,1.0,1.0,,,,,not queried
 Blinkit,Bathroom Essentials,Sophiya,sophiya,12.34,15.28,7.52,9.06,0.5206,0.6289,1.0,1.0,,,,,not queried
 Blinkit,Bathroom Essentials,The Better Home,thebetterhome,12.19,8.8,6.65,5.21,0.5145,0.3622,7.0,7.0,21463.0,285.16,500.0,True,found
-Blinkit,Bathroom Essentials,Tinums,tinums,5.55,4.61,4.1,3.4,0.234,0.1897,1.0,1.0,,,,,not queried
+Blinkit,Bathroom Essentials,Tinums,tinums,5.55,4.61,4.1,3.4,0.234,0.1897,1.0,1.0,,,,,no selling listing
 Blinkit,Bathroom Essentials,WaterScience,waterscience,86.05,124.21,60.37,83.88,3.631,5.1117,7.0,7.0,42199.0,561.3,77.0,False,found
 Blinkit,Bathroom Essentials,Welspun,welspun,156.48,165.6,156.62,159.48,6.6026,6.8149,5.0,5.0,20715.0,87.81,289.0,False,found
 Blinkit,Bathroom Essentials,Wewel,wewel,108.9,106.66,43.78,41.61,4.5951,4.3891,5.0,5.0,113.0,0.41,4.0,False,found
@@ -270,7 +270,7 @@ Blinkit,Cleaning Tools,Cleno,cleno,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,,,,,not queri
 Blinkit,Cleaning Tools,Creative Space,creativespace,27.77,37.72,11.06,14.91,1.3101,1.4232,1.0,1.0,,,,,no selling listing
 Blinkit,Cleaning Tools,DroliaFresh,droliafresh,17.23,20.07,12.92,14.78,0.8129,0.7573,5.0,5.0,,,,,not queried
 Blinkit,Cleaning Tools,Duzzit,duzzit,0.0,,0.0,,0.0001,,1.0,,,,,,not queried
-Blinkit,Cleaning Tools,G.Fidel,gfidel,0.2,0.24,0.1,0.11,0.0095,0.0092,1.0,1.0,,,,,not queried
+Blinkit,Cleaning Tools,G.Fidel,gfidel,0.2,0.24,0.1,0.11,0.0095,0.0092,1.0,1.0,158.0,0.46,47.0,False,found
 Blinkit,Cleaning Tools,Gala,gala,800.92,1097.45,740.14,891.5,37.7792,41.413,26.0,26.0,137624.0,390.09,95.0,False,found
 Blinkit,Cleaning Tools,Gebi,gebi,0.0,0.0,0.0,0.0,0.0002,0.0,2.0,2.0,11.0,0.06,3.0,False,found
 Blinkit,Cleaning Tools,Gluman,gluman,4.59,3.35,4.59,3.34,0.2164,0.1262,1.0,1.0,3485.0,11.94,190.0,False,found
@@ -289,7 +289,7 @@ Blinkit,Cleaning Tools,Spasht,spasht,12.43,10.44,8.24,6.93,0.5864,0.3939,1.0,1.0
 Blinkit,Cleaning Tools,Spotzero,spotzero,85.91,248.84,51.25,121.97,4.0523,9.39,4.0,4.0,,,,,no selling listing
 Blinkit,Cleaning Tools,Upc,upc,76.2,71.42,38.1,35.68,3.5945,2.6953,4.0,4.0,,,,,no selling listing
 Blinkit,Cleaning Tools,WaterScience,waterscience,,0.01,,0.0,,0.0002,,1.0,42199.0,561.3,77.0,False,found
-Blinkit,Cleaning Tools,Yellocut,yellocut,1.11,0.16,0.86,0.12,0.0525,0.006,1.0,1.0,,,,,not queried
+Blinkit,Cleaning Tools,Yellocut,yellocut,1.11,0.16,0.86,0.12,0.0525,0.006,1.0,1.0,,,,,no selling listing
 Blinkit,Cleaning Tools,Zeiss,zeiss,5.74,6.24,5.11,4.92,0.2709,0.2355,2.0,2.0,,,,,not queried
 Blinkit,Cleaning Tools,Zulaxy,zulaxy,25.22,38.66,9.36,12.38,1.1895,1.4588,3.0,3.0,32955.0,89.96,30.0,False,found
 Blinkit,Cleaning Tools,fullhouz,fullhouz,0.95,1.2,0.63,0.79,0.0448,0.0451,1.0,1.0,,,,,no selling listing
@@ -367,7 +367,7 @@ Blinkit,Decorative Lights,Island Rangoli,islandrangoli,0.67,0.49,0.47,0.33,0.014
 Blinkit,Decorative Lights,JD Fresh,jdfresh,0.25,0.15,0.13,0.07,0.0054,0.0024,2.0,2.0,83796.0,827.37,655.0,False,found
 Blinkit,Decorative Lights,KMJSA,kmjsa,0.82,0.37,0.28,0.13,0.0173,0.0061,4.0,4.0,,,,,not queried
 Blinkit,Decorative Lights,Kacool,kacool,0.19,0.09,0.1,0.05,0.004,0.0015,1.0,1.0,,,,,not queried
-Blinkit,Decorative Lights,Kavi The Poetry-Art Project,kavithepoetryartproject,5.99,4.88,5.4,4.4,0.1271,0.08,1.0,1.0,,,,,not queried
+Blinkit,Decorative Lights,Kavi The Poetry-Art Project,kavithepoetryartproject,5.99,4.88,5.4,4.4,0.1271,0.08,1.0,1.0,,,,,no selling listing
 Blinkit,Decorative Lights,Kidara,kidara,447.74,433.88,67.54,64.5,9.5061,7.1128,14.0,14.0,860.0,2.07,5.0,False,found
 Blinkit,Decorative Lights,Kidology,kidology,8.2,2.48,4.16,1.26,0.1741,0.0407,4.0,4.0,,,,,not queried
 Blinkit,Decorative Lights,Lefigaro,lefigaro,0.45,1.87,0.29,1.22,0.0095,0.0307,1.0,1.0,,,,,not queried
@@ -407,7 +407,7 @@ Blinkit,Decorative Lights,Tekcool,tekcool,95.73,93.32,53.56,52.41,2.0324,1.5299,
 Blinkit,Decorative Lights,The Artment,theartment,0.7,0.35,0.42,0.2,0.0148,0.0057,3.0,4.0,,,,,no selling listing
 Blinkit,Decorative Lights,The Better Home,thebetterhome,0.53,1.18,0.33,0.67,0.0112,0.0194,1.0,1.0,21463.0,285.16,500.0,True,found
 Blinkit,Decorative Lights,Timalfi,timalfi,1.2,2.05,0.55,0.88,0.0255,0.0336,4.0,4.0,,,,,not queried
-Blinkit,Decorative Lights,Tinums,tinums,3.07,4.21,1.21,1.64,0.0653,0.0691,4.0,4.0,,,,,not queried
+Blinkit,Decorative Lights,Tinums,tinums,3.07,4.21,1.21,1.64,0.0653,0.0691,4.0,4.0,,,,,no selling listing
 Blinkit,Decorative Lights,Toreto,toreto,6.27,8.23,2.18,2.83,0.1331,0.1349,2.0,2.0,,,,,not queried
 Blinkit,Decorative Lights,Toy Imagine,toyimagine,11.72,13.23,6.58,7.66,0.2488,0.2168,15.0,15.0,,,,,not queried
 Blinkit,Decorative Lights,Tyohaar,tyohaar,14.05,19.32,8.67,12.99,0.2983,0.3168,7.0,7.0,,,,,not queried
@@ -565,7 +565,7 @@ Blinkit,"Flowers, Plants & Gardening",The Artment,theartment,0.21,0.11,0.14,0.08
 Blinkit,"Flowers, Plants & Gardening",Tied Ribbons,tiedribbons,28.95,57.63,9.38,18.75,1.3786,2.4114,31.0,31.0,86844.0,367.14,500.0,True,found
 Blinkit,"Flowers, Plants & Gardening",TrustBasket,trustbasket,316.65,302.46,112.09,107.61,15.0786,12.6554,14.0,14.0,52137.0,203.27,484.0,False,found
 Blinkit,"Flowers, Plants & Gardening",Ugaoo,ugaoo,664.09,704.74,363.39,374.75,31.6232,29.4868,27.0,26.0,153777.0,560.55,500.0,True,found
-Blinkit,"Flowers, Plants & Gardening",Umai,umai,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,,,,,not queried
+Blinkit,"Flowers, Plants & Gardening",Umai,umai,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,2886.0,17.34,237.0,False,found
 Blinkit,"Flowers, Plants & Gardening",Unbranded,unbranded,2.3,3.55,1.9,2.94,0.1094,0.1484,1.0,1.0,245.0,1.17,3.0,False,found
 Blinkit,"Flowers, Plants & Gardening",Urban Plant,urbanplant,0.02,0.06,0.01,0.03,0.0008,0.0027,2.0,3.0,,,,,not queried
 Blinkit,"Flowers, Plants & Gardening",WonderStand,wonderstand,20.43,15.86,17.68,13.78,0.9729,0.6636,4.0,4.0,3162.0,17.58,67.0,False,found
@@ -659,7 +659,7 @@ Blinkit,Home Decor,VEROX,verox,1.0,0.35,0.63,0.2,0.0618,0.0179,2.0,2.0,,,,,not q
 Blinkit,Home Decor,Walton,walton,0.0,,0.0,,0.0,,1.0,,,,,,not queried
 Blinkit,Home Decor,Welspun,welspun,1.28,1.05,1.28,1.03,0.0787,0.0544,2.0,2.0,20715.0,87.81,289.0,False,found
 Blinkit,Home Decor,WonderStand,wonderstand,1.45,1.19,1.46,1.18,0.0894,0.0615,1.0,1.0,3162.0,17.58,67.0,False,found
-Blinkit,Home Decor,Yellocut,yellocut,0.24,0.15,0.13,0.08,0.0149,0.0075,3.0,2.0,,,,,not queried
+Blinkit,Home Decor,Yellocut,yellocut,0.24,0.15,0.13,0.08,0.0149,0.0075,3.0,2.0,,,,,no selling listing
 Blinkit,Home Decor,Zulaxy,zulaxy,36.8,39.79,15.19,16.25,2.2713,2.0616,2.0,2.0,32955.0,89.96,30.0,False,found
 Blinkit,Home Decor,rumeha,rumeha,0.02,0.02,0.02,0.02,0.0009,0.0013,1.0,1.0,,,,,not queried
 Blinkit,Home Furnishing,AMRO Beautility Needs,amrobeautilityneeds,22.51,24.52,11.22,12.22,0.3006,0.3247,1.0,1.0,,,,,not queried
@@ -829,11 +829,11 @@ Blinkit,Home Furnishing,The Sleep Company,thesleepcompany,176.62,232.19,78.66,93
 Blinkit,Home Furnishing,The White Willow,thewhitewillow,0.45,0.3,0.17,0.11,0.0061,0.004,1.0,1.0,6610.0,102.69,62.0,False,found
 Blinkit,Home Furnishing,The Wood White,thewoodwhite,36.64,33.71,30.1,27.28,0.4892,0.4465,2.0,2.0,,,,,no selling listing
 Blinkit,Home Furnishing,Tied Ribbons,tiedribbons,1.63,0.94,0.57,0.28,0.0218,0.0124,14.0,13.0,86844.0,367.14,500.0,True,found
-Blinkit,Home Furnishing,Tinums,tinums,5.34,4.22,1.81,1.43,0.0713,0.0558,2.0,2.0,,,,,not queried
+Blinkit,Home Furnishing,Tinums,tinums,5.34,4.22,1.81,1.43,0.0713,0.0558,2.0,2.0,,,,,no selling listing
 Blinkit,Home Furnishing,Trance Home Linen,trancehomelinen,4.63,3.06,2.45,1.95,0.0618,0.0405,13.0,12.0,61097.0,464.5,466.0,False,found
 Blinkit,Home Furnishing,Travel Likes Me,travellikesme,0.09,0.1,0.08,0.09,0.0012,0.0014,1.0,1.0,,,,,not queried
 Blinkit,Home Furnishing,Tulip Elite,tulipelite,0.02,0.0,0.01,0.0,0.0002,0.0,1.0,1.0,,,,,not queried
-Blinkit,Home Furnishing,Umai,umai,1.55,0.4,0.54,0.15,0.0207,0.0054,7.0,7.0,,,,,not queried
+Blinkit,Home Furnishing,Umai,umai,1.55,0.4,0.54,0.15,0.0207,0.0054,7.0,7.0,2886.0,17.34,237.0,False,found
 Blinkit,Home Furnishing,Unbranded,unbranded,3.49,5.36,1.3,2.0,0.0466,0.071,4.0,4.0,245.0,1.17,3.0,False,found
 Blinkit,Home Furnishing,Urban Space,urbanspace,136.32,137.27,63.81,57.09,1.8201,1.8181,22.0,22.0,37087.0,443.59,500.0,True,found
 Blinkit,Home Furnishing,UrbanFix,urbanfix,2.51,3.5,0.99,1.36,0.0335,0.0464,1.0,1.0,2776.0,12.93,34.0,False,found
@@ -841,7 +841,7 @@ Blinkit,Home Furnishing,Varde,varde,30.14,38.87,17.31,20.56,0.4024,0.5148,16.0,1
 Blinkit,Home Furnishing,Vidhyadevam,vidhyadevam,6.65,9.5,3.96,5.66,0.0888,0.1259,1.0,1.0,,,,,not queried
 Blinkit,Home Furnishing,Vilasiya,vilasiya,9.94,7.16,4.23,3.07,0.1328,0.0948,1.0,1.0,,,,,not queried
 Blinkit,Home Furnishing,Viva Rainwear,vivarainwear,3.45,2.28,2.26,1.3,0.046,0.0302,1.0,1.0,,,,,not queried
-Blinkit,Home Furnishing,Voiish,voiish,0.0,,0.0,,0.0,,1.0,,,,,,not queried
+Blinkit,Home Furnishing,Voiish,voiish,0.0,,0.0,,0.0,,1.0,,4391.0,7.47,98.0,False,found
 Blinkit,Home Furnishing,Wakefit,wakefit,22.8,36.57,18.96,24.4,0.3044,0.4844,1.0,1.0,145810.0,6149.87,500.0,True,found
 Blinkit,Home Furnishing,Warmth WEB,warmthweb,0.1,0.02,0.05,0.01,0.0013,0.0002,1.0,1.0,,,,,not queried
 Blinkit,Home Furnishing,Wazdorf,wazdorf,2.54,1.47,1.25,0.69,0.0339,0.0194,8.0,8.0,,,,,not queried
@@ -867,7 +867,7 @@ Blinkit,Home Improvement,Creative Space,creativespace,268.51,338.52,62.47,66.07,
 Blinkit,Home Improvement,Desidiya,desidiya,32.29,20.35,12.33,7.74,3.6278,1.9015,1.0,1.0,367863.0,1380.54,236.0,False,found
 Blinkit,Home Improvement,Freemans,freemans,29.87,27.68,21.74,20.22,3.356,2.5868,2.0,2.0,44603.0,98.93,181.0,False,found
 Blinkit,Home Improvement,FunBlast,funblast,0.47,0.42,0.24,0.21,0.0533,0.0397,2.0,2.0,42414.0,139.03,500.0,True,found
-Blinkit,Home Improvement,G.Fidel,gfidel,0.0,0.0,0.0,0.0,0.0002,0.0,1.0,1.0,,,,,not queried
+Blinkit,Home Improvement,G.Fidel,gfidel,0.0,0.0,0.0,0.0,0.0002,0.0,1.0,1.0,158.0,0.46,47.0,False,found
 Blinkit,Home Improvement,Hemito,hemito,6.35,6.01,3.19,3.01,0.7132,0.5621,1.0,1.0,209.0,0.87,16.0,False,found
 Blinkit,Home Improvement,Hindson,hindson,7.15,5.77,2.9,2.33,0.8034,0.539,1.0,1.0,,,,,not queried
 Blinkit,Home Improvement,Homestrap,homestrap,5.88,5.59,3.96,3.16,0.6608,0.5228,2.0,2.0,115024.0,676.0,500.0,True,found
@@ -890,7 +890,7 @@ Blinkit,Home Improvement,Themisto,themisto,0.01,0.0,0.01,0.0,0.0011,0.0002,1.0,1
 Blinkit,Home Improvement,Travel Blue,travelblue,41.53,37.18,35.24,31.52,4.6663,3.4749,9.0,9.0,314.0,4.16,86.0,False,found
 Blinkit,Home Improvement,WD-40,wd40,61.21,72.1,55.14,63.73,6.8781,6.7382,2.0,2.0,43253.0,670.54,29.0,False,found
 Blinkit,Home Improvement,Wingz,wingz,11.0,8.64,8.34,6.21,1.2357,0.8071,2.0,2.0,,,,,no selling listing
-Blinkit,Home Improvement,Yellocut,yellocut,0.34,0.41,0.14,0.16,0.0383,0.038,1.0,1.0,,,,,not queried
+Blinkit,Home Improvement,Yellocut,yellocut,0.34,0.41,0.14,0.16,0.0383,0.038,1.0,1.0,,,,,no selling listing
 Blinkit,Home Improvement,Zulaxy,zulaxy,2.43,5.94,0.72,1.76,0.2735,0.5547,1.0,1.0,32955.0,89.96,30.0,False,found
 Blinkit,Home Improvement,indianshelf,indianshelf,,0.0,,0.0,,0.0,,1.0,,,,,not queried
 Blinkit,Kitchen & Dining Needs,Aasaan Decor,aasaandecor,4.36,2.01,1.93,0.89,0.0548,0.0227,1.0,1.0,,,,,not queried
@@ -909,7 +909,7 @@ Blinkit,Kitchen & Dining Needs,Avias,avias,18.35,12.18,10.5,6.92,0.2308,0.1372,9
 Blinkit,Kitchen & Dining Needs,Bajaj,bajaj,0.0,0.05,0.0,0.03,0.0,0.0005,1.0,1.0,157760.0,2938.66,466.0,False,found
 Blinkit,Kitchen & Dining Needs,Basil,basil,0.48,0.87,0.24,0.43,0.0061,0.0098,3.0,2.0,16953.0,215.94,80.0,False,found
 Blinkit,Kitchen & Dining Needs,Bathla,bathla,1.25,3.12,0.86,2.15,0.0157,0.0352,1.0,1.0,8529.0,317.16,212.0,False,found
-Blinkit,Kitchen & Dining Needs,BeastLife,beastlife,10.48,10.99,5.48,5.43,0.1319,0.1238,5.0,5.0,,,,,not queried
+Blinkit,Kitchen & Dining Needs,BeastLife,beastlife,10.48,10.99,5.48,5.43,0.1319,0.1238,5.0,5.0,17131.0,269.6,132.0,False,found
 Blinkit,Kitchen & Dining Needs,Big Blue,bigblue,9.18,6.97,6.09,4.62,0.1155,0.0785,1.0,1.0,239.0,0.52,8.0,False,found
 Blinkit,Kitchen & Dining Needs,Birch & Co,birchco,75.46,65.25,30.68,25.77,0.9492,0.7348,11.0,11.0,,,,,no selling listing
 Blinkit,Kitchen & Dining Needs,BlendLife,blendlife,0.61,0.58,0.26,0.24,0.0077,0.0065,1.0,1.0,604.0,10.53,6.0,False,found
@@ -930,11 +930,11 @@ Blinkit,Kitchen & Dining Needs,CutTales,cuttales,129.09,159.38,30.49,35.56,1.623
 Blinkit,Kitchen & Dining Needs,Cutting Edge,cuttingedge,189.27,153.77,104.11,84.5,2.3808,1.7316,43.0,42.0,5494.0,30.94,500.0,True,found
 Blinkit,Kitchen & Dining Needs,Dancing Panda,dancingpanda,0.07,0.18,0.03,0.08,0.0009,0.0021,1.0,1.0,,,,,not queried
 Blinkit,Kitchen & Dining Needs,DeliBohemi,delibohemi,28.47,39.77,9.8,13.17,0.3581,0.4478,8.0,8.0,,,,,no selling listing
-Blinkit,Kitchen & Dining Needs,Digismart,digismart,33.12,24.17,14.09,9.89,0.4166,0.2722,1.0,1.0,2428.0,47.09,80.0,False,found
+Blinkit,Kitchen & Dining Needs,Digismart,digismart,33.12,24.17,14.09,9.89,0.4166,0.2722,1.0,1.0,,,,,no selling listing
 Blinkit,Kitchen & Dining Needs,Disney,disney,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,,,,,not queried
 Blinkit,Kitchen & Dining Needs,EK DO Dhai,ekdodhai,0.07,0.03,0.07,0.03,0.0009,0.0004,5.0,5.0,,,,,not queried
 Blinkit,Kitchen & Dining Needs,EXCLUSIVISH,exclusivish,2.13,2.13,0.85,0.83,0.0268,0.024,1.0,1.0,,,,,not queried
-Blinkit,Kitchen & Dining Needs,Earth Chakra,earthchakra,3.89,2.77,2.74,1.92,0.0489,0.0312,4.0,4.0,,,,,not queried
+Blinkit,Kitchen & Dining Needs,Earth Chakra,earthchakra,3.89,2.77,2.74,1.92,0.0489,0.0312,4.0,4.0,144.0,2.85,8.0,False,found
 Blinkit,Kitchen & Dining Needs,Ekhasa,ekhasa,2.83,3.05,1.7,1.83,0.0356,0.0343,1.0,1.0,27659.0,174.04,398.0,False,found
 Blinkit,Kitchen & Dining Needs,Ellementry,ellementry,0.12,0.01,0.11,0.01,0.0014,0.0002,1.0,1.0,,,,,not queried
 Blinkit,Kitchen & Dining Needs,Embassy,embassy,0.04,0.01,0.03,0.01,0.0005,0.0001,4.0,4.0,,,,,not queried
@@ -947,10 +947,10 @@ Blinkit,Kitchen & Dining Needs,Femora,femora,212.58,224.37,133.67,137.62,2.6739,
 Blinkit,Kitchen & Dining Needs,Frenchware,frenchware,13.81,21.06,8.4,11.89,0.1737,0.2371,3.0,3.0,16758.0,54.15,99.0,False,found
 Blinkit,Kitchen & Dining Needs,Frestol,frestol,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,,,,,not queried
 Blinkit,Kitchen & Dining Needs,FunBlast,funblast,2.39,3.12,1.24,1.6,0.0301,0.0352,16.0,16.0,42414.0,139.03,500.0,True,found
-Blinkit,Kitchen & Dining Needs,G.Fidel,gfidel,0.14,0.07,0.05,0.03,0.0018,0.0007,2.0,2.0,,,,,not queried
+Blinkit,Kitchen & Dining Needs,G.Fidel,gfidel,0.14,0.07,0.05,0.03,0.0018,0.0007,2.0,2.0,158.0,0.46,47.0,False,found
 Blinkit,Kitchen & Dining Needs,GHH,ghh,0.02,0.03,0.01,0.02,0.0002,0.0003,4.0,4.0,,,,,not queried
 Blinkit,Kitchen & Dining Needs,Ganesh,ganesh,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,108422.0,208.23,206.0,False,found
-Blinkit,Kitchen & Dining Needs,Gkd,gkd,27.4,23.32,9.11,7.68,0.3446,0.2626,4.0,4.0,,,,,not queried
+Blinkit,Kitchen & Dining Needs,Gkd,gkd,27.4,23.32,9.11,7.68,0.3446,0.2626,4.0,4.0,,,,,no selling listing
 Blinkit,Kitchen & Dining Needs,Glasafe,glasafe,1.57,6.77,0.95,4.12,0.0197,0.0762,12.0,12.0,,,,,not queried
 Blinkit,Kitchen & Dining Needs,Glass Ideas,glassideas,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,,,,,no selling listing
 Blinkit,Kitchen & Dining Needs,Gluman,gluman,28.11,28.37,24.03,24.15,0.3536,0.3195,22.0,22.0,3485.0,11.94,190.0,False,found
@@ -965,12 +965,12 @@ Blinkit,Kitchen & Dining Needs,Home Focus,homefocus,0.0,0.0,0.0,0.0,0.0,0.0,1.0,
 Blinkit,Kitchen & Dining Needs,HomeCloud,homecloud,15.96,17.63,4.61,5.07,0.2007,0.1986,6.0,6.0,25557.0,150.38,166.0,False,found
 Blinkit,Kitchen & Dining Needs,HomeEssentials,homeessentials,31.85,34.33,12.58,13.02,0.4007,0.3866,13.0,13.0,4947.0,53.74,245.0,False,found
 Blinkit,Kitchen & Dining Needs,HomeLane,homelane,0.09,0.2,0.06,0.13,0.0012,0.0022,1.0,1.0,,,,,not queried
-Blinkit,Kitchen & Dining Needs,HomeShastra,homeshastra,12.09,10.32,4.32,3.72,0.152,0.1162,2.0,2.0,,,,,not queried
+Blinkit,Kitchen & Dining Needs,HomeShastra,homeshastra,12.09,10.32,4.32,3.72,0.152,0.1162,2.0,2.0,2972.0,38.1,69.0,False,found
 Blinkit,Kitchen & Dining Needs,Homestrap,homestrap,244.8,382.88,101.25,142.61,3.0792,4.3118,6.0,6.0,115024.0,676.0,500.0,True,found
 Blinkit,Kitchen & Dining Needs,Homez it,homezit,6.27,5.01,5.19,4.15,0.0789,0.0564,5.0,6.0,,,,,no selling listing
 Blinkit,Kitchen & Dining Needs,House of Festivals,houseoffestivals,0.05,0.09,0.02,0.05,0.0006,0.001,2.0,2.0,,,,,not queried
 Blinkit,Kitchen & Dining Needs,House of Quirk,houseofquirk,41.46,34.23,23.2,18.97,0.5215,0.3854,45.0,43.0,64036.0,743.18,500.0,True,found
-Blinkit,Kitchen & Dining Needs,ITEMY,itemy,5.09,6.03,2.56,3.03,0.064,0.0679,1.0,1.0,,,,,not queried
+Blinkit,Kitchen & Dining Needs,ITEMY,itemy,5.09,6.03,2.56,3.03,0.064,0.0679,1.0,1.0,,,,,no selling listing
 Blinkit,Kitchen & Dining Needs,Impetus,impetus,4.66,4.61,2.6,2.59,0.0586,0.0519,3.0,3.0,477.0,2.71,111.0,False,found
 Blinkit,Kitchen & Dining Needs,Indigifts,indigifts,0.0,0.03,0.0,0.01,0.0001,0.0004,2.0,2.0,,,,,not queried
 Blinkit,Kitchen & Dining Needs,Indigo,indigo,0.02,0.01,0.01,0.01,0.0002,0.0001,2.0,1.0,,,,,not queried
@@ -984,7 +984,7 @@ Blinkit,Kitchen & Dining Needs,Jaypee Plus,jaypeeplus,1.44,1.57,1.08,1.18,0.0181
 Blinkit,Kitchen & Dining Needs,Jensons,jensons,4.64,2.77,1.6,0.92,0.0583,0.0312,4.0,4.0,1315.0,3.85,74.0,False,found
 Blinkit,Kitchen & Dining Needs,Joseph Joseph,josephjoseph,0.05,0.0,0.03,0.0,0.0006,0.0,2.0,1.0,,,,,not queried
 Blinkit,Kitchen & Dining Needs,Judge,judge,118.68,122.68,88.15,87.91,1.4929,1.3815,21.0,21.0,4343.0,48.97,98.0,False,found
-Blinkit,Kitchen & Dining Needs,Kavi The Poetry-Art Project,kavithepoetryartproject,1.28,2.18,1.02,1.74,0.0161,0.0245,1.0,1.0,,,,,not queried
+Blinkit,Kitchen & Dining Needs,Kavi The Poetry-Art Project,kavithepoetryartproject,1.28,2.18,1.02,1.74,0.0161,0.0245,1.0,1.0,,,,,no selling listing
 Blinkit,Kitchen & Dining Needs,Kent,kent,2.48,2.19,1.78,1.67,0.0312,0.0246,1.0,1.0,42440.0,2077.41,141.0,False,found
 Blinkit,Kitchen & Dining Needs,Kolar,kolar,9.05,7.8,2.1,1.81,0.1139,0.0879,1.0,1.0,,,,,not queried
 Blinkit,Kitchen & Dining Needs,Kooltech,kooltech,0.0,0.0,0.0,0.0,0.0001,0.0,3.0,2.0,,,,,not queried
@@ -1025,7 +1025,7 @@ Blinkit,Kitchen & Dining Needs,Oliveware,oliveware,10.56,3.15,5.87,1.87,0.1329,0
 Blinkit,Kitchen & Dining Needs,Oye Happy,oyehappy,0.01,0.0,0.01,0.0,0.0001,0.0,1.0,1.0,6619.0,13.9,165.0,False,found
 Blinkit,Kitchen & Dining Needs,P-Tal,ptal,0.0,0.0,0.0,0.0,0.0,0.0,4.0,4.0,2849.0,95.94,49.0,False,found
 Blinkit,Kitchen & Dining Needs,Packmate,packmate,1.22,0.35,0.69,0.2,0.0153,0.004,1.0,1.0,,,,,not queried
-Blinkit,Kitchen & Dining Needs,Palak Greens,palakgreens,7.51,7.28,3.39,3.08,0.0945,0.082,2.0,2.0,,,,,not queried
+Blinkit,Kitchen & Dining Needs,Palak Greens,palakgreens,7.51,7.28,3.39,3.08,0.0945,0.082,2.0,2.0,,,,,no selling listing
 Blinkit,Kitchen & Dining Needs,Parage,parage,140.1,143.86,76.87,79.21,1.7623,1.62,36.0,36.0,24956.0,115.7,250.0,False,found
 Blinkit,Kitchen & Dining Needs,Party Propz,partypropz,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,44902.0,119.9,450.0,False,found
 Blinkit,Kitchen & Dining Needs,Pasabahce,pasabahce,15.2,15.76,7.55,7.82,0.1912,0.1774,17.0,17.0,582.0,8.3,125.0,False,found
@@ -1040,16 +1040,16 @@ Blinkit,Kitchen & Dining Needs,Polyset,polyset,0.01,0.04,0.01,0.04,0.0002,0.0005
 Blinkit,Kitchen & Dining Needs,Poshio,poshio,1.7,1.81,0.69,0.74,0.0214,0.0204,1.0,1.0,,,,,not queried
 Blinkit,Kitchen & Dining Needs,Premier,premier,12.78,12.03,8.81,8.3,0.1608,0.1355,1.0,1.0,26460.0,78.02,200.0,False,found
 Blinkit,Kitchen & Dining Needs,Prestige,prestige,487.99,575.86,324.44,372.58,6.1382,6.4849,25.0,24.0,295220.0,6657.63,500.0,True,found
-Blinkit,Kitchen & Dining Needs,QIPS,qips,7.23,5.31,4.06,2.98,0.091,0.0598,2.0,2.0,,,,,not queried
+Blinkit,Kitchen & Dining Needs,QIPS,qips,7.23,5.31,4.06,2.98,0.091,0.0598,2.0,2.0,495.0,1.56,102.0,False,found
 Blinkit,Kitchen & Dining Needs,Quechua,quechua,1.33,0.54,0.83,0.34,0.0167,0.0061,1.0,1.0,,,,,no selling listing
 Blinkit,Kitchen & Dining Needs,Rabitat,rabitat,6.06,5.32,3.9,3.44,0.0763,0.0599,4.0,4.0,12578.0,122.92,79.0,False,found
-Blinkit,Kitchen & Dining Needs,Ramila,ramila,9.71,10.29,6.58,6.98,0.1221,0.1159,1.0,1.0,,,,,not queried
+Blinkit,Kitchen & Dining Needs,Ramila,ramila,9.71,10.29,6.58,6.98,0.1221,0.1159,1.0,1.0,93.0,0.35,11.0,False,found
 Blinkit,Kitchen & Dining Needs,Ratan,ratan,36.06,36.73,30.97,31.56,0.4536,0.4137,1.0,1.0,6151.0,46.51,450.0,False,found
 Blinkit,Kitchen & Dining Needs,ReeQ,reeq,4.89,2.13,1.35,0.58,0.0615,0.024,3.0,3.0,,,,,not queried
-Blinkit,Kitchen & Dining Needs,Reffo,reffo,8.46,11.45,2.13,2.9,0.1064,0.1289,2.0,2.0,,,,,not queried
-Blinkit,Kitchen & Dining Needs,Rousrie,rousrie,4.1,5.87,1.55,2.22,0.0516,0.0661,1.0,1.0,,,,,not queried
+Blinkit,Kitchen & Dining Needs,Reffo,reffo,8.46,11.45,2.13,2.9,0.1064,0.1289,2.0,2.0,1.0,0.01,1.0,False,found
+Blinkit,Kitchen & Dining Needs,Rousrie,rousrie,4.1,5.87,1.55,2.22,0.0516,0.0661,1.0,1.0,11186.0,42.03,446.0,False,found
 Blinkit,Kitchen & Dining Needs,Royalkart,royalkart,3.84,4.28,1.34,1.5,0.0483,0.0482,1.0,1.0,1710.0,9.52,74.0,False,found
-Blinkit,Kitchen & Dining Needs,Rusabl,rusabl,15.64,9.22,4.96,3.41,0.1968,0.1038,3.0,3.0,,,,,not queried
+Blinkit,Kitchen & Dining Needs,Rusabl,rusabl,15.64,9.22,4.96,3.41,0.1968,0.1038,3.0,3.0,9443.0,26.54,47.0,False,found
 Blinkit,Kitchen & Dining Needs,Sakoraware,sakoraware,7.34,6.52,3.17,2.81,0.0923,0.0734,2.0,2.0,,,,,not queried
 Blinkit,Kitchen & Dining Needs,Sammsara,sammsara,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,,,,,not queried
 Blinkit,Kitchen & Dining Needs,Sanjeev Kapoor,sanjeevkapoor,0.07,0.08,0.05,0.06,0.0009,0.0009,3.0,3.0,142.0,1.03,32.0,False,found
@@ -1081,15 +1081,15 @@ Blinkit,Kitchen & Dining Needs,The Indian Rose,theindianrose,0.25,0.13,0.18,0.1,
 Blinkit,Kitchen & Dining Needs,The Indus Valley,theindusvalley,102.61,93.34,61.51,52.64,1.2907,1.0512,13.0,13.0,61613.0,905.78,267.0,False,found
 Blinkit,Kitchen & Dining Needs,The Wishing Chair,thewishingchair,0.01,0.0,0.01,0.0,0.0001,0.0,1.0,1.0,,,,,not queried
 Blinkit,Kitchen & Dining Needs,Thermador,thermador,0.1,0.08,0.02,0.03,0.0013,0.0009,4.0,3.0,,,,,not queried
-Blinkit,Kitchen & Dining Needs,Tiara,tiara,3.68,2.38,3.33,2.14,0.0463,0.0267,2.0,2.0,,,,,not queried
+Blinkit,Kitchen & Dining Needs,Tiara,tiara,3.68,2.38,3.33,2.14,0.0463,0.0267,2.0,2.0,3461.0,7.43,30.0,False,found
 Blinkit,Kitchen & Dining Needs,Tied Ribbons,tiedribbons,0.19,0.04,0.05,0.01,0.0024,0.0004,3.0,2.0,86844.0,367.14,500.0,True,found
-Blinkit,Kitchen & Dining Needs,Tinums,tinums,11.09,8.13,5.63,4.14,0.1395,0.0916,3.0,3.0,,,,,not queried
+Blinkit,Kitchen & Dining Needs,Tinums,tinums,11.09,8.13,5.63,4.14,0.1395,0.0916,3.0,3.0,,,,,no selling listing
 Blinkit,Kitchen & Dining Needs,Travalate,travalate,3.4,3.26,1.04,1.0,0.0428,0.0367,1.0,1.0,11900.0,63.98,112.0,False,found
 Blinkit,Kitchen & Dining Needs,Travel Likes Me,travellikesme,0.0,0.04,0.0,0.03,0.0,0.0005,1.0,1.0,,,,,not queried
 Blinkit,Kitchen & Dining Needs,Tribord,tribord,0.44,0.41,0.41,0.38,0.0056,0.0046,1.0,1.0,,,,,not queried
 Blinkit,Kitchen & Dining Needs,Trisara,trisara,,0.0,,0.0,,0.0,,1.0,,,,,not queried
 Blinkit,Kitchen & Dining Needs,Two Moustaches,twomoustaches,0.07,0.21,0.03,0.1,0.0008,0.0023,8.0,10.0,,,,,not queried
-Blinkit,Kitchen & Dining Needs,Umai,umai,1.77,1.94,0.91,0.92,0.0223,0.0219,7.0,7.0,,,,,not queried
+Blinkit,Kitchen & Dining Needs,Umai,umai,1.77,1.94,0.91,0.92,0.0223,0.0219,7.0,7.0,2886.0,17.34,237.0,False,found
 Blinkit,Kitchen & Dining Needs,Umami Studio,umamistudio,0.03,0.0,0.02,0.0,0.0003,0.0001,1.0,1.0,,,,,not queried
 Blinkit,Kitchen & Dining Needs,Unify,unify,39.4,38.35,22.0,20.69,0.4956,0.4319,14.0,13.0,8226.0,48.65,87.0,False,found
 Blinkit,Kitchen & Dining Needs,Upc,upc,15.05,16.57,9.42,10.46,0.1893,0.1866,4.0,4.0,,,,,no selling listing
@@ -1099,13 +1099,13 @@ Blinkit,Kitchen & Dining Needs,VarietyHome,varietyhome,2.49,1.48,0.66,0.42,0.031
 Blinkit,Kitchen & Dining Needs,Vesta Homes,vestahomes,110.16,113.35,42.04,40.44,1.3857,1.2765,20.0,20.0,7241.0,55.61,69.0,False,found
 Blinkit,Kitchen & Dining Needs,Vinayak,vinayak,1.26,1.4,0.78,0.83,0.0158,0.0158,22.0,22.0,,,,,not queried
 Blinkit,Kitchen & Dining Needs,Vinod,vinod,1.95,3.38,1.43,2.55,0.0245,0.0381,9.0,8.0,33622.0,675.77,605.0,False,found
-Blinkit,Kitchen & Dining Needs,Voiish,voiish,4.57,9.7,2.27,4.83,0.0575,0.1093,2.0,2.0,,,,,not queried
+Blinkit,Kitchen & Dining Needs,Voiish,voiish,4.57,9.7,2.27,4.83,0.0575,0.1093,2.0,2.0,4391.0,7.47,98.0,False,found
 Blinkit,Kitchen & Dining Needs,Walton,walton,0.01,0.0,0.01,0.0,0.0002,0.0,2.0,2.0,,,,,not queried
 Blinkit,Kitchen & Dining Needs,Warmfinity,warmfinity,20.71,18.4,10.74,9.53,0.2606,0.2072,3.0,3.0,6139.0,8.8,29.0,False,found
 Blinkit,Kitchen & Dining Needs,Wingz,wingz,0.05,0.02,0.05,0.02,0.0006,0.0002,1.0,2.0,,,,,no selling listing
 Blinkit,Kitchen & Dining Needs,WonderStand,wonderstand,49.02,46.85,43.72,42.59,0.6166,0.5276,10.0,10.0,3162.0,17.58,67.0,False,found
 Blinkit,Kitchen & Dining Needs,Wonderchef,wonderchef,433.58,649.34,221.6,282.75,5.4538,7.3123,45.0,45.0,65401.0,974.17,446.0,False,found
-Blinkit,Kitchen & Dining Needs,Yellocut,yellocut,5.36,4.96,3.14,2.85,0.0674,0.0559,17.0,17.0,,,,,not queried
+Blinkit,Kitchen & Dining Needs,Yellocut,yellocut,5.36,4.96,3.14,2.85,0.0674,0.0559,17.0,17.0,,,,,no selling listing
 Blinkit,Kitchen & Dining Needs,Zenker,zenker,8.31,5.75,7.01,4.9,0.1046,0.0647,9.0,9.0,,,,,no selling listing
 Blinkit,Kitchen & Dining Needs,Zulaxy,zulaxy,0.0,,0.0,,0.0,,1.0,,32955.0,89.96,30.0,False,found
 Blinkit,Kitchen & Dining Needs,averx,averx,83.12,77.9,30.48,28.48,1.0455,0.8772,3.0,3.0,1.0,0.0,1.0,False,found
@@ -1215,7 +1215,7 @@ Blinkit,Sports & Fitness,ARROW max,arrowmax,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,,,,,
 Blinkit,Sports & Fitness,Aegon,aegon,1.7,1.55,0.68,0.62,0.051,0.0489,1.0,1.0,,,,,not queried
 Blinkit,Sports & Fitness,Anomeo,anomeo,0.33,0.17,0.19,0.09,0.0098,0.0053,1.0,1.0,,,,,not queried
 Blinkit,Sports & Fitness,Artengo,artengo,4.85,4.01,3.66,3.05,0.1451,0.1262,4.0,4.0,,,,,not queried
-Blinkit,Sports & Fitness,BeastLife,beastlife,4.14,3.97,2.11,1.94,0.1239,0.1248,3.0,3.0,,,,,not queried
+Blinkit,Sports & Fitness,BeastLife,beastlife,4.14,3.97,2.11,1.94,0.1239,0.1248,3.0,3.0,17131.0,269.6,132.0,False,found
 Blinkit,Sports & Fitness,Bodyband,bodyband,2.91,3.36,1.15,1.32,0.087,0.1058,1.0,1.0,,,,,not queried
 Blinkit,Sports & Fitness,Boldfit,boldfit,1309.88,1122.52,507.03,442.71,39.2178,35.2995,56.0,56.0,525202.0,2673.28,500.0,True,found
 Blinkit,Sports & Fitness,Confirtino,confirtino,11.71,13.14,5.86,6.56,0.3507,0.4133,1.0,1.0,,,,,not queried
@@ -1342,7 +1342,7 @@ Blinkit,Tissues & Disposables,Ezypac,ezypac,213.27,337.27,135.01,215.97,3.6897,5
 Blinkit,Tissues & Disposables,Fresh Ones,freshones,0.0,0.02,0.0,0.01,0.0,0.0002,4.0,4.0,,,,,not queried
 Blinkit,Tissues & Disposables,Freshee,freshee,0.02,0.01,0.01,0.01,0.0004,0.0002,4.0,4.0,,,,,not queried
 Blinkit,Tissues & Disposables,Freshwrapp,freshwrapp,153.88,135.78,136.71,119.74,2.6623,2.0635,4.0,4.0,1256.0,7.29,20.0,False,found
-Blinkit,Tissues & Disposables,G.Fidel,gfidel,0.11,0.13,0.04,0.04,0.0018,0.002,1.0,1.0,,,,,not queried
+Blinkit,Tissues & Disposables,G.Fidel,gfidel,0.11,0.13,0.04,0.04,0.0018,0.002,1.0,1.0,158.0,0.46,47.0,False,found
 Blinkit,Tissues & Disposables,Greenvale,greenvale,264.42,353.19,151.13,180.97,4.5747,5.3676,5.0,5.0,,,,,no selling listing
 Blinkit,Tissues & Disposables,Hazel,hazel,36.87,36.39,12.66,12.57,0.638,0.5531,1.0,1.0,21333.0,140.34,500.0,True,found
 Blinkit,Tissues & Disposables,Homefresh,homefresh,196.69,265.83,102.83,129.9,3.403,4.0399,4.0,4.0,70.0,0.37,19.0,False,found
@@ -1433,7 +1433,7 @@ Instamart,Bakeware & Bbq,homeharmony,homeharmony,,0.0,,0.0,,0.0,,1.0,,,,,not que
 Instamart,Bakeware & Bbq,ivs,ivs,24.53,31.44,15.5,18.35,12.9082,14.2898,13.0,13.0,,,,,no selling listing
 Instamart,Barware,Agaro,agaro,1.18,0.84,0.98,0.71,1.0701,0.5982,13.0,13.0,489484.0,7374.62,500.0,True,found
 Instamart,Barware,Aristo,aristo,10.96,12.88,7.22,8.84,9.968,9.1983,1.0,1.0,43230.0,202.54,262.0,False,found
-Instamart,Barware,BLACKCARROT,blackcarrot,0.88,1.23,0.6,0.82,0.8032,0.8817,6.0,6.0,,,,,not queried
+Instamart,Barware,BLACKCARROT,blackcarrot,0.88,1.23,0.6,0.82,0.8032,0.8817,6.0,6.0,233.0,2.73,70.0,False,found
 Instamart,Barware,Bar Box,barbox,0.38,1.38,0.13,0.26,0.3476,0.9845,10.0,10.0,,,,,not queried
 Instamart,Barware,Birch & Co,birchco,0.01,0.0,0.0,0.0,0.0093,0.0,3.0,2.0,,,,,no selling listing
 Instamart,Barware,Borosil,borosil,0.05,0.09,0.04,0.06,0.0468,0.0646,6.0,6.0,148240.0,1568.6,500.0,True,found
@@ -1457,7 +1457,7 @@ Instamart,Barware,HomeEssentials,homeessentials,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,
 Instamart,Barware,HomeStop,homestop,0.15,0.35,0.07,0.12,0.1352,0.2465,21.0,21.0,,,,,not queried
 Instamart,Barware,IKEA,ikea,0.03,0.02,0.02,0.01,0.0276,0.0164,4.0,4.0,24154.0,151.97,500.0,True,found
 Instamart,Barware,Judge,judge,0.16,0.3,0.12,0.24,0.1469,0.2165,1.0,1.0,4343.0,48.97,98.0,False,found
-Instamart,Barware,Kavi The Poetry-Art Project,kavithepoetryartproject,2.06,3.03,1.91,2.82,1.8698,2.161,11.0,11.0,,,,,not queried
+Instamart,Barware,Kavi The Poetry-Art Project,kavithepoetryartproject,2.06,3.03,1.91,2.82,1.8698,2.161,11.0,11.0,,,,,no selling listing
 Instamart,Barware,Kitchen Essentials,kitchenessentials,3.55,4.54,2.17,2.88,3.2254,3.2438,3.0,3.0,8.0,0.17,4.0,False,found
 Instamart,Barware,Lifelong,lifelong,3.28,8.24,1.78,3.96,2.9804,5.8834,6.0,6.0,523081.0,7893.04,500.0,True,found
 Instamart,Barware,Lucky Glass,luckyglass,0.04,0.08,0.02,0.03,0.0356,0.0587,10.0,9.0,,,,,not queried
@@ -1484,7 +1484,7 @@ Instamart,Barware,Unbranded,unbranded,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,245.0,1.17
 Instamart,Barware,UrbanFix,urbanfix,2.58,2.47,1.26,1.04,2.3441,1.7636,8.0,8.0,2776.0,12.93,34.0,False,found
 Instamart,Barware,Yera,yera,0.0,0.03,0.0,0.01,0.0022,0.0235,5.0,5.0,1420.0,4.81,89.0,False,found
 Instamart,Barware,attro,attro,0.53,0.73,0.37,0.46,0.4842,0.5246,1.0,1.0,23960.0,73.12,73.0,False,found
-Instamart,Barware,bartique,bartique,5.21,8.52,4.64,7.91,4.7319,6.0827,20.0,20.0,,,,,not queried
+Instamart,Barware,bartique,bartique,5.21,8.52,4.64,7.91,4.7319,6.0827,20.0,20.0,,,,,no selling listing
 Instamart,Barware,gogear,gogear,0.02,0.05,0.01,0.02,0.0211,0.0352,1.0,1.0,,,,,not queried
 Instamart,Barware,nude,nude,0.05,0.34,0.03,0.16,0.0474,0.2406,4.0,4.0,,,,,not queried
 Instamart,Barware,sippin,sippin,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,,,,,not queried
@@ -1492,7 +1492,7 @@ Instamart,Bathware & Laundry,Asian Paints,asianpaints,0.0,0.01,0.0,0.01,0.0,0.00
 Instamart,Bathware & Laundry,Awestuffs,awestuffs,0.01,0.05,0.0,0.01,0.0005,0.0033,4.0,4.0,917.0,4.3,176.0,False,found
 Instamart,Bathware & Laundry,Bathla,bathla,32.84,76.82,18.68,40.16,2.4882,4.9561,21.0,21.0,8529.0,317.16,212.0,False,found
 Instamart,Bathware & Laundry,Bianca,bianca,0.12,0.21,0.04,0.08,0.0088,0.0136,4.0,4.0,49.0,0.41,19.0,False,found
-Instamart,Bathware & Laundry,Buildskill,buildskill,0.01,0.0,0.01,0.0,0.0007,0.0001,1.0,1.0,,,,,not queried
+Instamart,Bathware & Laundry,Buildskill,buildskill,0.01,0.0,0.01,0.0,0.0007,0.0001,1.0,1.0,31613.0,496.92,140.0,False,found
 Instamart,Bathware & Laundry,Bulfyss,bulfyss,1.36,1.33,1.06,1.01,0.1034,0.086,3.0,3.0,681.0,1.89,24.0,False,found
 Instamart,Bathware & Laundry,Cello,cello,43.27,59.85,20.09,27.51,3.2777,3.8612,11.0,11.0,234321.0,1426.65,500.0,True,found
 Instamart,Bathware & Laundry,Cheston,cheston,0.0,0.01,0.0,0.0,0.0,0.0008,4.0,4.0,,,,,not queried
@@ -1554,8 +1554,8 @@ Instamart,Bathware & Laundry,Story Home,storyhome,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.
 Instamart,Bathware & Laundry,Swastik Housewares,swastikhousewares,75.88,92.99,47.51,54.75,5.7486,5.9992,17.0,17.0,,,,,no selling listing
 Instamart,Bathware & Laundry,The Artment,theartment,1.39,2.62,1.24,2.22,0.1056,0.1689,12.0,12.0,,,,,no selling listing
 Instamart,Bathware & Laundry,The Better Home,thebetterhome,0.06,0.19,0.01,0.05,0.0042,0.012,8.0,8.0,21463.0,285.16,500.0,True,found
-Instamart,Bathware & Laundry,Tinums,tinums,0.2,0.12,0.16,0.09,0.0153,0.0078,1.0,1.0,,,,,not queried
-Instamart,Bathware & Laundry,Umai,umai,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,,,,,not queried
+Instamart,Bathware & Laundry,Tinums,tinums,0.2,0.12,0.16,0.09,0.0153,0.0078,1.0,1.0,,,,,no selling listing
+Instamart,Bathware & Laundry,Umai,umai,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,2886.0,17.34,237.0,False,found
 Instamart,Bathware & Laundry,Unbranded,unbranded,0.0,,0.0,,0.0,,1.0,,245.0,1.17,3.0,False,found
 Instamart,Bathware & Laundry,Unwynd,unwynd,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,,,,,not queried
 Instamart,Bathware & Laundry,UrbanFix,urbanfix,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,2776.0,12.93,34.0,False,found
@@ -1636,7 +1636,7 @@ Instamart,Bottles Flasks Tiffins,Pigeon,pigeon,54.99,64.36,28.3,29.33,3.985,3.55
 Instamart,Bottles Flasks Tiffins,PrettyKrafts,prettykrafts,5.75,6.32,1.85,2.06,0.4169,0.3492,1.0,1.0,58709.0,170.41,463.0,False,found
 Instamart,Bottles Flasks Tiffins,Quechua,quechua,0.06,0.07,0.04,0.03,0.0047,0.004,2.0,2.0,,,,,no selling listing
 Instamart,Bottles Flasks Tiffins,Rabitat,rabitat,48.37,84.26,26.73,46.3,3.5054,4.655,34.0,34.0,12578.0,122.92,79.0,False,found
-Instamart,Bottles Flasks Tiffins,Rusabl,rusabl,2.83,3.29,1.21,1.37,0.2049,0.1816,1.0,1.0,,,,,not queried
+Instamart,Bottles Flasks Tiffins,Rusabl,rusabl,2.83,3.29,1.21,1.37,0.2049,0.1816,1.0,1.0,9443.0,26.54,47.0,False,found
 Instamart,Bottles Flasks Tiffins,Rush,rush,0.89,0.57,0.47,0.31,0.0645,0.0317,1.0,1.0,,,,,no selling listing
 Instamart,Bottles Flasks Tiffins,Saaj,saaj,0.31,0.27,0.16,0.14,0.0224,0.0147,2.0,2.0,,,,,no selling listing
 Instamart,Bottles Flasks Tiffins,Sanjeev Kapoor,sanjeevkapoor,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,142.0,1.03,32.0,False,found
@@ -1662,7 +1662,7 @@ Instamart,Bottles Flasks Tiffins,Vaya,vaya,13.87,37.81,11.82,31.87,1.0048,2.0889
 Instamart,Bottles Flasks Tiffins,Werfit,werfit,0.45,0.02,0.1,0.0,0.0326,0.001,1.0,1.0,,,,,not queried
 Instamart,Bottles Flasks Tiffins,Whitegold,whitegold,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,,,,,not queried
 Instamart,Bottles Flasks Tiffins,Wonderchef,wonderchef,0.01,0.02,0.0,0.01,0.0005,0.0012,2.0,2.0,65401.0,974.17,446.0,False,found
-Instamart,Bottles Flasks Tiffins,Yellocut,yellocut,0.0,0.0,0.0,0.0,0.0,0.0,2.0,3.0,,,,,not queried
+Instamart,Bottles Flasks Tiffins,Yellocut,yellocut,0.0,0.0,0.0,0.0,0.0,0.0,2.0,3.0,,,,,no selling listing
 Instamart,Bottles Flasks Tiffins,Youbee,youbee,4.24,5.64,2.37,3.16,0.3071,0.3114,13.0,13.0,14.0,0.04,4.0,False,found
 Instamart,Bottles Flasks Tiffins,attro,attro,9.52,9.57,6.35,5.66,0.6899,0.5289,26.0,26.0,23960.0,73.12,73.0,False,found
 Instamart,Bottles Flasks Tiffins,playR,playr,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,,,,,not queried
@@ -1777,7 +1777,7 @@ Instamart,Cutlery & Ladles,Nestasia,nestasia,0.02,0.01,0.01,0.01,0.0656,0.0244,4
 Instamart,Cutlery & Ladles,Petals,petals,0.01,0.05,0.01,0.03,0.0376,0.1511,8.0,8.0,94.0,1.61,4.0,False,found
 Instamart,Cutlery & Ladles,Raffles,raffles,0.04,0.07,0.03,0.03,0.1272,0.1936,17.0,16.0,,,,,not queried
 Instamart,Cutlery & Ladles,Ritu,ritu,0.01,0.04,0.01,0.03,0.0437,0.1244,4.0,4.0,4419.0,5.59,4.0,False,found
-Instamart,Cutlery & Ladles,Rusabl,rusabl,0.44,1.12,0.16,0.38,1.373,3.1359,1.0,1.0,,,,,not queried
+Instamart,Cutlery & Ladles,Rusabl,rusabl,0.44,1.12,0.16,0.38,1.373,3.1359,1.0,1.0,9443.0,26.54,47.0,False,found
 Instamart,Cutlery & Ladles,Signoraware,signoraware,0.01,0.0,0.0,0.0,0.0204,0.0,2.0,2.0,,,,,no selling listing
 Instamart,Cutlery & Ladles,Soham Housewares,sohamhousewares,4.49,3.88,2.31,1.98,13.9746,10.8321,6.0,6.0,8.0,0.02,3.0,False,found
 Instamart,Cutlery & Ladles,Sumeet,sumeet,4.33,5.64,2.04,2.67,13.4955,15.7576,9.0,9.0,66173.0,587.85,500.0,True,found
@@ -1799,14 +1799,14 @@ Instamart,Gardening,Swachh,swachh,0.0,0.12,0.0,0.03,0.0,0.0564,1.0,1.0,,,,,not q
 Instamart,Gardening,Tied Ribbons,tiedribbons,0.2,0.29,0.05,0.04,0.1435,0.136,3.0,3.0,86844.0,367.14,500.0,True,found
 Instamart,Gardening,TrustBasket,trustbasket,62.58,106.08,26.7,37.51,44.7002,50.5131,58.0,58.0,52137.0,203.27,484.0,False,found
 Instamart,Gardening,Ugaoo,ugaoo,31.33,44.01,21.07,28.81,22.3758,20.956,63.0,61.0,153777.0,560.55,500.0,True,found
-Instamart,Gardening,Umai,umai,0.03,0.03,0.01,0.0,0.0179,0.0152,1.0,1.0,,,,,not queried
+Instamart,Gardening,Umai,umai,0.03,0.03,0.01,0.0,0.0179,0.0152,1.0,1.0,2886.0,17.34,237.0,False,found
 Instamart,Gardening,Vipin,vipin,0.08,0.14,0.04,0.04,0.0581,0.065,13.0,13.0,,,,,not queried
 Instamart,Gardening,ddesh,ddesh,0.86,1.38,0.47,0.61,0.6116,0.6564,4.0,4.0,,,,,not queried
 Instamart,Gardening,mtl,mtl,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0,,,,,not queried
 Instamart,Glasses Cups Mugs,Agaro,agaro,2.08,2.0,1.41,1.45,0.3847,0.3282,3.0,3.0,489484.0,7374.62,500.0,True,found
 Instamart,Glasses Cups Mugs,Anwaliya,anwaliya,186.4,170.28,79.62,69.07,34.5188,27.9151,43.0,42.0,995.0,3.93,70.0,False,found
 Instamart,Glasses Cups Mugs,Archies,archies,0.0,0.02,0.0,0.02,0.0,0.0028,1.0,1.0,,,,,not queried
-Instamart,Glasses Cups Mugs,BLACKCARROT,blackcarrot,0.0,0.1,0.0,0.03,0.0,0.0165,3.0,3.0,,,,,not queried
+Instamart,Glasses Cups Mugs,BLACKCARROT,blackcarrot,0.0,0.1,0.0,0.03,0.0,0.0165,3.0,3.0,233.0,2.73,70.0,False,found
 Instamart,Glasses Cups Mugs,Birch & Co,birchco,0.07,0.27,0.02,0.12,0.0127,0.0436,3.0,3.0,,,,,no selling listing
 Instamart,Glasses Cups Mugs,Boldfit,boldfit,2.17,2.18,0.77,0.54,0.4015,0.358,4.0,4.0,525202.0,2673.28,500.0,True,found
 Instamart,Glasses Cups Mugs,Borosil,borosil,19.9,32.99,16.96,25.51,3.6846,5.4075,23.0,22.0,148240.0,1568.6,500.0,True,found
@@ -1844,7 +1844,7 @@ Instamart,Glasses Cups Mugs,Iveo,iveo,0.03,0.06,0.01,0.02,0.0048,0.0093,6.0,6.0,
 Instamart,Glasses Cups Mugs,Java,java,4.62,4.68,2.59,2.63,0.8559,0.7668,3.0,3.0,1317.0,3.97,10.0,False,found
 Instamart,Glasses Cups Mugs,Jaypee,jaypee,0.02,0.0,0.01,0.0,0.0029,0.0,1.0,1.0,8138.0,47.73,206.0,False,found
 Instamart,Glasses Cups Mugs,Jaypee Plus,jaypeeplus,0.09,0.01,0.05,0.01,0.0163,0.0023,2.0,2.0,11915.0,106.81,349.0,False,found
-Instamart,Glasses Cups Mugs,Kavi The Poetry-Art Project,kavithepoetryartproject,1.36,1.86,1.33,1.78,0.2517,0.3045,1.0,1.0,,,,,not queried
+Instamart,Glasses Cups Mugs,Kavi The Poetry-Art Project,kavithepoetryartproject,1.36,1.86,1.33,1.78,0.2517,0.3045,1.0,1.0,,,,,no selling listing
 Instamart,Glasses Cups Mugs,Kuber,kuber,0.02,0.0,0.01,0.0,0.0031,0.0,1.0,1.0,,,,,no selling listing
 Instamart,Glasses Cups Mugs,La Opala,laopala,0.0,0.01,0.0,0.01,0.0,0.001,7.0,7.0,,,,,not queried
 Instamart,Glasses Cups Mugs,Larah,larah,10.82,23.78,8.21,15.94,2.0043,3.8984,31.0,32.0,,,,,no selling listing
@@ -1896,7 +1896,7 @@ Instamart,Home Appliances,Ambrane,ambrane,18.44,34.41,8.5,12.98,2.276,2.4235,2.0
 Instamart,Home Appliances,Atomberg,atomberg,24.3,17.01,13.24,9.2,3.0002,1.1976,7.0,7.0,105137.0,5211.6,222.0,False,found
 Instamart,Home Appliances,Bajaj,bajaj,240.17,414.52,115.85,185.86,29.6503,29.1913,24.0,24.0,157760.0,2938.66,466.0,False,found
 Instamart,Home Appliances,Crompton,crompton,26.5,59.63,16.3,30.31,3.2711,4.1991,9.0,9.0,212220.0,4077.61,500.0,True,found
-Instamart,Home Appliances,Dylect,dylect,0.0,0.0,0.0,0.0,0.0,0.0,2.0,1.0,,,,,not queried
+Instamart,Home Appliances,Dylect,dylect,0.0,0.0,0.0,0.0,0.0,0.0,2.0,1.0,13172.0,579.83,91.0,False,found
 Instamart,Home Appliances,Eureka Forbes,eurekaforbes,6.09,14.66,4.06,9.46,0.7521,1.0327,5.0,5.0,19329.0,1062.4,48.0,False,found
 Instamart,Home Appliances,Eveready,eveready,0.09,0.21,0.06,0.13,0.0111,0.0151,5.0,5.0,142843.0,602.38,234.0,False,found
 Instamart,Home Appliances,GM,gm,1.7,3.76,1.06,1.65,0.2103,0.2649,11.0,11.0,108514.0,475.57,279.0,False,found
@@ -1911,7 +1911,7 @@ Instamart,Home Appliances,Kuhl,kuhl,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,,,,,not quer
 Instamart,Home Appliances,Lifelong,lifelong,154.03,190.9,41.75,58.43,19.0165,13.444,13.0,13.0,523081.0,7893.04,500.0,True,found
 Instamart,Home Appliances,Maharaja Whiteline,maharajawhiteline,0.22,1.42,0.11,0.48,0.0275,0.0997,7.0,7.0,10833.0,198.17,45.0,False,found
 Instamart,Home Appliances,Morphy Richards,morphyrichards,0.3,0.65,0.14,0.25,0.0368,0.0461,2.0,2.0,17953.0,746.33,89.0,False,found
-Instamart,Home Appliances,Mygate,mygate,0.04,0.0,0.02,0.0,0.0048,0.0,2.0,2.0,,,,,not queried
+Instamart,Home Appliances,Mygate,mygate,0.04,0.0,0.02,0.0,0.0048,0.0,2.0,2.0,453.0,47.48,14.0,False,found
 Instamart,Home Appliances,Nippo,nippo,6.32,7.13,4.99,4.34,0.7801,0.5022,1.0,1.0,1803.0,11.14,16.0,False,found
 Instamart,Home Appliances,Nuuk,nuuk,4.67,5.53,2.96,3.14,0.5764,0.3894,2.0,2.0,12659.0,627.1,43.0,False,found
 Instamart,Home Appliances,Orient Electric,orientelectric,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,179265.0,2938.66,441.0,False,found
@@ -1919,7 +1919,7 @@ Instamart,Home Appliances,Philips,philips,136.38,322.83,105.58,240.12,16.8375,22
 Instamart,Home Appliances,Pigeon,pigeon,0.01,3.28,0.01,1.72,0.0014,0.2309,1.0,2.0,314956.0,3567.38,500.0,True,found
 Instamart,Home Appliances,Portronics,portronics,36.99,51.39,19.44,26.13,4.5666,3.6191,8.0,8.0,739041.0,4744.79,500.0,True,found
 Instamart,Home Appliances,Qubo,qubo,0.71,3.67,0.41,1.81,0.088,0.2582,3.0,3.0,32488.0,2075.51,55.0,False,found
-Instamart,Home Appliances,Tirumala,tirumala,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,,,,,not queried
+Instamart,Home Appliances,Tirumala,tirumala,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,,,,,no selling listing
 Instamart,Home Appliances,Wonderchef,wonderchef,0.03,0.01,0.01,0.01,0.0037,0.0009,1.0,1.0,65401.0,974.17,446.0,False,found
 Instamart,Home Decor,Abzorb,abzorb,1.02,0.7,0.52,0.35,0.0412,0.0123,1.0,1.0,,,,,not queried
 Instamart,Home Decor,Ajanta,ajanta,0.38,1.72,0.37,1.6,0.0154,0.0303,5.0,5.0,29437.0,76.52,48.0,False,found
@@ -2000,7 +2000,7 @@ Instamart,Home Decor,Pure Home + Living,purehomeliving,1.26,2.99,1.18,2.58,0.050
 Instamart,Home Decor,Quace,quace,137.6,165.56,43.62,43.13,5.5485,2.9148,117.0,105.0,9997.0,25.36,103.0,False,found
 Instamart,Home Decor,RITUALISTIC,ritualistic,3.84,19.22,1.96,7.53,0.1547,0.3384,8.0,8.0,982.0,20.84,21.0,False,found
 Instamart,Home Decor,Robustt,robustt,0.01,0.0,0.0,0.0,0.0002,0.0,1.0,1.0,237121.0,4608.44,500.0,True,found
-Instamart,Home Decor,Rousrie,rousrie,1.64,2.73,0.71,1.14,0.066,0.048,2.0,2.0,,,,,not queried
+Instamart,Home Decor,Rousrie,rousrie,1.64,2.73,0.71,1.14,0.066,0.048,2.0,2.0,11186.0,42.03,446.0,False,found
 Instamart,Home Decor,SR's,srs,0.0,0.0,0.0,0.0,0.0,0.0,11.0,11.0,,,,,not queried
 Instamart,Home Decor,Saaj,saaj,1.34,1.9,0.96,1.34,0.0541,0.0334,1.0,1.0,,,,,no selling listing
 Instamart,Home Decor,Satyam Kraft,satyamkraft,10.15,15.29,2.16,3.24,0.4091,0.2693,13.0,13.0,100459.0,400.96,500.0,True,found
@@ -2346,7 +2346,7 @@ Instamart,Lights & Bulbs,Bajaj,bajaj,6.86,7.29,2.72,3.05,2.0189,1.8213,5.0,5.0,1
 Instamart,Lights & Bulbs,Crompton,crompton,55.65,75.72,14.41,19.68,16.3691,18.9288,4.0,4.0,212220.0,4077.61,500.0,True,found
 Instamart,Lights & Bulbs,Desidiya,desidiya,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,367863.0,1380.54,236.0,False,found
 Instamart,Lights & Bulbs,Duracell,duracell,3.65,3.56,3.22,3.26,1.0748,0.8895,1.0,1.0,,,,,not queried
-Instamart,Lights & Bulbs,Dylect,dylect,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,,,,,not queried
+Instamart,Lights & Bulbs,Dylect,dylect,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,13172.0,579.83,91.0,False,found
 Instamart,Lights & Bulbs,EcoLink,ecolink,0.05,0.03,0.03,0.01,0.0152,0.0071,2.0,1.0,1444.0,12.64,14.0,False,found
 Instamart,Lights & Bulbs,Eveready,eveready,71.0,76.58,33.72,36.97,20.8819,19.1452,19.0,19.0,142843.0,602.38,234.0,False,found
 Instamart,Lights & Bulbs,GM,gm,3.88,4.71,2.64,3.23,1.1426,1.1785,6.0,6.0,108514.0,475.57,279.0,False,found
@@ -2417,7 +2417,7 @@ Instamart,Personal Care Appliances,Bombae,bombae,4.99,4.31,4.05,3.74,0.6571,0.45
 Instamart,Personal Care Appliances,Bombay Shaving Company,bombayshavingcompany,304.16,293.95,178.11,162.13,40.0205,30.9422,8.0,8.0,97279.0,555.7,67.0,False,found
 Instamart,Personal Care Appliances,Braun,braun,6.87,6.96,6.22,5.95,0.9038,0.7326,3.0,3.0,,,,,not queried
 Instamart,Personal Care Appliances,Havells,havells,19.95,27.61,10.54,13.48,2.6248,2.9065,20.0,20.0,279997.0,6602.92,500.0,True,found
-Instamart,Personal Care Appliances,LetsShave,letsshave,0.02,0.0,0.01,0.0,0.0026,0.0,1.0,1.0,,,,,not queried
+Instamart,Personal Care Appliances,LetsShave,letsshave,0.02,0.0,0.01,0.0,0.0026,0.0,1.0,1.0,2419.0,16.73,30.0,False,found
 Instamart,Personal Care Appliances,Lifelong,lifelong,21.4,27.26,10.76,12.44,2.8152,2.8698,12.0,12.0,523081.0,7893.04,500.0,True,found
 Instamart,Personal Care Appliances,Nova,nova,0.49,0.56,0.25,0.25,0.0643,0.059,15.0,15.0,22683.0,115.26,31.0,False,found
 Instamart,Personal Care Appliances,Philips,philips,205.14,272.76,162.64,175.17,26.9919,28.7117,41.0,41.0,772153.0,21128.26,500.0,True,found
@@ -2426,13 +2426,13 @@ Instamart,Personal Care Appliances,Urban Yog,urbanyog,42.71,106.36,16.63,38.78,5
 Instamart,Personal Care Appliances,Vega,vega,15.46,33.74,11.26,20.11,2.0344,3.5512,29.0,29.0,232639.0,1511.68,500.0,True,found
 Instamart,Personal Care Appliances,Winston,winston,2.75,4.04,1.45,1.73,0.3612,0.4251,10.0,10.0,11491.0,217.26,36.0,False,found
 Instamart,Personal Care Appliances,Xiaomi,xiaomi,3.46,4.03,2.1,2.16,0.4557,0.4245,2.0,2.0,124486.0,13768.98,85.0,False,found
-Instamart,Personal Care Appliances,Zlade,zlade,1.33,1.92,0.77,0.91,0.1749,0.2022,6.0,6.0,,,,,not queried
+Instamart,Personal Care Appliances,Zlade,zlade,1.33,1.92,0.77,0.91,0.1749,0.2022,6.0,6.0,2018.0,36.96,11.0,False,found
 Instamart,Plates Bowls Crockery,Agaro,agaro,5.78,9.04,3.86,5.87,1.1115,0.8947,4.0,4.0,489484.0,7374.62,500.0,True,found
 Instamart,Plates Bowls Crockery,Anwaliya,anwaliya,10.65,10.87,4.5,4.7,2.0474,1.0763,6.0,6.0,995.0,3.93,70.0,False,found
 Instamart,Plates Bowls Crockery,Asian,asian,0.05,0.2,0.04,0.12,0.0102,0.0202,5.0,5.0,,,,,not queried
 Instamart,Plates Bowls Crockery,Asian Plastoware,asianplastoware,0.0,0.02,0.0,0.01,0.0,0.0021,1.0,1.0,,,,,not queried
 Instamart,Plates Bowls Crockery,Avias,avias,2.21,3.39,1.26,1.84,0.4246,0.3358,4.0,4.0,2549.0,35.36,15.0,False,found
-Instamart,Plates Bowls Crockery,BLACKCARROT,blackcarrot,0.25,0.78,0.16,0.45,0.0476,0.0768,6.0,5.0,,,,,not queried
+Instamart,Plates Bowls Crockery,BLACKCARROT,blackcarrot,0.25,0.78,0.16,0.45,0.0476,0.0768,6.0,5.0,233.0,2.73,70.0,False,found
 Instamart,Plates Bowls Crockery,Basil,basil,0.0,0.06,0.0,0.03,0.0,0.0057,1.0,1.0,16953.0,215.94,80.0,False,found
 Instamart,Plates Bowls Crockery,Bergner,bergner,18.62,15.31,6.48,5.41,3.5811,1.5155,1.0,1.0,51037.0,942.64,500.0,True,found
 Instamart,Plates Bowls Crockery,Birch & Co,birchco,13.9,27.14,5.72,9.89,2.6724,2.6875,15.0,15.0,,,,,no selling listing
@@ -2467,7 +2467,7 @@ Instamart,Plates Bowls Crockery,Java,java,13.08,12.62,5.06,5.0,2.5161,1.2499,6.0
 Instamart,Plates Bowls Crockery,Jaypee,jaypee,0.31,0.61,0.21,0.37,0.0598,0.0602,6.0,6.0,8138.0,47.73,206.0,False,found
 Instamart,Plates Bowls Crockery,Jaypee Plus,jaypeeplus,1.61,2.56,1.31,2.06,0.3088,0.2538,5.0,5.0,11915.0,106.81,349.0,False,found
 Instamart,Plates Bowls Crockery,Judge,judge,0.67,1.98,0.5,1.44,0.1279,0.1956,4.0,4.0,4343.0,48.97,98.0,False,found
-Instamart,Plates Bowls Crockery,Kavi The Poetry-Art Project,kavithepoetryartproject,0.01,0.03,0.01,0.02,0.0028,0.0033,2.0,2.0,,,,,not queried
+Instamart,Plates Bowls Crockery,Kavi The Poetry-Art Project,kavithepoetryartproject,0.01,0.03,0.01,0.02,0.0028,0.0033,2.0,2.0,,,,,no selling listing
 Instamart,Plates Bowls Crockery,Kitchen Essentials,kitchenessentials,22.9,36.64,12.35,19.9,4.4046,3.6276,17.0,17.0,8.0,0.17,4.0,False,found
 Instamart,Plates Bowls Crockery,Kuber,kuber,0.1,0.05,0.02,0.01,0.0183,0.0052,3.0,3.0,,,,,no selling listing
 Instamart,Plates Bowls Crockery,La Opala,laopala,0.5,0.58,0.26,0.2,0.0963,0.0573,25.0,26.0,,,,,not queried
@@ -2589,7 +2589,7 @@ Instamart,Powerbanks Chargers Cables,Zebronics,zebronics,14.7,4.14,4.59,1.12,0.6
 Instamart,Powerbanks Chargers Cables,boAt,boat,159.21,231.56,47.74,65.64,6.922,8.1534,31.0,31.0,367027.0,5539.16,363.0,False,found
 Instamart,Powerbanks Chargers Cables,pTron,ptron,3.76,1.55,0.62,0.22,0.1636,0.0546,29.0,28.0,,,,,not queried
 Instamart,Serveware,Anjali,anjali,1.07,1.16,0.81,0.86,0.9708,0.6126,1.0,1.0,14592.0,75.76,233.0,False,found
-Instamart,Serveware,BLACKCARROT,blackcarrot,0.12,0.36,0.07,0.16,0.109,0.1889,2.0,2.0,,,,,not queried
+Instamart,Serveware,BLACKCARROT,blackcarrot,0.12,0.36,0.07,0.16,0.109,0.1889,2.0,2.0,233.0,2.73,70.0,False,found
 Instamart,Serveware,Bathla,bathla,2.6,4.82,1.4,2.54,2.3652,2.5356,2.0,2.0,8529.0,317.16,212.0,False,found
 Instamart,Serveware,Bergner,bergner,3.23,4.74,2.11,3.21,2.9326,2.4958,1.0,1.0,51037.0,942.64,500.0,True,found
 Instamart,Serveware,Bianca,bianca,0.02,0.1,0.01,0.03,0.0227,0.0509,1.0,1.0,49.0,0.41,19.0,False,found
@@ -2613,7 +2613,7 @@ Instamart,Serveware,HomeStop,homestop,0.01,0.01,0.0,0.0,0.0101,0.0056,1.0,1.0,,,
 Instamart,Serveware,House of Quirk,houseofquirk,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,64036.0,743.18,500.0,True,found
 Instamart,Serveware,Ireka Homes,irekahomes,4.01,6.43,2.7,3.83,3.6469,3.382,6.0,6.0,1691.0,16.5,157.0,False,found
 Instamart,Serveware,Joyo,joyo,9.84,9.68,4.36,4.81,8.9436,5.0968,2.0,2.0,641.0,10.52,65.0,False,found
-Instamart,Serveware,Kavi The Poetry-Art Project,kavithepoetryartproject,0.03,0.0,0.03,0.0,0.0276,0.0,2.0,2.0,,,,,not queried
+Instamart,Serveware,Kavi The Poetry-Art Project,kavithepoetryartproject,0.03,0.0,0.03,0.0,0.0276,0.0,2.0,2.0,,,,,no selling listing
 Instamart,Serveware,Kitchen Essentials,kitchenessentials,8.26,11.22,3.97,5.55,7.5075,5.9074,5.0,5.0,8.0,0.17,4.0,False,found
 Instamart,Serveware,Kuber,kuber,0.12,0.3,0.03,0.06,0.1055,0.1605,2.0,2.0,,,,,no selling listing
 Instamart,Serveware,Larah,larah,6.19,6.9,4.92,5.83,5.6257,3.6311,4.0,4.0,,,,,no selling listing
@@ -2724,7 +2724,7 @@ Instamart,Storage & Organizers,Atom,atom,2.37,4.38,1.17,1.78,0.1797,0.2341,3.0,3
 Instamart,Storage & Organizers,Awestuffs,awestuffs,33.8,51.14,14.65,20.88,2.5608,2.7348,25.0,24.0,917.0,4.3,176.0,False,found
 Instamart,Storage & Organizers,Bathla,bathla,1.34,2.15,0.98,1.31,0.1014,0.1148,13.0,13.0,8529.0,317.16,212.0,False,found
 Instamart,Storage & Organizers,Boldfit,boldfit,0.4,0.3,0.18,0.14,0.0303,0.0161,1.0,1.0,525202.0,2673.28,500.0,True,found
-Instamart,Storage & Organizers,Buildskill,buildskill,0.03,0.02,0.02,0.01,0.002,0.0011,3.0,3.0,,,,,not queried
+Instamart,Storage & Organizers,Buildskill,buildskill,0.03,0.02,0.02,0.01,0.002,0.0011,3.0,3.0,31613.0,496.92,140.0,False,found
 Instamart,Storage & Organizers,Bulfyss,bulfyss,12.84,12.74,4.01,4.02,0.9727,0.6813,2.0,2.0,681.0,1.89,24.0,False,found
 Instamart,Storage & Organizers,Casacraft,casacraft,0.39,0.84,0.16,0.25,0.0297,0.045,9.0,9.0,171.0,0.55,24.0,False,found
 Instamart,Storage & Organizers,Cello,cello,0.2,0.28,0.13,0.19,0.0151,0.0149,2.0,2.0,234321.0,1426.65,500.0,True,found
@@ -2774,7 +2774,7 @@ Instamart,Storage & Organizers,PrettyKrafts,prettykrafts,122.29,167.34,67.2,85.0
 Instamart,Storage & Organizers,Quace,quace,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,9997.0,25.36,103.0,False,found
 Instamart,Storage & Organizers,Quechua,quechua,23.56,50.58,16.49,31.19,1.7846,2.7048,10.0,10.0,,,,,no selling listing
 Instamart,Storage & Organizers,Robustt,robustt,35.91,31.3,19.15,19.08,2.7208,1.6738,16.0,16.0,237121.0,4608.44,500.0,True,found
-Instamart,Storage & Organizers,Rusabl,rusabl,0.0,0.02,0.0,0.0,0.0,0.0009,2.0,2.0,,,,,not queried
+Instamart,Storage & Organizers,Rusabl,rusabl,0.0,0.02,0.0,0.0,0.0,0.0009,2.0,2.0,9443.0,26.54,47.0,False,found
 Instamart,Storage & Organizers,Rush,rush,4.23,4.42,1.69,1.77,0.3201,0.2363,1.0,1.0,,,,,no selling listing
 Instamart,Storage & Organizers,Saaj,saaj,7.71,9.92,4.07,5.26,0.5844,0.5302,9.0,10.0,,,,,no selling listing
 Instamart,Storage & Organizers,Samsung,samsung,1.18,0.06,0.75,0.02,0.0894,0.0033,6.0,6.0,606518.0,134215.3,500.0,True,found
@@ -2786,7 +2786,7 @@ Instamart,Storage & Organizers,Senego,senego,9.63,20.88,5.81,12.44,0.7296,1.1166
 Instamart,Storage & Organizers,Simond,simond,4.53,14.46,2.96,8.84,0.3435,0.7733,2.0,2.0,,,,,not queried
 Instamart,Storage & Organizers,Smart Shelter,smartshelter,4.25,12.9,2.35,4.84,0.3221,0.6901,5.0,5.0,,,,,not queried
 Instamart,Storage & Organizers,Solognac,solognac,6.29,7.26,5.49,5.53,0.4764,0.3883,1.0,1.0,,,,,not queried
-Instamart,Storage & Organizers,Sounce,sounce,0.02,0.16,0.0,0.02,0.0014,0.0085,1.0,1.0,,,,,not queried
+Instamart,Storage & Organizers,Sounce,sounce,0.02,0.16,0.0,0.02,0.0014,0.0085,1.0,1.0,124662.0,371.4,500.0,True,found
 Instamart,Storage & Organizers,Stainoff,stainoff,0.17,0.11,0.17,0.11,0.0129,0.0061,1.0,1.0,,,,,not queried
 Instamart,Storage & Organizers,Sun,sun,7.41,12.23,5.58,8.73,0.5615,0.6539,21.0,22.0,205.0,3.07,16.0,False,found
 Instamart,Storage & Organizers,Sy,sy,0.0,0.01,0.0,0.01,0.0,0.0003,1.0,1.0,,,,,not queried
@@ -2897,7 +2897,7 @@ Instamart,Utility & Tools,Boldfit,boldfit,4.61,1.71,1.66,0.63,0.4704,0.1412,2.0,
 Instamart,Utility & Tools,Bondtite,bondtite,0.0,0.08,0.0,0.07,0.0002,0.0067,2.0,3.0,,,,,not queried
 Instamart,Utility & Tools,Bosch,bosch,22.1,30.81,9.67,19.8,2.255,2.5463,42.0,43.0,195392.0,12031.57,500.0,True,found
 Instamart,Utility & Tools,Bronson,bronson,0.33,0.21,0.17,0.14,0.0336,0.0177,15.0,15.0,,,,,not queried
-Instamart,Utility & Tools,Buildskill,buildskill,0.07,0.03,0.05,0.01,0.0072,0.0025,5.0,5.0,,,,,not queried
+Instamart,Utility & Tools,Buildskill,buildskill,0.07,0.03,0.05,0.01,0.0072,0.0025,5.0,5.0,31613.0,496.92,140.0,False,found
 Instamart,Utility & Tools,Bulfyss,bulfyss,5.07,7.88,1.58,2.41,0.5173,0.651,2.0,2.0,681.0,1.89,24.0,False,found
 Instamart,Utility & Tools,Cheston,cheston,0.0,0.13,0.0,0.05,0.0,0.0105,11.0,11.0,,,,,not queried
 Instamart,Utility & Tools,Chumbak,chumbak,0.49,0.77,0.38,0.58,0.05,0.0636,1.0,1.0,4706.0,39.44,315.0,False,found
@@ -3037,7 +3037,7 @@ Instamart,Utility & Tools,Vaadi Herbals,vaadiherbals,0.01,0.05,0.01,0.04,0.0014,
 Instamart,Utility & Tools,Vega,vega,20.33,25.73,18.5,23.45,2.0741,2.1265,17.0,17.0,232639.0,1511.68,500.0,True,found
 Instamart,Utility & Tools,Vesta Homes,vestahomes,2.62,3.04,0.83,0.97,0.2675,0.2514,1.0,1.0,7241.0,55.61,69.0,False,found
 Instamart,Utility & Tools,Vitalogy,vitalogy,0.13,0.1,0.05,0.04,0.0128,0.008,1.0,1.0,,,,,not queried
-Instamart,Utility & Tools,Voiish,voiish,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,,,,,not queried
+Instamart,Utility & Tools,Voiish,voiish,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,4391.0,7.47,98.0,False,found
 Instamart,Utility & Tools,Welspun,welspun,0.0,0.0,0.0,0.0,0.0004,0.0,4.0,4.0,20715.0,87.81,289.0,False,found
 Instamart,Utility & Tools,Wonderchef,wonderchef,6.01,7.68,2.57,3.16,0.6133,0.6349,6.0,6.0,65401.0,974.17,446.0,False,found
 Instamart,Utility & Tools,Zeel,zeel,0.01,0.05,0.01,0.05,0.0006,0.0041,7.0,7.0,3340.0,45.61,94.0,False,found
@@ -3171,7 +3171,7 @@ Zepto,Cookware,Cello,cello,0.09,0.0,0.05,0.0,0.0111,0.0,3.0,3.0,234321.0,1426.65
 Zepto,Cookware,Clazkit,clazkit,0.16,0.13,0.1,0.08,0.0204,0.0236,1.0,1.0,147482.0,303.39,150.0,False,found
 Zepto,Cookware,Crystal,crystal,0.25,0.02,0.13,0.01,0.0324,0.0033,3.0,1.0,30625.0,72.44,361.0,False,found
 Zepto,Cookware,Cutting Edge,cuttingedge,0.06,,0.02,,0.0073,,1.0,,5494.0,30.94,500.0,True,found
-Zepto,Cookware,Eleenova,eleenova,4.75,5.51,2.92,3.77,0.6168,0.9844,7.0,5.0,,,,,not queried
+Zepto,Cookware,Eleenova,eleenova,4.75,5.51,2.92,3.77,0.6168,0.9844,7.0,5.0,47.0,0.93,11.0,False,found
 Zepto,Cookware,Embassy,embassy,1.13,1.05,0.68,0.59,0.1464,0.188,3.0,3.0,,,,,not queried
 Zepto,Cookware,Fackelmann,fackelmann,61.57,17.81,35.75,10.91,7.9963,3.1799,26.0,26.0,17.0,0.18,9.0,False,found
 Zepto,Cookware,Femora,femora,0.46,5.46,0.29,3.56,0.06,0.9752,14.0,15.0,9198.0,76.45,313.0,False,found
@@ -3208,7 +3208,7 @@ Zepto,Drinkware & Bar,All Time,alltime,0.43,0.23,0.32,0.16,0.1164,0.0684,2.0,2.0
 Zepto,Drinkware & Bar,Anjali,anjali,0.04,0.04,0.04,0.04,0.0111,0.011,2.0,1.0,14592.0,75.76,233.0,False,found
 Zepto,Drinkware & Bar,Archies,archies,0.02,0.0,0.01,0.0,0.0053,0.0,2.0,1.0,,,,,not queried
 Zepto,Drinkware & Bar,BAY6,bay6,19.32,13.68,7.9,6.4,5.2213,4.1448,31.0,31.0,,,,,no selling listing
-Zepto,Drinkware & Bar,BLACKCARROT,blackcarrot,6.2,6.87,2.66,3.23,1.6766,2.0817,5.0,5.0,,,,,not queried
+Zepto,Drinkware & Bar,BLACKCARROT,blackcarrot,6.2,6.87,2.66,3.23,1.6766,2.0817,5.0,5.0,233.0,2.73,70.0,False,found
 Zepto,Drinkware & Bar,Bar Box,barbox,0.01,,0.0,,0.0017,,1.0,,,,,,not queried
 Zepto,Drinkware & Bar,Bloomingdale's,bloomingdales,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,,,,,not queried
 Zepto,Drinkware & Bar,Bombay Kookware,bombaykookware,5.21,5.96,1.67,2.22,1.4087,1.8059,2.0,2.0,42.0,0.33,9.0,False,found
@@ -3225,7 +3225,7 @@ Zepto,Drinkware & Bar,Femora,femora,2.28,6.08,1.68,4.06,0.6149,1.8423,16.0,18.0,
 Zepto,Drinkware & Bar,Frenchware,frenchware,1.78,1.5,1.24,1.04,0.4803,0.4536,1.0,1.0,16758.0,54.15,99.0,False,found
 Zepto,Drinkware & Bar,Glasafe,glasafe,0.41,0.32,0.13,0.11,0.1104,0.0972,2.0,2.0,,,,,not queried
 Zepto,Drinkware & Bar,Judge,judge,0.37,0.0,0.26,0.0,0.0992,0.0,1.0,1.0,4343.0,48.97,98.0,False,found
-Zepto,Drinkware & Bar,Kavi The Poetry-Art Project,kavithepoetryartproject,0.18,0.16,0.15,0.15,0.0494,0.0471,3.0,3.0,,,,,not queried
+Zepto,Drinkware & Bar,Kavi The Poetry-Art Project,kavithepoetryartproject,0.18,0.16,0.15,0.15,0.0494,0.0471,3.0,3.0,,,,,no selling listing
 Zepto,Drinkware & Bar,Kooltech,kooltech,0.74,0.8,0.12,0.14,0.2006,0.2427,2.0,2.0,,,,,not queried
 Zepto,Drinkware & Bar,Kvg,kvg,5.18,3.62,4.01,3.26,1.4009,1.0957,2.0,2.0,,,,,no selling listing
 Zepto,Drinkware & Bar,La Opala,laopala,12.27,8.84,8.58,7.87,3.3154,2.6779,7.0,10.0,,,,,not queried
@@ -3256,7 +3256,7 @@ Zepto,Drinkware & Bar,The Artment,theartment,0.77,0.23,0.53,0.19,0.2081,0.0706,1
 Zepto,Drinkware & Bar,The Wishing Chair,thewishingchair,0.01,0.0,0.01,0.0,0.003,0.0013,2.0,1.0,,,,,not queried
 Zepto,Drinkware & Bar,Tintbox,tintbox,0.02,,0.01,,0.0042,,2.0,,1919.0,17.62,11.0,False,found
 Zepto,Drinkware & Bar,Troveas,troveas,0.07,0.0,0.05,0.0,0.0194,0.0,1.0,1.0,,,,,not queried
-Zepto,Drinkware & Bar,Umai,umai,3.25,0.0,1.36,0.0,0.8775,0.0,5.0,5.0,,,,,not queried
+Zepto,Drinkware & Bar,Umai,umai,3.25,0.0,1.36,0.0,0.8775,0.0,5.0,5.0,2886.0,17.34,237.0,False,found
 Zepto,Drinkware & Bar,Unbranded,unbranded,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,245.0,1.17,3.0,False,found
 Zepto,Drinkware & Bar,UrbanFix,urbanfix,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,2776.0,12.93,34.0,False,found
 Zepto,Drinkware & Bar,Yera,yera,2.8,4.49,2.09,3.97,0.7563,1.3601,16.0,15.0,1420.0,4.81,89.0,False,found
@@ -3311,7 +3311,7 @@ Zepto,Gas Stove & Accessories,Anjali,anjali,2.27,2.36,1.69,1.61,0.8115,1.0737,6.
 Zepto,Gas Stove & Accessories,Bajaj,bajaj,1.7,0.0,0.76,0.0,0.607,0.0,2.0,2.0,157760.0,2938.66,466.0,False,found
 Zepto,Gas Stove & Accessories,Chefman,chefman,1.65,1.32,0.57,0.5,0.5879,0.5983,2.0,2.0,,,,,not queried
 Zepto,Gas Stove & Accessories,Crystal,crystal,1.71,1.8,1.38,1.42,0.6108,0.8173,2.0,2.0,30625.0,72.44,361.0,False,found
-Zepto,Gas Stove & Accessories,Eleenova,eleenova,0.11,0.03,0.06,0.02,0.0375,0.0136,2.0,2.0,,,,,not queried
+Zepto,Gas Stove & Accessories,Eleenova,eleenova,0.11,0.03,0.06,0.02,0.0375,0.0136,2.0,2.0,47.0,0.93,11.0,False,found
 Zepto,Gas Stove & Accessories,Everest,everest,19.43,16.25,14.17,13.87,6.9378,7.3847,1.0,1.0,187016.0,307.41,187.0,False,found
 Zepto,Gas Stove & Accessories,Fackelmann,fackelmann,3.04,3.76,1.35,1.49,1.0846,1.7084,3.0,3.0,17.0,0.18,9.0,False,found
 Zepto,Gas Stove & Accessories,Habitat,habitat,6.29,6.71,5.17,5.39,2.246,3.0481,3.0,3.0,327.0,1.68,86.0,False,found
@@ -3362,7 +3362,7 @@ Zepto,Home Appliances,Ambrane,ambrane,30.53,34.41,14.02,13.48,1.9827,2.4932,2.0,
 Zepto,Home Appliances,Anchor,anchor,4.36,1.84,2.44,1.0,0.2828,0.1335,4.0,4.0,,,,,not queried
 Zepto,Home Appliances,Aquaguard,aquaguard,0.0,0.16,0.0,0.09,0.0,0.0118,1.0,1.0,,,,,not queried
 Zepto,Home Appliances,Atomberg,atomberg,24.08,27.98,15.44,17.84,1.5637,2.0274,42.0,40.0,105137.0,5211.6,222.0,False,found
-Zepto,Home Appliances,Ausha,ausha,0.0,0.26,0.0,0.16,0.0,0.0191,1.0,1.0,,,,,not queried
+Zepto,Home Appliances,Ausha,ausha,0.0,0.26,0.0,0.16,0.0,0.0191,1.0,1.0,891.0,24.37,127.0,False,found
 Zepto,Home Appliances,Bajaj,bajaj,58.84,80.86,36.05,42.96,3.8205,5.8596,26.0,24.0,157760.0,2938.66,466.0,False,found
 Zepto,Home Appliances,Balzano,balzano,5.31,3.99,1.83,1.19,0.3446,0.289,1.0,1.0,,,,,not queried
 Zepto,Home Appliances,Black+Decker,blackdecker,6.31,3.87,3.67,2.25,0.4097,0.2802,3.0,4.0,17510.0,439.53,186.0,False,found
@@ -3382,7 +3382,7 @@ Zepto,Home Appliances,Hamilton Beach,hamiltonbeach,6.26,6.61,3.13,3.0,0.4068,0.4
 Zepto,Home Appliances,Havells,havells,68.9,54.17,38.55,31.64,4.4739,3.9256,25.0,25.0,279997.0,6602.92,500.0,True,found
 Zepto,Home Appliances,Hindware,hindware,5.78,3.86,2.05,1.46,0.3753,0.2797,4.0,4.0,,,,,not queried
 Zepto,Home Appliances,Honeywell,honeywell,40.2,20.79,20.29,10.5,2.6103,1.5068,2.0,2.0,38250.0,2554.61,222.0,False,found
-Zepto,Home Appliances,IVAS,ivas,6.81,4.94,3.74,2.77,0.4422,0.3583,3.0,3.0,,,,,not queried
+Zepto,Home Appliances,IVAS,ivas,6.81,4.94,3.74,2.77,0.4422,0.3583,3.0,3.0,10.0,0.05,2.0,False,found
 Zepto,Home Appliances,Inalsa,inalsa,27.02,29.35,12.58,13.46,1.7542,2.127,14.0,14.0,50203.0,2321.72,125.0,False,found
 Zepto,Home Appliances,Jio,jio,0.95,0.91,0.49,0.45,0.0617,0.0659,3.0,3.0,,,,,not queried
 Zepto,Home Appliances,Kenstar,kenstar,17.39,11.62,4.35,3.34,1.1292,0.842,3.0,3.0,3191.0,106.2,92.0,False,found
@@ -3391,13 +3391,13 @@ Zepto,Home Appliances,Kuhl,kuhl,0.24,0.18,0.1,0.07,0.0155,0.0128,2.0,2.0,,,,,not
 Zepto,Home Appliances,Lifelong,lifelong,145.0,84.94,49.73,24.32,9.4159,6.1547,13.0,13.0,523081.0,7893.04,500.0,True,found
 Zepto,Home Appliances,Livpure,livpure,56.13,33.31,34.23,21.35,3.6448,2.4136,5.0,5.0,8395.0,735.52,69.0,False,found
 Zepto,Home Appliances,Longway,longway,196.97,186.61,98.62,87.27,12.7904,13.5227,10.0,8.0,88859.0,1369.48,299.0,False,found
-Zepto,Home Appliances,Lumivolt,lumivolt,0.11,0.02,0.04,0.01,0.0071,0.0014,1.0,1.0,,,,,not queried
+Zepto,Home Appliances,Lumivolt,lumivolt,0.11,0.02,0.04,0.01,0.0071,0.0014,1.0,1.0,,,,,no selling listing
 Zepto,Home Appliances,Maharaja,maharaja,0.22,0.12,0.18,0.1,0.0145,0.0087,2.0,2.0,,,,,not queried
 Zepto,Home Appliances,Maharaja Whiteline,maharajawhiteline,0.89,0.59,0.56,0.36,0.0577,0.0427,3.0,3.0,10833.0,198.17,45.0,False,found
 Zepto,Home Appliances,Midea,midea,32.57,19.75,14.31,8.38,2.1146,1.4315,6.0,6.0,6100.0,723.52,38.0,False,found
 Zepto,Home Appliances,Morphy Richards,morphyrichards,1.63,0.19,0.99,0.12,0.106,0.0141,1.0,1.0,17953.0,746.33,89.0,False,found
 Zepto,Home Appliances,Native,native,,0.94,,0.64,,0.0681,,1.0,,,,,not queried
-Zepto,Home Appliances,Nev,nev,1.61,1.04,0.62,0.36,0.1047,0.0751,2.0,3.0,,,,,not queried
+Zepto,Home Appliances,Nev,nev,1.61,1.04,0.62,0.36,0.1047,0.0751,2.0,3.0,439.0,2.89,4.0,False,found
 Zepto,Home Appliances,Nova,nova,5.06,1.82,2.53,0.91,0.3287,0.1318,10.0,7.0,22683.0,115.26,31.0,False,found
 Zepto,Home Appliances,Nuuk,nuuk,5.2,5.38,3.48,3.54,0.338,0.3899,2.0,2.0,12659.0,627.1,43.0,False,found
 Zepto,Home Appliances,Orient Electric,orientelectric,29.09,48.44,15.39,24.6,1.8893,3.5102,15.0,13.0,179265.0,2938.66,441.0,False,found
@@ -3414,7 +3414,7 @@ Zepto,Home Appliances,Trutrtl,trutrtl,144.82,72.7,61.21,29.8,9.4039,5.2679,6.0,6
 Zepto,Home Appliances,Usha,usha,152.93,59.01,86.5,33.29,9.9306,4.2762,23.0,20.0,36872.0,1121.54,352.0,False,found
 Zepto,Home Appliances,V-Guard,vguard,9.79,4.18,6.27,2.83,0.6355,0.3031,14.0,12.0,,,,,not queried
 Zepto,Home Appliances,Voltas Beko,voltasbeko,39.17,27.1,18.09,12.39,2.5437,1.9634,2.0,2.0,5059.0,695.66,78.0,False,found
-Zepto,Home Appliances,Warmex,warmex,5.84,6.11,3.4,3.54,0.3793,0.4429,5.0,5.0,,,,,not queried
+Zepto,Home Appliances,Warmex,warmex,5.84,6.11,3.4,3.54,0.3793,0.4429,5.0,5.0,9.0,0.3,1.0,False,found
 Zepto,Home Appliances,Wipro,wipro,0.09,0.04,0.05,0.02,0.006,0.0025,3.0,2.0,114332.0,956.88,500.0,True,found
 Zepto,Home Appliances,boAt,boat,3.91,2.84,1.34,1.0,0.2538,0.2061,1.0,1.0,367027.0,5539.16,363.0,False,found
 Zepto,Home Decor,10club,10club,0.72,0.75,0.43,0.48,0.0765,0.0911,8.0,6.0,,,,,not queried
@@ -3739,7 +3739,7 @@ Zepto,Kitchen Appliances,V-Guard,vguard,0.12,0.18,0.07,0.1,0.0051,0.0078,4.0,4.0
 Zepto,Kitchen Appliances,Voltas Beko,voltasbeko,30.43,9.83,11.74,3.94,1.3118,0.4255,2.0,2.0,5059.0,695.66,78.0,False,found
 Zepto,Kitchen Appliances,Wipro,wipro,8.47,8.68,4.77,4.52,0.3652,0.3759,7.0,7.0,114332.0,956.88,500.0,True,found
 Zepto,Kitchen Appliances,Wonderchef,wonderchef,93.27,81.07,47.54,39.34,4.0201,3.5094,22.0,21.0,65401.0,974.17,446.0,False,found
-Zepto,Kitchen Appliances,Your Food Lab,yourfoodlab,3.03,6.62,2.01,4.12,0.1304,0.2864,1.0,1.0,,,,,not queried
+Zepto,Kitchen Appliances,Your Food Lab,yourfoodlab,3.03,6.62,2.01,4.12,0.1304,0.2864,1.0,1.0,,,,,no selling listing
 Zepto,Kitchen Appliances,Zunvolt,zunvolt,34.32,24.45,14.18,10.48,1.4794,1.0585,9.0,9.0,32.0,0.32,6.0,False,found
 Zepto,Kitchen Cleaning,Awenest,awenest,,0.0,,0.0,,0.0,,1.0,,,,,not queried
 Zepto,Kitchen Cleaning,Blueoxy,blueoxy,0.28,0.28,0.22,0.19,0.4258,0.2534,1.0,1.0,,,,,not queried
@@ -3816,7 +3816,7 @@ Zepto,Kitchen Storage,Tex-Ro,texro,3.05,2.82,0.69,0.7,0.4172,0.4412,3.0,3.0,6826
 Zepto,Kitchen Storage,The Better Home,thebetterhome,8.87,8.4,2.99,2.53,1.2157,1.3122,7.0,7.0,21463.0,285.16,500.0,True,found
 Zepto,Kitchen Storage,Tramontina,tramontina,7.13,0.0,5.08,0.0,0.977,0.0,3.0,3.0,8773.0,234.03,306.0,False,found
 Zepto,Kitchen Storage,Tupperware,tupperware,0.06,0.08,0.05,0.07,0.0078,0.0123,4.0,3.0,24881.0,154.36,500.0,True,found
-Zepto,Kitchen Storage,Umai,umai,3.89,0.33,1.74,0.16,0.5332,0.0515,5.0,5.0,,,,,not queried
+Zepto,Kitchen Storage,Umai,umai,3.89,0.33,1.74,0.16,0.5332,0.0515,5.0,5.0,2886.0,17.34,237.0,False,found
 Zepto,Kitchen Storage,Urban Chef,urbanchef,,0.05,,0.02,,0.0076,,1.0,2555.0,21.67,23.0,False,found
 Zepto,Kitchen Storage,Urban Platter,urbanplatter,,0.08,,0.08,,0.0126,,2.0,,,,,not queried
 Zepto,Kitchen Storage,Varmora,varmora,0.2,0.2,0.15,0.18,0.0272,0.0314,5.0,5.0,,,,,not queried
@@ -3865,7 +3865,7 @@ Zepto,Kitchen Tools,Kent,kent,4.93,3.29,4.93,3.22,0.5597,0.4061,1.0,1.0,42440.0,
 Zepto,Kitchen Tools,Kuber,kuber,0.37,0.21,0.1,0.07,0.0424,0.0263,5.0,4.0,,,,,no selling listing
 Zepto,Kitchen Tools,Kvg,kvg,38.73,44.07,33.37,40.57,4.4016,5.4413,39.0,37.0,,,,,no selling listing
 Zepto,Kitchen Tools,Lifelong,lifelong,0.16,1.92,0.07,0.81,0.0183,0.2368,2.0,2.0,523081.0,7893.04,500.0,True,found
-Zepto,Kitchen Tools,Lumivolt,lumivolt,0.0,,0.0,,0.0,,1.0,,,,,,not queried
+Zepto,Kitchen Tools,Lumivolt,lumivolt,0.0,,0.0,,0.0,,1.0,,,,,,no selling listing
 Zepto,Kitchen Tools,Lushomes,lushomes,0.01,0.01,0.0,0.0,0.0007,0.0015,1.0,1.0,12.0,0.09,8.0,False,found
 Zepto,Kitchen Tools,Morphy Richards,morphyrichards,1.02,0.98,0.52,0.49,0.1157,0.1206,1.0,1.0,17953.0,746.33,89.0,False,found
 Zepto,Kitchen Tools,Nayasa,nayasa,0.12,0.05,0.08,0.03,0.0133,0.0062,2.0,2.0,46620.0,271.69,500.0,True,found
@@ -3878,7 +3878,7 @@ Zepto,Kitchen Tools,Pigeon,pigeon,6.17,6.59,2.33,2.77,0.7016,0.8133,5.0,7.0,3149
 Zepto,Kitchen Tools,Prestige,prestige,0.1,0.0,0.09,0.0,0.0116,0.0,1.0,1.0,295220.0,6657.63,500.0,True,found
 Zepto,Kitchen Tools,Pro Clean,proclean,0.07,0.02,0.04,0.01,0.0081,0.0025,1.0,2.0,,,,,no selling listing
 Zepto,Kitchen Tools,Ritu,ritu,0.85,0.2,0.73,0.17,0.0966,0.0253,5.0,3.0,4419.0,5.59,4.0,False,found
-Zepto,Kitchen Tools,Rusabl,rusabl,7.55,6.39,2.62,2.46,0.8583,0.7892,5.0,5.0,,,,,not queried
+Zepto,Kitchen Tools,Rusabl,rusabl,7.55,6.39,2.62,2.46,0.8583,0.7892,5.0,5.0,9443.0,26.54,47.0,False,found
 Zepto,Kitchen Tools,Saffron,saffron,66.34,64.23,13.45,12.53,7.5389,7.9299,3.0,3.0,23.0,0.47,12.0,False,found
 Zepto,Kitchen Tools,Signoraware,signoraware,6.88,5.84,5.43,4.61,0.782,0.7209,14.0,13.0,,,,,no selling listing
 Zepto,Kitchen Tools,Soham Housewares,sohamhousewares,56.66,56.49,27.04,26.75,6.4391,6.974,16.0,16.0,8.0,0.02,3.0,False,found
@@ -3886,7 +3886,7 @@ Zepto,Kitchen Tools,Spine,spine,3.07,2.79,1.19,1.33,0.3485,0.3446,6.0,6.0,,,,,no
 Zepto,Kitchen Tools,Stehlen,stehlen,0.31,,0.09,,0.0347,,4.0,,,,,,not queried
 Zepto,Kitchen Tools,Tramontina,tramontina,4.92,0.06,4.15,0.05,0.5594,0.0072,19.0,18.0,8773.0,234.03,306.0,False,found
 Zepto,Kitchen Tools,TrustBasket,trustbasket,0.15,0.07,0.08,0.04,0.0173,0.0091,1.0,1.0,52137.0,203.27,484.0,False,found
-Zepto,Kitchen Tools,Umai,umai,0.27,0.0,0.12,0.0,0.0302,0.0,6.0,2.0,,,,,not queried
+Zepto,Kitchen Tools,Umai,umai,0.27,0.0,0.12,0.0,0.0302,0.0,6.0,2.0,2886.0,17.34,237.0,False,found
 Zepto,Kitchen Tools,Unbranded,unbranded,0.0,0.03,0.0,0.01,0.0,0.0034,1.0,1.0,245.0,1.17,3.0,False,found
 Zepto,Kitchen Tools,UrbanFix,urbanfix,1.14,0.55,0.21,0.1,0.1299,0.0677,6.0,6.0,2776.0,12.93,34.0,False,found
 Zepto,Kitchen Tools,Uttam,uttam,0.01,0.01,0.0,0.0,0.0008,0.0008,1.0,1.0,,,,,not queried
@@ -4090,7 +4090,7 @@ Zepto,Stationery & Crafts,Wembley,wembley,9.42,10.9,4.99,5.72,4.2805,5.1897,8.0,
 Zepto,Stationery & Crafts,Youreka,youreka,0.02,0.03,0.02,0.02,0.0112,0.0119,1.0,1.0,,,,,not queried
 Zepto,Steel Utensils,Anjali,anjali,1.31,1.61,0.93,1.36,0.5687,0.8451,12.0,9.0,14592.0,75.76,233.0,False,found
 Zepto,Steel Utensils,BAY6,bay6,8.11,5.41,2.95,2.27,3.5243,2.8497,13.0,15.0,,,,,no selling listing
-Zepto,Steel Utensils,BLACKCARROT,blackcarrot,0.81,0.75,0.23,0.26,0.352,0.3922,1.0,2.0,,,,,not queried
+Zepto,Steel Utensils,BLACKCARROT,blackcarrot,0.81,0.75,0.23,0.26,0.352,0.3922,1.0,2.0,233.0,2.73,70.0,False,found
 Zepto,Steel Utensils,Bombay Kookware,bombaykookware,75.54,63.0,31.26,29.8,32.8436,33.1604,13.0,13.0,42.0,0.33,9.0,False,found
 Zepto,Steel Utensils,Classic Essentials,classicessentials,0.6,0.42,0.21,0.19,0.2611,0.222,3.0,3.0,5137.0,31.42,117.0,False,found
 Zepto,Steel Utensils,Crystal,crystal,1.1,1.0,0.92,0.92,0.4775,0.5275,4.0,4.0,30625.0,72.44,361.0,False,found
@@ -4119,7 +4119,7 @@ Zepto,Tableware,Agaro,agaro,0.09,0.03,0.06,0.02,0.061,0.0222,2.0,1.0,489484.0,73
 Zepto,Tableware,All Time,alltime,0.54,0.52,0.35,0.38,0.3575,0.3492,3.0,3.0,,,,,not queried
 Zepto,Tableware,Anjali,anjali,0.37,0.41,0.3,0.37,0.2459,0.275,3.0,2.0,14592.0,75.76,233.0,False,found
 Zepto,Tableware,BAY6,bay6,6.46,4.9,2.46,1.95,4.3043,3.2654,23.0,24.0,,,,,no selling listing
-Zepto,Tableware,BLACKCARROT,blackcarrot,1.82,2.32,0.72,1.0,1.2161,1.5444,7.0,5.0,,,,,not queried
+Zepto,Tableware,BLACKCARROT,blackcarrot,1.82,2.32,0.72,1.0,1.2161,1.5444,7.0,5.0,233.0,2.73,70.0,False,found
 Zepto,Tableware,Birch & Co,birchco,3.62,3.88,1.48,1.67,2.4106,2.585,10.0,10.0,,,,,no selling listing
 Zepto,Tableware,Bombay Kookware,bombaykookware,1.48,0.95,0.7,0.5,0.9873,0.6308,2.0,2.0,42.0,0.33,9.0,False,found
 Zepto,Tableware,Borosil,borosil,5.56,8.33,3.97,5.66,3.7092,5.55,9.0,9.0,148240.0,1568.6,500.0,True,found
