@@ -68,6 +68,8 @@ LISTED = {
     "Ubisoft": ["Assassin's Creed"],
     "Schneider Electric": ["Schneider", "APC"],
     "De'Longhi": ["Ariete"],
+    "Disney (licence)": ["Star Wars"],
+    "Warner Bros. Discovery (licence)": ["Harry Potter"],
 }
 # Large private MNCs / house brands treated as established
 ESTABLISHED += ["Amul", "Mars", "Crayola", "Razer", "Solognac", "Forclaz", "Artengo", "Perfly", "Kiprun", "Tarmak", "Oxelo", "Tribord", "Elops"]

@@ -1,119 +1,119 @@
 brand,mf_status,mf_category,mf_subcategory,owner,key,source,qc_category,amazon_status,amazon_30d_lakh,amazon_12m_cr,qc_blinkit_lakh,qc_instamart_lakh,qc_zepto_lakh,qc_month_lakh,screened,exclude_reason,in_target
 Jensons,Reached out & no response,Kitchenware & Cookware,Cookware,DK,jensons,Master File,Kitchen & Dining Needs,found,3.85,,1.26,,173.9,175.16,,,True
 Joyo,Promoter rejected,Home Improvement,Bath & Laundry,AN,joyo,Master File,Kitchen Tools,found,10.52,,,417.2,220.82,638.02,,,True
-Rioware,CH rejected,Kitchenware & Cookware,Drinkware,AN,rioware,Master File,,not queried,,,,,,,,,True
-Soham Collections,Promoter rejected,Kitchenware & Cookware,Kitchen & Bakeware,DK,sohamcollections,Master File,,not queried,,,,,,,,,True
+Rioware,CH rejected,Kitchenware & Cookware,Drinkware,AN,rioware,Master File,,found,52.31,,,,,,,,True
+Soham Collections,Promoter rejected,Kitchenware & Cookware,Kitchen & Bakeware,DK,sohamcollections,Master File,,no selling listing,,,,,,,,,True
 Birch & co,Reached out & no response,Home Improvement,Gifts & Lifestyle,DK,birchco,Master File,Home Decor,no selling listing,,,43.2,16.38,11.43,71.00999999999999,,,True
-Steellock,Reached out & no response,Home Improvement,Kitchen Storage & Organization,DK,steellock,Master File,Kitchen & Dining Needs,not queried,,,2.1,0.1,,2.2,,,True
-Orange,Promoter rejected,Kitchenware & Cookware,Cookware,AN,orange,Master File,,not queried,,,,,,,,,True
-SURYA PRABHA ENTERPRISES,Contact NA,Kitchenware & Cookware,Cookware,,suryaprabhaenterprises,Master File,,not queried,,,,,,,,,True
+Steellock,Reached out & no response,Home Improvement,Kitchen Storage & Organization,DK,steellock,Master File,Kitchen & Dining Needs,found,17.19,,2.1,0.1,,2.2,,,True
+Orange,Promoter rejected,Kitchenware & Cookware,Cookware,AN,orange,Master File,,found,17.59,,,,,,,,True
+SURYA PRABHA ENTERPRISES,Contact NA,Kitchenware & Cookware,Cookware,,suryaprabhaenterprises,Master File,,no selling listing,,,,,,,,,True
 eCraftIndia,CH rejected,Home Improvement,Wall Decor,DK,ecraftindia,Master File,Home Decor,found,137.33,,,,,,,,True
 Crosscut Furniture,To contact,Home Improvement,Furniture,DJ,crosscutfurniture,Master File,,found,465.67,27.68,,,,,,,True
 WARMEO,Contact NA,Appliances,Home Appliances,,warmeo,Master File,,found,294.69,20.81,,,,,,,True
 Dimazo,CH rejected,Home Improvement,Kitchen Storage & Organization,AN,dimazo,Master File,,not queried,,,,,,,,,True
-Digismart Electricals,Promoter rejected,Appliances,Home Appliances,ST,digismartelectricals,Master File,,not queried,,,,,,,,,True
+Digismart Electricals,Promoter rejected,Appliances,Home Appliances,ST,digismartelectricals,Master File,,found,44.32,,,,,,,,True
 CraftVatika,CH rejected,Home Improvement,Furniture,AN,craftvatika,Master File,Decorative Lights,found,752.12,16.35,0.03,,,0.03,,,True
 Only Mat,Promoter rejected,Home Furnishings,Rugs & Carpets,AN,onlymat,Master File,,found,20.62,1.84,,,,,,,True
-Rosh Cookwares,Contact NA,Kitchenware & Cookware,Cookware,,roshcookwares,Master File,,not queried,,,,,,,,,True
+Rosh Cookwares,Contact NA,Kitchenware & Cookware,Cookware,,roshcookwares,Master File,,no selling listing,,,,,,,,,True
 Loreto - A Quality Linen,Promoter rejected,Home Furnishings,Bedding & Mattresses,DK,loretoaqualitylinen,Master File,,not queried,,,,,,,,,True
 Go Hooked,Promoter rejected,Home Improvement,Wall Decor,DK,gohooked,Master File,Gardening,found,76.91,7.0,,,0.12,0.12,,,True
-Visalam Cookware,Contact NA,Kitchenware & Cookware,Cookware,,visalamcookware,Master File,,not queried,,,,,,,,,True
+Visalam Cookware,Contact NA,Kitchenware & Cookware,Cookware,,visalamcookware,Master File,,no selling listing,,,,,,,,,True
 Export House,CH rejected,Home Furnishings,Bedding & Mattresses,,exporthouse,Master File,,not queried,,,,,,,,,True
 Stitchnest,CH rejected,Home Furnishings,Bedding & Mattresses,,stitchnest,Master File,Home Furnishing,found,254.32,14.54,,,0.21,0.21,,,True
 Bombay Kookware,CH rejected,Kitchenware & Cookware,Cookware,,bombaykookware,Master File,Cookware,found,0.33,,,,189.57,189.57,,,True
 Asian Aura,Reached out & no response,Home Improvement,Home Fragrance,DK,asianaura,Master File,Home Decor,found,9.43,,,,39.2,39.2,,,True
 Quace,CH rejected,Home Improvement,Lighting,,quace,Master File,Home Decor,found,25.36,,3.7,45.46,61.5,110.66,,,True
-Vbott,Promoter rejected,Kitchenware & Cookware,Drinkware,ST,vbott,Master File,,not queried,,,,,,,,,True
+Vbott,Promoter rejected,Kitchenware & Cookware,Drinkware,ST,vbott,Master File,,found,0.45,,,,,,,,True
 Cruise,Promoter rejected,Appliances,Home Appliances,DK,cruise,Master File,,found,138.49,49.95,,,,,,,True
-Gloxy Enterprises,CH rejected,Kitchenware & Cookware,Cookware,DK,gloxyenterprises,Master File,,not queried,,,,,,,,,True
+Gloxy Enterprises,CH rejected,Kitchenware & Cookware,Cookware,DK,gloxyenterprises,Master File,,no selling listing,,,,,,,,,True
 Florida- Dress your Home,Promoter rejected,Home Furnishings,Bedding & Mattresses,DK,floridadressyourhome,Master File,,not queried,,,,,,,,,True
 Homefresh,Contact NA,Home Furnishings,Soft Furnishings,,homefresh,Master File,Tissues & Disposables,found,0.37,,116.36,,,116.36,,,True
 Parage,Promoter rejected,Kitchenware & Cookware,Cookware,DK,parage,Master File,Kitchen & Dining Needs,found,115.7,,78.04,,,78.04,,,True
 Ganesh,Contact NA,Kitchenware & Cookware,Kitchen & Bakeware,,ganesh,Master File,Kitchen Tools,found,208.23,,0.0,85.7,6.76,92.46000000000001,,,True
 Drape My Home,Contact NA,Home Furnishings,Curtains & Upholstery,,drapemyhome,Master File,Home Furnishing,found,0.28,,33.58,,,33.58,,,True
 Arlavya,CH rejected,Home Improvement,Furniture,DK,arlavya,Master File,Household Utility,found,0.08,,,,25.32,25.32,,,True
-Rena,Promoter rejected,Kitchenware & Cookware,Serveware & Tableware,AN,rena,Master File,,not queried,,,,,,,,,True
-Aristoplast,Currently interacting,Kitchenware & Cookware,Kitchen Storage & Organization,DJ,aristoplast,Master File,,not queried,,,,,,,,,True
+Rena,Promoter rejected,Kitchenware & Cookware,Serveware & Tableware,AN,rena,Master File,,found,10.96,,,,,,,,True
+Aristoplast,Currently interacting,Kitchenware & Cookware,Kitchen Storage & Organization,DJ,aristoplast,Master File,,no selling listing,,,,,,,,,True
 Bharat Lifestyle,To contact,Home Improvement,Furniture,DK,bharatlifestyle,Master File,,not queried,,,,,,,,,True
 Krishna Furniture,To contact,Home Improvement,Furniture,,krishnafurniture,Master File,,not queried,,,,,,,,,True
-Jyoti Appliances,Reached out & no response,Appliances,Kitchen Appliances,DK,jyotiappliances,Master File,,not queried,,,,,,,,,True
+Jyoti Appliances,Reached out & no response,Appliances,Kitchen Appliances,DK,jyotiappliances,Master File,,no selling listing,,,,,,,,,True
 Huesland,Currently interacting,Home Furnishings,Bedding & Mattresses,AN,huesland,Master File,Home Furnishing,found,190.65,,29.37,12.12,,41.49,,,True
 Mason Home,Currently interacting,Home Improvement,Home Decor,DJ,masonhome,Master File,,not queried,,,,,,,,,True
 The Baby Atelier,Promoter rejected,Home Furnishings,Bedding & Mattresses,AN,thebabyatelier,Master File,,not queried,,,,,,,,,True
 Address Home,Promoter rejected,Home Furnishings,Curtains & Upholstery,ST,addresshome,Master File,,not queried,,,,,,,,,True
-Jarsome,To contact,Home Improvement,Kitchen Storage & Organization,,jarsome,Master File,Kitchen & Dining Needs,not queried,,,0.92,0.01,,0.93,,,True
-Chef Story,Promoter rejected,Kitchenware & Cookware,Cookware,,chefstory,Master File,,not queried,,,,,,,,,True
+Jarsome,To contact,Home Improvement,Kitchen Storage & Organization,,jarsome,Master File,Kitchen & Dining Needs,found,2.04,,0.92,0.01,,0.93,,,True
+Chef Story,Promoter rejected,Kitchenware & Cookware,Cookware,,chefstory,Master File,,no selling listing,,,,,,,,,True
 KCL,To contact,Kitchenware & Cookware,Kitchen & Bakeware,,kcl,Master File,Kitchen Tools,found,9.9,1.13,,0.0,,0.0,,,True
 Femora,CH rejected,Kitchenware & Cookware,Kitchen & Bakeware,DK,femora,Master File,Kitchen & Dining Needs,found,76.45,,135.64,15.71,10.72,162.07,,,True
-Mikara,To contact,Appliances,Kitchen Appliances,,mikara,Master File,,not queried,,,,,,,,,True
+Mikara,To contact,Appliances,Kitchen Appliances,,mikara,Master File,,found,18.08,,,,,,,,True
 Nayasa,Promoter rejected,Home Improvement,Kitchen Storage & Organization,ST,nayasa,Master File,Cleaning Tools,found,271.69,,424.12,19.74,10.92,454.78000000000003,,,True
 Pexpo,Promoter rejected,Kitchenware & Cookware,Drinkware,ST,pexpo,Master File,Bottles Flasks Tiffins,found,4.11,1.16,,,,,,,True
-Rallison Appliances,Promoter rejected,Appliances,Kitchen Appliances,AN,rallisonappliances,Master File,,not queried,,,,,,,,,True
+Rallison Appliances,Promoter rejected,Appliances,Kitchen Appliances,AN,rallisonappliances,Master File,,no selling listing,,,,,,,,,True
 Oliveware,Promoter rejected,Home Improvement,Kitchen Storage & Organization,AN,oliveware,Master File,Kitchen & Dining Needs,no selling listing,,,3.87,2.74,6.39,13.0,,,True
-Padmini Appliances,Promoter rejected,Appliances,Kitchen Appliances,AN,padminiappliances,Master File,,not queried,,,,,,,,,True
+Padmini Appliances,Promoter rejected,Appliances,Kitchen Appliances,AN,padminiappliances,Master File,,no selling listing,,,,,,,,,True
 XECH,Promoter rejected,Appliances,Home Appliances,AN,xech,Master File,Appliances,found,269.64,,30.7,,,30.7,,,True
-Nirlon,CH rejected,Kitchenware & Cookware,Cookware,,nirlon,Master File,,not queried,,,,,,,,,True
+Nirlon,CH rejected,Kitchenware & Cookware,Cookware,,nirlon,Master File,,found,2.43,,,,,,,,True
 PDD Falcon,Promoter rejected,Kitchenware & Cookware,Kitchen & Bakeware,ST,pddfalcon,Master File,,found,20.38,2.77,,,,,,,True
 Praylady,CH rejected,Kitchenware & Cookware,Cookware,ST,praylady,Master File,,found,45.85,3.37,,,,,,,True
 Steelo,Currently interacting,Kitchenware & Cookware,Kitchen & Bakeware,DJ,steelo,Master File,Kitchen Storage,found,0.13,,,,20.82,20.82,,,True
 Akway,Promoter rejected,Home Improvement,Home Organization & Storage,DK,akway,Master File,,found,99.97,8.94,,,,,,,True
-Stylo,Promoter rejected,Kitchenware & Cookware,Cookware,ST,stylo,Master File,,not queried,,,,,,,,,True
+Stylo,Promoter rejected,Kitchenware & Cookware,Cookware,ST,stylo,Master File,,found,0.57,,,,,,,,True
 The Yellow Dwelling,Currently interacting,Home Furnishings,Curtains & Upholstery,ST,theyellowdwelling,Master File,,not queried,,,,,,,,,True
 TruTrtl,Reached out & no response,Home Improvement,Home Organization & Storage,DK,trutrtl,Master File,Appliances,found,36.38,,19.1,,82.1,101.19999999999999,,,True
 Unica,To contact,Home Improvement,Lighting,,unica,Master File,,not queried,,,,,,,,,True
 Uttam,To contact,Kitchenware & Cookware,Cookware,,uttam,Master File,Household Utility,not queried,,,,,0.72,0.72,,,True
-VarEesha,To contact,Kitchenware & Cookware,Kitchen & Bakeware,,vareesha,Master File,,not queried,,,,,,,,,True
+VarEesha,To contact,Kitchenware & Cookware,Kitchen & Bakeware,,vareesha,Master File,,found,2.38,,,,,,,,True
 The Earth Store,CH rejected,Home Improvement,Home Decor,AN,theearthstore,Master File,Kitchen & Dining Needs,found,139.0,,15.35,14.8,,30.15,,,True
 KILIG,Promoter rejected,Appliances,Kitchen Appliances,AN,kilig,Master File,Appliances,found,107.97,9.29,1.16,,8.2,9.36,,,True
 The Artment Your Artistic Apa,CH rejected,Home Improvement,Home Decor,,theartmentyourartisticapa,Master File,,not queried,,,,,,,,,True
 La Verne,Promoter rejected,Home Furnishings,Bedding & Mattresses,ST,laverne,Master File,,found,36.36,2.41,,,,,,,True
-Glasafe,CH rejected,Home Improvement,Kitchen Storage & Organization,AN,glasafe,Master File,Kitchen & Dining Needs,not queried,,,2.54,1.48,1.76,5.779999999999999,,,True
+Glasafe,CH rejected,Home Improvement,Kitchen Storage & Organization,AN,glasafe,Master File,Kitchen & Dining Needs,found,3.25,,2.54,1.48,1.76,5.779999999999999,,,True
 Furnofy,Currently interacting,Home Furnishings,Bedding & Mattresses,DJ,furnofy,Master File,Home Furnishing,found,15.32,,,337.34,3.12,340.46,,,True
 Homefil (farocean),Promoter rejected,Home Furnishings,Bedding & Mattresses,AN,homefilfarocean,Master File,,not queried,,,,,,,,,True
 Trance Home Linen,Promoter rejected,Home Furnishings,Bedding & Mattresses,ST,trancehomelinen,Master File,Home Furnishing,found,464.5,42.54,2.2,,,2.2,,,True
-Diamond India,Promoter rejected,Kitchenware & Cookware,Cookware,DK,diamondindia,Master File,,not queried,,,,,,,,,True
+Diamond India,Promoter rejected,Kitchenware & Cookware,Cookware,DK,diamondindia,Master File,,no selling listing,,,,,,,,,True
 Exotic India Art,To contact,Home Improvement,Home Decor,,exoticindiaart,Master File,,not queried,,,,,,,,,True
 Jainsons Emporio,Promoter rejected,Home Improvement,Lighting,ST,jainsonsemporio,Master File,,not queried,,,,,,,,,True
-Roxx,Promoter rejected,Appliances,Kitchen Appliances,ST,roxx,Master File,Drinkware & Bar,not queried,,,,,0.79,0.79,,,True
+Roxx,Promoter rejected,Appliances,Kitchen Appliances,ST,roxx,Master File,Drinkware & Bar,found,0.15,,,,0.79,0.79,,,True
 The Mandir Store,To contact,Home Improvement,Home Decor,,themandirstore,Master File,,not queried,,,,,,,,,True
 Servdharm,CH rejected,Home Improvement,Home Decor,ST,servdharm,Master File,Festive & Occasion Needs,found,46.25,,365.62,,188.25,553.87,,,True
 Dekor Company,Promoter rejected,Home Improvement,Wall Decor,ST,dekorcompany,Master File,,not queried,,,,,,,,,True
 Avias,Promoter rejected,Appliances,Kitchen Appliances,ST,avias,Master File,Kitchen & Dining Needs,found,35.36,2.64,8.71,2.18,,10.89,,,True
-Bestech,Promoter rejected,Kitchenware & Cookware,Cookware,ST,bestech,Master File,,not queried,,,,,,,,,True
+Bestech,Promoter rejected,Kitchenware & Cookware,Cookware,ST,bestech,Master File,,no selling listing,,,,,,,,,True
 Jaipur Fabrics,CH rejected,Home Furnishings,Bedding & Mattresses,DK,jaipurfabrics,Master File,,not queried,,,,,,,,,True
 Anjali,CH rejected,Kitchenware & Cookware,Cookware,AN,anjali,Master File,Cookware,found,75.76,,,34.06,14.44,48.5,,,True
 Classic Essentials,Promoter rejected,Kitchenware & Cookware,Cookware,ST,classicessentials,Master File,Kitchen & Dining Needs,found,31.42,,4.76,43.54,0.28,48.58,,,True
 Clearline,Currently interacting,Kitchenware & Cookware,Cookware,ST,clearline,Master File,Kitchen & Dining Needs,found,40.44,3.65,0.02,,,0.02,,,True
 Cpensus,CH rejected,Kitchenware & Cookware,Cookware,DK,cpensus,Master File,Home Furnishing,found,29.03,5.14,8.98,0.0,,8.98,,,True
 Swayam India,CH rejected,Home Furnishings,Bedding & Mattresses,,swayamindia,Master File,,not queried,,,,,,,,,True
-Bhalaria Metal Craft,CH rejected,Kitchenware & Cookware,Cookware,AN,bhalariametalcraft,Master File,,not queried,,,,,,,,,True
-Feroall,To contact,Kitchenware & Cookware,Cookware,,feroall,Master File,,not queried,,,,,,,,,True
-Trilonium,CH rejected,Kitchenware & Cookware,Cookware,DK,trilonium,Master File,,not queried,,,,,,,,,True
-True Ware,CH rejected,Kitchenware & Cookware,Cookware,DK,trueware,Master File,,not queried,,,,,,,,,True
-Vaya Kitchenware,CH rejected,Kitchenware & Cookware,Drinkware,,vayakitchenware,Master File,,not queried,,,,,,,,,True
-Leo Metal Works,Promoter rejected,Kitchenware & Cookware,Cookware,DK,leometalworks,Master File,,not queried,,,,,,,,,True
+Bhalaria Metal Craft,CH rejected,Kitchenware & Cookware,Cookware,AN,bhalariametalcraft,Master File,,found,0.83,,,,,,,,True
+Feroall,To contact,Kitchenware & Cookware,Cookware,,feroall,Master File,,found,0.23,,,,,,,,True
+Trilonium,CH rejected,Kitchenware & Cookware,Cookware,DK,trilonium,Master File,,found,0.85,,,,,,,,True
+True Ware,CH rejected,Kitchenware & Cookware,Cookware,DK,trueware,Master File,,no selling listing,,,,,,,,,True
+Vaya Kitchenware,CH rejected,Kitchenware & Cookware,Drinkware,,vayakitchenware,Master File,,no selling listing,,,,,,,,,True
+Leo Metal Works,Promoter rejected,Kitchenware & Cookware,Cookware,DK,leometalworks,Master File,,no selling listing,,,,,,,,,True
 Macclite,CH rejected,Kitchenware & Cookware,Cookware,ST,macclite,Master File,Cookware,found,0.76,,,,23.78,23.78,,,True
 Clazkit,CH rejected,Home Improvement,Home Organization & Storage,AN,clazkit,Master File,Kitchen Tools,found,303.39,,,226.96,1.67,228.63,,,True
 Vidiem,CH rejected,Appliances,Kitchen Appliances,,vidiem,Master File,,found,82.27,9.46,,,,,,,True
-Pipal,CH rejected,Kitchenware & Cookware,Kitchen Storage & Organization,,pipal,Master File,,not queried,,,,,,,,,True
+Pipal,CH rejected,Kitchenware & Cookware,Kitchen Storage & Organization,,pipal,Master File,,found,0.01,,,,,,,,True
 Obsessions,Promoter rejected,Home Furnishings,Rugs & Carpets,ST,obsessions,Master File,,not queried,,,,,,,,,True
-Ramson Industries,Promoter rejected,Kitchenware & Cookware,Kitchen & Bakeware,DJ,ramsonindustries,Master File,,not queried,,,,,,,,,True
-Rico Appliances,Promoter rejected,Appliances,Kitchen Appliances,ST,ricoappliances,Master File,,not queried,,,,,,,,,True
-Roca Cookware,Promoter rejected,Kitchenware & Cookware,Cookware,DK,rocacookware,Master File,,not queried,,,,,,,,,True
-Rudra Kitchen World Pvt Ltd,CH rejected,Kitchenware & Cookware,Cookware,DK,rudrakitchenworldpvtltd,Master File,,not queried,,,,,,,,,True
+Ramson Industries,Promoter rejected,Kitchenware & Cookware,Kitchen & Bakeware,DJ,ramsonindustries,Master File,,no selling listing,,,,,,,,,True
+Rico Appliances,Promoter rejected,Appliances,Kitchen Appliances,ST,ricoappliances,Master File,,no selling listing,,,,,,,,,True
+Roca Cookware,Promoter rejected,Kitchenware & Cookware,Cookware,DK,rocacookware,Master File,,no selling listing,,,,,,,,,True
+Rudra Kitchen World Pvt Ltd,CH rejected,Kitchenware & Cookware,Cookware,DK,rudrakitchenworldpvtltd,Master File,,no selling listing,,,,,,,,,True
 Dream living,Currently interacting,Home Furnishings,Bedding & Mattresses,ST,dreamliving,Master File,Home Furnishing,found,4.52,,407.06,4.5,130.38,541.94,,,True
-Skyline,Promoter rejected,Appliances,Home Appliances,ST,skyline,Master File,,not queried,,,,,,,,,True
+Skyline,Promoter rejected,Appliances,Home Appliances,ST,skyline,Master File,,found,2.24,,,,,,,,True
 Stahl,Promoter rejected,Kitchenware & Cookware,Cookware,ST,stahl,Master File,,found,371.1,41.14,,,,,,,True
 EHA,CH rejected,Home Improvement,Furniture,,eha,Master File,Glasses Cups Mugs,found,192.71,,,0.19,17.63,17.82,,,True
-Ellementry,CH rejected,Kitchenware & Cookware,Kitchen & Bakeware,,ellementry,Master File,Kitchen & Dining Needs,not queried,,,0.06,0.9,0.12,1.08,,,True
+Ellementry,CH rejected,Kitchenware & Cookware,Kitchen & Bakeware,,ellementry,Master File,Kitchen & Dining Needs,found,21.99,,0.06,0.9,0.12,1.08,,,True
 ExclusiveLane,CH rejected,Home Improvement,Wall Decor,AN,exclusivelane,Master File,Home Decor,found,133.0,,18.54,5.96,,24.5,,,True
 UPC,Promoter rejected,Kitchenware & Cookware,Cookware,ST,upc,Master File,Cleaning Tools,no selling listing,,,46.83,,,46.83,,,True
 Maxima Kitchenware,Promoter rejected,Home Improvement,Kitchen Storage & Organization,ST,maximakitchenware,Master File,,not queried,,,,,,,,,True
-Vinayak International Housewares Private Limited,Promoter rejected,Kitchenware & Cookware,Cookware,DK,vinayakinternationalhousewaresprivatelimited,Master File,,not queried,,,,,,,,,True
-Nelcon Industries,Promoter rejected,Kitchenware & Cookware,Drinkware,DK,nelconindustries,Master File,,not queried,,,,,,,,,True
-SPPL,CH rejected,Appliances,Home Appliances,ST,sppl,Master File,,not queried,,,,,,,,,True
+Vinayak International Housewares Private Limited,Promoter rejected,Kitchenware & Cookware,Cookware,DK,vinayakinternationalhousewaresprivatelimited,Master File,,no selling listing,,,,,,,,,True
+Nelcon Industries,Promoter rejected,Kitchenware & Cookware,Drinkware,DK,nelconindustries,Master File,,no selling listing,,,,,,,,,True
+SPPL,CH rejected,Appliances,Home Appliances,ST,sppl,Master File,,no selling listing,,,,,,,,,True
 LONGWAY,Promoter rejected,Appliances,Home Appliances,ST,longway,Master File,Gas Stove & Accessories,found,1369.48,,,,249.88,249.88,,,True
-Navarasa Cookware,CH rejected,Kitchenware & Cookware,Cookware,DK,navarasacookware,Master File,,not queried,,,,,,,,,True
+Navarasa Cookware,CH rejected,Kitchenware & Cookware,Cookware,DK,navarasacookware,Master File,,no selling listing,,,,,,,,,True
 TEX-RO,Currently interacting,Home Improvement,Home Organization & Storage,DK,texro,Master File,Appliances,found,701.11,50.26,0.0,0.02,0.7,0.72,,,True
 Lukzer,Promoter rejected,Home Improvement,Furniture,ST,lukzer,Master File,,found,989.43,62.0,,,,,,,True
 Solara,Promoter rejected,Appliances,Kitchen Appliances,ST,solara,Master File,Cookware,found,2969.91,,50.48,51.74,5.75,107.97,,,True
@@ -122,12 +122,12 @@ Homemonde,Promoter rejected,Home Furnishings,Bedding & Mattresses,ST,homemonde,M
 DesiDiya,Promoter rejected,Home Improvement,Home Decor,ST,desidiya,Master File,Home Decor,found,1380.54,,588.08,307.71,199.9,1095.69,desidiya,,True
 Linenwala,Promoter rejected,Home Furnishings,Bedding & Mattresses,ST,linenwala,Master File,,not queried,,,,,,,,,True
 Callas,Currently interacting,Home Improvement,Furniture,AN,callas,Master File,,found,437.78,38.58,,,,,,,True
-Esspy,CH rejected,Kitchenware & Cookware,Cookware,AN,esspy,Master File,,not queried,,,,,,,,,True
+Esspy,CH rejected,Kitchenware & Cookware,Cookware,AN,esspy,Master File,,no selling listing,,,,,,,,,True
 Bathla,CH rejected,Home Improvement,Home Organization & Storage,AN,bathla,Master File,Gardening,found,317.16,,106.12,34.46,25.34,165.92000000000002,,,True
-Kreme Cookware,CH rejected,Kitchenware & Cookware,Cookware,ST,kremecookware,Master File,,not queried,,,,,,,,,True
+Kreme Cookware,CH rejected,Kitchenware & Cookware,Cookware,ST,kremecookware,Master File,,no selling listing,,,,,,,,,True
 Hokipo,Onboarded,Home Furnishings,Curtains & Upholstery,,hokipo,Master File,,found,445.24,23.26,,,,,hokipo,,True
 Tied Ribbons,Promoter rejected,Home Improvement,Home Decor,ST,tiedribbons,Master File,Home Decor,found,367.14,,28.78,67.0,22.26,118.04,,,True
-Allo innoware,CH rejected,Kitchenware & Cookware,Kitchen Storage & Organization,,alloinnoware,Master File,,not queried,,,,,,,,,True
+Allo innoware,CH rejected,Kitchenware & Cookware,Kitchen Storage & Organization,,alloinnoware,Master File,,no selling listing,,,,,,,,,True
 Sumeet,Promoter rejected,Kitchenware & Cookware,Cookware,ST,sumeet,Master File,Bottles Flasks Tiffins,found,587.85,,,131.8,,131.8,,,True
 Divine Overseas,Promoter rejected,Home Furnishings,Bedding & Mattresses,AN,divineoverseas,Master File,,not queried,,,,,,,,,True
 Homesake,Promoter rejected,Home Improvement,Lighting,ST,homesake,Master File,Decorative Lights,found,279.31,18.87,5.87,0.12,,5.99,,,True
@@ -143,72 +143,72 @@ Shay,CH rejected,Kitchenware & Cookware,Kitchen & Bakeware,AN,shay,Master File,,
 The Home Style,Promoter rejected,Home Furnishings,Bedding & Mattresses,AN,thehomestyle,Master File,,not queried,,,,,,,,,True
 Jaipur weaves,CH rejected,Home Furnishings,Rugs & Carpets,AN,jaipurweaves,Master File,,found,140.74,8.38,,,,,,,True
 Attro,Promoter rejected,Home Improvement,Wall Decor,DK,attro,Master File,Barware,found,73.12,7.22,,6.93,,6.93,,,True
-Glimpse Homes,CH rejected,Home Furnishings,Bedding & Mattresses,DK,glimpsehomes,Master File,Tableware,not queried,,,,,0.16,0.16,,,True
-Blow Hot Kitchen Appliances,CH rejected,Appliances,Kitchen Appliances,DK,blowhotkitchenappliances,Master File,,not queried,,,,,,,,,True
+Glimpse Homes,CH rejected,Home Furnishings,Bedding & Mattresses,DK,glimpsehomes,Master File,Tableware,found,2.89,,,,0.16,0.16,,,True
+Blow Hot Kitchen Appliances,CH rejected,Appliances,Kitchen Appliances,DK,blowhotkitchenappliances,Master File,,no selling listing,,,,,,,,,True
 Habere India - All the Cultures,Promoter rejected,Home Improvement,Wall Decor,ST,habereindiaallthecultures,Master File,,not queried,,,,,,,,,True
-Brick Brown,CH rejected,Home Improvement,Furniture,AN,brickbrown,Master File,Kitchen & Dining Needs,not queried,,,0.21,,,0.21,,,True
+Brick Brown,CH rejected,Home Improvement,Furniture,AN,brickbrown,Master File,Kitchen & Dining Needs,found,45.51,,0.21,,,0.21,,,True
 Paper Plane Design,CH rejected,Home Improvement,Wall Decor,AN,paperplanedesign,Master File,Home Decor,found,60.36,,,,9.14,9.14,,,True
 Mumma's Life,CH rejected,Kitchenware & Cookware,Cookware,DK,mummaslife,Master File,Kitchen & Dining Needs,found,109.94,9.91,0.06,,0.12,0.18,,,True
 CADLEC,Currently interacting,Appliances,Kitchen Appliances,DK,cadlec,Master File,,found,521.27,42.92,,,,,cadlec,,True
 Aura Decor,Currently interacting,Home Improvement,Home Fragrance,AN,auradecor,Master File,Home Decor,found,68.14,,435.48,,0.42,435.90000000000003,auradecor,,True
-Pure Flame appliances,Promoter rejected,Appliances,Kitchen Appliances,AN,pureflameappliances,Master File,,not queried,,,,,,,,,True
+Pure Flame appliances,Promoter rejected,Appliances,Kitchen Appliances,AN,pureflameappliances,Master File,,no selling listing,,,,,,,,,True
 Tranque Bar,Reached out & no response,Home Furnishings,Curtains & Upholstery,DJ,tranquebar,Master File,,not queried,,,,,,,,,True
-Nyra,CH rejected,Kitchenware & Cookware,Cookware,AN,nyra,Master File,,not queried,,,,,,,,,True
+Nyra,CH rejected,Kitchenware & Cookware,Cookware,AN,nyra,Master File,,found,9.57,,,,,,,,True
 Corvids,Currently interacting,Home Improvement,Home Organization & Storage,,corvids,Master File,,not queried,,,,,,,,,True
 Kinis,To contact,Home Improvement,Lighting,,kinis,Master File,,not queried,,,,,,,,,True
-Miah Decor,CH rejected,Kitchenware & Cookware,Kitchen & Bakeware,DK,miahdecor,Master File,,not queried,,,,,,,,,True
+Miah Decor,CH rejected,Kitchenware & Cookware,Kitchen & Bakeware,DK,miahdecor,Master File,,found,15.8,,,,,,,,True
 Ascent Décor,CH rejected,Home Furnishings,Bedding & Mattresses,ST,ascentdcor,Master File,,not queried,,,,,,,,,True
 Daluci,Currently interacting,Home Improvement,Lighting,DK,daluci,Master File,Home Furnishing,found,358.12,,0.14,0.02,83.4,83.56,,,True
-Smokey Cocktail,CH rejected,Kitchenware & Cookware,Drinkware,AN,smokeycocktail,Master File,Kitchen & Dining Needs,not queried,,,0.0,,,0.0,,,True
+Smokey Cocktail,CH rejected,Kitchenware & Cookware,Drinkware,AN,smokeycocktail,Master File,Kitchen & Dining Needs,found,0.03,,0.0,,,0.0,,,True
 DEODAP,Promoter rejected,Home Improvement,Home Organization & Storage,DK,deodap,Master File,Bathware & Laundry,not queried,,,,0.0,,0.0,,,True
 Excel Home Decor,Promoter rejected,Home Improvement,Wall Decor,AN,excelhomedecor,Master File,,not queried,,,,,,,,,True
 Urban Chef,CH rejected,Kitchenware & Cookware,Cookware,AN,urbanchef,Master File,Tableware,found,21.67,1.86,,,0.01,0.01,,,True
 Whispering Homes,CH rejected,Home Improvement,Lighting,AN,whisperinghomes,Master File,,not queried,,,,,,,,,True
-Fns,Currently interacting,Kitchenware & Cookware,Serveware & Tableware,DJ,fns,Master File,Barware,not queried,,,,0.06,,0.06,,,True
+Fns,Currently interacting,Kitchenware & Cookware,Serveware & Tableware,DJ,fns,Master File,Barware,found,44.23,,,0.06,,0.06,,,True
 Ireka Homes,Reached out & no response,Home Improvement,Furniture,DK,irekahomes,Master File,Kitchen & Dining Needs,found,16.5,,2.17,18.37,,20.54,,,True
 DecorKart,CH rejected,Home Improvement,Wall Decor,ST,decorkart,Master File,,not queried,,,,,,,,,True
 Neo Craft,Promoter rejected,Home Improvement,Wall Decor,AN,neocraft,Master File,,not queried,,,,,,,,,True
 Sashaa World,Reached out & no response,Home Improvement,Home Fragrance,DK,sashaaworld,Master File,Home Furnishing,not queried,,,0.1,,1.98,2.08,,,True
 Spread - Spain,Promoter rejected,Home Furnishings,Bedding & Mattresses,,spreadspain,Master File,,found,20.86,1.43,,,,,,,True
-80s Cookware,Reached out & no response,Kitchenware & Cookware,Cookware,DK,80scookware,Master File,,not queried,,,,,,,,,True
-Nanobot,Reached out & no response,Kitchenware & Cookware,Drinkware,DK,nanobot,Master File,,not queried,,,,,,,,,True
+80s Cookware,Reached out & no response,Kitchenware & Cookware,Cookware,DK,80scookware,Master File,,no selling listing,,,,,,,,,True
+Nanobot,Reached out & no response,Kitchenware & Cookware,Drinkware,DK,nanobot,Master File,,found,1.11,,,,,,,,True
 "Bellagio Homes
 (Proprietorship)",Promoter rejected,Home Furnishings,Bedding & Mattresses,ST,bellagiohomesproprietorship,Master File,,not queried,,,,,,,,,True
-OmiChef Cookware LLP,CH rejected,Kitchenware & Cookware,Cookware,DK,omichefcookwarellp,Master File,,not queried,,,,,,,,,True
-Atlasware,Promoter rejected,Kitchenware & Cookware,Cookware,DK,atlasware,Master File,,not queried,,,,,,,,,True
+OmiChef Cookware LLP,CH rejected,Kitchenware & Cookware,Cookware,DK,omichefcookwarellp,Master File,,no selling listing,,,,,,,,,True
+Atlasware,Promoter rejected,Kitchenware & Cookware,Cookware,DK,atlasware,Master File,,found,4.09,,,,,,,,True
 Saral Home,Promoter rejected,Home Furnishings,Rugs & Carpets,DK,saralhome,Master File,Home Furnishing,found,0.25,,24.86,,1.04,25.9,,,True
 Darkpyro,Promoter rejected,Home Improvement,Lighting,DK,darkpyro,Master File,,not queried,,,,,,,,,True
-Black magnum,CH rejected,Kitchenware & Cookware,Cookware,DK,blackmagnum,Master File,,not queried,,,,,,,,,True
+Black magnum,CH rejected,Kitchenware & Cookware,Cookware,DK,blackmagnum,Master File,,found,0.1,,,,,,,,True
 Dtale Décor,Promoter rejected,Home Improvement,Wall Decor,,dtaledcor,Master File,,not queried,,,,,,,,,True
 Eleenova,Currently interacting,Appliances,Kitchen Appliances,ST,eleenova,Master File,Cookware,found,0.93,,,,3.38,3.38,,,True
-Envision Electronics,CH rejected,Appliances,Home Appliances,AN,envisionelectronics,Master File,,not queried,,,,,,,,,True
-Fanzart,CH rejected,Appliances,Home Appliances,AN,fanzart,Master File,,not queried,,,,,,,,,True
+Envision Electronics,CH rejected,Appliances,Home Appliances,AN,envisionelectronics,Master File,,no selling listing,,,,,,,,,True
+Fanzart,CH rejected,Appliances,Home Appliances,AN,fanzart,Master File,,no selling listing,,,,,,,,,True
 Foam Home,CH rejected,Home Furnishings,Bedding & Mattresses,ST,foamhome,Master File,,not queried,,,,,,,,,True
-Ibell Home Appliances,Promoter rejected,Appliances,Home Appliances,DJ,ibellhomeappliances,Master File,,not queried,,,,,,,,,True
-Kroslo,CH rejected,Kitchenware & Cookware,Cookware,,kroslo,Master File,,not queried,,,,,,,,,True
-Zishta,CH rejected,Kitchenware & Cookware,Cookware,DK,zishta,Master File,,not queried,,,,,,,,,True
+Ibell Home Appliances,Promoter rejected,Appliances,Home Appliances,DJ,ibellhomeappliances,Master File,,no selling listing,,,,,,,,,True
+Kroslo,CH rejected,Kitchenware & Cookware,Cookware,,kroslo,Master File,,found,29.44,,,,,,,,True
+Zishta,CH rejected,Kitchenware & Cookware,Cookware,DK,zishta,Master File,,found,4.2,,,,,,,,True
 Cutting Edge,CH rejected,Kitchenware & Cookware,Kitchen & Bakeware,,cuttingedge,Master File,"Flowers, Plants & Gardening",found,30.94,,97.0,0.06,0.64,97.7,,,True
-Dinewell,Promoter rejected,Kitchenware & Cookware,Serveware & Tableware,AN,dinewell,Master File,,not queried,,,,,,,,,True
+Dinewell,Promoter rejected,Kitchenware & Cookware,Serveware & Tableware,AN,dinewell,Master File,,found,0.03,,,,,,,,True
 Elegant Weavers,Currently interacting,Home Furnishings,Rugs & Carpets,ST,elegantweavers,Master File,Home Furnishing,found,0.11,,318.08,,142.95,461.03,,,True
 Eco Soul,To contact,Kitchenware & Cookware,Serveware & Tableware,,ecosoul,Master File,Tissues & Disposables,found,22.57,,171.57,,166.85,338.41999999999996,,,True
 Yera,Promoter rejected,Kitchenware & Cookware,Cookware,DK,yera,Master File,Barware,found,4.81,0.57,,0.06,11.17,11.23,,,True
-Neelam Stainless Steel,Currently interacting,Kitchenware & Cookware,Cookware,,neelamstainlesssteel,Master File,,not queried,,,,,,,,,True
+Neelam Stainless Steel,Currently interacting,Kitchenware & Cookware,Cookware,,neelamstainlesssteel,Master File,,no selling listing,,,,,,,,,True
 Jd Fresh,Reached out & no response,Home Improvement,Home Organization & Storage,AN,jdfresh,Master File,Decorative Lights,found,827.37,69.9,0.1,,,0.1,,,True
 Home Sizzler,Promoter rejected,Home Furnishings,Bedding & Mattresses,AN,homesizzler,Master File,Home Furnishing,found,71.69,,244.82,0.0,3.85,248.67,,,True
 YouBee,CH rejected,Kitchenware & Cookware,Kitchen Storage & Organization,DK,youbee,Master File,Bottles Flasks Tiffins,found,0.04,,,37.54,66.91,104.44999999999999,,,True
 Zulaxy,CH rejected,Home Improvement,Cleaning & Household essentials,DJ,zulaxy,Master File,Home Furnishing,found,89.96,,72.89,13.19,6.25,92.33,,,True
-Ariane,CH rejected,Kitchenware & Cookware,Serveware & Tableware,AN,ariane,Master File,,not queried,,,,,,,,,True
+Ariane,CH rejected,Kitchenware & Cookware,Serveware & Tableware,AN,ariane,Master File,,no selling listing,,,,,,,,,True
 Vola Global,To contact,Home Improvement,Kitchen Storage & Organization,,volaglobal,Master File,,not queried,,,,,,,,,True
 Pollination,CH rejected,Home Improvement,Home Decor,AN,pollination,Master File,,not queried,,,,,,,,,True
-Veigo,CH rejected,Kitchenware & Cookware,Kitchen Storage & Organization,DK,veigo,Master File,Lunch Boxes,not queried,,,,,0.04,0.04,,,True
+Veigo,CH rejected,Kitchenware & Cookware,Kitchen Storage & Organization,DK,veigo,Master File,Lunch Boxes,found,7.54,,,,0.04,0.04,,,True
 Divine Hindu,CH rejected,Home Improvement,Home Fragrance,AN,divinehindu,Master File,,not queried,,,,,,,,,True
 Story @ Home,Promoter rejected,Home Furnishings,Bedding & Mattresses,ST,storyhome,Master File,Home Furnishing,no selling listing,,,106.65,32.16,36.88,175.69,,,True
 Divine Trends,Promoter rejected,Home Improvement,Lighting,ST,divinetrends,Master File,,found,112.99,8.95,,,,,,,True
 About Space,Currently interacting,Home Improvement,Bath & Laundry,AN,aboutspace,Master File,,found,591.94,52.86,,,,,,,True
 Veedaa,Promoter rejected,Home Improvement,Home Fragrance,DK,veedaa,Master File,,not queried,,,,,,,,,True
-Vinod Cookware,Currently interacting,Kitchenware & Cookware,Cookware,ST,vinodcookware,Master File,,not queried,,,,,,,,,True
+Vinod Cookware,Currently interacting,Kitchenware & Cookware,Cookware,ST,vinodcookware,Master File,,no selling listing,,,,,,,,,True
 Signoraware,Currently interacting,Home Improvement,Kitchen Storage & Organization,ST,signoraware,Master File,Cookware,no selling listing,,,,38.41,33.84,72.25,,,True
-Kaunteya,Promoter rejected,Kitchenware & Cookware,Cookware,DK,kaunteya,Master File,,not queried,,,,,,,,,True
+Kaunteya,Promoter rejected,Kitchenware & Cookware,Cookware,DK,kaunteya,Master File,,no selling listing,,,,,,,,,True
 Vibe Crafts,Promoter rejected,Home Improvement,Home Decor,DK,vibecrafts,Master File,,not queried,,,,,,,,,True
 Silaii,To contact,Home Improvement,Home Decor,,silaii,Master File,Home Decor,not queried,,,,0.62,,0.62,,,True
 Wall Curry,Reached out & no response,Home Improvement,Home Decor,DK,wallcurry,Master File,,not queried,,,,,,,,,True
@@ -220,36 +220,36 @@ Nebora Store,Reached out & no response,Home Improvement,Wall Decor,AN,neborastor
 Aesthesy,To contact,Home Improvement,Wall Decor,,aesthesy,Master File,,not queried,,,,,,,,,True
 Canvasora,To contact,Home Improvement,Wall Decor,,canvasora,Master File,,not queried,,,,,,,,,True
 Surya Living,Reached out & no response,Home Furnishings,Curtains & Upholstery,DK,suryaliving,Master File,,not queried,,,,,,,,,True
-Ski Plastoware,Promoter rejected,Kitchenware & Cookware,Kitchen Storage & Organization,DK,skiplastoware,Master File,,not queried,,,,,,,,,True
-Uninox,Promoter rejected,Kitchenware & Cookware,Cookware,DK,uninox,Master File,,not queried,,,,,,,,,True
-Modern Quests,Reached out & no response,Kitchenware & Cookware,Serveware & Tableware,DK,modernquests,Master File,,not queried,,,,,,,,,True
-Elan,Contact NA,Kitchenware & Cookware,Serveware & Tableware,,elan,Master File,,not queried,,,,,,,,,True
-Stac Pro,To contact,Kitchenware & Cookware,Kitchen Storage & Organization,,stacpro,Master File,Kitchen & Dining Needs,not queried,,,0.0,,,0.0,,,True
-Two Moustaches,CH rejected,Kitchenware & Cookware,Serveware & Tableware,DK,twomoustaches,Master File,Kitchen & Dining Needs,not queried,,,0.06,,,0.06,,,True
-The Himalayan Good Company,Contact NA,Kitchenware & Cookware,Cookware,,thehimalayangoodcompany,Master File,,not queried,,,,,,,,,True
-Vigneto,To contact,Kitchenware & Cookware,Serveware & Tableware,,vigneto,Master File,,not queried,,,,,,,,,True
-Home4u,Reached out & no response,Kitchenware & Cookware,Serveware & Tableware,AN,home4u,Master File,,not queried,,,,,,,,,True
-Mora Taara,Contact NA,Kitchenware & Cookware,Serveware & Tableware,,morataara,Master File,,not queried,,,,,,,,,True
-Arhat Organizers,CH rejected,Kitchenware & Cookware,Serveware & Tableware,AN,arhatorganizers,Master File,,not queried,,,,,,,,,True
-Ouch Cart,Reached out & no response,Kitchenware & Cookware,Serveware & Tableware,DK,ouchcart,Master File,,not queried,,,,,,,,,True
-Servewell,Reached out & no response,Kitchenware & Cookware,Serveware & Tableware,AN,servewell,Master File,,not queried,,,,,,,,,True
-PE Birds,Contact NA,Kitchenware & Cookware,Drinkware,,pebirds,Master File,,not queried,,,,,,,,,True
-Isaaka,Reached out & no response,Kitchenware & Cookware,Serveware & Tableware,DK,isaaka,Master File,,not queried,,,,,,,,,True
-Snapple Appliances,Reached out & no response,Kitchenware & Cookware,Serveware & Tableware,AN,snappleappliances,Master File,,not queried,,,,,,,,,True
-Aquench,Reached out & no response,Kitchenware & Cookware,Drinkware,DK,aquench,Master File,,not queried,,,,,,,,,True
+Ski Plastoware,Promoter rejected,Kitchenware & Cookware,Kitchen Storage & Organization,DK,skiplastoware,Master File,,no selling listing,,,,,,,,,True
+Uninox,Promoter rejected,Kitchenware & Cookware,Cookware,DK,uninox,Master File,,found,2.59,,,,,,,,True
+Modern Quests,Reached out & no response,Kitchenware & Cookware,Serveware & Tableware,DK,modernquests,Master File,,no selling listing,,,,,,,,,True
+Elan,Contact NA,Kitchenware & Cookware,Serveware & Tableware,,elan,Master File,,found,25.92,,,,,,,,True
+Stac Pro,To contact,Kitchenware & Cookware,Kitchen Storage & Organization,,stacpro,Master File,Kitchen & Dining Needs,no selling listing,,,0.0,,,0.0,,,True
+Two Moustaches,CH rejected,Kitchenware & Cookware,Serveware & Tableware,DK,twomoustaches,Master File,Kitchen & Dining Needs,found,99.63,,0.06,,,0.06,,,True
+The Himalayan Good Company,Contact NA,Kitchenware & Cookware,Cookware,,thehimalayangoodcompany,Master File,,no selling listing,,,,,,,,,True
+Vigneto,To contact,Kitchenware & Cookware,Serveware & Tableware,,vigneto,Master File,,found,17.07,,,,,,,,True
+Home4u,Reached out & no response,Kitchenware & Cookware,Serveware & Tableware,AN,home4u,Master File,,no selling listing,,,,,,,,,True
+Mora Taara,Contact NA,Kitchenware & Cookware,Serveware & Tableware,,morataara,Master File,,no selling listing,,,,,,,,,True
+Arhat Organizers,CH rejected,Kitchenware & Cookware,Serveware & Tableware,AN,arhatorganizers,Master File,,found,27.98,,,,,,,,True
+Ouch Cart,Reached out & no response,Kitchenware & Cookware,Serveware & Tableware,DK,ouchcart,Master File,,found,0.21,,,,,,,,True
+Servewell,Reached out & no response,Kitchenware & Cookware,Serveware & Tableware,AN,servewell,Master File,,found,0.96,,,,,,,,True
+PE Birds,Contact NA,Kitchenware & Cookware,Drinkware,,pebirds,Master File,,no selling listing,,,,,,,,,True
+Isaaka,Reached out & no response,Kitchenware & Cookware,Serveware & Tableware,DK,isaaka,Master File,,no selling listing,,,,,,,,,True
+Snapple Appliances,Reached out & no response,Kitchenware & Cookware,Serveware & Tableware,AN,snappleappliances,Master File,,no selling listing,,,,,,,,,True
+Aquench,Reached out & no response,Kitchenware & Cookware,Drinkware,DK,aquench,Master File,,found,6.22,,,,,,,,True
 Blluex,Reached out & no response,Kitchenware & Cookware,Serveware & Tableware,DK,blluex,Master File,,found,27.1,1.85,,,,,,,True
 Mohh,Reached out & no response,Home Improvement,Furniture,DK,mohh,Master File,,not queried,,,,,,,,,True
-Matrix Housewares,Reached out & no response,Kitchenware & Cookware,Cookware,DK,matrixhousewares,Master File,,not queried,,,,,,,,,True
-Crockwitty,Contact NA,Kitchenware & Cookware,Serveware & Tableware,,crockwitty,Master File,,not queried,,,,,,,,,True
-Errai Homes,To contact,Kitchenware & Cookware,Serveware & Tableware,,erraihomes,Master File,,not queried,,,,,,,,,True
-Hazel Kitchenware,Currently interacting,Kitchenware & Cookware,Kitchen Storage & Organization,DJ,hazelkitchenware,Master File,,not queried,,,,,,,,,True
-Whites & Pastels,Reached out & no response,Kitchenware & Cookware,Serveware & Tableware,DK,whitespastels,Master File,,not queried,,,,,,,,,True
-Palak Houseware,To contact,Kitchenware & Cookware,Kitchen Storage & Organization,,palakhouseware,Master File,,not queried,,,,,,,,,True
-Kuchenbau India,To contact,Appliances,Kitchen Appliances,,kuchenbauindia,Master File,,not queried,,,,,,,,,True
-Libra Appliances,Reached out & no response,Appliances,Kitchen Appliances,DK,libraappliances,Master File,,not queried,,,,,,,,,True
+Matrix Housewares,Reached out & no response,Kitchenware & Cookware,Cookware,DK,matrixhousewares,Master File,,no selling listing,,,,,,,,,True
+Crockwitty,Contact NA,Kitchenware & Cookware,Serveware & Tableware,,crockwitty,Master File,,found,3.31,,,,,,,,True
+Errai Homes,To contact,Kitchenware & Cookware,Serveware & Tableware,,erraihomes,Master File,,no selling listing,,,,,,,,,True
+Hazel Kitchenware,Currently interacting,Kitchenware & Cookware,Kitchen Storage & Organization,DJ,hazelkitchenware,Master File,,no selling listing,,,,,,,,,True
+Whites & Pastels,Reached out & no response,Kitchenware & Cookware,Serveware & Tableware,DK,whitespastels,Master File,,no selling listing,,,,,,,,,True
+Palak Houseware,To contact,Kitchenware & Cookware,Kitchen Storage & Organization,,palakhouseware,Master File,,no selling listing,,,,,,,,,True
+Kuchenbau India,To contact,Appliances,Kitchen Appliances,,kuchenbauindia,Master File,,no selling listing,,,,,,,,,True
+Libra Appliances,Reached out & no response,Appliances,Kitchen Appliances,DK,libraappliances,Master File,,no selling listing,,,,,,,,,True
 Sunblaze,To contact,Appliances,Kitchen Appliances,,sunblaze,Master File,,found,10.26,1.34,,,,,,,True
-Veizo,To contact,Appliances,Kitchen Appliances,,veizo,Master File,,not queried,,,,,,,,,True
-Lightflame,CH rejected,Appliances,Kitchen Appliances,DK,lightflame,Master File,,not queried,,,,,,,,,True
+Veizo,To contact,Appliances,Kitchen Appliances,,veizo,Master File,,no selling listing,,,,,,,,,True
+Lightflame,CH rejected,Appliances,Kitchen Appliances,DK,lightflame,Master File,,found,0.09,,,,,,,,True
 Blendlife,Contact NA,Appliances,Kitchen Appliances,,blendlife,Master File,Appliances,found,10.53,1.93,0.36,,,0.36,,,True
 Goodscity,Promoter rejected,Appliances,Kitchen Appliances,DK,goodscity,Master File,Appliances,found,168.33,16.8,0.03,,0.42,0.44999999999999996,,,True
 Knotty Rope,Currently interacting,Home Improvement,Furniture,DJ,knottyrope,Master File,,not queried,,,,,,,,,True
@@ -273,7 +273,7 @@ Koa Living/ GM Creation,To contact,Home Improvement,Home Decor,,koalivinggmcreat
 Aurave Décor,To contact,Home Furnishings,Bedding & Mattresses,,auravedcor,Master File,,not queried,,,,,,,,,True
 Artisttico,To contact,Home Improvement,Home Decor,,artisttico,Master File,,not queried,,,,,,,,,True
 Home Artisan,To contact,Home Improvement,Home Decor,,homeartisan,Master File,,not queried,,,,,,,,,True
-Weaving Homes,To contact,Kitchenware & Cookware,Serveware & Tableware,,weavinghomes,Master File,,not queried,,,,,,,,,True
+Weaving Homes,To contact,Kitchenware & Cookware,Serveware & Tableware,,weavinghomes,Master File,,found,4.31,,,,,,,,True
 Soul & Scents,To contact,Home Improvement,Home Fragrance,,soulscents,Master File,Home Decor,found,104.07,8.01,6.32,,,6.32,,,True
 Global Grabbers,To contact,Home Improvement,Home Decor,,globalgrabbers,Master File,,found,58.8,3.83,,,,,,,True
 DSH,To contact,Home Improvement,Wall Decor,,dsh,Master File,,no selling listing,,,,,,,,,True
@@ -298,7 +298,7 @@ Enchant Home,To contact,Home Furnishings,Bedding & Mattresses,,enchanthome,Maste
 Comfyhome Kitchen,To contact,Home Improvement,Home Organization & Storage,,comfyhomekitchen,Master File,,not queried,,,,,,,,,True
 Décor by the way,To contact,Home Improvement,Wall Decor,,dcorbytheway,Master File,,not queried,,,,,,,,,True
 Ecofynd,Currently interacting,Home Improvement,Home Decor,AN,ecofynd,Master File,,not queried,,,,,,,,,True
-Sonu Cookware,Reached out & no response,Kitchenware & Cookware,Cookware,DK,sonucookware,Master File,,not queried,,,,,,,,,True
+Sonu Cookware,Reached out & no response,Kitchenware & Cookware,Cookware,DK,sonucookware,Master File,,no selling listing,,,,,,,,,True
 Living Shapes,To contact,Home Improvement,Home Decor,,livingshapes,Master File,,not queried,,,,,,,,,True
 Sammsara,To contact,Home Improvement,Home Decor,,sammsara,Master File,Home Decor,not queried,,,0.0,,,0.0,,,True
 Everflame,Reached out & no response,Appliances,Kitchen Appliances,DK,everflame,Master File,,found,338.99,24.28,,,,,,,True
@@ -321,7 +321,7 @@ Xergy,To contact,Home Improvement,Lighting,,xergy,Master File,Decorative Lights,
 Moonlitdreams,To contact,Home Improvement,Lighting,,moonlitdreams,Master File,,found,220.54,1.56,,,,,,,True
 Filiska,To contact,Home Improvement,Lighting,,filiska,Master File,,not queried,,,,,,,,,True
 Groeien,To contact,Home Improvement,Lighting,,groeien,Master File,,found,85.47,6.09,,,,,,,True
-Grey Pottery,To contact,Kitchenware & Cookware,Kitchenware,,greypottery,Master File,,not queried,,,,,,,,,True
+Grey Pottery,To contact,Kitchenware & Cookware,Kitchenware,,greypottery,Master File,,found,0.08,,,,,,,,True
 Home Canvas,To contact,Home Improvement,Furniture,,homecanvas,Master File,,not queried,,,,,,,,,True
 Kapoor Lamp Shades,To contact,Home Improvement,Lighting,,kapoorlampshades,Master File,,not queried,,,,,,,,,True
 Kelvee,To contact,Kitchenware & Cookware,Kitchen Storage & Organization,,kelvee,Master File,,found,36.05,3.76,,,,,,,True
@@ -383,7 +383,7 @@ ARROW max,,,,,arrowmax,Quick commerce only,Sports & Fitness,not queried,,,0.0,,,
 Artisyn,,,,,artisyn,Quick commerce only,Home Decor,no selling listing,,,21.48,4.71,42.24,68.43,,,True
 Art of Puja,,,,,artofpuja,Quick commerce only,Pooja Needs,not queried,,,,0.07,,0.07,,,True
 artypillar,,,,,artypillar,Quick commerce only,Home Decor,not queried,,,,0.0,,0.0,,,True
-Asian Plastoware,,,,,asianplastoware,Quick commerce only,Plates Bowls Crockery,not queried,,,,0.0,0.02,0.02,,,True
+Asian Plastoware,,,,,asianplastoware,Quick commerce only,Plates Bowls Crockery,no selling listing,,,,0.0,0.02,0.02,,,True
 Aspekt,,,,,aspekt,Quick commerce only,Utility & Tools,not queried,,,,,,,,,True
 atovio,,,,,atovio,Quick commerce only,Appliances,found,153.05,,0.99,,,0.99,,,True
 AuraCam,,,,,auracam,Quick commerce only,Decorative Lights,not queried,,,8.34,,,8.34,,,True
@@ -426,7 +426,7 @@ Bersache,,,,,bersache,Quick commerce only,"Clothing, Footwear & Accessories",fou
 Besque,,,,,besque,Quick commerce only,Home Furnishing,not queried,,,6.06,,,6.06,,,True
 Betterhood,,,,,betterhood,Quick commerce only,Home Furnishing,not queried,,,,2.63,,2.63,,,True
 Bianca,,,,,bianca,Quick commerce only,Home Furnishing,found,0.41,,45.78,5.54,35.1,86.42,,,True
-Big Plastics,,,,,bigplastics,Quick commerce only,Kitchen Storage,not queried,,,,,0.1,0.1,,,True
+Big Plastics,,,,,bigplastics,Quick commerce only,Kitchen Storage,no selling listing,,,,,0.1,0.1,,,True
 Billebon,,,,,billebon,Quick commerce only,Home Furnishing,found,76.53,,3.07,12.31,,15.38,,,True
 Bio,,,,,bio,Quick commerce only,Tissues & Disposables,not queried,,,,,,,,,True
 Biogreen,,,,,biogreen,Quick commerce only,Tissues & Disposables,not queried,,,0.0,0.03,,0.03,,,True
@@ -436,7 +436,7 @@ Birthday Popper,,,,,birthdaypopper,Quick commerce only,Home Furnishing,not queri
 Bittoo,,,,,bittoo,Quick commerce only,Home Decor,not queried,,,,0.0,,0.0,,,True
 Black Box Papers,,,,,blackboxpapers,Quick commerce only,Home Furnishing,not queried,,,,,,,,,True
 BLACKCARROT,,,,,blackcarrot,Quick commerce only,Barware,found,2.73,,,1.14,4.05,5.1899999999999995,,,True
-Bloomingdale's,,,,,bloomingdales,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.0,,0.0,0.0,,,True
+Bloomingdale's,,,,,bloomingdales,Quick commerce only,Kitchen & Dining Needs,no selling listing,,,0.0,,0.0,0.0,,,True
 Bloomingo,,,,,bloomingo,Quick commerce only,Stationery & Crafts,not queried,,,,,0.0,0.0,,,True
 Blue Heaven,,,,,blueheaven,Quick commerce only,Utility & Tools,not queried,,,,0.0,,0.0,,,True
 Blueoxy,,,,,blueoxy,Quick commerce only,Kitchen Cleaning,not queried,,,,,0.2,0.2,,,True
@@ -444,7 +444,7 @@ B-NET,,,,,bnet,Quick commerce only,Home Furnishing,not queried,,,,,0.03,0.03,,,T
 Bodh Gem and Crystals,,,,,bodhgemandcrystals,Quick commerce only,Pooja & Worship Needs,not queried,,,,,0.33,0.33,,,True
 Bodyband,,,,,bodyband,Quick commerce only,Sports & Gym,not queried,,,1.23,0.15,,1.38,,,True
 Bohofy,,,,,bohofy,Quick commerce only,Home Decor,not queried,,,,6.99,,6.99,,,True
-Boltsip,,,,,boltsip,Quick commerce only,Bottles Flasks Tiffins,not queried,,,,0.08,,0.08,,,True
+Boltsip,,,,,boltsip,Quick commerce only,Bottles Flasks Tiffins,no selling listing,,,,0.08,,0.08,,,True
 Bombae,,,,,bombae,Quick commerce only,Appliances,found,279.97,,140.24,3.9,,144.14000000000001,,,True
 Bombay Greens,,,,,bombaygreens,Quick commerce only,"Flowers, Plants & Gardening",not queried,,,0.03,,,0.03,,,True
 Bondtite,,,,,bondtite,Quick commerce only,Utility & Tools,not queried,,,,0.04,,0.04,,,True
@@ -467,9 +467,9 @@ Careforce,,,,,careforce,Quick commerce only,"Clothing, Footwear & Accessories",n
 Caresmith,,,,,caresmith,Quick commerce only,Appliances,found,1000.74,,38.65,,0.02,38.67,,,True
 Careswipe,,,,,careswipe,Quick commerce only,Home Furnishing,not queried,,,0.22,0.02,0.55,0.79,,,True
 Carlton London,,,,,carltonlondon,Quick commerce only,Pooja & Worship Needs,not queried,,,,,0.06,0.06,,,True
-casasunco,,,,,casasunco,Quick commerce only,Glasses Cups Mugs,not queried,,,,0.0,,0.0,,,True
-Catron,,,,,catron,Quick commerce only,Jars Containers Holders,not queried,,,,0.02,,0.02,,,True
-Ce Essentials,,,,,ceessentials,Quick commerce only,Jars Containers Holders,not queried,,,,0.02,,0.02,,,True
+casasunco,,,,,casasunco,Quick commerce only,Glasses Cups Mugs,no selling listing,,,,0.0,,0.0,,,True
+Catron,,,,,catron,Quick commerce only,Jars Containers Holders,found,24.11,,,0.02,,0.02,,,True
+Ce Essentials,,,,,ceessentials,Quick commerce only,Jars Containers Holders,no selling listing,,,,0.02,,0.02,,,True
 Celebrations,,,,,celebrations,Quick commerce only,Home Decor,not queried,,,,0.0,,0.0,,,True
 Celsera,,,,,celsera,Quick commerce only,Bakeware & Bbq,not queried,,,,0.3,,0.3,,,True
 Century,,,,,century,Quick commerce only,Tissues & Disposables,not queried,,,,0.0,0.36,0.36,,,True
@@ -486,7 +486,7 @@ Cinagro,,,,,cinagro,Quick commerce only,Gardening,found,76.89,,,10.72,1.48,12.20
 CIR,,,,,cir,Quick commerce only,Home Furnishing,not queried,,,,,,,,,True
 Claret,,,,,claret,Quick commerce only,Home Furnishing,not queried,,,0.13,,,0.13,,,True
 Classic Mosquito Net,,,,,classicmosquitonet,Quick commerce only,Home Furnishing,not queried,,,,0.51,,0.51,,,True
-Claysmith,,,,,claysmith,Quick commerce only,Barware,not queried,,,,0.7,,0.7,,,True
+Claysmith,,,,,claysmith,Quick commerce only,Barware,no selling listing,,,,0.7,,0.7,,,True
 Cleanmax,,,,,cleanmax,Quick commerce only,Cleaning Tools,not queried,,,,0.0,,0.0,,,True
 cleanstac,,,,,cleanstac,Quick commerce only,Storage & Organizers,not queried,,,,0.0,,0.0,,,True
 Cleno,,,,,cleno,Quick commerce only,Cleaning Tools,not queried,,,0.0,,,0.0,,,True
@@ -500,11 +500,11 @@ Coco Crush,,,,,cococrush,Quick commerce only,Utility & Tools,not queried,,,,0.07
 Colorbar,,,,,colorbar,Quick commerce only,Utility & Tools,not queried,,,,0.0,,0.0,,,True
 Colors Queen,,,,,colorsqueen,Quick commerce only,Utility & Tools,not queried,,,,1.18,,1.18,,,True
 Confirtino,,,,,confirtino,Quick commerce only,Sports & Fitness,not queried,,,6.21,,,6.21,,,True
-Corelle,,,,,corelle,Quick commerce only,Plates Bowls Crockery,not queried,,,,0.39,,0.39,,,True
+Corelle,,,,,corelle,Quick commerce only,Plates Bowls Crockery,found,60.22,,,0.39,,0.39,,,True
 Corength,,,,,corength,Quick commerce only,Kitchen & Dining Needs,not queried,,,16.12,1.62,,17.740000000000002,,,True
 Cortina,,,,,cortina,Quick commerce only,Home Furnishing,found,103.91,5.84,0.15,3.54,0.85,4.54,,,True
 CoseePerfy,,,,,coseeperfy,Quick commerce only,Home Furnishing,not queried,,,0.33,,,0.33,,,True
-Cosmo Plastoware,,,,,cosmoplastoware,Quick commerce only,Kitchen Storage,not queried,,,,,0.04,0.04,,,True
+Cosmo Plastoware,,,,,cosmoplastoware,Quick commerce only,Kitchen Storage,no selling listing,,,,,0.04,0.04,,,True
 Cozyclean,,,,,cozyclean,Quick commerce only,Home Furnishing,not queried,,,,0.01,,0.01,,,True
 cozykare,,,,,cozykare,Quick commerce only,Storage & Organizers,not queried,,,,0.02,,0.02,,,True
 Crab,,,,,crab,Quick commerce only,Home Furnishing,not queried,,,,,1.45,1.45,,,True
@@ -513,7 +513,7 @@ Craftizen Designs,,,,,craftizendesigns,Quick commerce only,Festive & Occasion Ne
 Craloft,,,,,craloft,Quick commerce only,Bags,not queried,,,0.93,,,0.93,,,True
 Creativity for Kids,,,,,creativityforkids,Quick commerce only,Stationery & Crafts,not queried,,,,,5.3,5.3,,,True
 Creeva,,,,,creeva,Quick commerce only,Home Furnishing,not queried,,,4.27,,,4.27,,,True
-Cristal D'Arques,,,,,cristaldarques,Quick commerce only,Barware,not queried,,,,0.02,,0.02,,,True
+Cristal D'Arques,,,,,cristaldarques,Quick commerce only,Barware,found,1.12,,,0.02,,0.02,,,True
 crownsy,,,,,crownsy,Quick commerce only,Bathware & Laundry,not queried,,,,0.6,,0.6,,,True
 Curaa,,,,,curaa,Quick commerce only,Home Furnishing,no selling listing,,,,0.03,3.22,3.25,,,True
 Cureskin,,,,,cureskin,Quick commerce only,Utility & Tools,not queried,,,,0.74,,0.74,,,True
@@ -524,7 +524,7 @@ Daak Vaak,,,,,daakvaak,Quick commerce only,Home Decor,not queried,,,1.08,,0.01,1
 Daily Objects,,,,,dailyobjects,Quick commerce only,Bags,not queried,,,0.0,0.24,,0.24,,,True
 DaMENSCH,,,,,damensch,Quick commerce only,Home Furnishing,not queried,,,4.78,,,4.78,,,True
 Da Milano,,,,,damilano,Quick commerce only,Bags,not queried,,,0.05,,,0.05,,,True
-Dancing Panda,,,,,dancingpanda,Quick commerce only,Decorative Lights,not queried,,,0.09,,,0.09,,,True
+Dancing Panda,,,,,dancingpanda,Quick commerce only,Decorative Lights,found,0.59,,0.09,,,0.09,,,True
 Dashakarma,,,,,dashakarma,Quick commerce only,Pooja Needs,not queried,,,0.02,0.0,0.0,0.02,,,True
 Dazzle,,,,,dazzle,Quick commerce only,Pooja Needs,not queried,,,3.78,0.47,2.31,6.5600000000000005,,,True
 ddesh,,,,,ddesh,Quick commerce only,Bathware & Laundry,not queried,,,,1.3,,1.3,,,True
@@ -532,7 +532,7 @@ dealberg,,,,,dealberg,Quick commerce only,Pooja & Worship Needs,not queried,,,,,
 DearJoy,,,,,dearjoy,Quick commerce only,Home Furnishing,not queried,,,,,0.15,0.15,,,True
 Dehati Pushtak,,,,,dehatipushtak,Quick commerce only,Pooja Needs,not queried,,,10.02,,,10.02,,,True
 De Jure Fitness,,,,,dejurefitness,Quick commerce only,Home Furnishing,not queried,,,0.0,,,0.0,,,True
-Deli,,,,,deli,Quick commerce only,Barware,not queried,,,,0.48,,0.48,,,True
+Deli,,,,,deli,Quick commerce only,Barware,found,6.22,,,0.48,,0.48,,,True
 DeliBohemi,,,,,delibohemi,Quick commerce only,Kitchen & Dining Needs,no selling listing,,,11.48,,,11.48,,,True
 deliwrap,,,,,deliwrap,Quick commerce only,Tissues & Disposables,not queried,,,,,1.52,1.52,,,True
 Denzo,,,,,denzo,Quick commerce only,Bags,not queried,,,0.0,,,0.0,,,True
@@ -547,7 +547,7 @@ Dispo Queen,,,,,dispoqueen,Quick commerce only,Tissues & Disposables,not queried
 Divine Vibes,,,,,divinevibes,Quick commerce only,Home Decor,not queried,,,,,13.89,13.89,,,True
 DoctorTowels,,,,,doctortowels,Quick commerce only,Home Furnishing,not queried,,,1.52,,0.06,1.58,,,True
 Doft,,,,,doft,Quick commerce only,Home Decor,not queried,,,,3.01,,3.01,,,True
-Dolfin,,,,,dolfin,Quick commerce only,Pressure Cooker,not queried,,,,,2.16,2.16,,,True
+Dolfin,,,,,dolfin,Quick commerce only,Pressure Cooker,no selling listing,,,,,2.16,2.16,,,True
 Dollar,,,,,dollar,Quick commerce only,Home Furnishing,not queried,,,0.72,,,0.72,,,True
 Dr. Bio,,,,,drbio,Quick commerce only,Jars Containers Holders,not queried,,,,0.08,3.16,3.24,,,True
 Dreamland,,,,,dreamland,Quick commerce only,Stationery & Crafts,not queried,,,,,0.06,0.06,,,True
@@ -567,7 +567,7 @@ EcoLink,,,,,ecolink,Quick commerce only,Appliances,found,12.64,0.45,1.3,0.02,7.0
 EcoRight,,,,,ecoright,Quick commerce only,Bags,found,12.6,,45.01,,,45.01,,,True
 ECO Sense,,,,,ecosense,Quick commerce only,Bathroom Essentials,not queried,,,9.3,,,9.3,,,True
 Edd,,,,,edd,Quick commerce only,Glasses Cups Mugs,not queried,,,,,,,,,True
-Eden & Brooks,,,,,edenbrooks,Quick commerce only,Jars Containers Holders,not queried,,,,0.25,,0.25,,,True
+Eden & Brooks,,,,,edenbrooks,Quick commerce only,Jars Containers Holders,found,0.01,,,0.25,,0.25,,,True
 Eduwation,,,,,eduwation,Quick commerce only,Stationery Needs,not queried,,,3.4,,,3.4,,,True
 Eduway,,,,,eduway,Quick commerce only,Stationery Needs,not queried,,,4.66,,,4.66,,,True
 Einstein Box,,,,,einsteinbox,Quick commerce only,Stationery & Crafts,not queried,,,,,1.23,1.23,,,True
@@ -587,7 +587,7 @@ Evaa Enterprises,,,,,evaaenterprises,Quick commerce only,Decorative Lights,no se
 Everyday,,,,,everyday,Quick commerce only,Tissues & Disposables,not queried,,,0.0,,,0.0,,,True
 EVM,,,,,evm,Quick commerce only,Storage & Organizers,found,686.7,,,84.35,,84.35,,,True
 EXALT,,,,,exalt,Quick commerce only,"Flowers, Plants & Gardening",not queried,,,0.38,,,0.38,,,True
-EXCLUSIVISH,,,,,exclusivish,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.84,,,0.84,,,True
+EXCLUSIVISH,,,,,exclusivish,Quick commerce only,Kitchen & Dining Needs,found,2.58,,0.84,,,0.84,,,True
 Exo,,,,,exo,Quick commerce only,Kitchen Cleaning,not queried,,,,0.0,,0.0,,,True
 FA6,,,,,fa6,Quick commerce only,Decorative Lights,not queried,,,0.0,,,0.0,,,True
 Fabinaliv,,,,,fabinaliv,Quick commerce only,Home Furnishing,not queried,,,1.03,,,1.03,,,True
@@ -608,7 +608,7 @@ Fendo,,,,,fendo,Quick commerce only,Storage & Organizers,found,0.11,,,12.74,58.9
 Ferns N Petals,,,,,fernsnpetals,Quick commerce only,Home Decor,not queried,,,,3.58,,3.58,,,True
 Festaholic,,,,,festaholic,Quick commerce only,Festive & Occasion Needs,not queried,,,0.08,,,0.08,,,True
 Festivora,,,,,festivora,Quick commerce only,Decorative Lights,found,31.74,,5.44,17.01,,22.450000000000003,,,True
-F Gear,,,,,fgear,Quick commerce only,Lunch Boxes,not queried,,,,,0.02,0.02,,,True
+F Gear,,,,,fgear,Quick commerce only,Lunch Boxes,found,155.75,,,,0.02,0.02,,,True
 Fiesta,,,,,fiesta,Quick commerce only,Festive & Occasion Needs,not queried,,,0.0,,,0.0,,,True
 Figment,,,,,figment,Quick commerce only,Home Furnishing,not queried,,,0.42,,,0.42,,,True
 Filixtrue,,,,,filixtrue,Quick commerce only,Storage & Organizers,not queried,,,,0.0,,0.0,,,True
@@ -648,7 +648,7 @@ Genie,,,,,genie,Quick commerce only,Bags,not queried,,,5.52,,,5.52,,,True
 Genius,,,,,genius,Quick commerce only,Bags,not queried,,,0.08,,,0.08,,,True
 G.Fidel,,,,,gfidel,Quick commerce only,Appliances,found,0.46,,0.44,,,0.44,,,True
 GG Copper,,,,,ggcopper,Quick commerce only,Pooja Needs,not queried,,,1.36,,,1.36,,,True
-GHH,,,,,ghh,Quick commerce only,Festive Gifting,not queried,,,0.03,,,0.03,,,True
+GHH,,,,,ghh,Quick commerce only,Festive Gifting,no selling listing,,,0.03,,,0.03,,,True
 gibox,,,,,gibox,Quick commerce only,Pooja & Worship Needs,not queried,,,,,2.23,2.23,,,True
 giftonetree,,,,,giftonetree,Quick commerce only,Stationery Needs,not queried,,,0.0,,,0.0,,,True
 Gimi,,,,,gimi,Quick commerce only,Bathware & Laundry,not queried,,,,0.0,,0.0,,,True
@@ -667,7 +667,7 @@ gogear,,,,,gogear,Quick commerce only,Barware,not queried,,,,0.04,,0.04,,,True
 Go Green,,,,,gogreen,Quick commerce only,Gardening,not queried,,,,,0.04,0.04,,,True
 Gold Winner,,,,,goldwinner,Quick commerce only,Pooja Needs,no selling listing,,,,36.02,,36.02,,,True
 Greenland,,,,,greenland,Quick commerce only,Sports & Gym,not queried,,,,0.0,,0.0,,,True
-Green Toys,,,,,greentoys,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.23,,,0.23,,,True
+Green Toys,,,,,greentoys,Quick commerce only,Kitchen & Dining Needs,found,0.25,,0.23,,,0.23,,,True
 Grihokon,,,,,grihokon,Quick commerce only,Bathware & Laundry,not queried,,,,0.04,,0.04,,,True
 Grishva,,,,,grishva,Quick commerce only,Home Furnishing,found,0.19,,10.36,,,10.36,,,True
 Groovydudz,,,,,groovydudz,Quick commerce only,Festive & Occasion Needs,not queried,,,3.46,,,3.46,,,True
@@ -686,13 +686,12 @@ Happy to Hang,,,,,happytohang,Quick commerce only,Household Utility,found,9.01,,
 Har Ghar Puja,,,,,hargharpuja,Quick commerce only,Festive & Occasion Needs,not queried,,,0.21,,,0.21,,,True
 Harrelz,,,,,harrelz,Quick commerce only,Home Furnishing,not queried,,,1.04,,,1.04,,,True
 Harrison,,,,,harrison,Quick commerce only,Household Utility,not queried,,,,,0.0,0.0,,,True
-Harry Potter,,,,,harrypotter,Quick commerce only,Glasses Cups Mugs,not queried,,,,0.0,,0.0,,,True
 Hauser,,,,,hauser,Quick commerce only,Stationery Needs,found,66.96,,38.66,,,38.66,,,True
 Head,,,,,head,Quick commerce only,Sports & Fitness,not queried,,,1.77,0.0,,1.77,,,True
-Headway,,,,,headway,Quick commerce only,Bottles Flasks Tiffins,not queried,,,,0.09,,0.09,,,True
+Headway,,,,,headway,Quick commerce only,Bottles Flasks Tiffins,found,1.54,,,0.09,,0.09,,,True
 Healthgenie,,,,,healthgenie,Quick commerce only,Appliances,found,43.72,,0.15,,,0.15,,,True
-Heart Home,,,,,hearthome,Quick commerce only,Bakeware & Bbq,not queried,,,,0.84,,0.84,,,True
-Heat,,,,,heat,Quick commerce only,Plates Bowls Crockery,not queried,,,,0.0,,0.0,,,True
+Heart Home,,,,,hearthome,Quick commerce only,Bakeware & Bbq,found,32.92,,,0.84,,0.84,,,True
+Heat,,,,,heat,Quick commerce only,Plates Bowls Crockery,no selling listing,,,,0.0,,0.0,,,True
 Heelium,,,,,heelium,Quick commerce only,Home Furnishing,not queried,,,0.01,,1.66,1.67,,,True
 Help Us Green,,,,,helpusgreen,Quick commerce only,Pooja & Worship Needs,not queried,,,,,0.0,0.0,,,True
 Hemito,,,,,hemito,Quick commerce only,Home Furnishing,found,0.87,,55.98,0.86,3.41,60.25,,,True
@@ -704,7 +703,7 @@ Hindalco,,,,,hindalco,Quick commerce only,Tissues & Disposables,not queried,,,,,
 Hindcraft,,,,,hindcraft,Quick commerce only,Decorative Lights,found,7.76,,5.05,6.23,,11.280000000000001,,,True
 Hindson,,,,,hindson,Quick commerce only,Home Improvement,not queried,,,2.62,0.08,,2.7,,,True
 Hipkoo,,,,,hipkoo,Quick commerce only,Sports & Fitness,not queried,,,0.12,,,0.12,,,True
-Hm International,,,,,hminternational,Quick commerce only,Lunch Boxes,not queried,,,,,0.02,0.02,,,True
+Hm International,,,,,hminternational,Quick commerce only,Lunch Boxes,no selling listing,,,,,0.02,0.02,,,True
 Hoblie,,,,,hoblie,Quick commerce only,Stationery Needs,not queried,,,0.12,,,0.12,,,True
 Hola Candles,,,,,holacandles,Quick commerce only,Home Decor,not queried,,,,,0.08,0.08,,,True
 Homebasic,,,,,homebasic,Quick commerce only,Appliances,found,29.31,,4.03,,,4.03,,,True
@@ -722,7 +721,7 @@ HOOM,,,,,hoom,Quick commerce only,Kitchen & Dining Needs,found,0.1,,5.43,23.01,0
 hotgown,,,,,hotgown,Quick commerce only,Home Furnishing,found,0.04,,17.51,,,17.51,,,True
 House of Gulab,,,,,houseofgulab,Quick commerce only,Home Furnishing,not queried,,,,,0.24,0.24,,,True
 HRX,,,,,hrx,Quick commerce only,Sports & Gym,not queried,,,,0.04,,0.04,,,True
-hubow,,,,,hubow,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.0,,,0.0,,,True
+hubow,,,,,hubow,Quick commerce only,Kitchen & Dining Needs,found,0.01,,0.0,,,0.0,,,True
 Humming Bird,,,,,hummingbird,Quick commerce only,Home Furnishing,not queried,,,6.04,,,6.04,,,True
 I-Care,,,,,icare,Quick commerce only,Cleaning Tools,not queried,,,,,,,,,True
 Ifazah,,,,,ifazah,Quick commerce only,Storage & Organizers,not queried,,,,0.0,,0.0,,,True
@@ -732,7 +731,7 @@ Imeco,,,,,imeco,Quick commerce only,Home Furnishing,not queried,,,1.39,,,1.39,,,
 Impulse,,,,,impulse,Quick commerce only,Bags,found,126.57,,224.13,3.14,,227.26999999999998,,,True
 Imvelo,,,,,imvelo,Quick commerce only,Home Furnishing,not queried,,,11.24,,,11.24,,,True
 Indi Gear,,,,,indigear,Quick commerce only,Bathware & Laundry,not queried,,,,,,,,,True
-Infantino,,,,,infantino,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.08,,,0.08,,,True
+Infantino,,,,,infantino,Quick commerce only,Kitchen & Dining Needs,found,13.46,,0.08,,,0.08,,,True
 Insight Cosmetics,,,,,insightcosmetics,Quick commerce only,Utility & Tools,not queried,,,,0.08,,0.08,,,True
 Intellilens,,,,,intellilens,Quick commerce only,"Clothing, Footwear & Accessories",not queried,,,0.0,,,0.0,,,True
 International Gift,,,,,internationalgift,Quick commerce only,Stationery Needs,not queried,,,0.0,,,0.0,,,True
@@ -757,10 +756,10 @@ Jlt Basics,,,,,jltbasics,Quick commerce only,Utility & Tools,not queried,,,,0.28
 Joff,,,,,joff,Quick commerce only,Kitchen Cleaning,not queried,,,,,0.26,0.26,,,True
 JoGenii,,,,,jogenii,Quick commerce only,Stationery & Crafts,not queried,,,,,0.28,0.28,,,True
 Johnson,,,,,johnson,Quick commerce only,Bathroom Essentials,not queried,,,,,,,,,True
-Joseph Joseph,,,,,josephjoseph,Quick commerce only,Bathroom Essentials,not queried,,,0.02,0.01,,0.03,,,True
+Joseph Joseph,,,,,josephjoseph,Quick commerce only,Bathroom Essentials,found,3.7,,0.02,0.01,,0.03,,,True
 JSB,,,,,jsb,Quick commerce only,Home Furnishing,not queried,,,0.34,,,0.34,,,True
 Just Party,,,,,justparty,Quick commerce only,Home Furnishing,not queried,,,,0.06,0.01,0.06999999999999999,,,True
-JuteS Eco,,,,,juteseco,Quick commerce only,Bottles Flasks Tiffins,not queried,,,,3.95,,3.95,,,True
+JuteS Eco,,,,,juteseco,Quick commerce only,Bottles Flasks Tiffins,no selling listing,,,,3.95,,3.95,,,True
 Kaco,,,,,kaco,Quick commerce only,Stationery Needs,found,4.9,,148.49,,,148.49,,,True
 Kacool,,,,,kacool,Quick commerce only,Decorative Lights,not queried,,,0.32,,,0.32,,,True
 Kalakaram,,,,,kalakaram,Quick commerce only,Stationery & Crafts,not queried,,,,,0.02,0.02,,,True
@@ -772,9 +771,9 @@ KARBD,,,,,karbd,Quick commerce only,Sports & Fitness,not queried,,,0.0,,,0.0,,,T
 Karpure,,,,,karpure,Quick commerce only,Pooja Needs,no selling listing,,,,13.23,6.06,19.29,,,True
 Kavi The Poetry-Art Project,,,,,kavithepoetryartproject,Quick commerce only,Decorative Lights,no selling listing,,,6.28,3.95,0.15,10.38,,,True
 Kcofoil,,,,,kcofoil,Quick commerce only,Household Utility,not queried,,,,,12.25,12.25,,,True
-Keep-It-Fresh,,,,,keepitfresh,Quick commerce only,Kitchen Storage,not queried,,,,,0.0,0.0,,,True
+Keep-It-Fresh,,,,,keepitfresh,Quick commerce only,Kitchen Storage,no selling listing,,,,,0.0,0.0,,,True
 Keyroad,,,,,keyroad,Quick commerce only,Stationery Needs,not queried,,,,,,,,,True
-khatana,,,,,khatana,Quick commerce only,Cookware,not queried,,,,,0.14,0.14,,,True
+khatana,,,,,khatana,Quick commerce only,Cookware,no selling listing,,,,,0.14,0.14,,,True
 Kidara,,,,,kidara,Quick commerce only,Decorative Lights,found,2.07,,66.02,0.08,1.5,67.6,,,True
 Kidology,,,,,kidology,Quick commerce only,Decorative Lights,not queried,,,4.52,,,4.52,,,True
 Kimjaly,,,,,kimjaly,Quick commerce only,Home Furnishing,not queried,,,2.04,,,2.04,,,True
@@ -791,7 +790,7 @@ KMJSA,,,,,kmjsa,Quick commerce only,Decorative Lights,not queried,,,0.2,,,0.2,,,
 Kolar,,,,,kolar,Quick commerce only,Kitchen & Dining Needs,not queried,,,4.89,,,4.89,,,True
 Konex,,,,,konex,Quick commerce only,Sports & Gym,not queried,,,,0.02,,0.02,,,True
 Konquer Times,,,,,konquertimes,Quick commerce only,Home Improvement,found,65.91,,14.32,0.92,,15.24,,,True
-Kooltech,,,,,kooltech,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.0,,0.13,0.13,,,True
+Kooltech,,,,,kooltech,Quick commerce only,Kitchen & Dining Needs,found,0.03,,0.0,,0.13,0.13,,,True
 Koparo,,,,,koparo,Quick commerce only,Cleaning Tools,not queried,,,,0.96,0.64,1.6,,,True
 Kores,,,,,kores,Quick commerce only,Stationery Needs,not queried,,,13.84,0.0,,13.84,,,True
 Koti,,,,,koti,Quick commerce only,Home Decor,not queried,,,,0.0,,0.0,,,True
@@ -819,7 +818,7 @@ Leafy tales,,,,,leafytales,Quick commerce only,Gardening,not queried,,,,4.2,0.42
 Leeford,,,,,leeford,Quick commerce only,Sports & Gym,not queried,,,,1.16,,1.16,,,True
 Lefigaro,,,,,lefigaro,Quick commerce only,Decorative Lights,not queried,,,0.76,,,0.76,,,True
 Legend of Toys,,,,,legendoftoys,Quick commerce only,Stationery & Crafts,not queried,,,,,0.31,0.31,,,True
-Leoron,,,,,leoron,Quick commerce only,Pressure Cooker,not queried,,,,,0.0,0.0,,,True
+Leoron,,,,,leoron,Quick commerce only,Pressure Cooker,no selling listing,,,,,0.0,0.0,,,True
 Leosoft,,,,,leosoft,Quick commerce only,Home Furnishing,no selling listing,,,61.92,0.04,10.62,72.58,,,True
 LetsShave,,,,,letsshave,Quick commerce only,Personal Care Appliances,found,16.73,,,0.0,,0.0,,,True
 Let's Vybe,,,,,letsvybe,Quick commerce only,Home Furnishing,not queried,,,,,5.94,5.94,,,True
@@ -836,7 +835,7 @@ Lumivolt,,,,,lumivolt,Quick commerce only,Home Appliances,no selling listing,,,,
 Lumov,,,,,lumov,Quick commerce only,Sports & Gym,not queried,,,,0.35,,0.35,,,True
 Luteti,,,,,luteti,Quick commerce only,Home Furnishing,not queried,,,0.02,,,0.02,,,True
 Luxe Home International,,,,,luxehomeinternational,Quick commerce only,Home Furnishing,not queried,,,7.32,0.04,1.02,8.38,,,True
-Lynrex,,,,,lynrex,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.01,,,0.01,,,True
+Lynrex,,,,,lynrex,Quick commerce only,Kitchen & Dining Needs,found,34.67,,0.01,,,0.01,,,True
 Maitri Enviro,,,,,maitrienviro,Quick commerce only,Cleaning Aids,not queried,,,,,0.0,0.0,,,True
 Majestique,,,,,majestique,Quick commerce only,Home Furnishing,not queried,,,,4.04,,4.04,,,True
 Majik,,,,,majik,Quick commerce only,Pooja Needs,not queried,,,11.16,,,11.16,,,True
@@ -847,18 +846,18 @@ Maruti,,,,,maruti,Quick commerce only,Bathware & Laundry,not queried,,,,0.0,,0.0
 Marvel,,,,,marvel,Quick commerce only,Bags,not queried,,,0.03,,0.01,0.04,,,True
 Masking,,,,,masking,Quick commerce only,Tissues & Disposables,not queried,,,0.0,,,0.0,,,True
 Mata,,,,,mata,Quick commerce only,Plates Bowls Crockery,not queried,,,,,,,,,True
-maxsafe,,,,,maxsafe,Quick commerce only,Kitchen Storage,not queried,,,,,0.36,0.36,,,True
+maxsafe,,,,,maxsafe,Quick commerce only,Kitchen Storage,found,0.04,,,,0.36,0.36,,,True
 Maybelline New York,,,,,maybellinenewyork,Quick commerce only,Utility & Tools,not queried,,,,0.33,,0.33,,,True
 Mayor,,,,,mayor,Quick commerce only,Sports & Gym,not queried,,,,1.48,,1.48,,,True
 Mayyur,,,,,mayyur,Quick commerce only,Pooja & Worship Needs,not queried,,,,,0.36,0.36,,,True
-McCoy,,,,,mccoy,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.0,,,0.0,,,True
+McCoy,,,,,mccoy,Quick commerce only,Kitchen & Dining Needs,found,1.01,,0.0,,,0.0,,,True
 Meditive,,,,,meditive,Quick commerce only,Appliances,found,62.6,,0.48,,,0.48,,,True
 Mee Mee,,,,,meemee,Quick commerce only,Kitchen Storage,not queried,,,,,,,,,True
 Meguiar's,,,,,meguiars,Quick commerce only,Home Furnishing,not queried,,,,0.04,0.1,0.14,,,True
-Melii,,,,,melii,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.32,0.26,,0.5800000000000001,,,True
-Meliimelii,,,,,meliimelii,Quick commerce only,Bottles Flasks Tiffins,not queried,,,,0.02,,0.02,,,True
+Melii,,,,,melii,Quick commerce only,Kitchen & Dining Needs,found,0.43,,0.32,0.26,,0.5800000000000001,,,True
+Meliimelii,,,,,meliimelii,Quick commerce only,Bottles Flasks Tiffins,no selling listing,,,,0.02,,0.02,,,True
 Mestiere,,,,,mestiere,Quick commerce only,Stationery Needs,not queried,,,0.08,,,0.08,,,True
-Metallure Home,,,,,metallurehome,Quick commerce only,Kitchen & Dining Needs,not queried,,,1.35,,,1.35,,,True
+Metallure Home,,,,,metallurehome,Quick commerce only,Kitchen & Dining Needs,found,18.18,,1.35,,,1.35,,,True
 MetaShot,,,,,metashot,Quick commerce only,Appliances,found,104.75,,8.39,12.71,,21.1,,,True
 Midazzle,,,,,midazzle,Quick commerce only,Utility & Tools,not queried,,,,5.46,,5.46,,,True
 Millennium,,,,,millennium,Quick commerce only,Stationery & Crafts,not queried,,,,,0.02,0.02,,,True
@@ -870,7 +869,7 @@ Moksh,,,,,moksh,Quick commerce only,Pooja Needs,not queried,,,0.02,,,0.02,,,True
 Monkey 555,,,,,monkey555,Quick commerce only,Cleaning Aids,found,1.75,,,,75.37,75.37,,,True
 MOP N ME,,,,,mopnme,Quick commerce only,Cleaning Tools,no selling listing,,,,15.22,,15.22,,,True
 MorivaHomes,,,,,morivahomes,Quick commerce only,Home Furnishing,found,17.98,0.94,2.82,,,2.82,,,True
-Morovik,,,,,morovik,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.71,,,0.71,,,True
+Morovik,,,,,morovik,Quick commerce only,Kitchen & Dining Needs,found,9.76,,0.71,,,0.71,,,True
 Motomax,,,,,motomax,Quick commerce only,Home Furnishing,not queried,,,,,0.64,0.64,,,True
 motorzee,,,,,motorzee,Quick commerce only,Household Utility,no selling listing,,,0.1,,12.7,12.799999999999999,,,True
 Moxie Beauty,,,,,moxiebeauty,Quick commerce only,Utility & Tools,not queried,,,,6.75,,6.75,,,True
@@ -881,7 +880,7 @@ MrRight,,,,,mrright,Quick commerce only,Appliances,not queried,,,0.14,0.44,,0.58
 Mrs the Club,,,,,mrstheclub,Quick commerce only,Kitchen & Dining Needs,not queried,,,,,,,,,True
 Mr Toolman,,,,,mrtoolman,Quick commerce only,Storage & Organizers,not queried,,,,0.0,,0.0,,,True
 mtl,,,,,mtl,Quick commerce only,Gardening,not queried,,,,0.0,,0.0,,,True
-Multibrand Combo,,,,,multibrandcombo,Quick commerce only,Barware,not queried,,,,0.0,0.0,0.0,,,True
+Multibrand Combo,,,,,multibrandcombo,Quick commerce only,Barware,no selling listing,,,,0.0,0.0,0.0,,,True
 Multibrite,,,,,multibrite,Quick commerce only,Home Furnishing,not queried,,,1.31,,,1.31,,,True
 Mygate,,,,,mygate,Quick commerce only,Home Appliances,found,47.48,,,0.01,,0.01,,,True
 MyORL-Care,,,,,myorlcare,Quick commerce only,Utility & Tools,not queried,,,,0.1,,0.1,,,True
@@ -892,22 +891,22 @@ Namah,,,,,namah,Quick commerce only,Decorative Lights,not queried,,,0.24,,,0.24,
 Nasher Miles,,,,,nashermiles,Quick commerce only,Appliances,found,63.59,,22.76,22.92,,45.68000000000001,,,True
 Nature's Plus,,,,,naturesplus,Quick commerce only,Gardening,not queried,,,,0.0,0.06,0.06,,,True
 Nayra,,,,,nayra,Quick commerce only,Gardening,not queried,,,,,0.63,0.63,,,True
-NB Crafted,,,,,nbcrafted,Quick commerce only,Kitchen & Dining Needs,not queried,,,1.02,0.97,,1.99,,,True
+NB Crafted,,,,,nbcrafted,Quick commerce only,Kitchen & Dining Needs,found,4.77,,1.02,0.97,,1.99,,,True
 NEA,,,,,nea,Quick commerce only,Decorative Lights,not queried,,,4.1,,,4.1,,,True
 Neelam,,,,,neelam,Quick commerce only,Barware,found,121.81,6.39,,0.62,,0.62,,,True
 Neha,,,,,neha,Quick commerce only,Pooja Needs,not queried,,,,3.8,6.28,10.08,,,True
 Nev,,,,,nev,Quick commerce only,Appliances,found,2.89,,0.59,,0.49,1.08,,,True
-Newdru,,,,,newdru,Quick commerce only,Appliances,not queried,,,0.0,,,0.0,,,True
+Newdru,,,,,newdru,Quick commerce only,Appliances,found,19.25,,0.0,,,0.0,,,True
 Newtone,,,,,newtone,Quick commerce only,Garbage Bags,found,35.97,,40.06,,0.52,40.580000000000005,,,True
 Nirmal,,,,,nirmal,Quick commerce only,Pooja & Worship Needs,not queried,,,,,4.12,4.12,,,True
 nivah,,,,,nivah,Quick commerce only,Home Furnishing,not queried,,,0.3,,,0.3,,,True
-Nori,,,,,nori,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.02,,,0.02,,,True
-Noritake,,,,,noritake,Quick commerce only,Glasses Cups Mugs,not queried,,,,0.02,,0.02,,,True
+Nori,,,,,nori,Quick commerce only,Kitchen & Dining Needs,no selling listing,,,0.02,,,0.02,,,True
+Noritake,,,,,noritake,Quick commerce only,Glasses Cups Mugs,found,1.13,,,0.02,,0.02,,,True
 Nostrae,,,,,nostrae,Quick commerce only,Decorative Lights,not queried,,,0.02,,,0.02,,,True
 Nostrain,,,,,nostrain,Quick commerce only,"Clothing, Footwear & Accessories",not queried,,,7.56,,,7.56,,,True
 Nova,,,,,nova,Quick commerce only,Kitchen Appliances,found,115.26,10.69,,0.25,2.04,2.29,,,True
-Nubilous,,,,,nubilous,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.64,,,0.64,,,True
-nude,,,,,nude,Quick commerce only,Barware,not queried,,,,0.1,,0.1,,,True
+Nubilous,,,,,nubilous,Quick commerce only,Kitchen & Dining Needs,found,2.16,,0.64,,,0.64,,,True
+nude,,,,,nude,Quick commerce only,Barware,no selling listing,,,,0.1,,0.1,,,True
 Nuluv,,,,,nuluv,Quick commerce only,Home Furnishing,not queried,,,,0.0,,0.0,,,True
 Numic,,,,,numic,Quick commerce only,Home Decor,not queried,,,0.0,,,0.0,,,True
 Nuovi,,,,,nuovi,Quick commerce only,Stationery Needs,not queried,,,16.74,0.02,,16.759999999999998,,,True
@@ -917,17 +916,17 @@ Oasis Baklawa,,,,,oasisbaklawa,Quick commerce only,Festive Gifting,not queried,,
 Octus,,,,,octus,Quick commerce only,Sports & Fitness,not queried,,,0.0,,,0.0,,,True
 ODD to Ordinary,,,,,oddtoordinary,Quick commerce only,Home Decor,not queried,,,0.0,,,0.0,,,True
 Oddy,,,,,oddy,Quick commerce only,Tissues & Disposables,found,23.17,1.66,16.98,,4.11,21.09,,,True
-Oicia,,,,,oicia,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.94,,,0.94,,,True
+Oicia,,,,,oicia,Quick commerce only,Kitchen & Dining Needs,found,1.9,,0.94,,,0.94,,,True
 Omizoo,,,,,omizoo,Quick commerce only,"Clothing, Footwear & Accessories",not queried,,,0.08,,,0.08,,,True
 Om Prabhat,,,,,omprabhat,Quick commerce only,Utility & Tools,not queried,,,,0.27,,0.27,,,True
-O.n.e living,,,,,oneliving,Quick commerce only,Kitchen & Dining Needs,not queried,,,1.09,,,1.09,,,True
+O.n.e living,,,,,oneliving,Quick commerce only,Kitchen & Dining Needs,found,0.23,,1.09,,,1.09,,,True
 Orchid Pillows,,,,,orchidpillows,Quick commerce only,Home Furnishing,not queried,,,2.8,,,2.8,,,True
 Oreva,,,,,oreva,Quick commerce only,Home Decor,not queried,,,,0.01,,0.01,,,True
 Outshock,,,,,outshock,Quick commerce only,Sports & Gym,not queried,,,,1.4,,1.4,,,True
 Oxi Fresh,,,,,oxifresh,Quick commerce only,Home Furnishing,not queried,,,0.41,,,0.41,,,True
 Oye Happy,,,,,oyehappy,Quick commerce only,Home Decor,found,13.9,,0.04,5.59,14.54,20.169999999999998,,,True
 Oytra,,,,,oytra,Quick commerce only,Stationery Needs,not queried,,,5.56,,,5.56,,,True
-Packmate,,,,,packmate,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.44,,,0.44,,,True
+Packmate,,,,,packmate,Quick commerce only,Kitchen & Dining Needs,found,0.3,,0.44,,,0.44,,,True
 Pack N Wrap,,,,,packnwrap,Quick commerce only,Tissues & Disposables,no selling listing,,,36.78,,,36.78,,,True
 Palak Greens,,,,,palakgreens,Quick commerce only,Kitchen & Dining Needs,no selling listing,,,3.24,,,3.24,,,True
 Pan Aromas,,,,,panaromas,Quick commerce only,Home Decor,found,0.58,0.0,,,5.18,5.18,,,True
@@ -938,19 +937,19 @@ Paperbees,,,,,paperbees,Quick commerce only,Tissues & Disposables,not queried,,,
 Parax,,,,,parax,Quick commerce only,Decorative Lights,no selling listing,,,145.88,0.55,,146.43,,,True
 Park+,,,,,park,Quick commerce only,Home Furnishing,not queried,,,,0.11,0.7,0.8099999999999999,,,True
 Pee Safe,,,,,peesafe,Quick commerce only,Appliances,no selling listing,,,18.5,8.42,,26.92,,,True
-Pencil,,,,,pencil,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.02,,,0.02,,,True
+Pencil,,,,,pencil,Quick commerce only,Kitchen & Dining Needs,found,3.35,,0.02,,,0.02,,,True
 Pentel,,,,,pentel,Quick commerce only,Stationery Needs,not queried,,,10.31,,,10.31,,,True
 Pep Nails,,,,,pepnails,Quick commerce only,Utility & Tools,not queried,,,,0.08,,0.08,,,True
 Perfy,,,,,perfy,Quick commerce only,Home Furnishing,not queried,,,0.98,,,0.98,,,True
 Petcrux,,,,,petcrux,Quick commerce only,Garbage Bags,not queried,,,3.15,0.02,,3.17,,,True
 Phlavar,,,,,phlavar,Quick commerce only,"Flowers, Plants & Gardening",not queried,,,9.46,1.8,,11.260000000000002,,,True
 Phulwaa,,,,,phulwaa,Quick commerce only,Pooja Needs,not queried,,,,15.49,,15.49,,,True
-Pi,,,,,pi,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.12,,,0.12,,,True
+Pi,,,,,pi,Quick commerce only,Kitchen & Dining Needs,found,0.27,,0.12,,,0.12,,,True
 Pichai,,,,,pichai,Quick commerce only,Home Decor,no selling listing,,,,0.32,11.18,11.5,,,True
 Pie Matrix,,,,,piematrix,Quick commerce only,Sports & Fitness,not queried,,,1.72,,,1.72,,,True
 Planet of Toys,,,,,planetoftoys,Quick commerce only,Home Furnishing,not queried,,,0.06,,,0.06,,,True
 Play-Doh,,,,,playdoh,Quick commerce only,Stationery & Crafts,not queried,,,,,0.34,0.34,,,True
-playR,,,,,playr,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.1,0.0,,0.1,,,True
+playR,,,,,playr,Quick commerce only,Kitchen & Dining Needs,found,4.51,,0.1,0.0,,0.1,,,True
 Pletheon,,,,,pletheon,Quick commerce only,Sports & Gym,not queried,,,,0.41,,0.41,,,True
 Plush,,,,,plush,Quick commerce only,Utility & Tools,not queried,,,,0.0,,0.0,,,True
 POKAL,,,,,pokal,Quick commerce only,Barware,not queried,,,,,,,,,True
@@ -959,7 +958,7 @@ Polish Me Pretty,,,,,polishmepretty,Quick commerce only,Utility & Tools,not quer
 Pongori,,,,,pongori,Quick commerce only,Sports & Fitness,not queried,,,9.62,2.36,,11.979999999999999,,,True
 Poppotato,,,,,poppotato,Quick commerce only,Home Decor,not queried,,,,0.26,,0.26,,,True
 Posca,,,,,posca,Quick commerce only,Stationery Needs,not queried,,,,,,,,,True
-Poshio,,,,,poshio,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.72,,,0.72,,,True
+Poshio,,,,,poshio,Quick commerce only,Kitchen & Dining Needs,found,7.7,,0.72,,,0.72,,,True
 Powermax,,,,,powermax,Quick commerce only,Appliances,no selling listing,,,0.0,,,0.0,,,True
 Prakritii,,,,,prakritii,Quick commerce only,Tissues & Disposables,not queried,,,0.01,,,0.01,,,True
 Pranay's Kleanup,,,,,pranayskleanup,Quick commerce only,Cleaning Tools,not queried,,,,1.86,,1.86,,,True
@@ -983,9 +982,9 @@ Qudrat,,,,,qudrat,Quick commerce only,Tissues & Disposables,not queried,,,0.02,,
 Quick Click Goods,,,,,quickclickgoods,Quick commerce only,Home Furnishing,not queried,,,0.06,0.04,,0.1,,,True
 QUICLEAN,,,,,quiclean,Quick commerce only,Kitchen Cleaning,not queried,,,,,,,,,True
 Quillora,,,,,quillora,Quick commerce only,Travel And Luggage,not queried,,,,0.16,,0.16,,,True
-Quinze,,,,,quinze,Quick commerce only,Gas Stove & Accessories,not queried,,,,,0.0,0.0,,,True
+Quinze,,,,,quinze,Quick commerce only,Gas Stove & Accessories,found,0.0,,,,0.0,0.0,,,True
 RAD Lvng,,,,,radlvng,Quick commerce only,Home Decor,not queried,,,,,0.48,0.48,,,True
-Raffles,,,,,raffles,Quick commerce only,Cutlery & Ladles,not queried,,,,0.03,,0.03,,,True
+Raffles,,,,,raffles,Quick commerce only,Cutlery & Ladles,no selling listing,,,,0.03,,0.03,,,True
 Ramila,,,,,ramila,Quick commerce only,Kitchen & Dining Needs,found,0.35,,6.78,,,6.78,,,True
 Ramraj,,,,,ramraj,Quick commerce only,Home Furnishing,not queried,,,2.04,,,2.04,,,True
 Rangeela,,,,,rangeela,Quick commerce only,Festive & Occasion Needs,not queried,,,0.02,,0.06,0.08,,,True
@@ -996,7 +995,7 @@ Ratnas,,,,,ratnas,Quick commerce only,Stationery & Crafts,not queried,,,,,9.82,9
 Raybrite,,,,,raybrite,Quick commerce only,Decorative Lights,not queried,,,1.3,,,1.3,,,True
 Reach,,,,,reach,Quick commerce only,Sports & Fitness,not queried,,,0.0,,,0.0,,,True
 ReCleno,,,,,recleno,Quick commerce only,Home Furnishing,not queried,,,0.32,,,0.32,,,True
-ReeQ,,,,,reeq,Quick commerce only,Home Furnishing,not queried,,,1.37,,,1.37,,,True
+ReeQ,,,,,reeq,Quick commerce only,Home Furnishing,found,0.06,,1.37,,,1.37,,,True
 Reffo,,,,,reffo,Quick commerce only,Kitchen & Dining Needs,found,0.01,,2.51,,,2.51,,,True
 Renee,,,,,renee,Quick commerce only,Utility & Tools,not queried,,,,0.39,,0.39,,,True
 Rengvo,,,,,rengvo,Quick commerce only,Party Essentials,not queried,,,0.56,,,0.56,,,True
@@ -1053,10 +1052,10 @@ Shimmers,,,,,shimmers,Quick commerce only,Home Furnishing,not queried,,,1.98,0.2
 Shinetoy,,,,,shinetoy,Quick commerce only,Stationery Needs,not queried,,,0.72,,,0.72,,,True
 ShineXPro,,,,,shinexpro,Quick commerce only,Home Furnishing,not queried,,,,0.27,2.72,2.99,,,True
 Shinezap,,,,,shinezap,Quick commerce only,Kitchen Cleaning,not queried,,,,10.2,5.66,15.86,,,True
-Shoppr Smart,,,,,shopprsmart,Quick commerce only,Pooja Needs,not queried,,,,0.0,,0.0,,,True
+Shoppr Smart,,,,,shopprsmart,Quick commerce only,Pooja Needs,no selling listing,,,,0.0,,0.0,,,True
 Shree Delight,,,,,shreedelight,Quick commerce only,Home Improvement,not queried,,,,,,,,,True
 Shree Rakhi,,,,,shreerakhi,Quick commerce only,Festive & Occasion Needs,not queried,,,0.04,,,0.04,,,True
-Shree Shyam,,,,,shreeshyam,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.5,,,0.5,,,True
+Shree Shyam,,,,,shreeshyam,Quick commerce only,Kitchen & Dining Needs,found,1.92,,0.5,,,0.5,,,True
 Shri Ganesha,,,,,shriganesha,Quick commerce only,Festive & Occasion Needs,not queried,,,0.0,,,0.0,,,True
 Shri Samridhdhi,,,,,shrisamridhdhi,Quick commerce only,Pooja Needs,not queried,,,,1.32,,1.32,,,True
 Shryoan,,,,,shryoan,Quick commerce only,Utility & Tools,not queried,,,,0.02,,0.02,,,True
@@ -1069,17 +1068,17 @@ Simdur,,,,,simdur,Quick commerce only,Pooja Needs,not queried,,,,0.0,,0.0,,,True
 Simond,,,,,simond,Quick commerce only,Storage & Organizers,not queried,,,,5.9,,5.9,,,True
 Sinco,,,,,sinco,Quick commerce only,Household Utility,not queried,,,,,2.49,2.49,,,True
 Sipologie,,,,,sipologie,Quick commerce only,Appliances,found,47.4,4.26,8.25,0.75,,9.0,,,True
-sippin,,,,,sippin,Quick commerce only,Barware,not queried,,,,0.0,,0.0,,,True
+sippin,,,,,sippin,Quick commerce only,Barware,no selling listing,,,,0.0,,0.0,,,True
 Sirona,,,,,sirona,Quick commerce only,Tissues & Disposables,not queried,,,15.85,,,15.85,,,True
-Sizzle,,,,,sizzle,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.57,,,0.57,,,True
+Sizzle,,,,,sizzle,Quick commerce only,Kitchen & Dining Needs,found,1.23,,0.57,,,0.57,,,True
 skiindle,,,,,skiindle,Quick commerce only,Festive Gifting,not queried,,,0.0,,,0.0,,,True
 Skillmatics,,,,,skillmatics,Quick commerce only,Stationery & Crafts,not queried,,,,,6.52,6.52,,,True
-Skitch,,,,,skitch,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.12,,,0.12,,,True
+Skitch,,,,,skitch,Quick commerce only,Kitchen & Dining Needs,found,0.0,,0.12,,,0.12,,,True
 Skullfit,,,,,skullfit,Quick commerce only,Sports & Gym,not queried,,,,0.15,,0.15,,,True
 Skuviz,,,,,skuviz,Quick commerce only,Decorative Lights,not queried,,,1.68,,,1.68,,,True
 Slainte,,,,,slainte,Quick commerce only,Decorative Lights,no selling listing,,,7.92,,,7.92,,,True
 SleepRabbit,,,,,sleeprabbit,Quick commerce only,Home Furnishing,no selling listing,,,17.58,,,17.58,,,True
-Sleepy Owl,,,,,sleepyowl,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.0,,,0.0,,,True
+Sleepy Owl,,,,,sleepyowl,Quick commerce only,Kitchen & Dining Needs,found,225.09,,0.0,,,0.0,,,True
 Slovic,,,,,slovic,Quick commerce only,Home Furnishing,found,659.15,,275.93,153.54,,429.47,,,True
 Smarthome,,,,,smarthome,Quick commerce only,Home Furnishing,not queried,,,0.08,,,0.08,,,True
 Smartivity,,,,,smartivity,Quick commerce only,Stationery & Crafts,not queried,,,,,0.16,0.16,,,True
@@ -1113,17 +1112,16 @@ Stainoff,,,,,stainoff,Quick commerce only,Storage & Organizers,not queried,,,,0.
 Standard,,,,,standard,Quick commerce only,Festive & Occasion Needs,not queried,,,0.15,,,0.15,,,True
 Star,,,,,star,Quick commerce only,Tissues & Disposables,not queried,,,0.0,,,0.0,,,True
 StarAndDaisy,,,,,staranddaisy,Quick commerce only,Home Decor,not queried,,,,,,,,,True
-Star Ever White,,,,,stareverwhite,Quick commerce only,Bakeware & Bbq,not queried,,,,0.76,,0.76,,,True
+Star Ever White,,,,,stareverwhite,Quick commerce only,Bakeware & Bbq,no selling listing,,,,0.76,,0.76,,,True
 Star Toys India,,,,,startoysindia,Quick commerce only,Festive & Occasion Needs,not queried,,,0.0,0.0,,0.0,,,True
-Star Wars,,,,,starwars,Quick commerce only,Glasses Cups Mugs,not queried,,,,0.0,,0.0,,,True
 Stash Pro,,,,,stashpro,Quick commerce only,Party Essentials,not queried,,,1.42,,,1.42,,,True
 Staze,,,,,staze,Quick commerce only,Utility & Tools,not queried,,,,0.02,,0.02,,,True
 Steelgrip,,,,,steelgrip,Quick commerce only,Utility & Tools,not queried,,,,2.73,0.09,2.82,,,True
-Stehlen,,,,,stehlen,Quick commerce only,Kitchen Storage,not queried,,,,,0.09,0.09,,,True
+Stehlen,,,,,stehlen,Quick commerce only,Kitchen Storage,no selling listing,,,,,0.09,0.09,,,True
 Sterling,,,,,sterling,Quick commerce only,Stationery & Crafts,not queried,,,,,0.01,0.01,,,True
 Stiga,,,,,stiga,Quick commerce only,Sports & Gym,not queried,,,1.92,0.72,,2.6399999999999997,,,True
 Stoga,,,,,stoga,Quick commerce only,Home Furnishing,not queried,,,0.8,,,0.8,,,True
-Stona,,,,,stona,Quick commerce only,Steel Utensils,not queried,,,,,0.62,0.62,,,True
+Stona,,,,,stona,Quick commerce only,Steel Utensils,no selling listing,,,,,0.62,0.62,,,True
 Storescent,,,,,storescent,Quick commerce only,Bags,not queried,,,1.71,,,1.71,,,True
 Striders,,,,,striders,Quick commerce only,Bags,not queried,,,0.74,,0.12,0.86,,,True
 stylehouse,,,,,stylehouse,Quick commerce only,Appliances,no selling listing,,,0.0,,,0.0,,,True
@@ -1167,10 +1165,10 @@ The Clownfish,,,,,theclownfish,Quick commerce only,Bags,not queried,,,0.47,0.02,
 The Fresh Livery,,,,,thefreshlivery,Quick commerce only,Home Furnishing,no selling listing,,,24.75,0.0,,24.75,,,True
 The Green Chapter,,,,,thegreenchapter,Quick commerce only,Kitchen & Dining Needs,not queried,,,,,,,,,True
 The Happiness Story,,,,,thehappinessstory,Quick commerce only,Pooja Needs,not queried,,,0.02,,,0.02,,,True
-The Indian Rose,,,,,theindianrose,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.14,,,0.14,,,True
+The Indian Rose,,,,,theindianrose,Quick commerce only,Kitchen & Dining Needs,found,0.01,,0.14,,,0.14,,,True
 Thela Gaadi,,,,,thelagaadi,Quick commerce only,"Clothing, Footwear & Accessories",not queried,,,0.04,,,0.04,,,True
 The Messy Corner,,,,,themessycorner,Quick commerce only,Stationery Needs,not queried,,,0.04,,,0.04,,,True
-Thermador,,,,,thermador,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.02,,,0.02,,,True
+Thermador,,,,,thermador,Quick commerce only,Kitchen & Dining Needs,found,2.74,,0.02,,,0.02,,,True
 The Sibling Affair,,,,,thesiblingaffair,Quick commerce only,Home Decor,not queried,,,,0.0,,0.0,,,True
 The Smart Shoppee,,,,,thesmartshoppee,Quick commerce only,Home Decor,not queried,,,,0.04,,0.04,,,True
 The Stone Aisle,,,,,thestoneaisle,Quick commerce only,Festive & Occasion Needs,not queried,,,,,,,,,True
@@ -1183,7 +1181,7 @@ Tinker Squad,,,,,tinkersquad,Quick commerce only,Stationery Needs,not queried,,,
 Tinums,,,,,tinums,Quick commerce only,Bathroom Essentials,no selling listing,,,11.68,0.12,,11.799999999999999,,,True
 Tirumala,,,,,tirumala,Quick commerce only,Home Appliances,no selling listing,,,,0.0,,0.0,,,True
 Tiyu Traditions,,,,,tiyutraditions,Quick commerce only,Pooja & Worship Needs,not queried,,,,,0.11,0.11,,,True
-Toffee Coffee Roasters,,,,,toffeecoffeeroasters,Quick commerce only,Glasses Cups Mugs,not queried,,,,0.0,,0.0,,,True
+Toffee Coffee Roasters,,,,,toffeecoffeeroasters,Quick commerce only,Glasses Cups Mugs,found,3.66,,,0.0,,0.0,,,True
 Tombow,,,,,tombow,Quick commerce only,Stationery Needs,not queried,,,0.27,,,0.27,,,True
 Tom Uncle,,,,,tomuncle,Quick commerce only,Home Furnishing,not queried,,,,,0.02,0.02,,,True
 Toreto,,,,,toreto,Quick commerce only,Decorative Lights,not queried,,,2.5,,,2.5,,,True
@@ -1208,7 +1206,7 @@ Tripole,,,,,tripole,Quick commerce only,Sports & Gym,not queried,,,,0.0,,0.0,,,T
 Trishul,,,,,trishul,Quick commerce only,Utility & Tools,not queried,,,,2.12,,2.12,,,True
 Truly Tribal,,,,,trulytribal,Quick commerce only,Festive & Occasion Needs,not queried,,,0.0,,,0.0,,,True
 Ttyohar,,,,,ttyohar,Quick commerce only,Pooja Needs,not queried,,,0.24,,,0.24,,,True
-Tuco,,,,,tuco,Quick commerce only,Bottles Flasks Tiffins,not queried,,,,0.08,,0.08,,,True
+Tuco,,,,,tuco,Quick commerce only,Bottles Flasks Tiffins,found,128.73,,,0.08,,0.08,,,True
 Tulip Elite,,,,,tulipelite,Quick commerce only,Home Furnishing,not queried,,,0.0,,,0.0,,,True
 Tulips,,,,,tulips,Quick commerce only,Tissues & Disposables,not queried,,,17.58,0.12,,17.7,,,True
 Twohands,,,,,twohands,Quick commerce only,Pooja Needs,not queried,,,0.46,,,0.46,,,True
@@ -1216,7 +1214,7 @@ Tyohaar,,,,,tyohaar,Quick commerce only,Decorative Lights,not queried,,,10.83,,,
 Ullas,,,,,ullas,Quick commerce only,Pooja Needs,not queried,,,,15.58,,15.58,,,True
 Ultracare PRO,,,,,ultracarepro,Quick commerce only,Appliances,found,50.76,,21.1,,,21.1,,,True
 Umai,,,,,umai,Quick commerce only,"Flowers, Plants & Gardening",found,17.34,,1.26,0.0,1.69,2.95,,,True
-Umami Studio,,,,,umamistudio,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.01,,,0.01,,,True
+Umami Studio,,,,,umamistudio,Quick commerce only,Kitchen & Dining Needs,no selling listing,,,0.01,,,0.01,,,True
 Unbranded,,,,,unbranded,Quick commerce only,Home Decor,found,1.17,,37.61,265.23,0.02,302.86,,,True
 Uniformer,,,,,uniformer,Quick commerce only,Home Furnishing,not queried,,,,0.41,,0.41,,,True
 Unify,,,,,unify,Quick commerce only,Kitchen & Dining Needs,found,48.65,,21.34,,,21.34,,,True
@@ -1228,16 +1226,16 @@ UPHAR,,,,,uphar,Quick commerce only,Home Decor,not queried,,,,,,,,,True
 Urban Basics,,,,,urbanbasics,Quick commerce only,Home Furnishing,not queried,,,,0.01,,0.01,,,True
 Urban Born,,,,,urbanborn,Quick commerce only,Bulbs & Lights,found,28.15,1.15,,,2.17,2.17,,,True
 Urban Plant,,,,,urbanplant,Quick commerce only,"Flowers, Plants & Gardening",not queried,,,0.02,,,0.02,,,True
-Urban Platter,,,,,urbanplatter,Quick commerce only,Kitchen Storage,not queried,,,,,0.04,0.04,,,True
+Urban Platter,,,,,urbanplatter,Quick commerce only,Kitchen Storage,found,351.41,,,,0.04,0.04,,,True
 urbanrinse,,,,,urbanrinse,Quick commerce only,Cleaning Tools,not queried,,,,0.0,,0.0,,,True
-Urban Tribe,,,,,urbantribe,Quick commerce only,Lunch Boxes,not queried,,,,,0.58,0.58,,,True
+Urban Tribe,,,,,urbantribe,Quick commerce only,Lunch Boxes,found,4.95,,,,0.58,0.58,,,True
 Urban Wipe,,,,,urbanwipe,Quick commerce only,Kitchen Cleaning,not queried,,,,,13.08,13.08,,,True
 Urgo,,,,,urgo,Quick commerce only,Tissues & Disposables,no selling listing,,,240.42,101.3,1.12,342.84,,,True
-Utensila,,,,,utensila,Quick commerce only,Jars Containers Holders,not queried,,,,0.24,,0.24,,,True
+Utensila,,,,,utensila,Quick commerce only,Jars Containers Holders,no selling listing,,,,0.24,,0.24,,,True
 utilikart,,,,,utilikart,Quick commerce only,Bathware & Laundry,no selling listing,,,,15.35,,15.35,,,True
 Vaadi Herbals,,,,,vaadiherbals,Quick commerce only,Utility & Tools,not queried,,,,0.02,,0.02,,,True
-Vahdam,,,,,vahdam,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.03,,,0.03,,,True
-VarietyHome,,,,,varietyhome,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.54,,,0.54,,,True
+Vahdam,,,,,vahdam,Quick commerce only,Kitchen & Dining Needs,found,116.13,,0.03,,,0.03,,,True
+VarietyHome,,,,,varietyhome,Quick commerce only,Kitchen & Dining Needs,no selling listing,,,0.54,,,0.54,,,True
 varkaus,,,,,varkaus,Quick commerce only,Decorative Lights,not queried,,,1.1,0.16,,1.26,,,True
 Vaya,,,,,vaya,Quick commerce only,Bottles Flasks Tiffins,found,57.3,,,22.22,,22.22,,,True
 Vector X,,,,,vectorx,Quick commerce only,Sports & Gym,not queried,,,,0.0,,0.0,,,True
@@ -1253,7 +1251,7 @@ Vifitkit,,,,,vifitkit,Quick commerce only,Sports & Gym,not queried,,,,0.06,,0.06
 Vijayalakshmi,,,,,vijayalakshmi,Quick commerce only,Pooja Needs,not queried,,,,0.13,,0.13,,,True
 Vilasiya,,,,,vilasiya,Quick commerce only,Home Furnishing,not queried,,,3.65,,,3.65,,,True
 Vim,,,,,vim,Quick commerce only,Cleaning Tools,not queried,,,,0.0,,0.0,,,True
-Vinayak,,,,,vinayak,Quick commerce only,Kitchen & Dining Needs,not queried,,,0.8,,0.06,0.8600000000000001,,,True
+Vinayak,,,,,vinayak,Quick commerce only,Kitchen & Dining Needs,no selling listing,,,0.8,,0.06,0.8600000000000001,,,True
 Vincent Chase,,,,,vincentchase,Quick commerce only,"Clothing, Footwear & Accessories",not queried,,,0.02,,,0.02,,,True
 Vinod,,,,,vinod,Quick commerce only,Cookware,found,675.77,49.26,1.99,2.3,2.19,6.48,,,True
 Vipin,,,,,vipin,Quick commerce only,Gardening,not queried,,,,0.04,,0.04,,,True
@@ -1266,7 +1264,7 @@ VLCC,,,,,vlcc,Quick commerce only,Utility & Tools,not queried,,,,1.04,,1.04,,,Tr
 Voiish,,,,,voiish,Quick commerce only,Kitchen & Dining Needs,found,7.47,,3.55,0.0,,3.55,,,True
 Voylla,,,,,voylla,Quick commerce only,Festive & Occasion Needs,not queried,,,0.02,0.0,0.2,0.22,,,True
 VVV,,,,,vvv,Quick commerce only,Pooja Needs,no selling listing,,,130.8,,,130.8,,,True
-WAABI-SAABI,,,,,waabisaabi,Quick commerce only,Glasses Cups Mugs,not queried,,,,0.0,,0.0,,,True
+WAABI-SAABI,,,,,waabisaabi,Quick commerce only,Glasses Cups Mugs,found,0.08,,,0.0,,0.0,,,True
 Waaho,,,,,waaho,Quick commerce only,Pooja Needs,not queried,,,0.0,,,0.0,,,True
 Warmex,,,,,warmex,Quick commerce only,Home Appliances,found,0.3,,,,3.47,3.47,,,True
 Warmth WEB,,,,,warmthweb,Quick commerce only,Home Furnishing,not queried,,,0.03,,,0.03,,,True
@@ -1279,7 +1277,7 @@ Welme,,,,,welme,Quick commerce only,Appliances,found,6.78,,3.71,,,3.71,,,True
 Wembley,,,,,wembley,Quick commerce only,Stationery & Crafts,not queried,,,,,5.36,5.36,,,True
 Werfit,,,,,werfit,Quick commerce only,Home Furnishing,not queried,,,1.78,0.05,,1.83,,,True
 Wewel,,,,,wewel,Quick commerce only,Bathroom Essentials,found,0.41,,42.7,9.78,,52.480000000000004,,,True
-Whitegold,,,,,whitegold,Quick commerce only,Jars Containers Holders,not queried,,,,0.0,,0.0,,,True
+Whitegold,,,,,whitegold,Quick commerce only,Jars Containers Holders,no selling listing,,,,0.0,,0.0,,,True
 Wholesome,,,,,wholesome,Quick commerce only,Tissues & Disposables,not queried,,,2.11,,,2.11,,,True
 Wiki,,,,,wiki,Quick commerce only,Travel And Luggage,not queried,,,,0.0,,0.0,,,True
 Wildcraft,,,,,wildcraft,Quick commerce only,Storage & Organizers,not queried,,,,0.32,,0.32,,,True
@@ -1303,7 +1301,7 @@ Youreka,,,,,youreka,Quick commerce only,Stationery & Crafts,not queried,,,,,0.02
 Your Food Lab,,,,,yourfoodlab,Quick commerce only,Kitchen Appliances,no selling listing,,,,,3.06,3.06,,,True
 yoursplants,,,,,yoursplants,Quick commerce only,Gardening,not queried,,,,,0.88,0.88,,,True
 Youth Robe,,,,,youthrobe,Quick commerce only,Home Furnishing,not queried,,,1.68,,,1.68,,,True
-yuging,,,,,yuging,Quick commerce only,Glasses Cups Mugs,not queried,,,,0.06,,0.06,,,True
+yuging,,,,,yuging,Quick commerce only,Glasses Cups Mugs,no selling listing,,,,0.06,,0.06,,,True
 YUKI,,,,,yuki,Quick commerce only,"Clothing, Footwear & Accessories",not queried,,,6.29,,,6.29,,,True
 Zaicus,,,,,zaicus,Quick commerce only,Decorative Lights,not queried,,,0.3,,,0.3,,,True
 Zappfresh,,,,,zappfresh,Quick commerce only,Home Furnishing,not queried,,,4.08,,,4.08,,,True

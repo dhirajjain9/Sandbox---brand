@@ -26,7 +26,7 @@ batches is expensive (about one call per brand); budget Helium 10 calls (1,000 a
 
 ## TARGET: master extraction list (set by the user, 26 Nov 2026)
 
-`runs/_target/master_list.csv`: **1,319 brands** (after wave 1 Part B listed-company additions and 27 no-product-fit electronics/gaming brands) = Master File brands excluding "Skipped" and
+`runs/_target/master_list.csv`: **1,317 brands** (after wave 1 Part B listed-company and licence additions and 27 no-product-fit electronics/gaming brands) = Master File brands excluding "Skipped" and
 "Skipped (Established)" (336) + quick-commerce brands not in the Master File (1,233), minus 215 exclusions
 (established per workbook or well-known, listed-company owned, roll-up owned: Mensa, GlobalBees, Upscalio, GOAT;
 lists in `pipeline/target_exclusions.py`; excluded rows kept in master_list_with_exclusions.csv).
@@ -36,6 +36,7 @@ Extraction runs in category waves (`runs/_target/master_list_waves.csv`, groups 
 wave 1 Appliances + Kitchen & Dining + Kitchen Storage (250 brands), wave 2 Home Furnishing + Decor & Gifting +
 Lighting (292), wave 3 Cleaning, Pooja, Storage, Home Improvement, Bath (308), wave 4 the rest (214). Each wave =
 Black Box sub-category exports (category view) + brand batches (`runs/_target/waves/`).
+Status 27 Nov: wave 1 brand pulls complete (Amazon: 214 found, 115 no match); Part A categories partly done (30 of ~40).
 Roles: we do data and diligence; outreach decisions belong to the outreach team.
 
 ## Sourcing universe (the team's brand list)

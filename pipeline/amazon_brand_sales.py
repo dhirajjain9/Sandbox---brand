@@ -154,6 +154,9 @@ def build():
     a["capped_top500"] = a.brand_key.isin(capped)
     q = pd.read_csv("runs/_qcom/qcom_brand_sales.csv")
     names = q.groupby("brand_key").brand.first().reset_index()
+    if os.path.exists("runs/_target/master_list_with_exclusions.csv"):  # every target-list brand (Master File names too)
+        s = pd.read_csv("runs/_target/master_list_with_exclusions.csv")[["key", "brand"]].rename(columns={"key": "brand_key"})
+        names = pd.concat([names, s[~s.brand_key.isin(names.brand_key)]], ignore_index=True)
     if os.path.exists("runs/_sourcing/universe.csv"):  # Amazon-only brands from the team's universe
         s = pd.read_csv("runs/_sourcing/universe.csv")[["key", "brand"]].rename(columns={"key": "brand_key"})
         names = pd.concat([names, s[~s.brand_key.isin(names.brand_key)]], ignore_index=True)
