@@ -90,22 +90,22 @@
     "asof": "2026-11-26",
     "group": "Home & office furniture",
     "category": "Computer tables, office desks and storage furniture",
-    "channels": "To be checked",
+    "channels": "Amazon about Rs 2.8 crore/month; Flipkart (~31 TEKAVO listings); D2C tekavo.in and wudinox.com (FFO); no quick commerce",
     "report": "https://claude.ai/artifact/B8KcLSa77HbjQfVDdZkuFv",
-    "why": "Screening in progress.",
+    "why": "#4 in Amazon desks at premium prices; fails on fulfilment (35% negative seller feedback) and has no brand pull.",
     "match": [
       "tekavo",
       "ffofurniturefactoryoutlet",
       "deskio"
     ],
-    "status": "screening",
+    "status": "scored",
     "stages": {
       "brand_pull": true,
       "competition": true,
       "history": true,
-      "keepa": false,
-      "chrome": false,
-      "scored": false
+      "keepa": true,
+      "chrome": true,
+      "scored": true
     },
     "mainSeller": "EVERS",
     "subBrands": [
