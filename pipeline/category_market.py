@@ -75,6 +75,11 @@ SOURCES = {
     "runs/2026-11-25_hokipo": [
         ("Sofa Covers", lambda: h10_json(RAW / "hokipo" / "h10_api_peers_sofacover_min30.json")),
     ],
+    "runs/2026-11-26_tekavo": [
+        (name, (lambda s=slug: h10_peers_csv(ROOT / "runs/2026-11-26_tekavo" / f"peers_{s}.csv")))
+        for name, slug in [("Desks", "desks"), ("Computer Workstations", "computer_workstations"),
+                           ("Bedside Tables", "bedside_tables"), ("Bathroom Shelves", "bathroom_shelves")]
+    ],
     "runs/2026-11-25_cadlec": [
         (name, (lambda s=slug: h10_peers_csv(ROOT / "runs/2026-11-25_cadlec" / f"peers_{s}.csv")))
         for name, slug in [("Induction Cooktops", "induction_cooktop"), ("Oven Toaster Grills", "otg"), ("Ceiling Fans", "ceiling_fans"),

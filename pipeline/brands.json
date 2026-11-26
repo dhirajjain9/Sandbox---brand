@@ -101,7 +101,7 @@
     "status": "screening",
     "stages": {
       "brand_pull": true,
-      "competition": false,
+      "competition": true,
       "history": true,
       "keepa": false,
       "chrome": false,
