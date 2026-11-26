@@ -109,6 +109,7 @@ select.sort { appearance: none; -webkit-appearance: none; border: 1px solid var(
 
 /* Pills and dots */
 .pill { display: inline-flex; align-items: center; gap: 5px; border-radius: 980px; padding: 3px 11px; font-size: 13px; font-weight: 600; letter-spacing: -.01em; white-space: nowrap; }
+.pill.verdict { letter-spacing: .06em; font-weight: 700; padding: 3px 12px; }
 .pill.good { background: var(--good-soft); color: var(--good); }
 .pill.bad { background: var(--bad-soft); color: var(--bad); }
 .pill.neutral { background: var(--bg-alt); color: var(--ink-2); }
@@ -254,7 +255,7 @@ const store = { get(k, d) { try { return JSON.parse(localStorage.getItem("bfs." 
 let ui = { q: "", group: "All", tier: "All", sort: store.get("sort", "group"), inputs: "all" };
 let picks = store.get("picks", []).filter(k => byKey[k]);
 
-const tierPill = b => b.tier === "Pass" ? '<span class="pill bad">✕ Pass</span>' : `<span class="pill good">✓ ${esc(b.tier)}</span>`;
+const tierPill = b => b.tier === "HIT" ? '<span class="pill good verdict">HIT</span>' : '<span class="pill bad verdict">MISS</span>';
 const resPill = r => r === "Clear" ? '<span class="pill good">✓ Clear</span>' : r === "Miss" ? '<span class="pill bad">✕ Miss</span>' : `<span class="pill neutral">${esc(r)}</span>`;
 const meter = (s, ok, sm) => `<div class="meter${sm ? " meter-sm" : ""}${ok ? "" : " dim"}"><i style="width:${Math.max(0, Math.min(100, s ?? 0))}%"></i><s></s></div>`;
 const dots = b => `<div class="dots" aria-label="${b.clears} of 6 checks clear">${b.checks.map(c =>
@@ -291,25 +292,25 @@ document.getElementById("trayGo").onclick = () => { location.hash = "#/compare/"
 function home() {
   const groups = [...new Set(DATA.map(b => b.group))].sort();
   const counts = Object.fromEntries(groups.map(g => [g, DATA.filter(b => b.group === g).length]));
-  const tiers = ["Strong fit", "Worth a look", "Pass"];
+  const tiers = ["HIT", "MISS"];
   const tierN = t => DATA.filter(b => b.tier === t).length;
   app.innerHTML = `
   <section class="hero wrap">
     <p class="eyebrow">Brand Fit Screen</p>
     <h1 class="headline">Every brand.<br>One clear answer.</h1>
-    <p class="sub">49 marketplace signals, distilled into six checks and a single fit decision.</p>
+    <p class="sub">49 marketplace signals, distilled into six checks and one verdict: HIT or MISS.</p>
     <div class="stats">
       <div class="stat"><b>${DATA.length}</b><span>brands screened</span></div>
       <a class="stat" href="#/categories" style="color:inherit"><b>${groups.length}</b><span>categories ›</span></a>
-      <div class="stat"><b>${tierN("Strong fit") + tierN("Worth a look")}</b><span>worth a closer look</span></div>
-      <div class="stat"><b>${tierN("Pass")}</b><span>passed on</span></div>
+      <div class="stat"><b>${tierN("HIT")}</b><span>HIT</span></div>
+      <div class="stat"><b>${tierN("MISS")}</b><span>MISS</span></div>
     </div>
   </section>
   <div class="controls"><div class="wrap wide">
     <div class="row">
       <label class="search"><svg width="15" height="15" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5.2" fill="none" stroke="currentColor" stroke-width="1.6" opacity=".6"/><path d="M11 11l3.6 3.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" opacity=".6"/></svg>
         <input id="q" type="search" placeholder="Search brands, categories or channels" value="${esc(ui.q)}" aria-label="Search brands"></label>
-      <select class="sort" id="tier" aria-label="Filter by tier"><option>All</option>${tiers.map(t => `<option${ui.tier === t ? " selected" : ""}>${t}</option>`).join("")}</select>
+      <select class="sort" id="tier" aria-label="Filter by verdict"><option value="All">HIT and MISS</option>${tiers.map(t => `<option${ui.tier === t ? " selected" : ""}>${t}</option>`).join("")}</select>
       <select class="sort" id="sort" aria-label="Sort">
         ${[["group","By category"],["clears","Most checks cleared"],["coverage","Most data measured"],["recent","Most recent"],["name","Name A–Z"]].map(([v,l]) => `<option value="${v}"${ui.sort === v ? " selected" : ""}>${l}</option>`).join("")}
       </select>
@@ -401,7 +402,7 @@ function brand(key) {
           <div class="v"><b>${sc(c.score)}</b>${resPill(c.result)}<div class="cov">${c.coverage}% measured</div></div>
         </div>`).join("")}
       </div>
-      <div class="legend"><span><span class="l60"></span>Clears at 60</span><span>A Miss on either must-clear means Pass</span></div>
+      <div class="legend"><span><span class="l60"></span>Clears at 60</span><span>A Miss on either must-clear makes the brand a MISS</span></div>
     </div>
   </section>
   <section class="section wrap">
@@ -584,7 +585,7 @@ function competes(b) {
 function method() {
   app.innerHTML = `
   <section class="hero wrap"><p class="eyebrow">How it works</p><h1 class="headline">Signals in.<br>Decision out.</h1>
-    <p class="sub">Three layers turn outside-in marketplace data into a fit decision you can trace back to its source.</p></section>
+    <p class="sub">Three layers turn outside-in marketplace data into a HIT or MISS you can trace back to its source.</p></section>
   <section class="section alt"><div class="wrap">
     <div class="glance" style="grid-template-columns:repeat(3,1fr)">
       <div class="g"><b>49</b><span>raw signals, each scored 0–100 between a floor and a ceiling</span></div>
@@ -595,8 +596,8 @@ function method() {
       <div class="t">${esc(SHORT[c.name] || c.name)}${c.must ? '<span class="must">Must-clear</span>' : ""}</div><div class="muted small">${esc(c.formula)}</div></div>`).join("")}</div>
   </div></section>
   <section class="section wrap">
-    <h2 class="h2">The fit decision.</h2>
-    <p class="muted">A Miss on either must-clear check (Customer quality, Pricing power) means Pass. Otherwise five or more Clears is Strong fit, four is Worth a look, fewer is Pass. Signals that could not be measured are left out and the rest re-weighted; "data measured" shows how much of the weight is real.</p>
+    <h2 class="h2">HIT or MISS.</h2>
+    <p class="muted">Every brand is a HIT or a MISS. A brand is a HIT when both must-clear checks (Customer quality, Pricing power) clear and at least four of the six checks clear. Anything else is a MISS. Signals that could not be measured are left out and the rest re-weighted; "data measured" shows how much of the weight is real.</p>
     <h2 class="h2" style="margin-top:40px">Young brands.</h2>
     <p class="muted">When listings with a year-ago sales figure cover less than half of a brand's revenue, the two SKU spikiness growth signals use 90-day sales growth divided by the category's own 90-day growth, which removes the festive lift.</p>
     <h2 class="h2" style="margin-top:40px">Sources.</h2>
