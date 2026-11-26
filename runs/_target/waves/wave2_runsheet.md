@@ -1,8 +1,8 @@
 # Claude in Chrome run sheet, wave 2: Home Furnishing, Home Decor & Gifting, Lighting & Electricals
 
 Copy everything below the line into Claude in Chrome with Helium 10 open and signed in, and give it
-`wave2_brand_batches.tsv` (same folder) when it asks. Part A builds the category view; Part B fills in the
-full Amazon sales of 292 target brands. Expect 3-4 hours; it can run across sittings (say where to resume).
+`wave2_brand_batches.tsv` (same folder) when it asks. Do Part B (brand batches) FIRST, then Part A. Part B fills in the full Amazon sales of 271
+target brands; Part A builds the category view. Expect 3-4 hours; it can run across sittings (say where to resume).
 
 ---
 
@@ -18,8 +18,9 @@ selected, export as CSV. If the browser cannot rename files, note each downloade
 
 One search per sub-category below. Filters: **Category = Home & Kitchen**, then the sub-category (use
 Black Box's category picker; if the exact name differs, pick the closest and tell me what you used);
-**Monthly Sales (ASIN level) at least 5**; no brand, price or other filters. Sort by **ASIN Revenue,
-highest first**, show the maximum rows Black Box allows, export. File name: `w2_cat_<sub-category>.csv`.
+**Monthly Sales (ASIN level) at least 20**; no brand, price or other filters. Sort by **ASIN Revenue,
+highest first**, export the top 500 in ONE search per sub-category (no price splits, to save Black Box
+searches); note in the log whether it hit 500. File name: `w2_cat_<sub-category>.csv`.
 
 Home Furnishing: Bedsheets · Comforters & Quilts · Blankets & Dohars · Pillows · Cushion Covers · Curtains · Sofa Covers · Mattress Protectors · Bath Towels · Doormats · Carpets & Rugs · Table Linen
 
