@@ -154,6 +154,12 @@ select.sort { appearance: none; -webkit-appearance: none; border: 1px solid var(
 .kv li span { color: var(--ink-2); }
 @media (max-width: 900px) { .facts { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 760px) { .about2 { grid-template-columns: 1fr; } }
+.qtiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; margin-top: 18px; }
+.qtile { background: var(--tile); border-radius: 18px; padding: 18px 20px; color: inherit; display: block; }
+.qtile:hover { background: var(--tile-hover); text-decoration: none; }
+.qtile .n { font-weight: 600; font-size: 16px; }
+.qtile .v { font-size: 24px; font-weight: 700; letter-spacing: -.02em; margin: 8px 0 2px; }
+.qsearch { width: 100%; max-width: 520px; height: 44px; border-radius: 12px; border: 1px solid var(--line); background: var(--card); color: var(--ink); padding: 0 16px; font: inherit; font-size: 16px; margin-top: 18px; }
 .cq { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 22px; }
 .cq .c { background: var(--tile); border-radius: 18px; padding: 22px; }
 .cq .c .k { font-size: 13px; font-weight: 600; color: var(--ink-2); text-transform: uppercase; letter-spacing: .04em; margin: 0 0 8px; }
@@ -260,6 +266,7 @@ footer { border-top: 1px solid var(--hair); margin-top: 72px; padding: 22px 0 90
   <nav aria-label="Main">
     <a href="#/" data-nav="home">Brands</a>
     <a href="#/categories" data-nav="categories">Categories</a>
+    <a href="#/qcom" data-nav="qcom">Quick commerce</a>
     <a href="#/compare" data-nav="compare">Compare</a>
     <a href="#/method" data-nav="method">Method</a>
   </nav>
@@ -734,6 +741,59 @@ function method() {
   </section>`;
 }
 
+/* Quick commerce x Amazon, by category (data in qcom.json, loaded on first visit) */
+let QC = null;
+async function qcData() {
+  if (!QC) { try { QC = await (await fetch("qcom.json", { cache: "no-cache" })).json(); } catch (e) { QC = { cats: [] }; } }
+  return QC;
+}
+const lk = v => v == null ? '<span class="fine">—</span>' : (v >= 100 ? "₹" + (v / 100).toFixed(2) + " Cr" : "₹" + v.toFixed(v < 10 ? 2 : 1) + " L");
+const amzCell = r => r[9] === "no selling listing" ? '<span class="fine">None selling</span>' : r[9] === "not queried" || r[9] === "" && r[7] == null ? '<span class="fine">—</span>' : lk(r[7]) + (r[9] === "capped" ? '<span class="fine note">top 500 listings</span>' : "");
+async function qcomIndex() {
+  app.innerHTML = `<section class="hero wrap"><p class="eyebrow">Quick commerce</p><h1 class="headline">Every brand. Every dark-store shelf.</h1>
+    <p class="sub">Brand sales on Blinkit, Zepto and Instamart by category, with each brand's Amazon sales alongside.</p></section><div class="wrap"><p class="muted">Loading…</p></div>`;
+  const d = await qcData();
+  const plats = ["Blinkit", "Zepto", "Instamart"];
+  const all = {};
+  d.cats.forEach(c => c.rows.forEach(r => { const a = all[r[1]] = all[r[1]] || { name: r[0], key: r[1], amz: r[7], flag: r[9], p: {} }; a.p[c.p] = (a.p[c.p] || 0) + (r[4] || 0); }));
+  const brands = Object.values(all);
+  app.innerHTML = `<section class="hero wrap" style="padding-bottom:8px"><p class="eyebrow">Quick commerce</p><h1 class="headline">Every brand. Every dark-store shelf.</h1>
+    <p class="sub">${brands.length.toLocaleString("en-IN")} brands on Blinkit, Zepto and Instamart by category, with each brand's Amazon sales alongside.</p>
+    <input class="qsearch" id="qs" placeholder="Find a brand, e.g. Nestroots" aria-label="Find a brand"><div id="qres"></div></section>
+    ${plats.map(pf => { const cs = d.cats.filter(c => c.p === pf).sort((a, b) => (b.s10 || 0) - (a.s10 || 0)); return `<section class="section wrap" style="padding-top:28px">
+      <p class="eyebrow">${pf}</p><h2 class="h2">${cs.length} categories.</h2>
+      <div class="qtiles">${cs.map(c => `<a class="qtile" href="#/qcom/${c.slug}"><div class="n">${esc(c.c)}</div><div class="v">${c.s10 == null ? "—" : "₹" + c.s10.toFixed(1) + " Cr"}</div>
+        <div class="fine">Oct 2026 at selling price · ${c.n} brands · led by ${esc(c.rows[0] ? c.rows[0][0] : "—")}</div></a>`).join("")}</div></section>`; }).join("")}
+    <section class="section wrap"><p class="fine">${esc(d.asof)} Quick-commerce sales are estimated as the brand's category share × category size; Amazon is the brand's total across all its Amazon categories.</p></section>`;
+  const qs = document.getElementById("qs"), out = document.getElementById("qres");
+  qs.oninput = () => { const v = qs.value.trim().toLowerCase().replace(/[^a-z0-9]/g, "");
+    if (v.length < 2) { out.innerHTML = ""; return; }
+    const hit = brands.filter(b => b.key.includes(v)).sort((a, b) => Object.values(b.p).reduce((x, y) => x + y, 0) - Object.values(a.p).reduce((x, y) => x + y, 0)).slice(0, 12);
+    out.innerHTML = hit.length ? `<div class="tbl-wrap"><table><thead><tr><th>Brand</th>${plats.map(p => `<th class="num">${p}, Oct</th>`).join("")}<th class="num">Amazon, 30 days</th></tr></thead>
+      <tbody>${hit.map(b => `<tr><td>${esc(b.name)}</td>${plats.map(p => `<td class="num">${b.p[p] == null ? '<span class="fine">Not listed</span>' : lk(b.p[p])}</td>`).join("")}<td class="num">${amzCell([0,0,0,0,0,0,0,b.amz,0,b.flag])}</td></tr>`).join("")}</tbody></table></div>
+      <p class="fine" style="margin-top:8px">Quick commerce at selling price, summed across categories.</p>` : '<p class="muted" style="margin-top:12px">No brand by that name in the exported categories.</p>'; };
+}
+async function qcomCat(s) {
+  const d = await qcData();
+  const c = d.cats.find(x => x.slug === s);
+  if (!c) { app.innerHTML = `<div class="empty wrap"><p class="h3">Category not found.</p><p><a href="#/qcom">All quick-commerce categories ›</a></p></div>`; return; }
+  let n = 50;
+  const draw = () => {
+    const rows = c.rows.slice(0, n);
+    app.innerHTML = `<section class="hero wrap" style="padding-bottom:8px"><p class="eyebrow"><a class="eyelink" href="#/qcom">Quick commerce</a> · ${esc(c.p)}</p>
+      <h1 class="headline" style="font-size:clamp(36px,6vw,56px)">${esc(c.c)}</h1>
+      <p class="sub">${c.s10 == null ? "" : "₹" + c.s10.toFixed(1) + " Cr at selling price in Oct 2026 (₹" + (c.m10 || 0).toFixed(1) + " Cr at MRP). "}${c.n} brands.</p></section>
+      <section class="section wrap" style="padding-top:20px"><div class="tbl-wrap"><table>
+      <thead><tr><th>#</th><th>Brand</th><th class="num">SKUs</th><th class="num">Share (MRP)</th><th class="num">Sep, SP</th><th class="num">Oct, SP</th><th class="num">Oct, MRP</th><th class="num">Amazon, 30 days</th></tr></thead>
+      <tbody>${rows.map((r, i) => `<tr><td class="fine">${i + 1}</td><td>${esc(r[0])}</td><td class="num">${r[2] ?? "—"}</td><td class="num">${r[6] == null ? "—" : r[6].toFixed(2) + "%"}</td>
+        <td class="num">${lk(r[3])}</td><td class="num">${lk(r[4])}</td><td class="num">${lk(r[5])}</td><td class="num">${amzCell(r)}</td></tr>`).join("")}</tbody></table></div>
+      ${c.rows.length > n ? `<p style="margin-top:14px"><a href="#" id="more">Show all ${c.rows.length} brands ›</a></p>` : ""}
+      <p class="fine" style="margin-top:14px">${esc(d.asof)} SP = selling price. Quick-commerce sales = category share × category size. Amazon is the brand's total across all its Amazon categories, not just this one.</p></section>`;
+    const m = document.getElementById("more"); if (m) m.onclick = e => { e.preventDefault(); n = c.rows.length; draw(); };
+  };
+  draw();
+}
+
 /* Router */
 function route() {
   const h = location.hash.replace(/^#\/?/, "");
@@ -744,6 +804,7 @@ function route() {
   else if (page === "method") method();
   else if (page === "categories") categoriesIndex();
   else if (page === "category") category(arg);
+  else if (page === "qcom") (arg ? qcomCat(arg) : qcomIndex());
   else home();
   syncTray();
   window.scrollTo({ top: 0 });

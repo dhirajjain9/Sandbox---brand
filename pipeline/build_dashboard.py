@@ -130,6 +130,28 @@ def categories(brands):
              "brandKeys": [b["key"] for b in brands if b["group"] == gname]} for gname, subs in sorted(groups.items())]
 
 
+def qcom_json():
+    """Quick-commerce categories x brands with Amazon 30-day sales, written beside index.html as qcom.json."""
+    f = ROOT / "runs" / "_qcom" / "qcom_amazon_by_category.csv"
+    if not f.exists():
+        return None
+    m = pd.read_csv(f)
+    q = pd.read_csv(ROOT / "runs" / "_qcom" / "qcom_brand_sales.csv")
+    size = q.drop_duplicates(["platform", "category", "month"]).set_index(["platform", "category", "month"])
+    n = lambda v: None if pd.isna(v) else round(float(v), 2)
+    cats = []
+    for (pf, cat), g in m.groupby(["platform", "category"]):
+        g = g.assign(_o=g.sales_sp_lakh_10.fillna(g.sales_mrp_lakh_10.fillna(0) / 3)).sort_values("_o", ascending=False)
+        s = lambda mo, col: n(size[col].get((pf, cat, mo))) if (pf, cat, mo) in size.index else None
+        cats.append({"p": pf, "c": cat, "slug": slug(pf + "-" + cat), "n": int((g.share_mrp_pct_10.fillna(0) > 0).sum()),
+                     "m10": s("2026-10", "size_mrp_cr"), "s10": s("2026-10", "size_sp_cr"), "s09": s("2026-09", "size_sp_cr"),
+                     "rows": [[r.brand, r.brand_key, n(r.skus_10), n(r.sales_sp_lakh_09), n(r.sales_sp_lakh_10), n(r.sales_mrp_lakh_10),
+                               n(r.share_mrp_pct_10), n(r.amazon_revenue_30d_lakh), n(r.amazon_units_30d),
+                               "capped" if r.capped_top500 is True else (r.amazon_status if isinstance(r.amazon_status, str) else "")]
+                              for r in g.itertuples() if (r.share_mrp_pct_09 or 0) > 0 or (r.share_mrp_pct_10 or 0) > 0]})
+    return {"asof": "Quick commerce: GobbleCube, Sep and Oct 2026. Amazon: Helium 10, 30 days to 26 Nov 2026.", "cats": cats}
+
+
 def main():
     data = [{**load(b), **customer_quality(b)} for b in BRANDS]
     changes = []
@@ -146,6 +168,10 @@ def main():
             .replace("/*__CATS__*/null", json.dumps(cats, ensure_ascii=False))
             .replace("/*__CQ__*/null", json.dumps(changes, ensure_ascii=False)))
     OUT.mkdir(parents=True, exist_ok=True)
+    qj = qcom_json()
+    if qj:
+        (OUT / "qcom.json").write_text(json.dumps(qj, ensure_ascii=False, separators=(",", ":")))
+        print(f"wrote qcom.json ({len(qj['cats'])} categories, {sum(len(c['rows']) for c in qj['cats']):,} brand rows)")
     (OUT / "index.html").write_text(html)
     print(f"wrote {OUT / 'index.html'} ({len(html):,} bytes, {len(data)} brands, {len(cats)} categories, {sum(len(c['subs']) for c in cats)} sub-categories)")
 
