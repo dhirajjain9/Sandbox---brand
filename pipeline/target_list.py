@@ -48,6 +48,8 @@ def main(path):
     t["amazon_status"] = t.key.map(a.amazon_status.to_dict()).fillna("not queried")
     t["amazon_30d_lakh"] = t.key.map(a.amazon_revenue_30d_lakh.to_dict())
     t["amazon_12m_cr"] = t.key.map(a.amazon_revenue_12m_cr.to_dict()) if "amazon_revenue_12m_cr" in a else None
+    for c in ["amazon_home_pct", "amazon_category_known_pct", "amazon_main_category"]:
+        t[c] = t.key.map(a[c].to_dict()) if c in a else None
     s = q[q.month.isin(["2026-09", "2026-10"])]
     for pf in ["Blinkit", "Instamart", "Zepto"]:
         t[f"qc_{pf.lower()}_lakh"] = t.key.map((s[s.platform == pf].groupby("brand_key").sales_sp_lakh.sum() / 2).round(2).to_dict())
@@ -67,6 +69,10 @@ def main(path):
     t["exclude_reason"] = t.key.map(lambda x: ro.get(x) or li.get(x) or ("Established (workbook)" if x in wb_est else
                                     ("Established (well-known)" if x in es else "")))
     t.loc[(t.exclude_reason == "") & t.key.isin(nf) & (t.source == "Quick commerce only"), "exclude_reason"] = "No product fit (electronics/gaming)"
+    # user rule (27 Nov): less than half of Amazon sales in home categories -> flagged, out of the target count,
+    # reviewed once after wave 4. Applied only where at least half of the brand's Amazon sales have a known category.
+    nh = (t.exclude_reason == "") & (t.amazon_category_known_pct >= 50) & (t.amazon_home_pct < 50)
+    t.loc[nh, "exclude_reason"] = "Mostly non-home on Amazon: " + t.amazon_main_category.fillna("") + " (review after wave 4)"
     t["in_target"] = t.exclude_reason == ""
     os.makedirs("runs/_target", exist_ok=True)
     t.to_csv("runs/_target/master_list_with_exclusions.csv", index=False)

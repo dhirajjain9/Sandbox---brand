@@ -143,6 +143,23 @@ def aliases():
     return {slug(amz): slug(ours) for ours, L in json.load(open(f))["aliases"].items() for amz in L}
 
 
+HOME_CATS = {"Home & Kitchen", "Home Improvement", "Outdoor Living"}
+
+
+def asin_categories():
+    """ASIN -> Amazon top category, from every Black Box CSV on disk (API pulls carry no category)."""
+    m = {}
+    for f in sorted(set(glob.glob("data/raw/**/*.csv", recursive=True))):
+        try:
+            h = pd.read_csv(f, nrows=0).columns
+        except Exception:
+            continue
+        if "ASIN" in h and "Category" in h:
+            d = pd.read_csv(f, usecols=["ASIN", "Category"], low_memory=False).dropna()
+            m.update(dict(zip(d.ASIN, d.Category)))
+    return m
+
+
 def build():
     d = pd.read_csv(f"{RAW}/rows.csv.gz")
     queries = json.load(open(f"{RAW}/queries.json"))
@@ -157,6 +174,15 @@ def build():
     a = (d.groupby("brand_key").agg(amazon_brand=("brand", lambda s: s.mode().iat[0]), amazon_listings=("asin", "count"),
                                     amazon_units_30d=("units", "sum"), amazon_revenue_30d_rs=("revenue_rs", "sum"),
                                     amazon_revenue_12m_rs=("rev_12m_rs", lambda s: s.sum(min_count=1))).reset_index())
+    cat = d.asin.map(asin_categories())
+    d["rev_known"] = d.revenue_rs.where(cat.notna(), 0)
+    d["rev_home"] = d.revenue_rs.where(cat.isin(HOME_CATS), 0)
+    d["top_cat"] = cat
+    h = d.groupby("brand_key").agg(rk=("rev_known", "sum"), rh=("rev_home", "sum"), rt=("revenue_rs", "sum"))
+    a["amazon_category_known_pct"] = a.brand_key.map((h.rk / h.rt.where(h.rt > 0) * 100).round(0))
+    a["amazon_home_pct"] = a.brand_key.map((h.rh / h.rk.where(h.rk > 0) * 100).round(0))
+    tc = d[cat.notna()].groupby(["brand_key", "top_cat"]).revenue_rs.sum().reset_index().sort_values("revenue_rs").drop_duplicates("brand_key", keep="last")
+    a["amazon_main_category"] = a.brand_key.map(tc.set_index("brand_key").top_cat)
     a["amazon_revenue_12m_cr"] = (a.amazon_revenue_12m_rs / 1e7).round(2)
     a = a.drop(columns="amazon_revenue_12m_rs")
     a["amazon_revenue_30d_lakh"] = (a.amazon_revenue_30d_rs / 1e5).round(2)
