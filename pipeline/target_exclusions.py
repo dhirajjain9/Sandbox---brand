@@ -79,3 +79,9 @@ ESTABLISHED += ["Amul", "Mars", "Crayola", "Razer", "Solognac", "Forclaz", "Arte
 NO_FIT = ["Cosmic Byte", "Kreo", "Evofox", "Ant Esports", "Onelap", "Sounce", "Ausha", "Ailkin", "ajjas", "Tygot", "Dubstep",
           "Digitek", "Boult", "Hammer", "CMF", "Pebble", "OnePlus", "Asus", "Amkette", "Stuffcool", "Urbn", "Gizmore", "Flix",
           "Lapcare", "Bestor", "Nu Republic", "Grand Pitstop"]
+
+# Other exclusions (reason -> names), applied as-is
+OTHER = {
+    "Not a brand (Amazon's label for unbranded products)": ["Generic"],
+    "Licence (Disney), like Star Wars / Harry Potter": ["Disney"],
+}
