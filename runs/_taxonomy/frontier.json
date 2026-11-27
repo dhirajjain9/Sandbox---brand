@@ -1,0 +1,106 @@
+[
+{
+"catId": 5925789031,
+"parent": 976443031,
+"depth": 1,
+"path_prefix": "",
+"branch": "Kitchen & Dining",
+"rootName": "Kitchen & Dining"
+},
+{
+"catId": 4951860031,
+"parent": 976443031,
+"depth": 1,
+"path_prefix": "",
+"branch": "Kitchen & Home Appliances",
+"rootName": "Kitchen & Home Appliances"
+},
+{
+"catId": 1380442031,
+"parent": 976443031,
+"depth": 1,
+"path_prefix": "",
+"branch": "Home Furnishing",
+"rootName": "Home Furnishing"
+},
+{
+"catId": 1380374031,
+"parent": 976443031,
+"depth": 1,
+"path_prefix": "",
+"branch": "Home & Décor",
+"rootName": "Home & Décor"
+},
+{
+"catId": 1380485031,
+"parent": 976443031,
+"depth": 1,
+"path_prefix": "",
+"branch": "Indoor Lighting",
+"rootName": "Indoor Lighting"
+},
+{
+"catId": 1380510031,
+"parent": 976443031,
+"depth": 1,
+"path_prefix": "",
+"branch": "Home Storage & Organisation",
+"rootName": "Home Storage & Organisation"
+},
+{
+"catId": 2083423031,
+"parent": 976443031,
+"depth": 1,
+"path_prefix": "",
+"branch": "Heating, Cooling & Air Quality",
+"rootName": "Heating, Cooling & Air Quality"
+},
+{
+"catId": 1380263031,
+"parent": 976443031,
+"depth": 1,
+"path_prefix": "",
+"branch": "Large Appliances",
+"rootName": "Large Appliances"
+},
+{
+"catId": 1380441031,
+"parent": 976443031,
+"depth": 1,
+"path_prefix": "",
+"branch": "Furniture",
+"rootName": "Furniture"
+},
+{
+"catId": 27362157031,
+"parent": 976443031,
+"depth": 1,
+"path_prefix": "",
+"branch": "Religious & Spiritual Items",
+"rootName": "Religious & Spiritual Items"
+},
+{
+"catId": 95173277031,
+"parent": 976443031,
+"depth": 1,
+"path_prefix": "",
+"branch": "Bath",
+"rootName": "Bath"
+},
+{
+"catId": 3704993031,
+"parent": null,
+"depth": 1,
+"path_prefix": "",
+"branch": "Home Improvement",
+"rootName": "Home Improvement"
+},
+{
+"catId": 1380375031,
+"parent": 976443031,
+"depth": 1,
+"path_prefix": "",
+"branch": "Artwork",
+"rootName": "Artwork"
+}
+]
