@@ -4,14 +4,14 @@ Copy everything below the line into Claude in Chrome with Helium 10 open and sig
 `wave2_brand_batches.tsv` (same folder) when it asks. Do Part B (brand batches) FIRST, then Part A. Part B fills in the full Amazon sales of 271
 target brands; Part A builds the category view. Expect 3-4 hours; it can run across sittings (say where to resume).
 
-## Extra: wave 1 spelling retry (3 searches), paste into Chrome at any break
+## Extra: wave 1 spelling retry (2 searches), paste into Chrome at any break
 
 Give Claude in Chrome `spelling_retry_batches.tsv` (same folder) with this:
 
-> Before continuing, run these 3 extra brand searches in Black Box Products: marketplace Amazon India,
+> Before continuing, run these 2 extra brand searches in Black Box Products: marketplace Amazon India,
 > Exact Brand Search = the brands in each row of spelling_retry_batches.tsv (comma-separated), ASIN Sales
 > min 1, no category or price. Export each as `w1_retry_<batch>.csv`. Tell me rows per file and which
-> brand names matched nothing. For R2 say which Modern Quests spelling matched. For R3 also note the main
+> brand names matched nothing. For R2 also note the main
 > seller name and what the products are, so we can confirm they are our brands. Then resume where you were.
 
 ---
