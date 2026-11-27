@@ -1,145 +1,5 @@
 [
 {
-"catId": 206244888031,
-"parent": 1380419031,
-"depth": 3,
-"path_prefix": "Home & Décor > Seasonal Decorations",
-"branch": "Home & Décor"
-},
-{
-"catId": 206244887031,
-"parent": 1380419031,
-"depth": 3,
-"path_prefix": "Home & Décor > Seasonal Decorations",
-"branch": "Home & Décor"
-},
-{
-"catId": 5229874031,
-"parent": 5229870031,
-"depth": 3,
-"path_prefix": "Home & Décor > Artificial Flora",
-"branch": "Home & Décor"
-},
-{
-"catId": 5229873031,
-"parent": 5229870031,
-"depth": 3,
-"path_prefix": "Home & Décor > Artificial Flora",
-"branch": "Home & Décor"
-},
-{
-"catId": 5229876031,
-"parent": 5229870031,
-"depth": 3,
-"path_prefix": "Home & Décor > Artificial Flora",
-"branch": "Home & Décor"
-},
-{
-"catId": 5229872031,
-"parent": 5229870031,
-"depth": 3,
-"path_prefix": "Home & Décor > Artificial Flora",
-"branch": "Home & Décor"
-},
-{
-"catId": 5229871031,
-"parent": 5229870031,
-"depth": 3,
-"path_prefix": "Home & Décor > Artificial Flora",
-"branch": "Home & Décor"
-},
-{
-"catId": 1380416031,
-"parent": 5229870031,
-"depth": 3,
-"path_prefix": "Home & Décor > Artificial Flora",
-"branch": "Home & Décor"
-},
-{
-"catId": 5229875031,
-"parent": 5229870031,
-"depth": 3,
-"path_prefix": "Home & Décor > Artificial Flora",
-"branch": "Home & Décor"
-},
-{
-"catId": 1380394031,
-"parent": 1380392031,
-"depth": 3,
-"path_prefix": "Home & Décor > Clocks",
-"branch": "Home & Décor"
-},
-{
-"catId": 5554161031,
-"parent": 1380392031,
-"depth": 3,
-"path_prefix": "Home & Décor > Clocks",
-"branch": "Home & Décor"
-},
-{
-"catId": 5554160031,
-"parent": 1380392031,
-"depth": 3,
-"path_prefix": "Home & Décor > Clocks",
-"branch": "Home & Décor"
-},
-{
-"catId": 1380396031,
-"parent": 1380392031,
-"depth": 3,
-"path_prefix": "Home & Décor > Clocks",
-"branch": "Home & Décor"
-},
-{
-"catId": 1380395031,
-"parent": 1380392031,
-"depth": 3,
-"path_prefix": "Home & Décor > Clocks",
-"branch": "Home & Décor"
-},
-{
-"catId": 5554159031,
-"parent": 1380392031,
-"depth": 3,
-"path_prefix": "Home & Décor > Clocks",
-"branch": "Home & Décor"
-},
-{
-"catId": 1380393031,
-"parent": 1380392031,
-"depth": 3,
-"path_prefix": "Home & Décor > Clocks",
-"branch": "Home & Décor"
-},
-{
-"catId": 1380410031,
-"parent": 1380408031,
-"depth": 3,
-"path_prefix": "Home & Décor > Mirrors",
-"branch": "Home & Décor"
-},
-{
-"catId": 1380411031,
-"parent": 1380408031,
-"depth": 3,
-"path_prefix": "Home & Décor > Mirrors",
-"branch": "Home & Décor"
-},
-{
-"catId": 1380412031,
-"parent": 1380408031,
-"depth": 3,
-"path_prefix": "Home & Décor > Mirrors",
-"branch": "Home & Décor"
-},
-{
-"catId": 1380409031,
-"parent": 1380408031,
-"depth": 3,
-"path_prefix": "Home & Décor > Mirrors",
-"branch": "Home & Décor"
-},
-{
 "catId": 51396684031,
 "parent": 1380408031,
 "depth": 3,
@@ -7382,6 +7242,48 @@
 "parent": 1380436031,
 "depth": 4,
 "path_prefix": "Home & Décor > Seasonal Decorations > Thanksgiving Decorations",
+"branch": "Home & Décor"
+},
+{
+"catId": 51396950031,
+"parent": 5229874031,
+"depth": 4,
+"path_prefix": "Home & Décor > Artificial Flora > Artificial Shrubs & Topiaries",
+"branch": "Home & Décor"
+},
+{
+"catId": 51396952031,
+"parent": 5229874031,
+"depth": 4,
+"path_prefix": "Home & Décor > Artificial Flora > Artificial Shrubs & Topiaries",
+"branch": "Home & Décor"
+},
+{
+"catId": 5554165031,
+"parent": 5554161031,
+"depth": 4,
+"path_prefix": "Home & Décor > Clocks > Specialty Clocks",
+"branch": "Home & Décor"
+},
+{
+"catId": 5554162031,
+"parent": 5554161031,
+"depth": 4,
+"path_prefix": "Home & Décor > Clocks > Specialty Clocks",
+"branch": "Home & Décor"
+},
+{
+"catId": 5554163031,
+"parent": 5554161031,
+"depth": 4,
+"path_prefix": "Home & Décor > Clocks > Specialty Clocks",
+"branch": "Home & Décor"
+},
+{
+"catId": 5554164031,
+"parent": 5554161031,
+"depth": 4,
+"path_prefix": "Home & Décor > Clocks > Specialty Clocks",
 "branch": "Home & Décor"
 }
 ]
