@@ -386,7 +386,7 @@ Anchor,,,,,anchor,Quick commerce only,Home Appliances,not queried,,,,,,,,1.72,1.
 Anil,,,,,anil,Quick commerce only,Cleaning Tools,not queried,,,,,,0.0,,,0.0,,,True
 Anomeo,,,,,anomeo,Quick commerce only,Sports & Fitness,not queried,,,,,,0.16,,,0.16,,,True
 Ant Esports,,,,,antesports,Quick commerce only,Appliances,found,505.69,,100.0,0.0,Home & Kitchen,217.12,,,217.12,,No product fit (electronics/gaming),False
-Antson,,,,,antson,Quick commerce only,Decorative Lights,not queried,,,,,,0.06,,,0.06,,,True
+Antson,,,,,antson,Quick commerce only,Decorative Lights,found,1.47,,70.0,100.0,Home & Kitchen,0.06,,,0.06,,,True
 Antzco,,,,,antzco,Quick commerce only,Home Furnishing,found,0.08,,3.0,100.0,Industrial & Scientific,,,0.76,0.76,,Mostly non-home on Amazon: Industrial & Scientific (review after wave 4),False
 Anveshan,,,,,anveshan,Quick commerce only,Pooja & Worship Needs,not queried,,,,,,,,0.0,0.0,,,True
 A. O. Smith,,,,,aosmith,Quick commerce only,Home Appliances,not queried,,,,,,,1.0,7.94,8.940000000000001,,Established (workbook),False
@@ -499,12 +499,12 @@ Bright Storey,,,,,brightstorey,Quick commerce only,Home Furnishing,no selling li
 Bronson,,,,,bronson,Quick commerce only,Utility & Tools,not queried,,,,,,,0.16,,0.16,,,True
 Broomify,,,,,broomify,Quick commerce only,Cleaning Tools,not queried,,,,,,,0.0,,0.0,,,True
 Brustro,,,,,brustro,Quick commerce only,Stationery Needs,found,193.23,,100.0,0.0,Home & Kitchen,49.42,,,49.42,,,True
-Btag,,,,,btag,Quick commerce only,Decorative Lights,not queried,,,,,,0.0,,,0.0,,,True
+Btag,,,,,btag,Quick commerce only,Decorative Lights,found,96.58,,86.0,100.0,Outdoor Living,0.0,,,0.0,,,True
 Btwin,,,,,btwin,Quick commerce only,Kitchen & Dining Needs,not queried,,,,,,13.22,3.95,,17.17,,Established (workbook),False
 Buildskill,,,,,buildskill,Quick commerce only,Appliances,found,496.92,,97.0,100.0,Home Improvement,4.29,0.05,,4.34,,,True
 Bulkhunt,,,,,bulkhunt,Quick commerce only,Bags,not queried,,,,,,2.08,,,2.08,,,True
 Butterfly,,,,,butterfly,Quick commerce only,Kitchen Appliances,found,2038.82,,100.0,93.0,Home & Kitchen,5.82,6.9,4.45,17.17,,Established (workbook),False
-Caddle & Toes,,,,,caddletoes,Quick commerce only,Decorative Lights,not queried,,,,,,0.67,,,0.67,,,True
+Caddle & Toes,,,,,caddletoes,Quick commerce only,Decorative Lights,found,84.53,,0.0,100.0,Toys & Games,0.67,,,0.67,,Mostly non-home on Amazon: Toys & Games (review after wave 4),False
 CamelBak,,,,,camelbak,Quick commerce only,Bottles Flasks Tiffins,not queried,,,,,,,4.36,,4.36,,Listed: Vista Outdoor / Revelyst,False
 Camlin,,,,,camlin,Quick commerce only,Stationery Needs,found,24.89,,,0.0,,31.74,,,31.74,,Established (well-known),False
 Campus,,,,,campus,Quick commerce only,"Clothing, Footwear & Accessories",found,1151.87,,,0.0,,85.75,,,85.75,,Established (well-known),False
@@ -530,7 +530,7 @@ Chanya Haus,,,,,chanyahaus,Quick commerce only,Decorative Lights,not queried,,,,
 Charming Touch,,,,,charmingtouch,Quick commerce only,Tissues & Disposables,not queried,,,,,,,,,,,,True
 Cheston,,,,,cheston,Quick commerce only,Bathware & Laundry,not queried,,,,,,,0.02,0.77,0.79,,,True
 Chhavi,,,,,chhavi,Quick commerce only,Home Furnishing,no selling listing,,,,,,,,0.0,0.0,,,True
-CHIBAU,,,,,chibau,Quick commerce only,Decorative Lights,not queried,,,,,,0.08,,,0.08,,,True
+CHIBAU,,,,,chibau,Quick commerce only,Decorative Lights,no selling listing,,,,,,0.08,,,0.08,,,True
 Chigy Wooh,,,,,chigywooh,Quick commerce only,Decorative Lights,not queried,,,,,,0.06,,,0.06,,,True
 Chocozone,,,,,chocozone,Quick commerce only,Decorative Lights,found,46.02,,18.0,100.0,Toys & Games,3.88,,,3.88,,Mostly non-home on Amazon: Toys & Games (review after wave 4),False
 Cif,,,,,cif,Quick commerce only,Kitchen Cleaning,not queried,,,,,,,,10.02,10.02,,Listed: Hindustan Unilever,False
@@ -667,7 +667,7 @@ Evofox,,,,,evofox,Quick commerce only,Appliances,found,489.05,,0.0,100.0,Compute
 EXALT,,,,,exalt,Quick commerce only,"Flowers, Plants & Gardening",not queried,,,,,,0.38,,,0.38,,,True
 EXCLUSIVISH,,,,,exclusivish,Quick commerce only,Kitchen & Dining Needs,found,2.58,,100.0,100.0,Home & Kitchen,0.84,,,0.84,,,True
 Exo,,,,,exo,Quick commerce only,Kitchen Cleaning,not queried,,,,,,,0.0,,0.0,,,True
-FA6,,,,,fa6,Quick commerce only,Decorative Lights,not queried,,,,,,0.0,,,0.0,,,True
+FA6,,,,,fa6,Quick commerce only,Decorative Lights,found,7.19,,78.0,100.0,Home & Kitchen,0.0,,,0.0,,,True
 Faber-Castell,,,,,fabercastell,Quick commerce only,Stationery Needs,found,64.37,,,0.0,,68.06,,5.98,74.04,,Established (workbook),False
 Fabinaliv,,,,,fabinaliv,Quick commerce only,Home Furnishing,found,0.01,,0.0,100.0,Clothing & Accessories,1.03,,,1.03,,Mostly non-home on Amazon: Clothing & Accessories (review after wave 4),False
 Fablas,,,,,fablas,Quick commerce only,Utility & Tools,not queried,,,,,,,0.0,,0.0,,,True
@@ -731,7 +731,7 @@ Fumato,,,,,fumato,Quick commerce only,Appliances,found,1.96,,100.0,100.0,Home & 
 FunBlast,,,,,funblast,Quick commerce only,Bags,found,139.03,,100.0,5.0,Home & Kitchen,29.47,,,29.47,,,True
 Funskool,,,,,funskool,Quick commerce only,Stationery & Crafts,not queried,,,,,,,,11.11,11.11,,Listed: MRF,False
 FurShine,,,,,furshine,Quick commerce only,Home Furnishing,found,1.79,,100.0,100.0,Home & Kitchen,0.54,,,0.54,,,True
-Fybros,,,,,fybros,Quick commerce only,Decorative Lights,not queried,,,,,,0.06,,,0.06,,,True
+Fybros,,,,,fybros,Quick commerce only,Decorative Lights,found,14.76,,62.0,100.0,Electronics,0.06,,,0.06,,,True
 Gaachi Home,,,,,gaachihome,Quick commerce only,Home Furnishing,no selling listing,,,,,,0.02,,,0.02,,,True
 Gab,,,,,gab,Quick commerce only,Home Furnishing,no selling listing,,,,,,0.18,,,0.18,,,True
 Garden Genie,,,,,gardengenie,Quick commerce only,Gardening,not queried,,,,,,,,7.88,7.88,,,True
@@ -851,7 +851,7 @@ Instax,,,,,instax,Quick commerce only,Appliances,found,626.29,,,0.0,,127.22,,,12
 Intellilens,,,,,intellilens,Quick commerce only,"Clothing, Footwear & Accessories",not queried,,,,,,0.0,,,0.0,,,True
 International Gift,,,,,internationalgift,Quick commerce only,Stationery Needs,not queried,,,,,,0.0,,,0.0,,,True
 Iris Celeste,,,,,irisceleste,Quick commerce only,Home Decor,found,1.48,,90.0,100.0,Home & Kitchen,0.0,1.1,,1.1,,,True
-Island Rangoli,,,,,islandrangoli,Quick commerce only,Decorative Lights,not queried,,,,,,0.48,,,0.48,,,True
+Island Rangoli,,,,,islandrangoli,Quick commerce only,Decorative Lights,found,37.28,,97.0,100.0,Home & Kitchen,0.48,,,0.48,,,True
 itb,,,,,itb,Quick commerce only,Cleaning Tools,not queried,,,,,,,0.02,,0.02,,,True
 ITEMY,,,,,itemy,Quick commerce only,Kitchen & Dining Needs,no selling listing,,,,,,2.8,,,2.8,,,True
 Itsy Bitsy,,,,,itsybitsy,Quick commerce only,Home Decor,found,13.02,,92.0,100.0,Home & Kitchen,,0.0,,0.0,,,True
@@ -911,7 +911,7 @@ Klassic,,,,,klassic,Quick commerce only,"Flowers, Plants & Gardening",not querie
 Kleenex,,,,,kleenex,Quick commerce only,Tissues & Disposables,not queried,,,,,,0.08,,,0.08,,,True
 Klenzmo,,,,,klenzmo,Quick commerce only,Kitchen Cleaning,not queried,,,,,,,,0.0,0.0,,,True
 Kloy,,,,,kloy,Quick commerce only,Utility & Tools,not queried,,,,,,,0.0,,0.0,,,True
-KMJSA,,,,,kmjsa,Quick commerce only,Decorative Lights,not queried,,,,,,0.2,,,0.2,,,True
+KMJSA,,,,,kmjsa,Quick commerce only,Decorative Lights,found,9.39,,97.0,100.0,Home & Kitchen,0.2,,,0.2,,,True
 Kohler,,,,,kohler,Quick commerce only,Bathware & Laundry,found,631.13,,,0.0,,,11.39,9.17,20.560000000000002,,Established (workbook),False
 Kolar,,,,,kolar,Quick commerce only,Kitchen & Dining Needs,not queried,,,,,,4.89,,,4.89,,,True
 Konex,,,,,konex,Quick commerce only,Sports & Gym,not queried,,,,,,,0.02,,0.02,,,True
@@ -1018,7 +1018,7 @@ Morovik,,,,,morovik,Quick commerce only,Kitchen & Dining Needs,found,9.76,,80.0,
 Motomax,,,,,motomax,Quick commerce only,Home Furnishing,found,25.59,,0.0,100.0,Car & Motorbike,,,0.64,0.64,,Mostly non-home on Amazon: Car & Motorbike (review after wave 4),False
 motorzee,,,,,motorzee,Quick commerce only,Household Utility,no selling listing,,,,,,0.1,,12.7,12.799999999999999,,,True
 Moxie Beauty,,,,,moxiebeauty,Quick commerce only,Utility & Tools,not queried,,,,,,,6.75,,6.75,,,True
-MPROW,,,,,mprow,Quick commerce only,Decorative Lights,not queried,,,,,,0.84,,,0.84,,,True
+MPROW,,,,,mprow,Quick commerce only,Decorative Lights,found,10.5,,100.0,100.0,Home & Kitchen,0.84,,,0.84,,,True
 Mr Mop,,,,,mrmop,Quick commerce only,Cleaning Tools,not queried,,,,,,1.27,,,1.27,,,True
 Mr Muscle,,,,,mrmuscle,Quick commerce only,Kitchen Cleaning,found,48.66,,,0.0,,,,29.82,29.82,,Established (workbook),False
 Mr. Pen,,,,,mrpen,Quick commerce only,Festive & Occasion Needs,found,3.72,,,0.0,,11.36,,,11.36,,,True
@@ -1032,11 +1032,11 @@ MuscleBlaze,,,,,muscleblaze,Quick commerce only,Bags,found,2612.74,,100.0,0.0,Ho
 Mush,,,,,mush,Quick commerce only,Home Furnishing,found,55.7,,,0.0,,33.53,0.1,4.02,37.650000000000006,,Roll-up: GlobalBees,False
 Mygate,,,,,mygate,Quick commerce only,Home Appliances,found,47.48,,100.0,100.0,Home Improvement,,0.01,,0.01,,,True
 MyORL-Care,,,,,myorlcare,Quick commerce only,Utility & Tools,not queried,,,,,,,0.1,,0.1,,,True
-My Pooja Box,,,,,mypoojabox,Quick commerce only,Decorative Lights,not queried,,,,,,0.04,,,0.04,,,True
+My Pooja Box,,,,,mypoojabox,Quick commerce only,Decorative Lights,no selling listing,,,,,,0.04,,,0.04,,,True
 MyRoyals,,,,,myroyals,Quick commerce only,Pooja Needs,not queried,,,,,,0.18,,,0.18,,,True
 Nabaiji,,,,,nabaiji,Quick commerce only,Home Furnishing,no selling listing,,,,,,174.0,27.84,5.22,207.06,,Established (workbook),False
 NAFA,,,,,nafa,Quick commerce only,Appliances,found,1.37,,,0.0,,52.98,,,52.98,,,True
-Namah,,,,,namah,Quick commerce only,Decorative Lights,not queried,,,,,,0.24,,,0.24,,,True
+Namah,,,,,namah,Quick commerce only,Decorative Lights,found,0.9,,100.0,100.0,Home & Kitchen,0.24,,,0.24,,,True
 Nasher Miles,,,,,nashermiles,Quick commerce only,Appliances,found,63.59,,100.0,0.0,Home & Kitchen,22.76,22.92,,45.68000000000001,,,True
 Nataraj,,,,,nataraj,Quick commerce only,Stationery Needs,not queried,,,,,,20.34,,,20.34,,Established (well-known),False
 Native,,,,,native,Quick commerce only,Appliances,not queried,,,,,,0.35,,0.32,0.6699999999999999,,Established (workbook),False
@@ -1057,7 +1057,7 @@ nivah,,,,,nivah,Quick commerce only,Home Furnishing,found,0.16,,100.0,100.0,Home
 Nivia,,,,,nivia,Quick commerce only,Bags,found,683.67,,,0.0,,121.41,105.81,,227.22,,Established (well-known),False
 Nori,,,,,nori,Quick commerce only,Kitchen & Dining Needs,no selling listing,,,,,,0.02,,,0.02,,,True
 Noritake,,,,,noritake,Quick commerce only,Glasses Cups Mugs,found,1.13,,100.0,100.0,Home & Kitchen,,0.02,,0.02,,,True
-Nostrae,,,,,nostrae,Quick commerce only,Decorative Lights,not queried,,,,,,0.02,,,0.02,,,True
+Nostrae,,,,,nostrae,Quick commerce only,Decorative Lights,no selling listing,,,,,,0.02,,,0.02,,,True
 Nostrain,,,,,nostrain,Quick commerce only,"Clothing, Footwear & Accessories",not queried,,,,,,7.56,,,7.56,,,True
 Nova,,,,,nova,Quick commerce only,Kitchen Appliances,found,115.26,10.69,100.0,12.0,Home & Kitchen,,0.25,2.04,2.29,,,True
 Nubilous,,,,,nubilous,Quick commerce only,Kitchen & Dining Needs,found,2.16,,92.0,100.0,Home Improvement,0.64,,,0.64,,,True
@@ -1176,7 +1176,7 @@ Ramila,,,,,ramila,Quick commerce only,Kitchen & Dining Needs,found,0.35,,100.0,1
 Ramraj,,,,,ramraj,Quick commerce only,Home Furnishing,found,45.98,,10.0,100.0,Clothing & Accessories,2.04,,,2.04,,Mostly non-home on Amazon: Clothing & Accessories (review after wave 4),False
 Rangeela,,,,,rangeela,Quick commerce only,Festive & Occasion Needs,not queried,,,,,,0.02,,0.06,0.08,,,True
 Ranvika,,,,,ranvika,Quick commerce only,Cleaning Tools,no selling listing,,,,,,,0.12,20.06,20.18,,,True
-RASDEK,,,,,rasdek,Quick commerce only,Decorative Lights,not queried,,,,,,0.33,,,0.33,,,True
+RASDEK,,,,,rasdek,Quick commerce only,Decorative Lights,found,0.03,,0.0,100.0,Office Products,0.33,,,0.33,,Mostly non-home on Amazon: Office Products (review after wave 4),False
 Ratan Plastics,,,,,ratanplastics,Quick commerce only,Bath & Laundry,not queried,,,,,,,,1.98,1.98,,,True
 Ratnas,,,,,ratnas,Quick commerce only,Stationery & Crafts,not queried,,,,,,,,9.82,9.82,,,True
 Raybrite,,,,,raybrite,Quick commerce only,Decorative Lights,no selling listing,,,,,,1.3,,,1.3,,,True
@@ -1286,7 +1286,7 @@ Smarthome,,,,,smarthome,Quick commerce only,Home Furnishing,no selling listing,,
 Smartivity,,,,,smartivity,Quick commerce only,Stationery & Crafts,not queried,,,,,,,,0.16,0.16,,,True
 Smart Saver,,,,,smartsaver,Quick commerce only,Home Decor,found,100.42,,97.0,100.0,Home & Kitchen,0.0,,,0.0,,,True
 Smart Shelter,,,,,smartshelter,Quick commerce only,Bathware & Laundry,not queried,,,,,,,3.66,,3.66,,,True
-Smiva,,,,,smiva,Quick commerce only,Decorative Lights,not queried,,,,,,0.0,,,0.0,,,True
+Smiva,,,,,smiva,Quick commerce only,Decorative Lights,no selling listing,,,,,,0.0,,,0.0,,,True
 Smizzy,,,,,smizzy,Quick commerce only,Pooja Needs,not queried,,,,,,0.18,,,0.18,,,True
 Sneakare,,,,,sneakare,Quick commerce only,Home Decor,found,113.7,,8.0,100.0,Shoes & Handbags,1.56,,,1.56,,Mostly non-home on Amazon: Shoes & Handbags (review after wave 4),False
 Soft Attire,,,,,softattire,Quick commerce only,Cleaning Aids,not queried,,,,,,,,3.53,3.53,,Established (workbook),False
@@ -1342,7 +1342,7 @@ Submarine,,,,,submarine,Quick commerce only,Stationery Needs,not queried,,,,,,0.
 Sujata,,,,,sujata,Quick commerce only,Kitchen Appliances,not queried,,,,,,,0.0,,0.0,,Established (workbook),False
 Sumukhi,,,,,sumukhi,Quick commerce only,Home Decor,no selling listing,,,,,,0.04,,,0.04,,,True
 Sun,,,,,sun,Quick commerce only,Storage & Organizers,found,3.07,,100.0,89.0,Home & Kitchen,,46.08,,46.08,,,True
-SUN King,,,,,sunking,Quick commerce only,Decorative Lights,not queried,,,,,,0.02,,,0.02,,,True
+SUN King,,,,,sunking,Quick commerce only,Decorative Lights,found,16.35,,92.0,100.0,Outdoor Living,0.02,,,0.02,,,True
 Suntails,,,,,suntails,Quick commerce only,Home Furnishing,no selling listing,,,,,,0.84,,,0.84,,,True
 sunvibe,,,,,sunvibe,Quick commerce only,Linen And Furnishing,found,11.11,,100.0,100.0,Home & Kitchen,,0.01,,0.01,,,True
 Supavitra,,,,,supavitra,Quick commerce only,Home Decor,found,0.15,,100.0,100.0,Home & Kitchen,,0.0,,0.0,,,True
@@ -1350,7 +1350,7 @@ Superdry,,,,,superdry,Quick commerce only,Travel And Luggage,not queried,,,,,,,0
 Superspun,,,,,superspun,Quick commerce only,Home Furnishing,not queried,,,,,,,,,,,,True
 Superwrap,,,,,superwrap,Quick commerce only,Tissues & Disposables,not queried,,,,,,,,2.05,2.05,,,True
 SUSHIEL,,,,,sushiel,Quick commerce only,Home Furnishing,no selling listing,,,,,,0.01,,,0.01,,,True
-Suvilit,,,,,suvilit,Quick commerce only,Decorative Lights,not queried,,,,,,0.12,,,0.12,,,True
+Suvilit,,,,,suvilit,Quick commerce only,Decorative Lights,no selling listing,,,,,,0.12,,,0.12,,,True
 Svasti,,,,,svasti,Quick commerce only,Home Decor,found,5.64,,,0.0,,87.65,0.0,27.18,114.83000000000001,,,True
 svastika,,,,,svastika,Quick commerce only,Pooja & Worship Needs,not queried,,,,,,,,0.03,0.03,,,True
 SVISH,,,,,svish,Quick commerce only,Cleaning Tools,not queried,,,,,,0.01,,,0.01,,,True
@@ -1393,7 +1393,7 @@ The Stone Aisle,,,,,thestoneaisle,Quick commerce only,Festive & Occasion Needs,n
 The Wallet Store,,,,,thewalletstore,Quick commerce only,Bags,not queried,,,,,,,,,,,,True
 The Wood White,,,,,thewoodwhite,Quick commerce only,Home Furnishing,no selling listing,,,,,,28.69,,,28.69,,,True
 Tiara,,,,,tiara,Quick commerce only,Kitchen & Dining Needs,found,7.43,,99.0,100.0,Home & Kitchen,2.74,,,2.74,,,True
-Timalfi,,,,,timalfi,Quick commerce only,Decorative Lights,not queried,,,,,,0.72,,,0.72,,,True
+Timalfi,,,,,timalfi,Quick commerce only,Decorative Lights,found,6.96,,100.0,100.0,Home & Kitchen,0.72,,,0.72,,,True
 Timberluxe,,,,,timberluxe,Quick commerce only,Bakeware & Bbq,not queried,,,,,,,4.42,,4.42,,,True
 Tinker Squad,,,,,tinkersquad,Quick commerce only,Stationery Needs,not queried,,,,,,0.12,,,0.12,,,True
 Tinums,,,,,tinums,Quick commerce only,Bathroom Essentials,no selling listing,,,,,,11.68,0.12,,11.799999999999999,,,True
@@ -1470,7 +1470,7 @@ varkaus,,,,,varkaus,Quick commerce only,Decorative Lights,not queried,,,,,,1.1,0
 Vector X,,,,,vectorx,Quick commerce only,Sports & Gym,not queried,,,,,,,0.0,,0.0,,,True
 Veet,,,,,veet,Quick commerce only,Appliances,found,158.82,,,0.0,,40.24,,,40.24,,Established (workbook),False
 Vega,,,,,vega,Quick commerce only,Appliances,found,1511.68,,100.0,0.0,Home & Kitchen,143.34,36.8,,180.14,,Established (well-known),False
-Veronic,,,,,veronic,Quick commerce only,Decorative Lights,not queried,,,,,,0.37,,,0.37,,,True
+Veronic,,,,,veronic,Quick commerce only,Decorative Lights,found,0.15,,4.0,100.0,Pet Supplies,0.37,,,0.37,,Mostly non-home on Amazon: Pet Supplies (review after wave 4),False
 VEROX,,,,,verox,Quick commerce only,Decorative Lights,found,4.05,,0.0,100.0,Electronics,0.56,,,0.56,,Mostly non-home on Amazon: Electronics (review after wave 4),False
 VGR,,,,,vgr,Quick commerce only,Appliances,found,345.77,,,0.0,,39.02,,,39.02,,,True
 V-Guard,,,,,vguard,Quick commerce only,Appliances,not queried,,,,,,1.76,,4.64,6.3999999999999995,,Established (workbook),False
@@ -1491,7 +1491,7 @@ Visko,,,,,visko,Quick commerce only,Gardening,found,0.23,,,0.0,,,,14.18,14.18,,,
 Vista,,,,,vista,Quick commerce only,Home Furnishing,found,0.34,,0.0,100.0,Health & Personal Care,,,0.17,0.17,,Mostly non-home on Amazon: Health & Personal Care (review after wave 4),False
 Vitalogy,,,,,vitalogy,Quick commerce only,Utility & Tools,not queried,,,,,,,0.04,,0.04,,,True
 Viva Rainwear,,,,,vivarainwear,Quick commerce only,Home Furnishing,no selling listing,,,,,,1.78,,,1.78,,,True
-Vivatra,,,,,vivatra,Quick commerce only,Decorative Lights,not queried,,,,,,0.12,,,0.12,,,True
+Vivatra,,,,,vivatra,Quick commerce only,Decorative Lights,found,25.54,,87.0,100.0,Home Improvement,0.12,,,0.12,,,True
 VLCC,,,,,vlcc,Quick commerce only,Utility & Tools,not queried,,,,,,,1.04,,1.04,,,True
 Voiish,,,,,voiish,Quick commerce only,Kitchen & Dining Needs,found,7.47,,49.0,100.0,Home & Kitchen,3.55,0.0,,3.55,,Mostly non-home on Amazon: Home & Kitchen (review after wave 4),False
 Voltas Beko,,,,,voltasbeko,Quick commerce only,Home Appliances,found,695.66,,100.0,1.0,Home & Kitchen,,,23.08,23.08,,Established (workbook),False
@@ -1546,7 +1546,7 @@ yoursplants,,,,,yoursplants,Quick commerce only,Gardening,not queried,,,,,,,,0.8
 Youth Robe,,,,,youthrobe,Quick commerce only,Home Furnishing,found,0.27,,0.0,100.0,Clothing & Accessories,1.68,,,1.68,,Mostly non-home on Amazon: Clothing & Accessories (review after wave 4),False
 yuging,,,,,yuging,Quick commerce only,Glasses Cups Mugs,no selling listing,,,,,,,0.06,,0.06,,,True
 YUKI,,,,,yuki,Quick commerce only,"Clothing, Footwear & Accessories",not queried,,,,,,6.29,,,6.29,,,True
-Zaicus,,,,,zaicus,Quick commerce only,Decorative Lights,not queried,,,,,,0.3,,,0.3,,,True
+Zaicus,,,,,zaicus,Quick commerce only,Decorative Lights,found,3.08,,95.0,100.0,Home & Kitchen,0.3,,,0.3,,,True
 Zappfresh,,,,,zappfresh,Quick commerce only,Home Furnishing,no selling listing,,,,,,4.08,,,4.08,,,True
 ZdalaMit,,,,,zdalamit,Quick commerce only,Appliances,found,56.13,,,0.0,,14.66,,,14.66,,,True
 Zebra,,,,,zebra,Quick commerce only,Stationery Needs,not queried,,,,,,3.32,,,3.32,,,True
