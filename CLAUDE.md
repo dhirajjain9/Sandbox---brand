@@ -39,7 +39,7 @@ Black Box sub-category exports (category view) + brand batches (`runs/_target/wa
 Status 27 Nov: WAVE 1 COMPLETE. Brand pulls: 214 found, 115 no match. Categories: 39 sub-categories on the dashboard
 (Appliances 20, Kitchen & Dining 14, Kitchen Storage & Bottles 5; Egg Boilers had nothing to export). Sales floors differ
 and are labelled per sub-category: 5 (most), 20 (Bakeware, Mugs, Glasses, Bottles, Flasks, Lunch Boxes, Spice), 50 (Kitchen
-Tools, Storage Containers). Kitchen Tools excludes Knives/Choppers; Glasses excludes Mugs ASINs; Cutlery = cutlery
+Tools, Storage Containers). Kitchen Tools excludes products already in Knives, Choppers, Bakeware, Serveware, Cutlery; Glasses excludes Mugs and Flasks products; Cutlery = cutlery
 sub-categories only. Next: wave 2 (run sheet: brand batches first, one search per category at min 20).
 Roles: we do data and diligence; outreach decisions belong to the outreach team.
 
