@@ -36,10 +36,11 @@ Extraction runs in category waves (`runs/_target/master_list_waves.csv`, groups 
 wave 1 Appliances + Kitchen & Dining + Kitchen Storage (250 brands), wave 2 Home Furnishing + Decor & Gifting +
 Lighting (292), wave 3 Cleaning, Pooja, Storage, Home Improvement, Bath (308), wave 4 the rest (214). Each wave =
 Black Box sub-category exports (category view) + brand batches (`runs/_target/waves/`).
-Status 27 Nov (paused): wave 1 brand pulls complete (Amazon: 214 found, 115 no match); Part A 31 sub-categories on the
-dashboard; left: Mugs >=Rs 700 (Mugs <=699 held in data/raw/helium10/wave1/partA_hold), Glasses, Kitchen Tools & Utensils,
-Storage Containers, Water Bottles, Flasks, Lunch Boxes, Spice Racks. Black Box hit its search limit; from now on one search
-per sub-category (min 20 sales, top 500 by revenue), brand batches before categories. Next: wave 2 (run sheet updated).
+Status 27 Nov: WAVE 1 COMPLETE. Brand pulls: 214 found, 115 no match. Categories: 39 sub-categories on the dashboard
+(Appliances 20, Kitchen & Dining 14, Kitchen Storage & Bottles 5; Egg Boilers had nothing to export). Sales floors differ
+and are labelled per sub-category: 5 (most), 20 (Bakeware, Mugs, Glasses, Bottles, Flasks, Lunch Boxes, Spice), 50 (Kitchen
+Tools, Storage Containers). Kitchen Tools excludes Knives/Choppers; Glasses excludes Mugs ASINs; Cutlery = cutlery
+sub-categories only. Next: wave 2 (run sheet: brand batches first, one search per category at min 20).
 Roles: we do data and diligence; outreach decisions belong to the outreach team.
 
 ## Sourcing universe (the team's brand list)
