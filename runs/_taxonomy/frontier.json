@@ -1,145 +1,5 @@
 [
 {
-"catId": 51396627031,
-"parent": 5689431031,
-"depth": 3,
-"path_prefix": "Furniture > Home Entertainment Furniture",
-"branch": "Furniture"
-},
-{
-"catId": 51396633031,
-"parent": 5689431031,
-"depth": 3,
-"path_prefix": "Furniture > Home Entertainment Furniture",
-"branch": "Furniture"
-},
-{
-"catId": 51396620031,
-"parent": 5689431031,
-"depth": 3,
-"path_prefix": "Furniture > Home Entertainment Furniture",
-"branch": "Furniture"
-},
-{
-"catId": 51396629031,
-"parent": 5689431031,
-"depth": 3,
-"path_prefix": "Furniture > Home Entertainment Furniture",
-"branch": "Furniture"
-},
-{
-"catId": 51396622031,
-"parent": 5689431031,
-"depth": 3,
-"path_prefix": "Furniture > Home Entertainment Furniture",
-"branch": "Furniture"
-},
-{
-"catId": 51396631031,
-"parent": 5689431031,
-"depth": 3,
-"path_prefix": "Furniture > Home Entertainment Furniture",
-"branch": "Furniture"
-},
-{
-"catId": 51396624031,
-"parent": 5689431031,
-"depth": 3,
-"path_prefix": "Furniture > Home Entertainment Furniture",
-"branch": "Furniture"
-},
-{
-"catId": 51396626031,
-"parent": 5689431031,
-"depth": 3,
-"path_prefix": "Furniture > Home Entertainment Furniture",
-"branch": "Furniture"
-},
-{
-"catId": 5689441031,
-"parent": 27299384031,
-"depth": 3,
-"path_prefix": "Furniture > Dining Room Furniture",
-"branch": "Furniture"
-},
-{
-"catId": 5731253031,
-"parent": 27299384031,
-"depth": 3,
-"path_prefix": "Furniture > Dining Room Furniture",
-"branch": "Furniture"
-},
-{
-"catId": 5689416031,
-"parent": 27299384031,
-"depth": 3,
-"path_prefix": "Furniture > Dining Room Furniture",
-"branch": "Furniture"
-},
-{
-"catId": 5689415031,
-"parent": 27299384031,
-"depth": 3,
-"path_prefix": "Furniture > Dining Room Furniture",
-"branch": "Furniture"
-},
-{
-"catId": 5689414031,
-"parent": 27299384031,
-"depth": 3,
-"path_prefix": "Furniture > Dining Room Furniture",
-"branch": "Furniture"
-},
-{
-"catId": 5689413031,
-"parent": 27299384031,
-"depth": 3,
-"path_prefix": "Furniture > Dining Room Furniture",
-"branch": "Furniture"
-},
-{
-"catId": 3591675031,
-"parent": 3591666031,
-"depth": 3,
-"path_prefix": "Furniture > Study & Home Office Furniture",
-"branch": "Furniture"
-},
-{
-"catId": 3591680031,
-"parent": 3591666031,
-"depth": 3,
-"path_prefix": "Furniture > Study & Home Office Furniture",
-"branch": "Furniture"
-},
-{
-"catId": 3591674031,
-"parent": 3591666031,
-"depth": 3,
-"path_prefix": "Furniture > Study & Home Office Furniture",
-"branch": "Furniture"
-},
-{
-"catId": 3591106031,
-"parent": 3591666031,
-"depth": 3,
-"path_prefix": "Furniture > Study & Home Office Furniture",
-"branch": "Furniture"
-},
-{
-"catId": 3591693031,
-"parent": 3591666031,
-"depth": 3,
-"path_prefix": "Furniture > Study & Home Office Furniture",
-"branch": "Furniture"
-},
-{
-"catId": 3591667031,
-"parent": 3591666031,
-"depth": 3,
-"path_prefix": "Furniture > Study & Home Office Furniture",
-"branch": "Furniture"
-},
-{
 "catId": 3591698031,
 "parent": 3591666031,
 "depth": 3,
@@ -6165,5 +6025,152 @@
 "depth": 4,
 "path_prefix": "Large Appliances > Parts & Accessories > Refrigerator Parts & Accessories",
 "branch": "Large Appliances"
+},
+{
+"catId": 3591671031,
+"parent": 3591667031,
+"depth": 4,
+"path_prefix": "Furniture > Study & Home Office Furniture > Cabinets & Cupboards",
+"branch": "Furniture"
+},
+{
+"catId": 3591669031,
+"parent": 3591667031,
+"depth": 4,
+"path_prefix": "Furniture > Study & Home Office Furniture > Cabinets & Cupboards",
+"branch": "Furniture"
+},
+{
+"catId": 51396916031,
+"parent": 3591667031,
+"depth": 4,
+"path_prefix": "Furniture > Study & Home Office Furniture > Cabinets & Cupboards",
+"branch": "Furniture"
+},
+{
+"catId": 51396918031,
+"parent": 3591667031,
+"depth": 4,
+"path_prefix": "Furniture > Study & Home Office Furniture > Cabinets & Cupboards",
+"branch": "Furniture"
+},
+{
+"catId": 3591672031,
+"parent": 3591667031,
+"depth": 4,
+"path_prefix": "Furniture > Study & Home Office Furniture > Cabinets & Cupboards",
+"branch": "Furniture"
+},
+{
+"catId": 3591670031,
+"parent": 3591667031,
+"depth": 4,
+"path_prefix": "Furniture > Study & Home Office Furniture > Cabinets & Cupboards",
+"branch": "Furniture"
+},
+{
+"catId": 3591673031,
+"parent": 3591667031,
+"depth": 4,
+"path_prefix": "Furniture > Study & Home Office Furniture > Cabinets & Cupboards",
+"branch": "Furniture"
+},
+{
+"catId": 51239735031,
+"parent": 3591674031,
+"depth": 4,
+"path_prefix": "Furniture > Study & Home Office Furniture > Carts",
+"branch": "Furniture"
+},
+{
+"catId": 51239728031,
+"parent": 3591674031,
+"depth": 4,
+"path_prefix": "Furniture > Study & Home Office Furniture > Carts",
+"branch": "Furniture"
+},
+{
+"catId": 51239725031,
+"parent": 3591674031,
+"depth": 4,
+"path_prefix": "Furniture > Study & Home Office Furniture > Carts",
+"branch": "Furniture"
+},
+{
+"catId": 51239731031,
+"parent": 3591674031,
+"depth": 4,
+"path_prefix": "Furniture > Study & Home Office Furniture > Carts",
+"branch": "Furniture"
+},
+{
+"catId": 51239739031,
+"parent": 3591674031,
+"depth": 4,
+"path_prefix": "Furniture > Study & Home Office Furniture > Carts",
+"branch": "Furniture"
+},
+{
+"catId": 28205294031,
+"parent": 3591675031,
+"depth": 4,
+"path_prefix": "Furniture > Study & Home Office Furniture > Chairs & Sofas",
+"branch": "Furniture"
+},
+{
+"catId": 3591676031,
+"parent": 3591675031,
+"depth": 4,
+"path_prefix": "Furniture > Study & Home Office Furniture > Chairs & Sofas",
+"branch": "Furniture"
+},
+{
+"catId": 3591679031,
+"parent": 3591675031,
+"depth": 4,
+"path_prefix": "Furniture > Study & Home Office Furniture > Chairs & Sofas",
+"branch": "Furniture"
+},
+{
+"catId": 3591677031,
+"parent": 3591675031,
+"depth": 4,
+"path_prefix": "Furniture > Study & Home Office Furniture > Chairs & Sofas",
+"branch": "Furniture"
+},
+{
+"catId": 51396920031,
+"parent": 3591680031,
+"depth": 4,
+"path_prefix": "Furniture > Study & Home Office Furniture > Desks & Workstations",
+"branch": "Furniture"
+},
+{
+"catId": 3591684031,
+"parent": 3591680031,
+"depth": 4,
+"path_prefix": "Furniture > Study & Home Office Furniture > Desks & Workstations",
+"branch": "Furniture"
+},
+{
+"catId": 3591683031,
+"parent": 3591680031,
+"depth": 4,
+"path_prefix": "Furniture > Study & Home Office Furniture > Desks & Workstations",
+"branch": "Furniture"
+},
+{
+"catId": 3591682031,
+"parent": 3591680031,
+"depth": 4,
+"path_prefix": "Furniture > Study & Home Office Furniture > Desks & Workstations",
+"branch": "Furniture"
+},
+{
+"catId": 3591681031,
+"parent": 3591680031,
+"depth": 4,
+"path_prefix": "Furniture > Study & Home Office Furniture > Desks & Workstations",
+"branch": "Furniture"
 }
 ]
