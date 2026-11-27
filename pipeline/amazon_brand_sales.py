@@ -135,12 +135,21 @@ def import_csv(folder, batches=None):
     print(f"{len(new):,} listings imported; {len(allr):,} in total")
 
 
+def aliases():
+    """Amazon brand slug -> our brand slug, from pipeline/brand_aliases.json ("aliases" only; "verify" is not applied)."""
+    f = os.path.join(os.path.dirname(__file__), "brand_aliases.json")
+    if not os.path.exists(f):
+        return {}
+    return {slug(amz): slug(ours) for ours, L in json.load(open(f))["aliases"].items() for amz in L}
+
+
 def build():
     d = pd.read_csv(f"{RAW}/rows.csv.gz")
     queries = json.load(open(f"{RAW}/queries.json"))
-    asked = {slug(b) for q in queries for b in q["brands"]}
+    al = aliases()
+    asked = {al.get(slug(b), slug(b)) for q in queries for b in q["brands"]}
     capped = {slug(q["brands"][0]) for q in queries if q["capped"] and len(q["brands"]) == 1}
-    d["brand_key"] = d.brand.map(slug)
+    d["brand_key"] = d.brand.map(slug).map(lambda k: al.get(k, k))
     if "units_12m" not in d:
         d["units_12m"] = None
     d["price_rs"] = d.get("price_rs", pd.Series(index=d.index, dtype=float))

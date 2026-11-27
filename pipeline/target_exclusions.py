@@ -34,7 +34,7 @@ LISTED = {
     "Hindustan Unilever": ["Lever Ayush", "Cif"],
     "3M": ["3M", "Scotch"],
     "Nestle": ["Nescafe"],
-    "Keurig Dr Pepper": ["Snapple"],
+    # "Snapple" on quick commerce is Snapple Appliances (pressure cookers, cookware), not the Keurig Dr Pepper drink
     "Strauss Group": ["Strauss"],
     "Newell Brands": ["Contigo"],
     "Vista Outdoor / Revelyst": ["CamelBak"],

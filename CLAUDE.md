@@ -26,7 +26,7 @@ batches is expensive (about one call per brand); budget Helium 10 calls (1,000 a
 
 ## TARGET: master extraction list (set by the user, 26 Nov 2026)
 
-`runs/_target/master_list.csv`: **1,317 brands** (after wave 1 Part B listed-company and licence additions and 27 no-product-fit electronics/gaming brands) = Master File brands excluding "Skipped" and
+`runs/_target/master_list.csv`: **1,312 brands** (6 duplicates merged via aliases, Snapple un-excluded; after wave 1 Part B listed-company and licence additions and 27 no-product-fit electronics/gaming brands) = Master File brands excluding "Skipped" and
 "Skipped (Established)" (336) + quick-commerce brands not in the Master File (1,233), minus 215 exclusions
 (established per workbook or well-known, listed-company owned, roll-up owned: Mensa, GlobalBees, Upscalio, GOAT;
 lists in `pipeline/target_exclusions.py`; excluded rows kept in master_list_with_exclusions.csv).
@@ -39,7 +39,7 @@ Black Box sub-category exports (category view) + brand batches (`runs/_target/wa
 Status 27 Nov: WAVE 1 COMPLETE. Brand pulls: 214 found, 115 no match. Categories: 39 sub-categories on the dashboard
 (Appliances 20, Kitchen & Dining 14, Kitchen Storage & Bottles 5; Egg Boilers had nothing to export). Sales floors differ
 and are labelled per sub-category: 5 (most), 20 (Bakeware, Mugs, Glasses, Bottles, Flasks, Lunch Boxes, Spice), 50 (Kitchen
-Tools, Storage Containers). Kitchen Tools excludes products already in Knives, Choppers, Bakeware, Serveware, Cutlery; Glasses excludes Mugs and Flasks products; Cutlery = cutlery
+Tools, Storage Containers). Brand-name aliases (our name -> Amazon brand) in `pipeline/brand_aliases.json`, applied by amazon_brand_sales build and target_list (merges Master File + quick-commerce duplicates); spelling retries in `runs/_target/waves/spelling_retry_batches.tsv`. Kitchen Tools excludes products already in Knives, Choppers, Bakeware, Serveware, Cutlery; Glasses excludes Mugs and Flasks products; Cutlery = cutlery
 sub-categories only. Next: wave 2 (run sheet: brand batches first, one search per category at min 20).
 Roles: we do data and diligence; outreach decisions belong to the outreach team.
 

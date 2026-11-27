@@ -36,6 +36,10 @@ def main(path):
     m = m.drop_duplicates("key")
     q = pd.read_csv("runs/_qcom/qcom_brand_sales.csv")
     q = q[q.brand_key.notna() & (q.brand_key != "")]
+    # same company listed twice (Master File company name + quick-commerce brand name): credit to the Master File name
+    al = json.load(open("pipeline/brand_aliases.json"))["aliases"]
+    to_mf = {slug(x): slug(o) for o, L in al.items() for x in L if slug(o) in set(m.key) and slug(x) != slug(o)}
+    q = q.assign(brand_key=q.brand_key.map(lambda k: to_mf.get(k, k)))
     qn = q.groupby("brand_key").agg(brand=("brand", "first"), qc_category=("category", lambda s: s.value_counts().index[0]))
     mf = m[~m.mf_status.isin(SKIP)].assign(source="Master File")
     qo = qn[~qn.index.isin(m.key)].reset_index().rename(columns={"brand_key": "key"}).assign(source="Quick commerce only")

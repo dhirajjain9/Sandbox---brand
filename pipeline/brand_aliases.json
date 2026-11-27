@@ -1,0 +1,90 @@
+{
+  "_note": "Our brand name -> Amazon brand name(s) as Black Box shows them. Used by amazon_brand_sales build to credit Amazon listings to our brand. 'verify' entries are probable matches awaiting confirmation (not applied until moved up).",
+  "aliases": {
+    "Ibell Home Appliances": [
+      "IBELL"
+    ],
+    "Vinod Cookware": [
+      "Vinod"
+    ],
+    "Rico Appliances": [
+      "Rico"
+    ],
+    "Signoraware": [
+      "SIGNORA WARE"
+    ],
+    "Neelam Stainless Steel": [
+      "neelam"
+    ],
+    "Blow Hot Kitchen Appliances": [
+      "BLOWHOT"
+    ],
+    "Libra Appliances": [
+      "LIBRA"
+    ],
+    "Vaya Kitchenware": [
+      "VAYA",
+      "VAYA TYFFYN",
+      "VAYA DRYNK"
+    ],
+    "Your Food Lab": [
+      "YOUR FOOD LAB HOME"
+    ],
+    "Gloxy Enterprises": [
+      "GLOXY"
+    ],
+    "Kreme Cookware": [
+      "Kreme"
+    ],
+    "Birch & co": [
+      "Birch & Co."
+    ],
+    "Digismart": [
+      "DIGISMART"
+    ],
+    "Stac Pro": [
+      "StacPro"
+    ],
+    "True Ware": [
+      "Trueware"
+    ],
+    "OmiChef Cookware LLP": [
+      "Omichef"
+    ],
+    "Snapple Appliances": [
+      "Snapple"
+    ],
+    "Navarasa Cookware": [
+      "NAVARASA"
+    ],
+    "Errai Homes": [
+      "ERRAI"
+    ],
+    "Nelcon Industries": [
+      "NELCON"
+    ],
+    "Asian Plastoware": [
+      "Asian Plastowares"
+    ],
+    "Esspy": [
+      "Esspy who understand excellence"
+    ],
+    "Allo innoware": [
+      "Allo"
+    ]
+  },
+  "verify": {
+    "Aristoplast": [
+      "ARISTO"
+    ],
+    "Hazel Kitchenware": [
+      "HAZEL"
+    ],
+    "Jyoti Appliances": [
+      "JYOTI"
+    ],
+    "Rudra Kitchen World Pvt Ltd": [
+      "Rudra"
+    ]
+  }
+}
