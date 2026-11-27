@@ -1,0 +1,20 @@
+[
+ {
+  "catId": 1380181031,
+  "name": "Kitchen Tools",
+  "path": "Kitchen & Dining > Kitchen Tools",
+  "childCategoryCount": 66,
+  "childIdsReturned": 50,
+  "missing": 16,
+  "note": "Keepa category_lookup returns at most 50 child IDs; remaining children not yet recorded"
+ },
+ {
+  "catId": 1380045031,
+  "name": "Small Kitchen Appliances",
+  "path": "Kitchen & Home Appliances > Small Kitchen Appliances",
+  "childCategoryCount": 51,
+  "childIdsReturned": 50,
+  "missing": 1,
+  "note": "Keepa category_lookup returns at most 50 child IDs; remaining children not yet recorded"
+ }
+]
