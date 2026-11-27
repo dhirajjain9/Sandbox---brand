@@ -1,0 +1,73 @@
+platform,platform_category,group,wave,products,matched_pct,out_of_scope_pct,awaiting_pct,unmatched_pct,matched_pct_sepoct_share,oos_pct_sepoct_share,top_leaf
+Blinkit,Appliances,Appliances,1,983,62.1,20.9,0.0,17.1,69.7,15.6,Ceiling Fans
+Blinkit,Bags,"Bags, Travel & Apparel",4,527,28.5,33.8,37.8,0.0,56.0,29.6,Casual Backpacks
+Blinkit,Bathroom Essentials,Bath & Laundry,3,236,86.0,0.4,13.6,0.0,85.8,0.3,Bath Towels
+Blinkit,Cleaning Tools,Cleaning & Household,3,125,80.0,1.6,18.4,0.0,88.3,0.2,Bucket Mops
+Blinkit,"Clothing, Footwear & Accessories","Bags, Travel & Apparel",4,1027,0.1,97.4,2.5,0.0,0.0,98.9,Glassware & Drinkware
+Blinkit,Decorative Lights,Lighting & Electricals,2,722,42.5,2.6,54.8,0.0,42.7,0.8,Specialty Lighting
+Blinkit,Festive & Occasion Needs,Home Decor & Gifting,2,682,16.0,29.5,54.5,0.0,28.6,3.1,"Teacups, Mugs & Saucers"
+Blinkit,Festive Gifting,Home Decor & Gifting,2,108,39.8,6.5,53.7,0.0,49.0,0.5,Wall & Tabletop Frames
+Blinkit,"Flowers, Plants & Gardening",Gardening,4,186,64.5,1.1,34.4,0.0,50.4,1.3,Artificial Flowers
+Blinkit,Garbage Bags,Cleaning & Household,3,99,99.0,0.0,1.0,0.0,99.3,0.0,Dustbin Bags
+Blinkit,Home Decor,Home Decor & Gifting,2,564,64.9,1.2,33.9,0.0,81.9,0.3,Jar Candles
+Blinkit,Home Furnishing,Home Furnishing,2,2197,87.8,0.3,12.0,0.0,88.5,0.1,Sheet & Pillowcase Sets
+Blinkit,Home Improvement,Home Improvement & Tools,3,83,68.7,1.2,30.1,0.0,82.9,2.2,Keyed Padlocks
+Blinkit,Kitchen & Dining Needs,Kitchen & Dining,1,1831,90.6,0.9,0.0,8.5,93.4,0.5,Jars & Containers
+Blinkit,Party Essentials,Home Decor & Gifting,2,107,40.2,2.8,57.0,0.0,19.8,3.9,Ashtrays
+Blinkit,Pooja Needs,Pooja,3,687,48.8,0.7,50.5,0.0,69.3,0.1,Pooja Supplies
+Blinkit,Sports & Fitness,Sports & Fitness,4,455,24.6,10.5,64.8,0.0,38.0,1.6,Resistance Bands
+Blinkit,Stationery Needs,Stationery,4,451,0.2,96.5,3.3,0.0,0.3,96.4,Water Bottles
+Blinkit,Tissues & Disposables,Cleaning & Household,3,354,62.1,32.8,5.1,0.0,60.1,36.8,Tissue Holders
+Instamart,Bakeware & Bbq,Kitchen & Dining,1,178,76.4,0.6,0.0,23.0,78.4,0.0,Baking Tools & Accessories
+Instamart,Barware,Kitchen & Dining,1,411,87.1,0.0,0.0,12.9,88.5,0.0,Glassware & Drinkware
+Instamart,Bathware & Laundry,Bath & Laundry,3,700,69.6,0.4,30.0,0.0,69.0,0.1,Laundry Baskets
+Instamart,Bottles Flasks Tiffins,Kitchen Storage & Bottles,1,1331,94.8,1.4,0.0,3.8,96.3,1.8,Water Bottles
+Instamart,Cleaning Tools,Cleaning & Household,3,442,86.0,0.7,13.3,0.0,94.4,0.0,Waste & Recycling
+Instamart,Cookware,Kitchen & Dining,1,402,94.8,0.0,0.0,5.2,97.4,0.0,Pressure Cookers
+Instamart,Cutlery & Ladles,Kitchen & Dining,1,176,94.3,0.0,0.0,5.7,99.7,0.0,Kitchen Tools
+Instamart,Gardening,Gardening,4,278,52.5,1.8,45.7,0.0,50.9,1.1,Plant Cachepots
+Instamart,Glasses Cups Mugs,Kitchen & Dining,1,811,90.3,1.6,0.0,8.1,98.3,0.0,"Teacups, Mugs & Saucers"
+Instamart,Home Appliances,Appliances,1,205,92.7,1.5,0.0,5.9,89.3,0.6,Table Fans
+Instamart,Home Decor,Home Decor & Gifting,2,2459,56.8,1.4,41.8,0.0,30.2,0.3,Idols & Figurines
+Instamart,Home Furnishing,Home Furnishing,2,2139,88.3,0.8,10.9,0.0,95.4,0.7,Sheet & Pillowcase Sets
+Instamart,Jars Containers Holders,Kitchen Storage & Bottles,1,1085,96.1,0.4,0.0,3.5,99.5,0.0,Jars & Containers
+Instamart,Kitchen Appliances,Appliances,1,251,91.6,0.0,0.0,8.4,97.8,0.0,Mixer Grinders
+Instamart,Kitchen Cleaning,Cleaning & Household,3,96,60.4,0.0,39.6,0.0,53.6,0.0,Scrubbers
+Instamart,Kitchen Tools,Kitchen & Dining,1,280,83.9,1.1,0.0,15.0,81.0,10.1,Kitchen Tools
+Instamart,Lights & Bulbs,Lighting & Electricals,2,154,70.8,0.6,28.6,0.0,65.7,0.0,LED Bulbs
+Instamart,Linen And Furnishing,Home Furnishing,2,477,83.2,0.2,16.6,0.0,59.3,0.7,Sheet & Pillowcase Sets
+Instamart,Personal Care Appliances,Appliances,1,177,36.7,20.3,0.0,42.9,46.6,23.2,Hair Dryers
+Instamart,Plates Bowls Crockery,Kitchen & Dining,1,775,78.6,0.4,0.0,21.0,85.5,0.0,Dinner Sets
+Instamart,Pooja Needs,Pooja,3,916,46.5,1.0,52.5,0.0,67.2,0.1,Pooja Supplies
+Instamart,Powerbanks Chargers Cables,Lighting & Electricals,2,367,2.5,93.7,3.8,0.0,4.2,91.2,International Power Adapters
+Instamart,Serveware,Kitchen & Dining,1,168,87.5,1.2,0.0,11.3,96.6,0.2,Serving Bowls
+Instamart,Sports & Gym,Sports & Fitness,4,997,23.7,3.6,72.7,0.0,24.9,0.3,Resistance Bands
+Instamart,Storage & Organizers,Storage & Organisation,3,794,43.8,17.5,38.7,0.0,32.5,40.9,Umbrellas
+Instamart,Tissues & Disposables,Cleaning & Household,3,248,38.3,52.0,9.7,0.0,29.2,65.8,Baking Tools & Accessories
+Instamart,Travel And Luggage,"Bags, Travel & Apparel",4,254,53.5,2.0,44.5,0.0,43.6,0.1,Suitcases & Trolley Bags
+Instamart,Utility & Tools,Storage & Organisation,3,1080,46.8,10.2,43.1,0.0,58.4,8.9,Kitchen Tools
+Zepto,Bath & Laundry,Bath & Laundry,3,337,63.2,0.0,36.8,0.0,41.5,0.0,Shower Curtains
+Zepto,Bulbs & Lights,Lighting & Electricals,2,426,45.5,0.7,53.8,0.0,36.3,0.0,LED Bulbs
+Zepto,Cleaning Aids,Cleaning & Household,3,555,89.7,0.0,10.3,0.0,88.0,0.0,Dustbin Bags
+Zepto,Cookware,Kitchen & Dining,1,467,95.3,0.0,0.0,4.7,97.6,0.0,Tawas
+Zepto,Drinkware & Bar,Kitchen & Dining,1,456,89.9,0.2,0.0,9.9,91.6,0.1,Glassware & Drinkware
+Zepto,Extensions & Switches,Lighting & Electricals,2,79,8.9,3.8,87.3,0.0,7.4,0.9,International Power Adapters
+Zepto,Gardening,Gardening,4,525,60.8,1.0,38.3,0.0,49.8,2.4,Gardening Tool Sets
+Zepto,Gas Stove & Accessories,Kitchen & Dining,1,62,88.7,0.0,0.0,11.3,94.0,0.0,Gas Lighters
+Zepto,Hardware & Fittings,Home Improvement & Tools,3,193,78.8,1.0,20.2,0.0,92.6,0.6,Stops
+Zepto,Home Appliances,Appliances,1,475,90.9,2.7,0.0,6.3,92.0,3.3,Ceiling Fans
+Zepto,Home Decor,Home Decor & Gifting,2,1294,79.7,1.6,18.7,0.0,80.2,0.2,Posters
+Zepto,Home Furnishing,Home Furnishing,2,3105,84.5,0.8,14.7,0.0,83.4,1.7,Sheet & Pillowcase Sets
+Zepto,Household Utility,Cleaning & Household,3,482,68.0,0.8,31.1,0.0,74.1,0.3,Umbrellas
+Zepto,Kitchen Aids,Kitchen & Dining,1,105,52.4,23.8,0.0,23.8,42.7,30.4,Scrubbers
+Zepto,Kitchen Appliances,Appliances,1,415,92.5,1.0,0.0,6.5,93.3,1.1,Mixer Grinders
+Zepto,Kitchen Cleaning,Cleaning & Household,3,27,18.5,0.0,81.5,0.0,0.7,0.0,Wall-Mount Hoods
+Zepto,Kitchen Storage,Kitchen Storage & Bottles,1,654,91.0,0.8,0.0,8.3,89.6,0.1,Jars & Containers
+Zepto,Kitchen Tools,Kitchen & Dining,1,759,93.3,0.4,0.0,6.3,90.8,0.5,Kitchen Tools
+Zepto,Lunch Boxes,Kitchen Storage & Bottles,1,262,99.2,0.4,0.0,0.4,98.4,0.0,Lunch Boxes
+Zepto,Pooja & Worship Needs,Pooja,3,1545,55.8,3.0,41.2,0.0,52.1,15.5,Pooja Supplies
+Zepto,Pressure Cooker,Kitchen & Dining,1,103,100.0,0.0,0.0,0.0,100.0,0.0,Pressure Cookers
+Zepto,Stationery & Crafts,Stationery,4,271,22.9,21.4,55.7,0.0,22.3,20.7,Baking Tools & Accessories
+Zepto,Steel Utensils,Kitchen & Dining,1,238,86.1,0.4,0.0,13.4,92.3,1.0,Tableware
+Zepto,Tableware,Kitchen & Dining,1,350,74.0,0.9,0.0,25.1,66.2,0.1,Dinner Sets
+Zepto,Tissues & Disposables,Cleaning & Household,3,481,34.3,54.7,11.0,0.0,37.6,54.6,Baking Tools & Accessories

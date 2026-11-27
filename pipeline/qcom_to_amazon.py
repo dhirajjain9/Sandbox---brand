@@ -47,8 +47,12 @@ OUT_MATCH = "runs/_taxonomy/qcom_amazon_match.csv"
 OUT_COVER = "runs/_taxonomy/qcom_amazon_coverage.csv"
 
 MIN_TRAIN = 5          # a leaf needs this many ASINs to be learnt
-THRESHOLD = 0.55       # calibrated confidence below which a model match is not used
-IN_SCOPE_CATS = {"Home & Kitchen", "Home Improvement", "Outdoor Living", "Garden & Outdoors"}
+THRESHOLD = 0.45       # calibrated confidence below which a model match is not used
+# Black Box categories that are not home & kitchen (clothing, stationery, electronics accessories, food...)
+OUT_CATS = {"Grocery & Gourmet Foods", "Clothing & Accessories", "Office Products", "Computers & Accessories", "Electronics",
+            "Jewellery", "Beauty", "Books", "Video Games", "Pet Supplies", "Shoes & Handbags"}
+NON_HOME_LEAVES = r"protein|creatine|gainer|pre-workout|moringa|razor|toothpaste|body wash|teether|supplement|bikini|sonic\b"
+IN_LEAVES = {"Uninterrupted Power Supplies", "Fans", "Hair Dryers"}
 OUT_OF_SCOPE = "Out of scope"
 UNMATCHED = "Unmatched"
 # Black Box "Subcategory" values that are branch names, not leaves (ASIN not placed deeper)
@@ -58,69 +62,99 @@ GENERIC = {"Home Furnishing", "Home & Décor", "Home Storage & Organisation", "K
 
 # ---- rules ------------------------------------------------------------------------------------
 # Out of scope: not home & kitchen. First match wins; checked before the in-scope overrides.
+HOME_OBJ = (r"\b(?:box|boxes|bowls?|jars?|containers?|trays?|platters?|servers?|storage|stand|holders?|organi[sz]ers?|"
+            r"hangers?|covers?|racks?|baskets?|moulds?|molds?|kadai|kadhai|pan|diyas?|candles?|lights?|bottles?|flasks?|mugs?|"
+            r"cups?|glass(?:es)?|plates?|dispensers?|bags?|cutters?|maker|juicer|blender|mixer|bedsheets?|pillows?|towels?|"
+            r"curtains?|dohar|blankets?|quilts?|cushions?|mats?|rugs?|carpets?|lamps?|frames?)\b")
 OUT_RULES = [
-    ("clothing", r"\b(?:t-?shirts?|shirts?|tops?|kurtas?|kurtis?|sarees?|leggings?|jeans|trousers?|shorts|track ?pants?|"
-                 r"pyjamas?|nightwear|night suit|innerwear|briefs?|boxers?|vests?|bras?|panties|lingerie|jackets?|hoodies?|"
-                 r"sweat ?shirts?|sweaters?|cardigans?|dupattas?|dress(?:es)?|frocks?|caps?(?=.*\b(?:baseball|cotton|sun|men|women|kids)\b)|"
-                 r"hats?|beanies?|gloves?(?=.*\b(?:winter|woolen|riding|bike)\b)|mufflers?|scarf|scarves|stoles?|thermals?|"
-                 r"socks?|stockings?|handkerchiefs?|hanky|ties?(?=.*\b(?:neck|men)\b)|belts?(?=.*\b(?:men|women|leather)\b))\b"),
-    ("footwear", r"\b(?:slippers?|chappals?|flip[- ]?flops?|sandals?|sneakers?|shoes?(?!\s*(?:rack|stand|cabinet|organi[sz]er|polish|"
-                 r"cleaner|brush|bag|cover|shelf|box))|crocs|clogs|floaters?|footwear(?!\s*(?:rack|stand))|boots?)\b"),
-    ("jewellery/accessories", r"\b(?:earrings?|necklaces?|bracelets?|bangles?(?!\s*(?:box|stand|holder))|anklets?|pendants?(?!\s*light)|"
-                 r"rings?(?=.*\b(?:finger|silver|gold plated|ad\b|adjustable ring))|wallets?|purses?|handbags?|sling bags?|"
-                 r"sunglasses|watch(?:es)?(?!\s*(?:box|stand|organi[sz]er))|smart ?watch)\b"),
-    ("stationery", r"\b(?:pens?|pencils?|ball ?point|gel pen|markers?|highlighters?|crayons?|sketch pens?|erasers?|sharpeners?(?!.*knife)|"
-                   r"notebooks?|note ?pads?|diar(?:y|ies)|journals?|registers?|sticky notes?|staplers?|staples|geometry box|"
-                   r"scale(?=.*\b(?:ruler|cm|geometry)\b)|rulers?|glue sticks?|fevi ?stick|correction (?:pen|tape)|files?(?=.*\b(?:folder|document|a4|clear)\b)|"
-                   r"folders?|envelopes?|a4 (?:paper|sheets?)|chart paper|craft paper|origami|colou?ring (?:book|kit|set)|"
-                   r"drawing book|sketch ?book|exam pad|clip ?board|calculators?|stationery|stationary|art (?:set|kit)|"
-                   r"poster colou?rs?|water ?colou?rs?|oil pastels?|clay(?=.*\b(?:kids|modelling|play)\b)|slime|glitter|"
-                   r"greeting cards?|gift tags?|rakhi|rakhee|pencil (?:box|case|pouch))\b"),
-    ("electronics accessories", r"\b(?:chargers?|charging (?:cable|adapter)|power ?banks?|usb|type[- ]?c|lightning cable|data cable|"
-                   r"cables?|earphones?|headphones?|earbuds?|headsets?|neckband|tws|speakers?|sound ?bar|pen ?drive|memory card|"
-                   r"sd card|micro ?sd|otg|mouse|keyboard|mouse ?pad|phone (?:case|cover|holder|stand)|mobile (?:holder|stand|cover)|"
-                   r"screen (?:guard|protector)|tempered glass|selfie stick|tripod|ring light|smart ?band|fitness band|"
-                   r"batter(?:y|ies)|cells?(?=.*\b(?:aa|aaa|alkaline)\b)|alkaline|aaa?\b|hdmi|router|wi-?fi|gaming|controller|"
-                   r"gamepad|airpods?|bluetooth)\b"),
-    ("food", r"\b(?:chocolates?|cookies?(?!\s*(?:cutter|jar|mould|mold|sheet))|biscuits?(?!\s*cutter)|namkeen|sweets|mithai|"
-             r"dry ?fruits?(?!\s*(?:box|bowl|tray|container|jar|server|serving|dish|set))|almonds?|cashews?|raisins|kaju|badam|"
-             r"snacks?(?!\s*(?:box|bowl|tray|server|plate|container|jar))|candy(?!\s*(?:jar|mould))|toffee|juice(?!\s*(?:glass|jug|maker|"
-             r"extractor|cup|jar|dispenser|bottle))|tea(?=.*\b(?:leaves|bags?|premix|green tea|masala tea)\b)|coffee powder|instant coffee|"
-             r"honey(?!\s*(?:jar|dipper|comb pattern))|ghee(?!\s*(?:pot|can|jar|dispenser|container|bowl))|masala(?=.*\b(?:\d+\s*g|gm|grams?|powder)\b)|"
-             r"atta(?=.*\bkg\b)|rice(?=.*\bkg\b)|cake(?=.*\b(?:eggless|chocolate|g|gm|kg)\b)(?!.*\b(?:mould|mold|tin|pan|stand|topper|candle)\b))\b"),
-    ("paper disposables", r"\b(?:tissues?(?!\s*(?:box|holder|stand|case))|facial tissue|toilet (?:paper|roll|tissue)s?(?!\s*holder)|"
-             r"kitchen (?:towel|roll)s?(?=.*\b(?:paper|pulls?|sheets?|ply|roll)\b)(?!.*\bholder\b)|paper (?:napkins?|towels?|plates?|cups?|bowls?|"
-             r"glass(?:es)?|straws?)|napkins?(?=.*\b(?:paper|ply|tissue)\b)|disposable (?:plates?|cups?|glass(?:es)?|bowls?|spoons?|cutlery|"
-             r"containers?|forks?)|wet wipes|wipes|sanitary|diapers?|cotton (?:balls|buds)|ear ?buds|areca (?:leaf )?plates?|"
-             r"bagasse|plates? \(disposable\))\b"),
-    ("personal care", r"\b(?:shampoo|conditioner(?!.*fabric)|face ?wash|body ?wash|soap(?!\s*(?:case|dish|box|holder|stand|tray|saver|dispenser|rack))|"
-             r"tooth ?paste|toothbrush(?!\s*(?:holder|stand|caddy))|deodorant|perfume(?!.*\b(?:room|car|home)\b)|lotion|cream|lipstick|"
-             r"kajal|nail polish|hair oil|sanitary pads?|razor|sunscreen|moisturi[sz]er|serum)\b"),
+    ("clothing", r"\b(?:t-?shirts?|shirts?|kurtas?|kurtis?|sarees?|leggings?|jeans|trousers?|track ?pants?|pyjamas?|"
+                 r"nightwear|night suit|innerwear|briefs|boxers|vests?|lingerie|jackets?|hoodies?|sweat ?shirts?|sweaters?|"
+                 r"cardigans?|dupattas?|frocks?|beanies?|mufflers?|scarf|scarves|stoles?|socks?|handkerchiefs?|"
+                 r"(?<!knee )caps?(?=.*\b(?:baseball|cotton|sun|prayer|men|women|kids)\b))\b", HOME_OBJ),
+    ("footwear", r"\b(?:slippers?|chappals?|flip[- ]?flops?|sneakers?|shoes|crocs|clogs|floaters?|sliders?|"
+                 r"sandals?(?=.*\b(?:men|women|kids|unisex|size)\b)|shoe(?=.*\b(?:men|women|kids|unisex|size)\b))\b",
+                 r"\b(?:rack|stand|cabinet|organi[sz]er|polish|cleaner|brush|bag|cover|shelf|box|dhoop|agarbatti|incense)\b"),
+    ("jewellery/accessories", r"\b(?:earrings?|necklaces?|bracelets?|wallets?|purses?|handbags?|sling bags?|sunglasses|"
+                 r"wrist ?watch(?:es)?|smart ?watch(?:es)?)\b", r"\b(?:box|stand|organi[sz]er|holder)\b"),
+    ("stationery", r"\b(?:pens|pencils?|ball ?point|gel pens?|roller ball pen|ball pen|markers?|highlighters?|crayons?|sketch pens?|"
+                   r"erasers?|notebooks?|note ?pads?|diar(?:y|ies)|journals?|sticky notes?|staplers?|geometry box|rulers?|"
+                   r"glue sticks?|correction (?:pen|tape)|envelopes?|a4 (?:paper|sheets?)|chart paper|craft paper|"
+                   r"colou?ring (?:book|kit|set)|drawing book|sketch ?book|exam pad|clip ?board|calculators?|stationery|"
+                   r"poster colou?rs?|water ?colou?rs?|oil pastels?|slime|greeting cards?|gift tags?|rakhis?|rakhee|"
+                   r"pencil (?:box|case|pouch))\b|\bpen\b(?=.*\b(?:ink|refill|blue|black|0\.\d ?mm|writing)\b)", None),
+    ("electronics accessories", r"\b(?:chargers?|power ?banks?|usb (?:cable|hub|flash drive|drive)|type[- ]?c (?:cable|charger|adapter)|"
+                   r"lightning cable|data cable|charging cable|lan cable|ethernet|earphones?|headphones?|earbuds?|headsets?|neckband|"
+                   r"tws|bluetooth speaker|speakers?|sound ?bar|pen ?drive|memory card|sd card|micro ?sd|"
+                   r"(?:wireless|gaming|optical|bluetooth) mouse|keyboard|mouse ?pad|phone (?:case|cover)|mobile (?:cover|case)|"
+                   r"screen (?:guard|protector)|selfie stick|smart ?band|fitness band|batter(?:y|ies)|alkaline|hdmi|"
+                   r"router|gamepad|game controller|airpods?)\b", r"\b(?:trap|kill|lamps?|lights?|torch|fan|clock|holder)\b"),
+    ("food", r"\b(?:chocolates?|cookies|biscuits|namkeen|sweets|mithai|almonds?|cashews?|raisins|kaju|badam|"
+             r"green tea|tea bags?|tea leaves|coffee powder|instant coffee|ready to eat|dry ?fruits?|snacks?)\b", HOME_OBJ),
+    ("paper disposables", r"\b(?:facial tissues?|face tissues?|tissues?(?=.*\b(?:pulls|ply|sheets)\b)|toilet (?:paper|rolls?|tissues?)|"
+             r"kitchen (?:towels?|rolls?)(?=.*\b(?:paper|pulls?|ply|tissue)\b)|paper (?:napkins?|towels?|plates?|cups?|bowls?|"
+             r"glass(?:es)?|straws?)|napkins?(?=.*\b(?:paper|ply|pulls|tissue)\b)|disposable (?:plates?|cups?|glass(?:es)?|bowls?|"
+             r"spoons?|cutlery|forks?)|wet wipes|baby wipes|sanitary|diapers?|cotton (?:balls|buds)|ear ?buds|"
+             r"areca (?:leaf )?plates?|bagasse)\b", r"\b(?:holder|stand|dispenser|box|case)\b"),
+    ("personal care", r"\b(?:face ?wash|body ?wash|bathing soap|tooth ?paste|deodorant|body lotion|lipstick|kajal|"
+             r"nail polish|hair oil|sanitary pads?|sunscreen|moisturi[sz]er|face serum)\b", r"\b(?:dispenser|holder|stand|case|dish)\b"),
 ]
 # In-scope overrides: (Amazon leaf, regex). Only used where the model is known to slip; the leaf
 # must exist in the label set or the rule is skipped.
 LEAF_RULES = [
+    ("Pot & Pan Sets", r"\bcookware set\b|\b\d+\s*(?:pc|pcs|piece)s? cookware\b"),
     ("Electric Kettles", r"\belectric (?:tea )?kettle|\bkettle\b.*\b(?:\d{3,4}\s*w|watts?|electric)\b"),
-    ("Spin Mops", r"\bspin mop|\bbucket mop|\bmop\b.*\bbucket\b|\bbucket\b.*\bmop\b"),
+    ("Bucket Mops", r"\bspin mop|\bbucket mop|\bmop\b.*\bbucket\b|\bbucket\b.*\bmop\b"),
+    ("Replacement Mop Pads", r"\bmop (?:refill|head|pad)s?\b|\brefill\b.*\bmop\b"),
+    ("Wet & Dry Mops", r"\bmops?\b"),
+    ("Towel Sets", r"\btowel set\b"),
+    ("Jiggers", r"\b(?:peg (?:measure|measurer)|jigger)s?\b"),
+    ("Brooms", r"\b(?:broom|jhadu|jhaadu|jharu|jhadoo)s?\b"),
+    ("Squeegees", r"\b(?:squeegee|wiper)s?\b(?!.*\b(?:car|blade|windshield)\b)"),
+    ("Scrubbers", r"\b(?:steel scrubber|scrub pad|scrubber|scourer|steel wool)s?\b"),
+    ("Doormats", r"\bdoor ?mats?\b"),
+    ("Waste & Recycling", r"\b(?:dust ?bin|garbage bin|trash can|waste bin|pedal bin)s?\b(?!.*\bbags?\b)"),
+    ("Cleaning Gloves", r"\b(?:cleaning|kitchen|rubber|dishwashing|household) gloves?\b"),
+    ("Clothes Pegs", r"\bcloth(?:es)? (?:pegs?|clips?|pins?)\b"),
+    ("Clotheslines", r"\bcloth(?:es)? ?(?:line|rope|drying rope)s?\b"),
+    ("Standard Hangers", r"\b(?:cloth(?:es)?|shirt|coat|plastic|velvet|wooden|saree|kids) hangers?\b|\bhangers? \(?(?:pack|set)"),
+    ("Keyrings & Keychains", r"\bkey ?(?:chain|ring)s?\b"),
+    ("Combination Padlocks", r"\b(?:number|combination) (?:pad ?)?lock"),
+    ("Keyed Padlocks", r"\bpad ?locks?\b"),
     ("Tealight Candle Holders", r"\b(?:tea ?light|t-?light)\s*(?:candle\s*)?holders?\b"),
+    ("Tealight Candle Holders", r"\b(?:votive|candle) (?:holders?|stands?)\b"),
+    ("Hanging Planters", r"\b(?:plant|pot) hangers?\b|\bhanging (?:planters?|pots?)\b"),
+    ("Dustbin Bags", r"\b(?:garbage|dustbin|trash|bin) bags?\b"),
     ("Tea Lights", r"\btea ?light candles?\b|\btealights?\b(?!.*holder)"),
     ("Pressure Cookers", r"\bpressure cooker\b(?!.*\b(?:gasket|whistle|valve|handle)\b)"),
     ("Tawas", r"\b(?:tawa|tava)s?\b"),
     ("Kadhai & Woks", r"\b(?:kadhai|kadai|karahi|kadhais|kadais)\b"),
     ("Sauce Pots & Handis", r"\b(?:handi|patila|pateela|patili|tope|topes|bhagona|degchi)\b"),
     ("Tadka Pans", r"\b(?:tadka|vaghariya)\b"),
-    ("Lunch Boxes", r"\b(?:tiffin|lunch ?box)(?:es)?\b(?!.*\bbag\b)"),
     ("Lunch Bags", r"\b(?:tiffin|lunch) bags?\b"),
-    ("Insulated Food Jars", r"\bfood (?:flask|jar)\b.*\binsulated|\binsulated food (?:jar|container)"),
+    ("Lunch Boxes", r"\b(?:tiffin|lunch ?box)(?:es)?\b"),
     ("Serving Casseroles & Tureens", r"\bcasseroles?\b|\bhot ?pot\b|\bhot ?case\b|\bchapati box\b|\broti (?:box|server)"),
     ("Dressing, Seasoning & Spice Dispensers", r"\b(?:masala (?:box|dabba|dani)|spice box|masaladani|anjarai)\b"),
     ("Mixer Grinders", r"\bmixer[- ]?grinder\b|\bmixie\b"),
     ("Hand Blenders", r"\bhand blender\b|\bstick blender\b|\bmathani\b|\bmadhani\b"),
     ("Gas Lighters", r"\bgas lighter\b|\b(?:kitchen|stove) lighter\b"),
     ("Idols & Figurines", r"\b(?:idol|murti|moorti)s?\b"),
-    ("Pooja Supplies", r"\b(?:agarbatti|agarbathi|dhoop|sambrani|camphor|kapoor|pooja samagri|puja samagri|cotton wicks?|batti|kumkum|roli|chandan|havan|lota)\b"),
-    ("Religious Incense Sticks", r"\bincense sticks?\b"),
+    ("Incense Sticks", r"\b(?:agarbatti|agarbathi|incense sticks?)\b"),
+    ("Pooja Supplies", r"^(?!.*\b(?:mosquito|repellent|insect)\b).*\b(?:dhoop|sambrani|camphor|pooja samagri|puja samagri|"
+                       r"cotton wicks?|kumkum|roli|chandan|havan|hawan|lota|gangajal|kalawa|mauli)\b"),
+    ("Standard Pillows", r"^(?!.*\b(?:covers?|cases?|slips?|neck|travel|bedsheets?|sheets?|car|nursing|feeding|cushion)\b).*\bpillows?\b"),
+    ("Shower Curtains", r"\bshower curtains?\b(?!.*\b(?:rod|ring)s?\b)"),
+    ("Curtains & Drapes", r"^(?!.*\bshower\b)(?!.*\bcurtain (?:lights?|rods?|rings?)\b).*\bcurtains?\b"),
+    ("Cutting Boards, Mats and Sets", r"\b(?:chopping|cutting) (?:board|block|mat)s?\b(?!.*\b(?:stand|rack|holder)\b)"),
+    ("Storage Container Lids", r"\b(?:glass|steel|spare|replacement|universal) lids?\b|^(?!.*\b(?:container|jar|box|cooker|pan|kadai|kadhai|pot|tope)\b).*\blids?\b"),
+    ("LED Bulbs", r"\bled bulbs?\b"),
 ]
+
+
+# Product kinds with no Amazon leaf in the pulled data yet: never force a model match.
+AWAIT_RULE = (r"\b(?:balloons?|diyas?|deepak|rangoli|gulal|abir|pichkari|fairy lights?|string lights?|led batten|tube ?lights?|"
+              r"bandhanwar|ladi|jhalar|kulhad|kulhar|kullad|lantern|bath(?:room)? mugs?|pendant lights?|ceiling lights?|"
+              r"hanging lights?|chandeliers?|jhoomar|egg boilers?|curtain\\b.*\\blights?|mixing bowls?|tds|gift (?:box|hamper|set)|hampers?|"
+              r"(?:basket|foot|volley|cricket|tennis) ?balls?|rackets?|racquets?|shuttlecocks?|stumps|skipping ropes?)\b")
 
 
 def _bb_files():
@@ -164,7 +198,8 @@ def leaves(a):
         "bb_category": g.Category.agg(lambda s: s.value_counts().index[0]),
     }).reset_index().rename(columns={"Subcategory": "amazon_leaf"})
     t["amazon_path"] = t.amazon_leaf.map(lambda x: kp.get(_key(x), ""))
-    t["in_scope"] = t.bb_category.isin(IN_SCOPE_CATS)
+    t["in_scope"] = (~t.bb_category.isin(OUT_CATS) & ~t.amazon_leaf.str.contains(NON_HOME_LEAVES, case=False)
+                     | t.amazon_leaf.isin(IN_LEAVES))
     t["generic"] = t.amazon_leaf.isin(GENERIC) | t.amazon_leaf.isin(set(a.Category))
     t["trained"] = (t.asins >= MIN_TRAIN) & ~t.generic
     return t.sort_values("asins", ascending=False)
@@ -185,12 +220,13 @@ def clean(name, brand=""):
 def build_model():
     from sklearn.feature_extraction.text import TfidfVectorizer
     from sklearn.pipeline import make_union
+    from sklearn.multiclass import OneVsRestClassifier
     from sklearn.svm import LinearSVC
     vec = make_union(
-        TfidfVectorizer(analyzer="word", ngram_range=(1, 2), min_df=2, sublinear_tf=True, max_features=150000),
-        TfidfVectorizer(analyzer="char_wb", ngram_range=(3, 5), min_df=3, sublinear_tf=True, max_features=200000),
+        TfidfVectorizer(analyzer="word", ngram_range=(1, 2), min_df=2, sublinear_tf=True, max_features=80000),
+        TfidfVectorizer(analyzer="char_wb", ngram_range=(3, 5), min_df=3, sublinear_tf=True, max_features=100000),
     )
-    return vec, LinearSVC(C=0.5, class_weight=None)
+    return vec, OneVsRestClassifier(LinearSVC(C=0.5), n_jobs=4)
 
 
 def train(a, lv):
@@ -249,9 +285,15 @@ def assign(u, vec, clf, iso, lv):
     leaf = pd.Series("", index=u.index, dtype=object)
     method = pd.Series("", index=u.index, dtype=object)
     conf = pd.Series(np.nan, index=u.index)
-    for _, rx in OUT_RULES:
+    for _, rx, keep in OUT_RULES:
         hit = (method == "") & names.str.contains(rx, case=False, regex=True)
+        if keep:
+            hit &= ~names.str.contains(keep, case=False, regex=True)
         leaf[hit], method[hit], conf[hit] = OUT_OF_SCOPE, "out_of_scope", 1.0
+    wv = u.platform_category.map(wave_of_category()).fillna(4).astype(int)
+    hit = (method == "") & names.str.contains(AWAIT_RULE, case=False, regex=True)
+    leaf[hit] = np.where(wv[hit] > 1, "Awaiting wave " + wv[hit].astype(str), UNMATCHED)
+    method[hit] = "unmatched"
     known = set(lv.amazon_leaf)
     for lab, rx in LEAF_RULES:
         if lab not in known:
@@ -271,7 +313,6 @@ def assign(u, vec, clf, iso, lv):
     oos = todo & leaf.map(scope).eq(False) & (conf >= THRESHOLD)
     leaf[oos], method[oos] = OUT_OF_SCOPE, "out_of_scope"
     low = todo & (conf < THRESHOLD)
-    wv = u.platform_category.map(wave_of_category()).fillna(4).astype(int)
     leaf[low] = np.where(wv[low] > 1, "Awaiting wave " + wv[low].astype(str), UNMATCHED)
     method[low] = "unmatched"
     u = u.assign(amazon_leaf=leaf, confidence=conf, method=method, wave=wv)
@@ -301,13 +342,21 @@ def coverage(u):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--sample", type=int, default=0, help="print N random rule/model matches for a spot check")
+    ap.add_argument("--model-cache", help="pickle path: reuse the trained model if present (for rule iteration)")
     args = ap.parse_args()
     a = load_amazon()
     lv = leaves(a)
     lv.to_csv(OUT_LEAVES, index=False)
     print(f"Amazon: {len(a):,} ASINs, {len(lv):,} leaves ({lv.trained.sum()} trained, "
           f"{(lv.amazon_path != '').sum()} with a Keepa path) -> {OUT_LEAVES}")
-    vec, clf, iso, st = train(a, lv)
+    import os
+    import pickle
+    if args.model_cache and os.path.exists(args.model_cache):
+        vec, clf, iso, st = pickle.load(open(args.model_cache, "rb"))
+    else:
+        vec, clf, iso, st = train(a, lv)
+        if args.model_cache:
+            pickle.dump((vec, clf, iso, st), open(args.model_cache, "wb"))
     print("hold-out:", {k: round(v, 3) if isinstance(v, float) else v for k, v in st.items()})
     u = assign(load_qcom(), vec, clf, iso, lv)
     cols = ["platform", "product_id", "product_name", "platform_category", "brand", "amazon_leaf", "amazon_path",
